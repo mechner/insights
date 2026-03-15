@@ -1,12 +1,8 @@
----
-title: Feature Catalog Guidelines
-description: Guidelines for high-quality Feature documents.
----
 
 # Feature Catalog Guidelines
-**Features** are confluence pages that document functional description and requirements for parts of xpro. They should provide enough specific detail for devs to implement and QA to verify. They also then serve as common reference for developers, QA, and product team as the product evolves.
+**Features** are confluence pages that document functionality and requirements for parts of x-pro. They should provide enough specific detail for devs to implement and QA to verify. They also then serve as common reference for developers, QA, and product team as the product evolves.
 
-The x-pro **feature catalog** is the collection of the x-pro features. It represents a cumulative, always “up to date” description of the x-pro product as it evolves over time. Note: The x-pro feature catalog need not document our entire trading system’s functionality, only the x-pro UI functionality per se.
+The x-pro **feature catalog** is the collection of the x-pro features. It represents a cumulative, always “up to date” description of the x-pro product as it evolves over time. *Note: The x-pro feature catalog need not document our entire trading system’s functionality, only the x-pro UI functionality per se.*
 
 The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
 
@@ -26,6 +22,8 @@ Features should:
   * **Validation** for input, what logic should the UI perform to ensure that the input is valid, either on an individual field basis or across fields where relevant.
 
 Complex functionality that logically spans multiple fields should be referenced in the table, but be specified in detail outside the table.
+
+Side effects of user interactions should be specified, for example, if a user input should trigger an update to another field, or a call to the back end, etc.
 
 The feature catalog as a whole should be organized so that common functionality is “factored out” to common feature pages that can then simply be referenced in other feature pages, observing the DRY (Don’t Repeat Yourself) principle. This assumes and encourages implementation that benefits from code reuse where we actually reuse standard formatters, renderers, etc. in various parts of our codebase. For example:
 * **Standard formatters** - e.g. for numbers, dates, enums.
