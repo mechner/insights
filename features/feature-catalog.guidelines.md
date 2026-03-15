@@ -30,7 +30,8 @@ The feature catalog as a whole should be organized so that common functionality 
 * **Standard enums** - mappings from CanAPI code (string) values to what should be displayed to a user in a grid, form, etc.
 * **Standard widgets** - complex widgets such as multi-selectors, date pickers, etc. These will often be platform UI components, but they should have feature pages where their functionality is described.
 
-
- 
+The feature index should summarize the features, one bullet point per feature or subfeature: 
+* {Feature name} - {one-line summary of the feature, in terms of user-facing functionality or behavior}
+For large or complex features, the feature should be broken down into subfeatures, indented bullets under the enclosing feature. 
 
  

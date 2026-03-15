@@ -1,6 +1,6 @@
 
 # Questions and Inferences
-This document contains questions and inferences made by the AI agent when generating or evaluating features in the feature catalog. These inferences are based on the information available in the various resources, and may include reconciliations of conflicting information, assumptions made to fill in gaps, and any other insights that the AI agent has generated. Questions should call out ambiguous or conflicting information that the AI agend it unsure how to resolve, and that should be clarified by a human expert. 
+This document contains questions and inferences made by the AI agent when generating or evaluating features in the feature catalog. These inferences are your "working hypothesis" based on the information available in the various resources, and may include reconciliations of conflicting information, assumptions made to fill in gaps, and any other insights that the AI agent has generated. Questions should call out ambiguous or conflicting information that the AI agend it unsure how to resolve, and that should be clarified by a human expert. 
 
 When generating or evaluating features, or analyzing resources for such purposes, the AI agent should capture any relevant inferences here, along with the reasoning behind them and any relevant context. This will help ensure consistent interpretation of source materials across sessions, and that any assumptions or reconciliations are transparent and can be reviewed by human experts.
 
@@ -48,8 +48,3 @@ All designs explored are in the **MarketAxess** Figma team, under the **Activity
 * **Loading States** — component-level loading state designs. [web](https://www.figma.com/design/LkCk1f2EOgKC0NH89kVSHy)
 * **Open Trading Errors** — error state designs for Open Trading flows. [web](https://www.figma.com/design/2i2fmG1E226mvkolADhrhn)
 
-#### Files inferred as exploratory / lower priority
-* **Activity Console Archive** (`DkzBNwEpm6iG1mORjVEOBr`) — archived/superseded designs.
-* **Activity Console Microfrontend (Copy)** (`ojjH4kBpHTXnzqpcgzFtWR`) — working copy, not authoritative.
-* **Dev Copy (25th July)** (`c2DUjtGFPA9IIpzAQcQL7c`) — dated dev copy, not authoritative.
-* **Q1 release** (`hr0lbYZQxivu0qWY0vQzE2`) — release-scoped planning/notes; mixed with xp1 reference screenshots, not authoritative xp2 designs.

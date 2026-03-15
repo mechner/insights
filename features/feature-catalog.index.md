@@ -1,57 +1,77 @@
 
 # X-Pro 2.0 Feature Catalog Index
 
-This index lists all features in the x-pro 2.0 feature catalog. Each row represents a feature that should have (or already has) a feature page documenting its functional requirements.
+**Scope**: EU and US RFQ, and common components. Auctions/MOC and Nucleus are out of scope.
 
-**Scope**: EU and US RFQ, and common components. Auctions/MOC and Nucleus are explicitly out of scope.
+Links: [Figma] refers to the primary design frame. [Confluence] means a feature page already exists there.
 
-**Status values**: `existing` — Confluence page exists | `wip` — page exists but incomplete | `pending` — no page yet
+---
 
-| # | Feature | Scope | Primary Figma | Confluence | Status | Notes |
-|---|---------|-------|--------------|------------|--------|-------|
-| **Activity Console** |
-| AC-01 | Activity Console | MFE — left-hand order list panel | [AC Microfrontend](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend) | | pending | Top-level overview of the AC MFE; scope, layout, lifecycle |
-| AC-02 | AC: Tab Bar & Navigation | AC tabs (All Orders, Staged, In Progress, Spotting, Done, Auto-X, Auction Eligible); counts; pop-out | [Tabs](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898) | | pending | |
-| AC-03 | AC: Order Grid — Single Bond Row | Per-row layout, fields, status badges, action buttons for single-bond orders | [All Orders](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460) | | pending | |
-| AC-04 | AC: Order Grid — List / Basket Row | List rows (expandable), list-level fields, expand/collapse behavior | [All Orders](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460) | | pending | |
-| AC-05 | AC: Workflow Status Banner | Summary boxes (Staged / In Progress / Done counts) above the grid | [Prototype: AC](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259) | | pending | |
-| AC-06 | AC: Summary Tiles / Metrics Bar | Aggregate metrics displayed above the grid per tab | [Summary Tiles](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781) | | pending | |
-| AC-07 | AC: Filters & Search | Filter panel, search, item count display | [Filters](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867) | | pending | |
-| AC-08 | AC: Context Menus & Row Actions | Per-row overflow menu; bulk action bar for multi-select | [Context Menus](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=1699-34899) | | pending | |
-| AC-09 | Opportunities Column | Axe and AI-Select hints displayed inline on AC order rows | [Prototype: AC](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259) | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882) | existing | |
-| **Pre-Trade Intelligence** |
-| PT-01 | Market Depth Panel | Single-bond inline pre-trade panel: bid/offer depth, axe data, TRACE last print, My History | [Market Depth](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-280945) | | pending | |
-| PT-02 | List Analytics Panel | Floating analytics overlay for list orders: analytics grid, distribution charts | [List Analytics](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-288880) | | pending | |
-| **RFQ — Single Bond** |
-| RFQ-01 | Inquiry Parameters — Single Bond | Submission form for a single-bond RFQ: all input fields, defaults, validation | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) | existing | |
-| RFQ-02 | Direct RFQ | The single-bond RFQ right-panel: Trade Ticket header, status bar, tabs | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5155815530) | wip | |
-| RFQ-03 | Trade Ticket: Responses | Dealer response grid (Responses tab); per-response fields; Buy Best / Sell Best; counter-quote | [Details Panel](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108) | | pending | |
-| RFQ-04 | Trade Ticket: Details | Post-trade details tab: collapsible sections (Pricing, Trade Proceeds, Instrument Details, Identifiers) | [Details Panel](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108) | | pending | May be covered by RFQ-02 |
-| RFQ-05 | Trade Ticket: Activity Log | Audit trail of events on an inquiry | [Details Panel](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108) | | pending | |
-| RFQ-06 | Process Trades | Workflow for executing a trade from a response: Trade at Best, select response, confirm | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006) | existing | |
-| RFQ-07 | Trade at Best | One-click best-response execution behavior and rules | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294689) | wip | |
-| RFQ-08 | Editable Inquiry Fields | Rules for which inquiry fields are editable after submission, and under what conditions | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5028380695) | existing | Has sub-pages: Field Specs, Tech Design, UX Considerations, Decisions Log |
-| **RFQ — List** |
-| LIST-01 | RFQ List: Submission / Trading Options | Trading Options panel for a list in Staging: Protocol, Timer, Auto-X, Visibility, CP Selection, Submit | [EU List](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=18-32065) | | pending | US and EU variants; see also LIST-04 |
-| LIST-02 | RFQ List: Negotiation Panel | Right panel during quoting: progress indicator, timer, Cancel; per-bond Buy/Sell/Pass actions | [RFQ List](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-221094) | | pending | |
-| LIST-03 | RFQ List: Items Grid | Bond-level grid within a list during quoting: status, timer, workflow (High Touch/Low Touch), CP+ data | [RFQ List](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-221094) | | pending | |
-| **PT List** |
-| PTL-01 | PT List: Submission Panel | Portfolio Trading submission: Trade type toggle, Pricing, Timing, Protocol, Cross, Dealer selection | [PT](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-146072) | | pending | |
-| PTL-02 | PT List: Items Grid | Bond-level grid for PT list: Included toggle, Starred, Reference, Side, Sector, Protocol per bond | [PT](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-146072) | | pending | |
-| **Auto-X (ADX)** |
-| ADX-01 | ADX Panel | Adaptive Auto-X panel: Summary by list, Parent bond grid, eligibility, TAKE / SEEK actions | [ADX](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=19-29554) | | pending | |
-| **Trade Manager** |
-| TM-01 | Trade Manager | Order takeover / reassignment workflow; TM role; filtered views (Mine / Others) | [Trade Manager](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951) | existing | |
-| **Common / Shared** |
-| CMN-01 | Standard Formatters | Price, yield, spread, size/quantity, date/time formatting rules; decimal places by product | | | pending | |
-| CMN-02 | Standard Enums | Display mappings for CanAPI coded values: order status, trade type, direction, etc. | | | pending | |
-| CMN-03 | Security Description | Standard display of bond identity: issuer, coupon, maturity, callable flag | | | pending | Common across all panels |
-| CMN-04 | Direction Indicator | B / S / B+S display and color conventions | | | pending | |
-| CMN-05 | Status Badge | Order/inquiry status badge: colors, labels per status value | | | pending | |
-| CMN-06 | Timer Component | Countdown timer display: formatting, expiry behavior, color states | | | pending | |
-| CMN-07 | Counterparty Selection Widget | Multi-select CP picker: Open Trading toggle, Disclosed CPs, dealer groups | [EU List](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=18-32065) | | pending | |
-| CMN-08 | Restricted Dealer Selection | Rules and UI for restricting which dealers can be selected | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649) | existing | |
-| CMN-09 | Workspace Layout Persistence | Saving and restoring panel sizes, column widths, tab state across sessions | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5132877825) | existing | |
-| CMN-10 | User Preference Parity | x-pro 2.0 user preferences: feature parity with xp1/xp1.5 | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5152931974) | existing | |
-| **Reference** |
-| REF-01 | Glossary | Terminology definitions | | [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5150769269) | existing | |
+## Activity Console
+*[Figma: AC Microfrontend](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend) · [Figma: AC Prototype](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)*
+
+* **Activity Console** — the left-hand order-list microfrontend: overall layout, panel lifecycle, and tab structure
+  * **Tab Bar & Navigation** — tab set (All Orders, Staged, In Progress, Spotting, Done, Auto-X, Auction Eligible) with live counts and pop-out support · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898)
+  * **Order Grid — Single Bond Row** — per-row field layout, status badge, inline action buttons, and state-dependent rendering for single-bond inquiries · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
+  * **Order Grid — List / Basket Row** — expandable list-level row with child-bond expansion, list-level fields, and aggregate status · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
+  * **Workflow Status Banner** — Staged / In Progress / Done summary counts displayed above the grid · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)
+  * **Summary Tiles / Metrics Bar** — per-tab aggregate metrics displayed above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
+  * **Filters & Search** — filter panel and keyword search with result count display · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867)
+  * **Context Menus & Row Actions** — per-row overflow menu and bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=1699-34899)
+  * **Opportunities Column** — inline axe and AI-Select opportunity hints on AC order rows · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
+
+## Pre-Trade Intelligence
+
+* **Market Depth Panel** — inline single-bond pre-trade panel showing bid/offer depth, axe indications, TRACE last print, and My History · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-280945)
+* **List Analytics Panel** — floating analytics overlay for list orders showing analytics summary grid and distribution charts · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-288880)
+
+## RFQ — Single Bond
+
+* **Direct RFQ** — the right-panel for a single-bond inquiry from submission through traded state · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5155815530)
+  * **Inquiry Parameters** — submission form: all input fields, defaults, and validation rules · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145)
+  * **Trade Ticket: Responses** — live dealer response grid (Responses tab); Buy Best / Sell Best actions; counter-quote flow · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108)
+  * **Trade Ticket: Details** — post-trade summary tab with collapsible sections: Pricing, Trade Proceeds, Instrument Details, Identifiers · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108)
+  * **Trade Ticket: Activity Log** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108)
+* **Process Trades** — workflow for executing a trade: selecting a response, confirming, and completing settlement · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006)
+  * **Trade at Best** — one-click best-response execution: eligibility rules, behavior, and confirmation · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294689)
+* **Editable Inquiry Fields** — rules governing which inquiry fields are editable after submission and under what conditions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5028380695)
+
+## RFQ — List
+*[Figma: EU List](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=18-32065) · [Figma: RFQ List quoting](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-221094)*
+
+* **RFQ List** — right-panel workflow for multi-bond RFQ list orders from submission through quoting
+  * **RFQ List: Submission / Trading Options** — Trading Options panel (Staging state): Protocol, Timer, Auto-X, Visibility, Counterparty Selection, Submit / Cancel; US and EU variants
+  * **RFQ List: Negotiation Panel** — right panel during quoting: progress indicator, timer, Cancel; per-bond Buy / Sell / Pass actions
+  * **RFQ List: Items Grid** — bond-level grid during quoting: status, timer, High Touch / Low Touch workflow, CP+ data
+
+## PT List
+*[Figma: PT](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-146072)*
+
+* **PT List** — right-panel submission and monitoring for Portfolio Trading list orders
+  * **PT List: Submission Panel** — submission form: Trade type toggle, Pricing, Timing, Protocol, Cross, Dealer selection, Submit
+  * **PT List: Items Grid** — bond-level grid: Included toggle, Starred, Reference, Side, Sector, per-bond Protocol
+
+## Auto-X (ADX)
+
+* **ADX Panel** — Adaptive Auto-X panel: Summary by list, Parent bond grid with eligibility status, and TAKE / SEEK actions · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=19-29554)
+
+## Trade Manager
+
+* **Trade Manager** — order takeover and reassignment workflow for the Trade Manager role; filtered views (Mine / Others / All) · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
+
+## Common Components
+
+* **Standard Formatters** — display formatting rules for price, yield, spread, quantity, date/time; decimal places by product type
+* **Standard Enums** — display label mappings for CanAPI coded values: order status, trade type, direction, protocol, and other enumerations
+* **Security Description** — standard display of bond identity (issuer, coupon, maturity, callable flag) used across all panels
+* **Direction Indicator** — B / S / B+S side indicator: label text, color conventions, and conditional rendering
+* **Status Badge** — order/inquiry status badge: label and color mapping per status value
+* **Timer Component** — countdown timer: display format, color-state transitions, and expiry behavior
+* **Counterparty Selection Widget** — multi-select dealer picker: Open Trading toggle, Disclosed CPs, dealer groups · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=18-32065)
+* **Restricted Dealer Selection** — rules and UI for excluding specific dealers from counterparty selection · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649)
+* **Workspace Layout Persistence** — saving and restoring panel sizes, column widths, and tab selection across sessions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5132877825)
+* **User Preference Parity** — x-pro 2.0 user preference coverage: feature parity with xp1 / xp1.5 · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5152931974)
+
+## Reference
+
+* **Glossary** — definitions of key terms and concepts used across x-pro 2.0 · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5150769269)

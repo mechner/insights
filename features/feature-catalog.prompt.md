@@ -25,13 +25,9 @@ There is conflicting information across the various resources. Follow these prin
 **ASK FOR CLARIFICATION** if you are unsure about which information to prioritize or how to reconcile conflicting information. It's better to ask than to make incorrect assumptions.
 
 ## Instructions
-1. Never modify @feature-catalog.guidelines.md, @feature-catalog.knowledge.md, or @feature-catalog.architecture.md unless explicitly instructed to do so. These are reference documents that have been reviewed and curated by human experts.
-2. Review and freely modify @inferences.md to capture your state of understanding - documenting inferences and assumptions as you interpret, fill information gaps, and resolve conflicting information found in referenced knowledge sources (code repositories, figma, test cases, etc.) and your general background knowledge. This may include: 
-   * facts, interpretations, assumptions about trading and system behavior
-   * clarification of concepts and terminology
-   * identifying repositories or directories within repositories that are to be ignored (where doing so makes you more efficient)
-   * identifying primary designs in figma that are being relied on as "target state" for the product and should be reflected in features.
-   * identifying files, designs, or portions that are to be ignored (typically because they represent explorations, images of other "reference" systems, or outdated information that has been superseded by other designs or information)
-4. If it doesn't already exist, create **feature-catalog.index.md** - an index of features; each will be a feature in the feature catalog. 
+1. Review @feature-catalog.knowledge.md and the content it references (never modify this file unless explicitly instructed to do so. These are reference documents that have been reviewed and curated by human experts.)
+2. Review @inferences.md to recall your state of understanding - your working hypothesis where the reference documents 
+3. Review and follow @feature-catalog.guidelines.md
+5. If it doesn't already exist, create **feature-catalog.index.md** - an index of features; each will be a feature in the feature catalog. 
 
 
