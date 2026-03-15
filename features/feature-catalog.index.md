@@ -22,8 +22,12 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 
 ## Pre-Trade Intelligence
 
-* **Market Depth Panel** — inline single-bond pre-trade panel showing bid/offer depth, axe indications, TRACE last print, and My History · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-280945)
-* **List Analytics Panel** — floating analytics overlay for list orders showing analytics summary grid and distribution charts · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-288880)
+* **Market Depth Panel** — inline single-bond pre-trade panel showing pre-trade market context, toggling between depth and trade history · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-288880)
+  * **Market Depth tab** — live Bid/Offer depth grid by source (Axe, Algo, CP+); columns: Time, Source, Type, Size, Yield, Spread, Price; Focus on filter (Price / Spread / Yield); Show filter (All / Axe / +)
+  * **My History tab** — the user's own prior trades and inquiries for this security
+* **List Analytics Panel** — floating analytics overlay for list orders · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-280945)
+  * **Analytics summary grid** — per-side and total row showing YTW, VWAP, DWAS, Duration, DV01, Tradability; pricing mode selector switches reference: CP+ | CP+ Close | Ref Limit | Near-touch | Mid | Far-touch
+  * **Distribution charts** — histogram tiles for Duration, YTW, DWAS, Rating, Tradability, Est Cost
 
 ## RFQ — Single Bond
 
@@ -44,16 +48,11 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
   * **RFQ List: Negotiation Panel** — right panel during quoting: progress indicator, timer, Cancel; per-bond Buy / Sell / Pass actions
   * **RFQ List: Items Grid** — bond-level grid during quoting: status, timer, High Touch / Low Touch workflow, CP+ data
 
-## PT List
-*[Figma: PT](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-146072)*
-
-* **PT List** — right-panel submission and monitoring for Portfolio Trading list orders
-  * **PT List: Submission Panel** — submission form: Trade type toggle, Pricing, Timing, Protocol, Cross, Dealer selection, Submit
-  * **PT List: Items Grid** — bond-level grid: Included toggle, Starred, Reference, Side, Sector, per-bond Protocol
-
 ## Auto-X (ADX)
 
 * **ADX Panel** — Adaptive Auto-X panel: Summary by list, Parent bond grid with eligibility status, and TAKE / SEEK actions · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=19-29554)
+  * **Summary view tabs** — tabs switch the aggregation view of eligible orders: List | Product | Side | Liq Score
+  * **Parent grid filter tabs** — tabs filter the parent bond grid: All | Eligible | Take Eligible
 
 ## Trade Manager
 

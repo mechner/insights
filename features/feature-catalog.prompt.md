@@ -13,7 +13,8 @@ developers and AI agents working on implementing and testing xp2.
 * @inferences.md: a document for you to capture your inferences, assumptions, and reconciliations of conflicting information as you generate and evaluate features. As information is verified and confirmed by a human expert, it will be moved from here to the knowledge document.
 
 ## Scope and Focus
-Initially focus on EU and US RFQ and common components of x-pro; ignore and do not create features for auctions/moc and nucleus. 
+Initially focus on EU and US RFQ and common components of x-pro.
+Ignore and do not create features for auctions/moc, nucleus, and PT.
 
 ## Reconciliation of Conflicting Information
 There is conflicting information across the various resources. Follow these principles for conflict resolution:
