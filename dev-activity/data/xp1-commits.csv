@@ -1,0 +1,66 @@
+date,repo,author,git-hash,jira-link,file-count,added-lines,removed-lines,message,file-types,%test,commit-type
+2026-02-07,bondlinkbridge-deployment,Paul Becotte,35078b5791719e2b174945dc99e6a4de45004823,,1,1,1,no -prd on the prod vip,yaml,0,direct
+2026-02-07,bondlinkbridge-deployment,Paul Becotte,fa5e6ef387f53e8c91c5c7aa4474ee59fffe2d4a,,1,2,2,fix prod vip name,yaml,0,direct
+2026-02-07,bondlinkbridge-deployment,Paul Becotte,9925de904e5d5fcd443e99e8a8c091fd5e57507b,,4,30,2,Fix prod values file,yaml,0,direct
+2026-02-04,bondlinkbridge-deployment,Paul Becotte,f9537add9f2b5c3589f47f08b2e4e45cb6b1c1c8,,13,45,7,"feat(APPSRE1-112): Add  network policies, and add the trn namespace",yaml,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,8146af410e6066a1e9db45bf69f62739a4b7a076,,1,1,1,.env edited online with Bitbucket,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Kunal Choudhary,4478eb56af80268ebd6662d85879ffa99c8c3f3c,,1,1,1,adding TRN version manifest,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Kunal Choudhary,72a4f91487efd5036a2e7bdec82472525196c2fa,,1,1,1,.env edited online with Bitbucket,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,8f81765f003bdd63810c64d19ed8982bb151537b,,1,1,1,Deploying 12.9.1 BLB under Prd,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,191688ce7f4d1183b217d3bce686756d155ab664,,1,1,1,.env edited online with Bitbucket,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,2fe479c6a4426f023b49d475477e852809213659,,1,1,1,testing with 12.9.0 tag,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,6b120fbd9d027ac0bb8d2452cd792e5335bcc6ba,,1,1,1,.env edited online with Bitbucket,env,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,111aa8d5f5555b5bf9edb7ded03e61101b105371,,2,21,0,BLB configured for Prod,yaml,0,direct
+2026-01-09,bondlinkbridge-deployment,Vijay Bollineni,afaf3b5539c6bc05cdcbe738795afa0239369762,,2,20,0,configuring BLB for TRN,yaml,0,direct
+2026-02-27,hulk-api-srv,Eduardo Sosa,ad36e403a307cacc433640c495fc5455a995a7ba,,3,118,11,Pull request #3607: K2-5789 | wait for calc call before sys params,java,79,direct
+2026-02-23,hulk-api-srv,Ram Bobbala,d59e414f25e2878a98a9b4304184a794effddda4,,3,76,75,Pull request #3604: K2-5758: update cost spread calculations to use absolute weighted averages,java,96,direct
+2026-02-20,hulk-api-srv,Sakshi Nayak,04a91285bd83d9983c20ed083faea7db88d6b897,,4,173,114,Pull request #3600: K2-5743_bugfix_bval_level_showing_cpp_values_instead_dlrbmklevel,java,87,direct
+2026-02-19,hulk-api-srv,Ram Bobbala,243437265a95d8b40976aa07dab105efdb2a5a30,,2,2003,1,Pull request #3596: K2-5727: add dealer estimated cost spread calculations and analytics,java,97,direct
+2026-02-19,hulk-api-srv,Ram Bobbala,53624ee45186435d251945a5370f44f3144ff969,,3,132,1,Pull request #3597: K2-5393: update netCross calculation to include SPREAD_PROTOCOL check,java,98,direct
+2026-02-19,hulk-api-srv,Eduardo Sosa,b8a22bc1018894af92b2ff5e9e0a3c82e106fa20,,1,1,1,Pull request #3595: K2-5729 | allow other spot types for benchmark spread,xml,0,direct
+2026-02-18,hulk-api-srv,Raju Guduri,67f1e20d73d430f28a7083875b557834f325cda4,XRFQ-4836,2,55,7,Pull request #3594: XRFQ-4836: No COMPLETING when current status is DONE-ASC(fixes double click of hit lift scenario),java,87,direct
+2026-02-13,hulk-api-srv,Eduardo Sosa,daf8c7072917db5b05eca3d6580f62aa62ba7918,,12,326,5,Pull request #3593: Feature/K2 5525 cancel lastlook,java,66,direct
+2026-02-11,hulk-api-srv,Raju Guduri,4eab61537e76f80ae339145e07c8f1535310ddae,XRFQ-4767,4,64,40,Pull request #3586: XRFQ-4767: Not sending the REFRESH_TAB in case of single/list item hitlift as UI doing it optimistically,java,68,direct
+2026-02-11,hulk-api-srv,Priyanka Mane,f6929b4cc86b106918ebebc1851b59653c9e1955,,1,2,6,Pull request #3592: Feature/K2 5526 US PT Last Look,java,0,direct
+2026-02-11,hulk-api-srv,Priyanka Mane,089e6daf7ef7239d321bad7085885d87f57f880f,,2,3,4,Pull request #3581: K2-5526: US PT Last Look,java,57,direct
+2026-02-09,hulk-api-srv,Sakshi Nayak,8c831e505c120a47d9c833ec230f6dfdcd4784ce,,1,1,1,Pull request #3591: K2-5665_commons_version_pom_update,xml,0,direct
+2026-02-06,hulk-api-srv,Eduardo Sosa,8b000b7cd3e5dba0aaad2eff8c079434ba70e0fd,,3,387,0,Pull request #3589: K2-5649 | add non responded inquiry count into metadata,java,98,direct
+2026-02-05,hulk-api-srv,Eduardo Sosa,9aa136315249d539ea1fa52417525b072af6c951,,2,406,1,Pull request #3587: K2-5588 | dealer stack should cross out DNT items at Done state,java,100,direct
+2026-02-04,hulk-api-srv,snayak,22b5625a4fc258ef5d49742477157fcd671eebfa,,2,3,3,K2-5627_spread_limit_est_cost_bugfix,java,0,direct
+2026-02-03,hulk-api-srv,Ram Bobbala,2357cf143145bc4b9be18fec9f064aa3620284fe,,2,806,3,Pull request #3579: Feature/K2 5627 fixing est cost direction for spread,java,100,direct
+2026-01-30,hulk-api-srv,Eduardo Sosa,2fac5100a20497b510a1bc18529bf44f984ed115,,3,66,24,Pull request #3578: K2-5509 | for price bonds we should show the appropriate price on the opportunity column for model lists,java,61,direct
+2026-01-30,hulk-api-srv,Raju Guduri,4285861742701f6c4148048eab1000f7b7cc7a75,XRFQ-4507,4,143,13,Pull request #3577: XRFQ-4507: Benchmark update fix & graceful handling of target flow /initate call for list item,java,83,direct
+2026-01-29,hulk-api-srv,Priyanka Mane,e163056c9d1c50b35ba89a1862cbef70b680ca28,,12,159,15,Pull request #3576: K2-5171: add spread toggle for bmk spread PT,java,66,direct
+2026-01-14,hulk-api-srv,Raju Guduri,c7e7222a440954e296e45548a2dc9c524c66ae4d,XRFQ-3569,10,585,115,Pull request #3575: Feature/XRFQ-3569 Client IOI integration pending changes,java,54,direct
+2026-01-13,hulk-api-srv,Priyanka Mane,0c4ee4b57a737269921cac381cf3ab58bf1f8bfc,,5,4660,24,Pull request #3573: K2-5514: fixing dlr delta levels bmk cents gpt,java,100,direct
+2026-01-08,hulk-api-srv,Eduardo Sosa,9d999317437cb73e1dbcda5b773c008805fbe6b8,,4,36,5,Pull request #3572: K2-5452 | enable highlights for modelling,java,88,direct
+2026-01-08,hulk-api-srv,Ram Bobbala,8c4348ed3b07fe7b982424ef3fb18fb6d34ee745,,4,276,1,Pull request #3571: K2-5344: updating analytics for oms cancel event,java,69,direct
+2026-01-08,hulk-api-srv,Eduardo Sosa,122b8c08a4b6866b33e9c8d833b13dff46629784,,3,43,1,Pull request #3570: K2-3790 | change transient state back for invalid inquiries for build list,java,75,direct
+2026-01-08,hulk-api-srv,Rahul Kumar,b68f23eb2d496e92452cf116bbdec551fa22db80,,3,32,2,Pull request #3569: Fixing A Edge case where the Dealer Responses were not in the Direct IOI History View,java,88,direct
+2026-01-08,hulk-api-srv,Rahul Kumar,d9e24c3d2810bf4ed8aba52517527e8c6a3db478,XRFQ-2868,18,510,7,Pull request #3566: Feature/XRFQ-2868 initial clientioi implementation,java,58,direct
+2026-01-05,hulk-api-srv,Eduardo Sosa,0f2eae39c21b2bdaee96308fe4c860cafeae2b8a,,4,73,22,Pull request #3567: K2-3790 | fix race condition where REMOVEITEM is processed before OMSCANCEL resulting in items with incorrect statuses,java,33,direct
+2026-01-02,hulk-api-srv,Sakshi Nayak,ce1f474ad649686f30882d29c0711217fe32dc6c,,3,19,3,Pull request #3564: K2-4204_adding_excel_changes_ext_cost_spread,java,64,direct
+2026-02-05,kauai-vips,Sidharth Venugopalan,af39c8e0178300dfc0e25a42aa01951506d63969,APPSRE-120,4,8,4,Pull request #66: Feature/APPSRE-120 Updatevips,tfvars,0,direct
+2026-01-09,kauai-vips,Vijay Bollineni,d969af322a9b08d0895c83657bc3f3c864be6956,,1,1,2,Reverting EKS hybrid  vips,tfvars,0,direct
+2026-01-09,kauai-vips,Vijay Bollineni,c4c74a4d811fb8c9f1719718ed1e658f6bf86336,,1,1,3,Reverting kauai-vips for swarm,tfvars,0,direct
+2026-01-09,kauai-vips,Vijay Bollineni,8e60e555759417abd269b3df50e3434b8c404bcc,,1,2,1,configuring kauai vips for Prd BLB,tfvars,0,direct
+2026-01-09,kauai-vips,Vijay Bollineni,411d237b194d74c0612c5fe33083538d18188741,,1,3,1,Configuring vips for kauai BLB,tfvars,0,direct
+2026-02-19,maom-action-svc,Eduardo Sosa,cc49675d7365e5824b306e04aed0f04e897d8f53,,3,273,11,Pull request #2071: K2-5729 | allow other spot types for benchmark spread,java,82,direct
+2026-02-13,maom-action-svc,Eduardo Sosa,c47e918ab463482d9e466cffe1be3589d0173ac3,,7,317,2,Pull request #2070: Feature/K2 5525 cancel lastlook,java,56,direct
+2026-02-09,maom-action-svc,Sakshi Nayak,fb4e6fc27f796bf247b5435f6bfdd3a1df1c4dd2,,3,104,2,Pull request #2069: K2-5662_spread_est-cost_missing_price_protocol,java,96,direct
+2026-02-06,maom-action-svc,Raju Guduri,8dcd4ef624ce22fbb26c43f6ba35d63a5d7f5ada,XRFQ-4785,2,8,6,Pull request #2067: XRFQ-4785: Updating datalake elasticache endpdoitns,properties,0,direct
+2026-01-09,maom-action-svc,Raju Guduri,0bea50a2cdb1ee31ee57f5841e85fbd23b2cb246,XRFQ-3292,4,116,2,Pull request #2065: XRFQ-3292: Migrating dynamodb records from MAUI to XPro account,java,0,direct
+2026-01-08,maom-action-svc,Eduardo Sosa,01f76f48af0a0281d2b677e709c8d75331f789af,,3,10,4,Pull request #2066: K2-3790 | accept invalid inquiries from bondlink response payload,java xml,0,direct
+2026-01-07,maom-action-svc,Priyanka Mane,f4a05a3105e38cbe6c4476039980b8ef7cc854c9,,3,108,80,Pull request #2064: K2-5248: fetch for missing cpp items on submission PT,java,85,direct
+2026-02-23,maom-commons,Ram Bobbala,62342050b446738cac4f8a35eb374f7005e8f636,,6,109,5,Pull request #1706: K2-5758: update grossCntrPartyLevel method to include benchmark list check,java,80,direct
+2026-02-19,maom-commons,Eduardo Sosa,c3d8a6f8bdfef810fbad3b6f0b3859c681132669,,4,51,6,Pull request #1704: Feature/K2 5729 conflict,java,0,direct
+2026-02-19,maom-commons,Eduardo Sosa,115b3029beb306f94922c6df5613e33e60d382e7,,4,51,6,Pull request #1702: K2-5729 | allow other spot types for benchmark spread,java,0,direct
+2026-02-13,maom-commons,Eduardo Sosa,ffa5743d9b35a50b8dcd503b9e7c01d7db247f61,,4,4,4,Pull request #1701: K2-5525 | add cancel last look to smAction and NextAction,java xml,0,direct
+2026-02-09,maom-commons,Sakshi Nayak,f9c3b20e351b091213ff809722786e61c9f0ad22,,2,1,2,Pull request #1698: K2-5665 est cost spread getting removed when reft limit are removed,xml java,0,direct
+2026-01-08,maom-commons,Eduardo Sosa,29f7be81afdf67820916e3fc13b083b9c0d28bf8,,2,14,1,Pull request #1696: K2-3790 | add a build list response payload,java xml,0,direct
+2026-01-08,maom-commons,Rahul Kumar,34ee4d7f184cc1e090ca40452cf6deb92fcc7e8f,XRFQ-2868,4,10,3,"Pull request #1695: Feature/XRFQ-2868 initial client ioi implementation (Add DI Flag, and Client IOI Routing Option)",java xml,0,direct
+2026-02-12,maom-ui-iac,Vijay Bollineni,bafcf124885ce842e1f165bcc321542af1f2ffb1,,1,2,2,Deploying 26.1MR1 under Region-1 Prod,,0,direct
+2026-02-06,maom-ui-iac,Kunal Choudhary,c4af23a7da1bb44a38931eaeb275263e76a8f9f1,,1,2,2,Pull request #681: Jenkinsfile edited online with Bitbucket,,0,direct
+2026-01-09,maom-ui-iac,Vijay Bollineni,b58f88f20489da29359d782615418e52006534d4,,1,2,2,Jenkinsfile edited online with Bitbucket,,0,direct
+2026-02-13,maom-subview-svc,Eduardo Sosa,21677908fc175ea4603e08ac143c9add2d744be1,,7,151,2,Pull request #1552: Feature/K2 5525 cancel lastlook,java,72,direct
+2026-02-06,maom-subview-svc,Raju Guduri,945fbc37273ee3650c3bd24d123c095083a6ccc6,XRFQ-4785,2,8,8,Pull request #1550: XRFQ-4785: Updating datalake elasticache endpdoitns,properties,0,direct

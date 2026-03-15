@@ -1,0 +1,840 @@
+date,repo,author,git-hash,jira-link,file-count,added-lines,removed-lines,message,file-types,%test,commit-type
+2026-02-27,monorepo,Lola Naumova,1c1c015e15e6cb33329bba1346462773cd5b7576,XPMI-1419,3,428,1,Merged PR 40706: feat(XPMI-1419): RTS phase based order type test,ts,100,squash-pr
+2026-02-27,monorepo,Paul Spiteri,8d21a591590ec026635673862601cca65840aba6,,9,75,85,Merged PR 40704: fix: Auctions e2e getEligibleCusips loop,ts,100,squash-pr
+2026-02-27,monorepo,Paul Spiteri,a040a4322d975b7bc1964aa133401e4b756ddf14,,1,9,7,Merged PR 40658: (fix): Auctions orders onContentChange clearPendingUpdate fix,tsx,0,squash-pr
+2026-02-19,monorepo,Rahul Kumar,e79e69f19c4a49bcc6a9d275b63099b348ee8f88,XRFQ-4846,6,665,4,Merged PR 40465: XRFQ-4846 Implementation of stopping double click trade,java,83,squash-pr
+2026-02-27,monorepo,Paul Spiteri,62744e053ef49823cc37b13060c14d198eeb531c,,1,6,3,Merged PR 40694: fix: Auctions e2e dismissAll bugfix,ts,100,squash-pr
+2026-02-27,monorepo,Nicolas Ramirez-Diaz,099e553850088ae4d5f6ff273220ee096c7dec35,MAUI-4463,2,145,3,Merged PR 40677: [MAUI-4463]: select all header renderer empty table checkbox,tsx,93,squash-pr
+2026-02-27,monorepo,Andrew Kwak,dd2c62c9d538cfc51d4c37e364581fa435437352,,2,1,8,Merged PR 40687: fix: remove setting content to undefined on userAggregation update,ts,44,squash-pr
+2026-02-27,monorepo,Rodrigo Iparraguirre,08f1de54e4e8775980ca038eb709b2709809113f,,5,776,12,Merged PR 40676: disclosed ot dealers submission,java,94,squash-pr
+2026-02-27,monorepo,Shreshthha Jain,81c1d398d09dac99c27bd3e7bcdac325a74d3070,,2,16,0,Merged PR 40672: Dealer ordering issue in 1.5,js ts,0,squash-pr
+2026-02-27,monorepo,Daniel Kerr,e820d1c52c1e31de54c918b1a0938975603b3f05,XRFQ-3573,9,572,37,Merged PR 39492: XRFQ-3573 dealer grid icon and partial size tooltip,ts tsx,61,squash-pr
+2026-02-27,monorepo,Andres Ivaldi,3902c4c7bc114f9bb92a50df19d77f2cdc93d275,,2,0,45,Merged PR 40675: Revert specmesh test,yaml avsc,0,squash-pr
+2026-02-27,monorepo,Andres Ivaldi,b50fb610695312f0923fa95f6f7c87946fb87ae9,,2,19,1,Merged PR 40674: test specmesh deployment to qa and dev,avsc yaml,0,squash-pr
+2026-02-27,monorepo,Andres Ivaldi,8f80fb018a4befb10758939fa5eff037e2351524,,5,54,5769,Merged PR 40669: Test changes in specmesh,yaml,0,squash-pr
+2026-02-27,monorepo,Satraj Sehmi,c145bf6f0010f934ebf7545c5f6e65701391af4c,XRFQ-4763,1,1,1,Merged PR 40670: XRFQ-4763 update confirm button for trade to primary button,tsx,0,squash-pr
+2026-02-27,monorepo,Raju Guduri,e1091ec7ac1808f517ee549de449faecea0fe55c,XRFQ-4844,13,0,41,Merged PR 40666: XRFQ-4844: Enable enricher service & cleanup of LBL v1 services in QA2,yaml,0,squash-pr
+2026-02-27,monorepo,Andres Ivaldi,237f3688a933919f9cf58c6635b01d49e97bbdf1,,3,21,6,Merged PR 40664: disable schema registry in dev,sh yml,0,squash-pr
+2026-02-26,monorepo,David Behmoaras,da5a737d221ba184ae0d321db086a3efe5e87fce,XRFQ-4912,1,2,2,Merged PR 40651: XRFQ-4912 show list name in tab header,tsx,0,squash-pr
+2026-02-26,monorepo,David Behmoaras,8c846b4d235cf5fc8e614b7c384d1b1312948872,XRFQ-4951,1,8,3,Merged PR 40643: XRFQ-4951 - Fix trailing zeros in market depth,ts,0,squash-pr
+2026-02-26,monorepo,Aisen Kim,947ef5488652ce010ad4c45472c15cdb31e1472b,XRFQ-4823,3,36,36,XRFQ-4823: removed selectKey,java,96,direct
+2026-02-26,monorepo,Michel Richard,25b29c3ccc0d7ec0e1f0848f6f26730f0d47bf82,MAUI-4461,6,24,9,feat(MAUI-4461): increase qa view server resources,yaml,0,direct
+2026-02-26,monorepo,Michel Richard,bfa32229e0ea6da36d7f28001804c5d441ca2403,MAUI-4461,3,32,4,feat(MAUI-4461): increase qa view server resources,yaml,0,direct
+2026-02-26,monorepo,Joshua Vargas,b4eaae2efac785921158fbb364c48a6a13a0d336,XRFQ-4897,13,3843,13,Merged PR 40575: [Playwright] [XRFQ-4897] Add Ranorex to Playwright BDD migration tooling,md ts json,99,squash-pr
+2026-02-26,monorepo,Paul Spiteri,3cb2ed5a38aa924f2855c80284352bd80fbda3c3,,4,40,13,Merged PR 40642: Merged PR 40640: (fix): Auctions orders view tabs isCountOnly mode when not v...,ts tsx,0,squash-pr
+2026-02-26,monorepo,Lola Naumova,2b926bfb70a6892ccacd258025fb191c34ebcf07,,2,17,0,Merged PR 40620: (fix): Fix RTS row not found,ts,100,squash-pr
+2026-02-26,monorepo,Nicolas Ramirez-Diaz,cab351f15a687baf5dbac2b7848c5035fdd30b93,MAUI-4450,2,399,39,Merged PR 40566: [MAUI-4450]: New workflow schema plus docs page update for loader,ts mdx,0,squash-pr
+2026-02-26,monorepo,Rodrigo Iparraguirre,ef059a46be7975c9a8ebe003f812ce99a1fbfb9b,,7,196,17,Merged PR 40626: PR default autox off to master,java json,87,squash-pr
+2026-02-26,monorepo,Sam Rose,5dc364f321b518991842c1c03241b0b358354e89,,6,20,8,Merged PR 40631: fix: update branch names and fix sourcing hooks in devbox,yml sh,0,squash-pr
+2026-02-26,monorepo,Keshal Desai,7df216383a53029b26b511cb30ce47fa37c8c4c6,XPMI-1424,1,1,1,Merged PR 40630: fix(XPMI-1424): add libstdc++ for RocksDB native library on Alpine,,0,squash-pr
+2026-02-26,monorepo,Shreshthha Jain,76360a117f9a1f42a7f658e8aa30dc370b76efeb,XRFQ-3772,2,1,18,Merged PR 40625: fix: REmove counetring check on showing Trade button (XRFQ-3772),tsx,79,squash-pr
+2026-02-26,monorepo,Keshal Desai,2c90230e538360507666952655587454f46ef62b,XPMI-1424,7,74,42,Merged PR 40613: chore(XPMI-1424): optimize Java CI pipeline and switch to Alpine JRE,yml xml,0,squash-pr
+2026-02-26,monorepo,Shreshthha Jain,8a20dded0100680dd2a11b022fee1694554584f7,XRFQ-4963,4,36,3,Merged PR 40623: fix: count for selected OT dealers (XRFQ-4963),tsx,74,squash-pr
+2026-02-26,monorepo,Adam Edwards,97ecb0c38bb8b9c78f25baf2b6f56ef4a2524222,,24,127,644,Merged PR 40595: feat: Read alerts from xpro-activity-console,ts,37,squash-pr
+2026-02-26,monorepo,Raju Guduri,3f5eee2683e0d988a58d9eb45a7982e145c6cee7,,10,390,57,Merged PR 40585: Select included dealers by default,java,73,squash-pr
+2026-02-26,monorepo,Aisen Kim,0ba0eec63ceae03be41f50abe28b24abb7d78fda,XRFQ-4823,27,1394,2,XRFQ-4823: added Holidays to XPro for the settlement date pickers.,java cmd,33,direct
+2026-02-25,monorepo,Lola Naumova,15bdcad69e0247bc7f01ba0ae085c9f6b1cddd09,,1,36,1,Merged PR 40612: (fix): Fix scroll column into view,ts,100,squash-pr
+2026-02-25,monorepo,Keshal Desai,a869e66d5ad3411eb124efdb751bb85f77f0fa1c,XPMI-1326,21,520,10,Merged PR 40586: feat(XPMI-1326): add CompositePlus pipeline (inbound converter + instrument sink + RTS fan-out),kt java yaml,61,squash-pr
+2026-02-25,monorepo,Andres Ivaldi,55adbaa0249c6802c9b3d6b98598ae4b4352e3b4,,205,2638,627,Merged PR 40559: Remove dependencies from mktx-data on xpro services,java avsc,52,squash-pr
+2026-02-25,monorepo,Lola Naumova,2af0aee312b243a6fceaaefddea8c9d3f2bf9563,,2,86,65,Merged PR 40592: (fix): Add annotation and unskip bulk bar test,ts,100,squash-pr
+2026-02-25,monorepo,Keshal Desai,9c3ae5b426b7cc3b43a3cfdd1245042a8ab5eefa,XPMI-1423,2,2,2,Merged PR 40596: fix(XPMI-1423): swap pino logger.error arg order to serialize errors,ts,0,squash-pr
+2026-02-25,monorepo,Shreshthha Jain,0b1e890affc7a1527c738325ac5102fd0e4bff99,XRFQ-4750,5,70,6,Merged PR 40584: feat: Added row level action buttons (XRFQ-4750,tsx ts,0,squash-pr
+2026-02-25,monorepo,David Behmoaras,fc62fa985a290314d4aae7e52f210f7eddd50340,XRFQ-4951,4,14,10,Merged PR 40589: XRFQ-4951 QA feedback: remove trailing zeros from decimals,ts,58,squash-pr
+2026-02-25,monorepo,Aisen Kim,e28d4f5d42b0f6aa0b351aa7b03437a6d5f9f691,XRFQ-3752,3,131,24,XRFQ-3752: Resolve PR Comments: - move to persistent store - defensive code to prevent duplicate protocol in case of failure - Combined two streams to one,java,63,direct
+2026-02-25,monorepo,Evgeny Klimenchenko,9e938564c48275267f79a8f99376442a538e03e9,,5,62,42,Merged PR 40556: fix: component fixes,tsx ts,0,squash-pr
+2026-02-25,monorepo,Rodrigo Jaen,f50c85ea9288d96690670482409ea7ba4806266a,,1,2,2,Merged PR 40580: add app_id variable,yml,0,squash-pr
+2026-02-25,monorepo,Satraj Sehmi,8bf8bede20aca10491483b9bc9325452744aea57,XRFQ-4763,14,428,128,Merged PR 40576: XRFQ-4763 trade action confirmation modals,tsx,42,squash-pr
+2026-02-24,monorepo,Aisen Kim,bd68bab399a41570ba0639c8fae0334577d34740,XRFQ-3752,8,404,143,"XRFQ-3752: To resolve race condition, move from KStream - KTable leftJoin to a reducer pattern",java,40,direct
+2026-02-24,monorepo,Paul Spiteri,1b64a3c9d0558c0ae78659635e58cd364df86f6e,,3,22,15,Merged PR 40572: (fix): Fix auctions session-manager test,tsx ts,35,squash-pr
+2026-02-24,monorepo,Kunal Choudhary,5a59caee865173dbb5b3bc344f2afedb413ea09b,,1,1,1,Merged PR 40571: Updated Earthfile to accomodate namespaces with suffixes after services,,0,squash-pr
+2026-02-24,monorepo,Paul Spiteri,e2c46cb9cf0a678df4a47155e4453deeb9ff03bb,,1,5,2,Merged PR 40570: (fix): Fix auctions session-manager test,ts,100,squash-pr
+2026-02-24,monorepo,Paul Spiteri,f68be4f2965a2aebceb2b45f7910b2dc6f0b5d3c,,1,6,0,Merged PR 40564: (fix): Fix auctions publish to testrail,ts,0,squash-pr
+2026-02-24,monorepo,Paul Spiteri,7af54e48c60246279d342410a33d08f3c1d28f15,,9,44,71,Merged PR 40562: (fix): Auctions improve playwright getRowByIdentifier,ts,100,squash-pr
+2026-02-24,monorepo,Rodrigo Jaen,1dca2a7c43c5108493dde5747ea91c1a8b7dfdd3,,14,318,184,Merged PR 40540: move request/response split to order splitter,java,78,squash-pr
+2026-02-23,monorepo,mwilliamson,7419574d27567f912844437754df1fdc13b3ea38,XPMI-1334,54,913,180,XPMI-1334 Add RTSSessionMarketDataUpdates to write to RTS items in xpro-activity-console,kt avsc,37,direct
+2026-02-24,monorepo,vitalijs sakels,8a637473e845b6ef933d5a35f34db3dcd830912c,XRFQ-4850,2,11,45,XRFQ-4850_fe_fix_duplicated_autox_column,ts,20,direct
+2026-02-23,monorepo,Keshal Desai,516f56494501605827d65c944cedd450eafbcee1,XPMI-1409,4,88,9,Merged PR 40550: fix(XPMI-1409): auto-close KafkaStreams in test extension before container teardown,java,0,squash-pr
+2026-02-23,monorepo,Paul Spiteri,0a799fd86bafb80c0989a3be99d94a0806f97d19,,2,14,3,Merged PR 40551: (fix): Add debugging to flakey playwright getRowByIdentifier,ts,100,squash-pr
+2026-02-23,monorepo,Keshal Desai,e9b15f85cb94ff4a686c1262f2ce199c355ceafe,XPMI-1409,1,5,2,Merged PR 40549: fix(XPMI-1409): clean up stale KStreams state dir before each test,kt,0,squash-pr
+2026-02-23,monorepo,Paul Spiteri,c3760e5db418b5e2cbc65eb18ddd101990e32ea0,,1,17,11,Merged PR 40547: (fix): Fix Auctions unsubmit orders e2e tests when using checkboxes,ts,100,squash-pr
+2026-02-23,monorepo,Satraj Sehmi,a3f31536d3c3309cd60161f0bacfda09586f9ee9,XRFQ-4760,9,574,57,Merged PR 40489: XRFQ-4760 Live actions for bulk action bar on selected list items,tsx,31,squash-pr
+2026-02-23,monorepo,Andrew Kwak,120310871dfd0dc3ee640690cb33905ff8d293a7,,2,3,1,Merged PR 40532: fix: viewserver-api-server failing due to otel pkg,npmrc json,0,squash-pr
+2026-02-23,monorepo,Azure DevOps Build Service,e04c279eac680d96d9ae682d4ce937f0f087239d,,1,2,0,Test: Manual script validation,yaml,0,direct
+2026-02-23,monorepo,Paul Spiteri,a893cc5c4fc614890a0fd806d9e96c85e55e2d55,,1,8,0,Merged PR 40541: (feat): Add QA5 auctions pipeline e2e,qa5,0,squash-pr
+2026-02-23,monorepo,Satraj Sehmi,2409947e7f25a448bae0b2af23e18222ac253c5f,XRFQ-4928,14,45,165,Merged PR 40531: XRFQ-4928 generate types from avro,ts,1,squash-pr
+2026-02-23,monorepo,Rodrigo Iparraguirre,7d6f04a2c71f948982b376205d9038ae3edebfa1,,38,1148,433,Merged PR 40490: support disclosed OT dealers,java json,63,squash-pr
+2026-02-23,monorepo,Vijay Bollineni,f5f9559e3124c879c6cd431bec14b11a2ad60c53,,1,2,2,New pimco topics have been added to xpro-to-onprem and vice versa,tf,0,direct
+2026-02-23,monorepo,Shreshthha Jain,9c0fc827fc4969aeb536ffb35e7a6a0b09f93e09,XRFQ-4893,4,40,12,Merged PR 40530: fix: Clear loading state on unmount (XRFQ-4893),tsx,0,squash-pr
+2026-02-20,monorepo,Keshal Desai,d727238fc3540b398a9afaae278b1a1b12caedde,XPMI-1409,22,192,617,Merged PR 40521: chore(XPMI-1409): clean up auctions pom.xml files,xml,0,squash-pr
+2026-02-20,monorepo,Tim Kang,2301341a81953e0a7ee7efa901cea0fd26213470,XRFQ-4009,27,1395,1036,Merged PR 40466: XRFQ-4009 - rework disclosed counter parties,tsx ts,61,squash-pr
+2026-02-20,monorepo,David Behmoaras,b16cf660d7954bf3cc73da759817e3d742b9d87b,XRFQ-4752,13,469,60,Merged PR 40509: XRFQ-4752 decimal points main grid,ts,59,squash-pr
+2026-02-20,monorepo,Keshal Desai,8a125215dabe390ec36d83b09d2218e01d15250f,XPMI-1409,17,0,80,Merged PR 40516: chore(XPMI-1409): consolidate application-local.yml into model lib,yml,0,squash-pr
+2026-02-20,monorepo,Keshal Desai,46b0b589c66646dfa31291a90d33e7d955f1c204,XPMI-1326,17,599,4,Merged PR 40515: feat(XPMI-1326): add instrument session market data enricher,kt xml yaml,27,squash-pr
+2026-02-20,monorepo,Evgeny Klimenchenko,9453d10284b2d388ee6d2fb77c705c50ca99a3de,,15,390,13,Merged PR 40481: feat: ProgressBar component,tsx css,0,squash-pr
+2026-02-20,monorepo,Keshal Desai,2ac5fa1ddb305ad45de3d7bab2e4464ac4db01bb,XPMI-1399,14,283,41,Merged PR 40514: feat(XPMI-1399): add OTel span attributes to services,java mmd xml,0,squash-pr
+2026-02-20,monorepo,Aisen Kim,98ca5236aeb372dd3494027d9a7cdd88c17c5a84,XRFQ-4898,1,2,5,XRFQ-4898: Refactor displayStatusTs population. Refactored.,java,0,direct
+2026-02-20,monorepo,Paul Spiteri,7d77193bcaacd79be16e393b4e30f61651c23329,XPMI-1376,1,1,1,Merged PR 40513: (fix)XPMI-1376: Fix pipeline test Auctions,ts,100,squash-pr
+2026-02-19,monorepo,Paul Spiteri,cba5a8dde0dea24d850f70ad650d17e1b6be1b1f,XPMI-1376,1,4,4,Merged PR 40510: (fix)XPMI-1376: Fix pipeline test Auctions,ts,100,squash-pr
+2026-02-19,monorepo,Aisen Kim,99fbe245ba1c29758bab20434cad4db4db1788ea,XRFQ-4898,10,15,89,XRFQ-4898: Refactor displayStatusTs population. Moved displayStatusTs into UIRequestRowModel and deprecated the standalone topic method.,java yaml,40,direct
+2026-02-19,monorepo,Paul Spiteri,458d9540025c15ef6ce66404208c5c24f33859f2,XPMI-1376,1,0,15,Merged PR 40505: (fix)XPMI-1376: Allure publishing for auctions,ts,0,squash-pr
+2026-02-19,monorepo,Nicolas Ramirez-Diaz,30a95f4e9b44ce03a91073d0f235690a1ab91568,MAUI-4450,2,58,0,Merged PR 40503: [MAUI-4450]: Add spreadsheet loader to shell app registry,md ts,0,squash-pr
+2026-02-19,monorepo,Andres Ivaldi,e64630ea2a502a50d8594d8e5bd3cf8d4afbd285,,5,0,652,Merged PR 40496: Cleaning up topics definitions that are not used,yaml,0,squash-pr
+2026-02-19,monorepo,Raju Guduri,fb3af879974d1e09999464e5fc078727ace3b08c,XRFQ-4898,2,4,2,Merged PR 40492: XRFQ-4898: Adding status timestamp to UIRequestRowModel schemas,avsc,0,squash-pr
+2026-02-19,monorepo,Mercedes Kalaizic,5d54b8a924fc8f006689df95c5168b8f57774c96,,21,408,16,Merged PR 40464: displaying counter good-for timing and level information in the dealer grid after counter submission,tsx ts,71,squash-pr
+2026-02-19,monorepo,Keshal Desai,15c168d134ecd72cecb467a47b036d09d2cde703,XPMI-1326,10,192,2,Merged PR 40487: feat(XPMI-1326): add NucleusMarketDataUpdate JSON-to-Avro topology to inbound data converter,java yaml,58,squash-pr
+2026-02-19,monorepo,Shreshthha Jain,b42ec1f5f18071e0882ca2dd074fea7830740443,,1,2,1,Merged PR 40483: fix: product column colId,ts,0,squash-pr
+2026-02-19,monorepo,shjain,64c363f8045c35e096e5174025605585214ea951,XRFQ-2808,1,2,18,feat: Updated test (XRFQ-2808),tsx,100,direct
+2026-02-19,monorepo,shjain,cdf6c869e6d2b4c03f566daa0018cf81ba0ae1cf,XRFQ-2808,12,166,57,feat: Add direct trade button for pre submission (XRFQ-2808),tsx ts,26,direct
+2026-02-19,monorepo,Shreshthha Jain,2e59714b9d388218246cb3b681dc7bc2e8329369,,1,1,1,Merged PR 40474: feat: Update list type,tsx,0,squash-pr
+2026-02-19,monorepo,Rodrigo Iparraguirre,03473f6d3241efab8f7563e0ecd08b528f0aad2e,,1,0,1,Merged PR 40470: cleanup v1 services,xml,0,squash-pr
+2026-02-19,monorepo,svc-ui-azure-pipelines,56995770f60a67bd9be7a17dac3428ac6478f723,,1,15,1,docs: update changelog for v1.3.0,md,0,direct
+2026-02-19,monorepo,svc-ui-azure-pipelines,c0a244af92623f59ca58a9f2e45333d4134c904b,,1,1,1,chore(release): 1.3.0,json,0,direct
+2026-02-18,monorepo,Paul Spiteri,ebd1891ded324d42b81fa1f830e962891d10158c,,2,2,1,Merged PR 40463: (fix): Try fix pipeline auctions e2e,development qa3,0,squash-pr
+2026-02-18,monorepo,Andrew Kwak,dc2bacda7ae11fe812e0fe91739e9c7619226c63,,22,824,293,Merged PR 40262: [feat] Viewserver OTEL setup,ts yaml,25,squash-pr
+2026-02-18,monorepo,Keshal Desai,4e4ad4c9621bf7782c4f36956b1ec1c3fbca0bda,XPMI-1326,1,2,2,Merged PR 40460: chore(XPMI-1326): replace MM2 topic wildcards with explicit specmesh topics,tf,0,squash-pr
+2026-02-18,monorepo,Rodrigo Iparraguirre,454fe1512086f91c5fe5085111964afc6815c3c0,,19,5,760,Merged PR 40457: cleanup v1 services,yaml avsc,0,squash-pr
+2026-02-18,monorepo,Dimitar Christoff,6ea2e3d1aaed2ef561d117297bf597392bb2e8fa,,22,378,209,Merged PR 40447: remote µfe token federation and market depth as standalone,tsx,34,squash-pr
+2026-02-18,monorepo,Andres Ivaldi,518619d490525a2fe3642f48b3305304f74d2849,,6,128,6,Merged PR 40453: Adding new sessions,cfg,17,squash-pr
+2026-02-18,monorepo,Joshua Vargas,76243bafd533478f0b51d7b5f760b9e27fb2d44c,XRFQ-4822,13,812,183,Merged PR 40206: [XRFQ-4822][Playwright]  Add Playwright test for USHG single RFQ submission,ts,99,squash-pr
+2026-02-18,monorepo,Evgeny Klimenchenko,866c1d9c9af64ad466e47ea56658e292243e7b17,,3,7,6,Merged PR 40445: fix: fix timer in storybook,tsx,0,squash-pr
+2026-02-18,monorepo,Bryan O'Connor,b5165aa5dc8f2fff909f15d3fc9fbcb8a5b56265,XRFQ-4843,4,88,13,Merged PR 40452: XRFQ-4843 cherry pick done dealer sorts to top of stack,java,71,squash-pr
+2026-02-18,monorepo,Shreshthha Jain,3ae9d0158b159e6dbdea9ee9594c377fa39142ee,XRFQ-4885,3,4,76,Merged PR 40448: feat: SHow smart select always in dealer group selection (XRFQ-4885),tsx,84,squash-pr
+2026-02-18,monorepo,Dimitar Christoff,437a7bce1226b847109c22fd784019a121f9443f,,2,25,1,Merged PR 40341: feat: adding isActive boolean to allow useWorskapce to detect current app state,ts,92,squash-pr
+2026-02-18,monorepo,Andres Ivaldi,4869221ee8f4ce14dfd3e66edaf575d9ede3500f,,538,2170,30159,Merged PR 39982: Library update mktx.trading.rfq.transaction.api,java,49,squash-pr
+2026-02-17,monorepo,Lola Naumova,7dd273640dc631666109ddce47f2cca4ea053d19,XPMI-1254,3,3,60,Merged PR 40441: fix(XPMI-1254): Select all checkbox fixes,tsx ts,0,squash-pr
+2026-02-17,monorepo,Keshal Desai,40daa8557ed4679ee6301fe103cae97df91a64e1,XPMI-1326,22,187,316,Merged PR 40350: XPMI-1326: Key instrument topics by security ID instead of cusip/isin,csv kt,21,squash-pr
+2026-02-17,monorepo,Matthew Williamson,df50aa47ed73ef9408c7f068a6bd054147c5396a,,7,198,5,Merged PR 40424: user-relationship-enricher MR changes cherrypick,java yaml,64,squash-pr
+2026-02-17,monorepo,Arshad Ahamed Syed,56cd574bd73d5efb2ece595457f5a8672b41ff12,XRFQ-4749,11,463,17,Merged PR 40411: XRFQ-4749-Add errors and warning count to LIST_ITEM,java yaml,55,squash-pr
+2026-02-17,monorepo,Paul Spiteri,4a388283d4b518c7103acf2a394c9e85710dc37a,,4,39,2,Merged PR 40342: fix: Setup JDK certificates in devbox,sh,0,squash-pr
+2026-02-17,monorepo,Mercedes Kalaizic,ca81d80cd53b27e67b0d86dac0198824e7f8ed81,,7,118,81,Merged PR 40311: fix: EU default good for,ts tsx,9,squash-pr
+2026-02-17,monorepo,David Behmoaras,7389d18666cac486b3d5e287df7078a184a86f5e,XRFQ-4876,3,10,10,Merged PR 40414: XRFQ-4876 update useActivityConsoleData filter to use _id instead of rowId,ts,70,squash-pr
+2026-02-17,monorepo,Evgeny Klimenchenko,30ff8b4ae5d27adba2ab51e19e8ff632b4ab6152,,3,1,1,fix: visual regression test,css,0,direct
+2026-02-17,monorepo,Adam Edwards,a06f1d393588477ebc5ad1720b37dc78e7038ff8,,2,38,21,Merged PR 40409: fix: revert 1.5 dealer persistence,tsx,17,squash-pr
+2026-02-17,monorepo,David Behmoaras,59f22298d44396b05e5ffd0d2e095d88ad6681da,XRFQ-4752,19,161,44,"Merged PR 40316: XRFQ-4752 market depth, history, summary panel decimal points 4 for eu, 3 for US",ts tsx,28,squash-pr
+2026-02-17,monorepo,Evgeny Klimenchenko,d0194223071e3b0299ed29c1fa1f6672a27dff9b,,8,552,0,feat: Respo;nseTile component,tsx css,0,direct
+2026-02-17,monorepo,Rodrigo Jaen,d02cf141fb6833a5d9ff0031e7c040aa1a8debc7,,7,902,1,Merged PR 40390: merge to 26.2,json java,95,squash-pr
+2026-02-17,monorepo,Satraj Sehmi,883323114af4e148b6f30545970294b436cf8168,XRFQ-4847,3,10,16,Merged PR 40398: XRFQ-4847 fix post trade list item panel showing onclick of list item,ts,12,squash-pr
+2026-02-17,monorepo,Andres Ivaldi,a236fccb1427459b7a77f7beafaed2edccb45341,,1,1,1,Merged PR 40400: adding new file to the projection,yaml,0,squash-pr
+2026-02-16,monorepo,Dimitar Christoff,f8ce2640fc5a4414c6bbe19ef1ea7ca5b9e4379e,,12,256,21,Merged PR 40363: feat: updating app params via interop hook in shell-app,tsx ts,0,squash-pr
+2026-02-16,monorepo,Andres Ivaldi,67ca43cdd3c8adf0f9b554a04cdf1b72e74109c2,,9,314,66,Merged PR 40383: Adding new functionality to disable targeterRFQ,java,51,squash-pr
+2026-02-16,monorepo,shjain,ee59ba2f1f217c22cb27d4be0c1076f785124f62,XRFQ-4863,1,3,1,feat: Add targetedRFQEligibility flag (XRFQ-4863),tsx,0,direct
+2026-02-16,monorepo,Satraj Sehmi,36c066fa85fe91b0150a41e9f5dadab42dd2d9f3,XRFQ-4849,1,20,2,Merged PR 40384: XRFQ-4849 Empty state and filter empty state fix,tsx,0,squash-pr
+2026-02-16,monorepo,shjain,2c426523955b1aa16c52ac9a27ecf3f1c0b5732a,XRFQ-4863,1,1,0,feat: Add targetedRFQEligibility flag (XRFQ-4863),tsx,0,direct
+2026-02-16,monorepo,shjain,395f71d9b5f53ba18383465377d6d55120f66e9b,XRFQ-4863,11,106,18,feat: Add targetedRFQEligibility flag (XRFQ-4863),tsx,69,direct
+2026-02-16,monorepo,Adam Edwards,f9fefce8944470890dc807b5ea951086215925e1,,13,37,470,Merged PR 40378: fix: Merge list item components,tsx,41,squash-pr
+2026-02-16,monorepo,Rodrigo Iparraguirre,e558a5a5f2fabdcc274b571500510fe982c813f3,,10,374,173,Merged PR 40347: next actions union for list level,java,65,squash-pr
+2026-02-16,monorepo,Evgeny Klimenchenko,90c49187a3cd9ae08490d12b0f5c3bde8d6dbc18,,18,475,0,feat: ordersummary and ordersummarytile,tsx css,0,direct
+2026-02-16,monorepo,Raju Guduri,643582f9a6733ad0b25eecc99ef15b24e66a920a,XRFQ-4677,8,214,150,Merged PR 40253: XRFQ-4677: Handling VL Side on delist,java java},56,squash-pr
+2026-02-13,monorepo,Keshal Desai,f5edd5f30f2ecf7a1eb58deee4c4d8254279abca,XPMI-1405 CVE-2026,1,1,1,Merged PR 40354: chore(XPMI-1405): upgrade maven base image to 3.9.12 for JDK 21.0.10 (CVE-2026-21932),,0,squash-pr
+2026-02-13,monorepo,Keshal Desai,c2004c08cedc43a33cc57e054969c587e5daaee5,XPMI-1326,1,10,2,Merged PR 40346: chore(XPMI-1326): decouple reject alerts view from instrument _id keying,js,0,squash-pr
+2026-02-13,monorepo,Sam Rose,974ab383bb91e836951a36b0aed45ffdc659e082,MAUI-4433,2,16,3,Merged PR 40296: feat: MAUI-4433 - add routing strategy overrides for ingressroutes,,0,squash-pr
+2026-02-13,monorepo,Vijay Bollineni,af15100f624e51d9522bd901297421835a3bb923,,6,172,12,kafka reset jobs have been separated for rfq and auctions,yaml tf,0,direct
+2026-02-13,monorepo,Jim Higson,2c9dc9711c7f60222392310d52a19a01b7b2ed78,MAUL-4427,43,819,635,Merged PR 40299: feat(platform): MAUL-4427 - use AOP for viewserver logging,ts,13,squash-pr
+2026-02-13,monorepo,Evgeny Klimenchenko,4e28fb44989393d55247658126b1dc26135b959e,,2,29,2,Merged PR 40334: feat: release branch,md,0,squash-pr
+2026-02-13,monorepo,Shreshthha Jain,49809a2eb93076fc730d33c9124d46926cf4018a,,9,13,15,Merged PR 40336: fix: Moved key to top level,tsx,0,squash-pr
+2026-02-13,monorepo,Evgeny Klimenchenko,69065394dc2f98a7f01f3d4b89e0bedda0030346,,2,7,7,Merged PR 40338: fix: update featurehub ingressroute and base path for cloudfront routing,yaml,0,squash-pr
+2026-02-13,monorepo,Vijay Bollineni,964655e45d5dd552661c9045622a25998e317013,,1,25,4,rfq excluded list has been updated,yaml,0,direct
+2026-02-13,monorepo,Dimitar Christoff,ebda305c48a7cb9d40f1577d06a27270ac103d92,,17,94,92,"Merged PR 40306: fix: ensuring the idToken is propagated correctly after refresh within child mfe, mantine upgrade",yaml tsx ts,0,squash-pr
+2026-02-12,monorepo,Nicolas Ramirez-Diaz,f6e3ae3c552bc4da5ff94926cfed3f7e08823b0f,MAUI-4387,5,44,29,Merged PR 40309: [MAUI-4387]: Completed select all checkbox option for viewserver grids,tsx,0,squash-pr
+2026-02-12,monorepo,YDvir,229f65456e69ea3d83c9838e77c57e3ecacec1c2,,1,2,2,feat: fix test,ts,0,direct
+2026-02-12,monorepo,YDvir,ff02a648d96faaed96a0dccb3d9e073ad1e89b0f,,2,102,1,feat: init,ts,40,direct
+2026-02-12,monorepo,Keshal Desai,a9fa1e64fddf16092561520b6fd66102e10b85f1,XPMI-1398,2,1,2,refactor(XPMI-1398): remove tools docker-compose from run-matching script,sh,0,direct
+2026-02-12,monorepo,Keshal Desai,f0149dc0c0c134dce9294cda588d8f46fe649ced,XPMI-1398,1,1,1,fix(XPMI-1398): update graphql-gateway URL to use service name,yml,0,direct
+2026-02-12,monorepo,Keshal Desai,7a104aeaaf346299dbe060afb6293243fd01d976,XPMI-1398,17,447,51,feat(XPMI-1398): refactor local hybrid setup for development environment,sh yml md,0,direct
+2026-02-12,monorepo,Shreshthha Jain,3a78838fcae946166536ea21e7c4cc704ce3a8b3,XRFQ-4848,4,4,4,Merged PR 40315: fix: Loading group context getting shared on single click (XRFQ-4848),tsx,0,squash-pr
+2026-02-12,monorepo,Rodrigo Iparraguirre,0387024d5aed59f021b91d2593c9a0f9159544cc,,12,108,6,Merged PR 40307: Merged PR 40218: tune v2 services,yaml,0,squash-pr
+2026-02-12,monorepo,Rodrigo Iparraguirre,6263b48800c8be4b7fbcb025d0a926e76d0d6646,,6,93,81,Merged PR 40100: autox default off for singles,java,51,squash-pr
+2026-02-12,monorepo,Shreshthha Jain,f5faf095ccfa55d7d4b32921e7e70491b060f06d,,2,2,2,Merged PR 40304: fix: weird behavior of isTargeted flag,tsx,0,squash-pr
+2026-02-12,monorepo,Pedro Noriega,485a26605ba8d0d322add8b5016457410844097f,,4,13,13,"Merged PR 40302: fix AC, MD, Alerts package.json to include mantine as a devDependency",yaml json,0,squash-pr
+2026-02-12,monorepo,rahukumar,3fd434c5e340e9f34c6032eea42a94a1f3fb90d4,,5,28,44,Addressed comments + improvements to existing code based on them.,java,0,direct
+2026-02-12,monorepo,Satraj Sehmi,9455663c8d370dd5241d0f9374eff736f64dab16,XRFQ-4655 XRFQ-3968,10,280,166,Merged PR 40295: XRFQ-4655 XRFQ-3968 Update empty states for grids when filtering,tsx,0,squash-pr
+2026-02-12,monorepo,Dimitar Christoff,c83ebc2273369a48e9e1674d062fbcb9dbcbd865,,11,27,37,Merged PR 40293: fix: title alignment and countdown update frequency fixes,css tsx ts,0,squash-pr
+2026-02-12,monorepo,Rodrigo Iparraguirre,819060b3a2b6c96e64b7804203c6a2350140f69c,,14,349,93,Merged PR 40273: ui overall slo,java,33,squash-pr
+2026-02-12,monorepo,Evgeny Klimenchenko,6cca99b335c4751435df35d6adbe7ac4b4c855d2,,1,0,15,fix: fix date picker input range crashing browser,tsx,0,direct
+2026-02-11,monorepo,Mercedes Kalaizic,7fc02e12b29003d1180060b4c5d729cdf0e9ba82,,1,64,62,Merged PR 40278: fix: hiding countering for mr1,ts,0,squash-pr
+2026-02-11,monorepo,Pedro Noriega,6fd98756fa3e76c61453c8bd430c5eb42dc89656,XRFQ-4812,1,4,2,Merged PR 40272: XRFQ-4812 fix: Market Depth: apply overlay to yield column when focused,ts,0,squash-pr
+2026-02-11,monorepo,rahukumar,5c1d481f7cb2d0965a8b4a65fde898f8d99b4394,,1,3,3,docs improvement,java,0,direct
+2026-02-11,monorepo,Satraj Sehmi,713b658d1b4f82db9c20943ed2d88b4fb85fae96,XRFQ-4428,9,102,48,Merged PR 40268: XRFQ-4428 make post trade and pretrade item panel styling consistent,tsx css,0,squash-pr
+2026-02-06,monorepo,Yarden Dvir,2a707f4d112759599b4828445b9ebd64ee8f08d2,,11,563,26,Merged PR 40104: Kstream enhancements for autox,java,73,squash-pr
+2026-02-11,monorepo,rahukumar,70c1ab957dbb9d2d8f3f6a62c2e8aff23170d12b,,1,0,234,Delete topicExtractor.sh,sh,0,direct
+2026-02-11,monorepo,Vijay Bollineni,6510b98f3e77d841505f35193fe903818a7809c4,,2,4,4,Configuring qa2  for 26.2.0,tfvars,0,direct
+2026-02-11,monorepo,rahukumar,df02d4876ee8a5af7f11653744778c09ba9d4a99,,2,235,1,Added Atlas topic,sh,0,direct
+2026-02-11,monorepo,Vijay Bollineni,3ff309ce4ca136e5f7b55dfb8654d7164d879057,,9,17,14,Configuring qa2  for 26.2.0,yml tfvars yaml,0,direct
+2026-02-11,monorepo,rahukumar,c43cb4d97c1649cf53c243488c2851c8c40a4119,,8,160,6,Countering Changes,java yaml,22,direct
+2026-02-11,monorepo,Shreshthha Jain,ec516e62e0d5d98273a02b0e0aa5e630b0f2bd94,,2,2,4,Merged PR 40264: fix: remove duplicated field,ts,0,squash-pr
+2026-02-11,monorepo,Mercedes Kalaizic,d2ee9bce17e4411b9cd1f1d375eb4593db7a8297,,2,41,1,Merged PR 40226: fix: show countering timer,tsx,98,squash-pr
+2026-02-11,monorepo,Satraj Sehmi,b5bddd941fb00978deea5374c2d3ad3bc6afbce5,XRFQ-4349,20,128,113,Merged PR 40199: XRFQ-4349 SelectionId Sync server state for disclosed counterparties,tsx ts,24,squash-pr
+2026-02-11,monorepo,Satraj Sehmi,e12668e825f431cfd5376a4a48bd0020241fc536,XRFQ-4349,10,550,47,Merged PR 40098: XRFQ-4349 hook for syncing state and implementation on open trading,ts tsx,73,squash-pr
+2026-02-11,monorepo,Yarden Dvir,5c92abb55143f7cc70e241ebfec186a049d3946b,XRFQ-4751,29,859,488,Merged PR 40212: XRFQ-4751_auto_x_enhancements,tsx ts,34,squash-pr
+2026-02-11,monorepo,Paul Spiteri,8d157a560f679c7f948034b2b9d256986b12f3c2,,1,3,0,Merged PR 40256: fix: Add missing .env file for development,development,0,squash-pr
+2026-02-11,monorepo,Sam Rose,b9f12e81c73eb5876084915d1196148f3e2ad280,MAUI-4377,1,2,0,Merged PR 40252: fix: MAUI-4377 - nodejs vulnerability,,0,squash-pr
+2026-02-11,monorepo,Nicolas Ramirez-Diaz,8e182ae18ca122e036e2767a8e806102b79a742c,MAUI-4360,5,64,1,Merged PR 40227: [MAUI-4360]: Activity Console Grid Select All,tsx ts,0,squash-pr
+2026-02-11,monorepo,Evgeny Klimenchenko,80737d17d4fc7d25f22026486785ac33153871c3,,2,14,4,fix: fixes after review,tf yaml,0,direct
+2026-02-11,monorepo,Andres Ivaldi,849175e0a144d55e221688e6acc87eeac0deb672,,9,221,71,Merged PR 40249: in moemory process,java,2,squash-pr
+2026-02-11,monorepo,Evgeny Klimenchenko,f49feaf7ec47ea8763a398d87e50f0ebf4aa8c2a,,15,377,72,feat: make feature hub database external using RDS,tf yaml,0,direct
+2026-02-11,monorepo,Dimitar Christoff,4301b8c2fe090ec6604e86b0794d2a1b2ae9196f,,2,3,14,Merged PR 40246: release bunmp and changelog fix,md json,0,squash-pr
+2026-02-11,monorepo,Dimitar Christoff,ce77dcf0b18bf2006a3c7d520ab5676f11e03138,,3,5,4,Merged PR 40244: fix: renaming the build targets for packages published through npm,json yml,0,squash-pr
+2026-02-06,monorepo,Jim Higson,840623b7cd7d155362e62aaaa37852b5c3fa5b3e,,53,767,324,feat(platform): more structured properties in logging and errors,ts,28,direct
+2026-02-11,monorepo,Adam Edwards,63b06fff719d342979977afb57b0bb83855bc01e,,9,149,86,Merged PR 40240: Loading state to trade and pass,tsx,32,squash-pr
+2026-02-11,monorepo,Andres Ivaldi,e7b8a0af9c8dd3c3bee2720f178bea04566e5a46,,7,13,10,Merged PR 40193: restore helm,yaml,0,squash-pr
+2026-02-10,monorepo,rahukumar,ee4b70460a389991c9310e737522dd059e244ece,,1,1,1,Update DealerResponseUpdater.java,java,0,direct
+2026-02-10,monorepo,rahukumar,da60db19780ae85e244cba47840d4a864e1899b1,,2,7,1,Countering Changes,java avsc,0,direct
+2026-02-10,monorepo,Paul Spiteri,883f0011146e3f7a8375862fab87ea4566b6d4be,XPMI-1392,1,5,6,Merged PR 40233: Merged PR 40231: (fix)XPMI-1392: Auctions - Count mismatch between Submit/Wit...,ts,0,squash-pr
+2026-02-10,monorepo,Enmanuel Rivera,55544ccf520c8090e8194fe09d71c19659e15bfb,XRFQ-3810,13,156,55,Merged PR 40229: xpro/fix/XRFQ-3810-unit-testing,tsx ts,49,squash-pr
+2026-02-10,monorepo,Rodrigo Iparraguirre,159bf04045a6549f0e99917c6ee2b4e04c3d2ef6,,6,292,19,Merged PR 40060: sds reasons for submission,java,89,squash-pr
+2026-02-10,monorepo,Andres Ivaldi,944428d1ebe9059cf433d660b602ff9cf5100e3c,,4,105,7,Merged PR 40219: Add processor in memmory,java,1,squash-pr
+2026-02-10,monorepo,Dimitar Christoff,0f4c62a4c3deea1532b3db8abb8080c0e2b41579,,1,175,39,"Merged PR 40217: fix: better test coverage for logic in bid offer grid, including bestDirectio...",tsx,100,squash-pr
+2026-02-10,monorepo,Paul Spiteri,f116902fb57a37f949baa82988165f21a65425df,XPMI-1387,1,2,2,Merged PR 40210: Merged PR 40201: (fix)XPMI-1387: Auctions - Allow row selection on any Order...,ts,0,squash-pr
+2026-02-10,monorepo,rjaen,a78f614b4b2fdb708b637e8ef5de5b14a7d1ce73,,2,21,20,"add, company props override support in the template for PW",java json,100,direct
+2026-02-10,monorepo,Tim Kang,d11c7338f374fe8ba98353681a8932726893a1a0,XRFQ-4791,2,0,7,Merged PR 40207: XRFQ-4791 - remove tooltips from market depth,ts tsx,0,squash-pr
+2026-02-10,monorepo,Dimitar Christoff,14d901ddac32cce7d924dbb1c3818675c873b1f3,,2,23,2,Merged PR 40205: release ui package,md,0,squash-pr
+2026-02-10,monorepo,Dimitar Christoff,c10dcc4df917bdcdef9cbbcb86f50d65ad33eb24,,1,18,12,Merged PR 40203: fix: prevent a crash,tsx,0,squash-pr
+2026-02-10,monorepo,Tim Kang,ca209c13f3bb7dfe03acc85202f503f391e7a2a1,XRFQ-4791,1,7,2,Merged PR 40200: XRFQ-4791 - remove inventory text from type cell,ts,0,squash-pr
+2026-02-10,monorepo,Evgeny Klimenchenko,7d2ae513fffed76a196ffdc7fe61fe687aa40228,,13,95,42,Merged PR 40190: feat: updated dropdown paddings to match design,css tsx txt,0,squash-pr
+2026-02-10,monorepo,Shreshthha Jain,9fbcb031fe4e347fbda844f29fa9c1bc61c81a45,,3,118,13,Merged PR 40149: Use timestamp to compare when statuses have equal weights,ts,69,squash-pr
+2026-02-10,monorepo,Dimitar Christoff,b2d0f2f7b43aab59b83646a54f2cce6963108ff3,,2,104,16,Merged PR 40184: fix: adding support for other origins,tsx ts,0,squash-pr
+2026-02-10,monorepo,Sam Rose,d899a6ff22745179f46c9fd231d9688e2f2af1b1,MAIU-4382,1,3,3,Merged PR 40185: feat: MAIU-4382 - add check:build,json,0,squash-pr
+2026-02-10,monorepo,Dimitar Christoff,f2dbe87d05f3a173fb469203808e4b532cbc1c09,,9,75,90,Merged PR 40171: fix: market depth ux sync issues,css ts tsx,2,squash-pr
+2026-02-09,monorepo,Charles Kreps,df086365076c382adf97115a3487568b4f4afdab,,6,181,1,Use priority to sort outbound instruments on join,java,86,direct
+2026-02-09,monorepo,Joshua Vargas,028140bae61185dc4ee238222c2bd21c7ede9408,XRFQ-3720,12,1368,8,Merged PR 39790: [XRFQ-3720] feat(market-depth): add Playwright E2E tests for Market Depth panel,ts md yaml,53,squash-pr
+2026-02-09,monorepo,Tim Kang,e61e46dfbf4e69340bd09854fee7a9dc3316057f,XRFQ-4486,2,4,4,Merged PR 40179: XRFQ-4486 - remove list summary panel api references,tsx,0,squash-pr
+2026-02-09,monorepo,Tim Kang,0d1e398967256a2a93366438355da636b6ab8f61,XRFQ-4810,2,7,6,Merged PR 40172: XRFQ-4810 - fix market depth filter behavior,ts tsx,0,squash-pr
+2026-02-09,monorepo,Pedro Noriega,b8f850c6c6ad6b0e6e84d8e76b798df14d23e193,XRFQ-4503,9,116,135,XRFQ-4503 fix add unit tests for HistoryPanelRoot,tsx,61,direct
+2026-02-09,monorepo,Sam Rose,b7e9625c274a8db4da7d9fa4aa644a323a18e30d,,6,26,12,Merged PR 40162: Use NX for package publishing,json yml md,0,squash-pr
+2026-02-09,monorepo,Kunal Choudhary,479de0fa6a5bae9a2b5fa409fe56e2b29a4d9323,,1,1,1,Merged PR 40168: fix if condition,,0,squash-pr
+2026-02-09,monorepo,Kunal Choudhary,64377ac43fb2b8a7997001fa52e4a9289e5b0805,,1,1,1,Merged PR 40166: adding namespace variable,,0,squash-pr
+2026-02-09,monorepo,Kunal Choudhary,c1bd4f8ff76b580fdc3c0b1c625a45eb2de01ef6,,1,2,2,Merged PR 40165: fixing if condition to set kyverno policy,,0,squash-pr
+2026-02-09,monorepo,Shreshthha Jain,010a88515e5ce1f380589e89abb015ce071369e3,,1,29,11,Merged PR 40164: fix: Added filter bar in post trade list,tsx,0,squash-pr
+2026-02-09,monorepo,Kunal Choudhary,c03afff2e15466452cd08c2dac5f253a7b40601f,,1,14,6,Merged PR 40163: fixing kyverno guardrail policy,,0,squash-pr
+2026-02-09,monorepo,Raju Guduri,b6b5efd195af6e40db53138ceecc1f452d6ec9e3,XRFQ-4338,17,137,77,Merged PR 40147: XRFQ-4338: Populating display & trasient status timestamps(cherry pick),java yaml,47,squash-pr
+2026-02-09,monorepo,Rodrigo Iparraguirre,bd213a53b141e94089e919e759ac430e46a196bb,,1,4,4,Merged PR 40161: test sds latency,yaml,0,squash-pr
+2026-02-09,monorepo,Adam Edwards,9ddcef9b1b328e2a39b831ceab084ad8f2ed5136,,15,436,63,Merged PR 40142: feat: Add loading state to buttons,tsx,43,squash-pr
+2026-02-09,monorepo,Kunal Choudhary,49c3c6b4f4258d90ce0d3e023f6b5a7e2385621c,,1,1,1,Merged PR 40158: updated http2jms to point to qa3 as qa5 is unavailable,tfvars,0,squash-pr
+2026-02-09,monorepo,Mercedes Kalaizic,bf8b276169185dbf19974c98bdfde59b1405f91b,,4,7,8,Merged PR 40115: fix: using counterTimes instead of goodForTimersAsap,tsx ts,0,squash-pr
+2026-02-09,monorepo,Paul Spiteri,9c5a7b2c9b5fe8c97012a3fcb250a13a3449e83d,XPMI-1384,4,111,117,Merged PR 40157: Merged PR 40112: (feat)XPMI-1384: Auctions - Allow row selection on any Order...,tsx ts,0,squash-pr
+2026-02-09,monorepo,Nicolas Ramirez-Diaz,c25e580ce138d640244f164147ffc4065d245167,MAUI-4402,2,5,15,Merged PR 40156: [MAUI-4402]: update how-to to include running cli without installing it,md json,0,squash-pr
+2026-02-09,monorepo,Rodrigo Iparraguirre,743878c1812ff786cc3c5fded0557c0c33a48568,,1,14,0,Merged PR 40155: test sds latency,tf,0,squash-pr
+2026-02-09,monorepo,Dimitar Christoff,f3175a580be195175668cd3320e2b24f93b2201e,,2,27,2220,Merged PR 40150: fix: removed supernova cli for now,yaml,0,squash-pr
+2026-02-09,monorepo,Keshal Desai,a741f691659f9aec4bc26bdf9bb7a2b3608ebb7a,XPMI-1380,4,48,58,Merged PR 40151: perf(XPMI-1380): Refactor user permission checks for auctions access,ts yml,0,squash-pr
+2026-02-09,monorepo,Rodrigo Iparraguirre,65ad45258f5efbe7b83be2705315cd015177b6ea,,2,3,0,Merged PR 40152: test sds latency,yaml tf,0,squash-pr
+2026-02-09,monorepo,Paul Spiteri,2656c9e3e1cb07d1d8c71b431bd5d9db250fc7cf,,2,13,24,Merged PR 40068: (fix): Auctions revert column if amend-order fails to send,ts tsx,76,squash-pr
+2026-02-09,monorepo,Rodrigo Iparraguirre,604d71abf0f3f4b39daf111bea91e9041c0b879e,,3,204,1,Merged PR 40148: test sds latency,yaml,0,squash-pr
+2026-02-09,monorepo,Sam Rose,a3d2dbfb036abfbaa85ba123cc05e5479ea9504e,MAUI-4382,5,72,11,Merged PR 40146: feat: MAUI-4382 - fallback is used for Auth0,tsx,67,squash-pr
+2026-02-09,monorepo,Raju Guduri,b79252054ef6456637b1b86f3d8e77dcccecb0c7,XRFQ-3851,2,3,2,Merged PR 40143: XRFQ-3851: Replicating TRACE topic from datalake to xpro,tf,0,squash-pr
+2026-02-09,monorepo,Evgeny Klimenchenko,281fff6e2687742a7598a18e57524107ddbd3427,,2,8,0,feat: feature falg docs update,md,0,direct
+2026-02-09,monorepo,Shreshthha Jain,49a3e0b20d98bae1119d704579919aa5d68926b3,,1,1,0,Merged PR 40139: fix: Added done status mapping,ts,0,squash-pr
+2026-02-09,monorepo,Dimitar Christoff,a93eec20bf68e4b58051903f5d9a36aebe365614,,3,105,3,Merged PR 40134: fix: documenting custom icons,tsx,0,squash-pr
+2026-02-07,monorepo,Rodrigo Iparraguirre,733474af89d78830696211c88deea12112400f95,,1,15,14,Merged PR 40126: fix failiing integration test,java,100,squash-pr
+2026-02-06,monorepo,TKang,9115f38374aa1bd86b20641def40a3031d150391,XRFQ-4486,1,1,1,XRFQ-4486 - remove sign from size,ts,0,direct
+2026-02-05,monorepo,TKang,0add0ebe606c7cd805fd5546d3d7fcb0289e372f,XRFQ-4486,18,122,63,XRFQ-4486 - ensure panels are active and rearrange panels,tsx,7,direct
+2026-02-06,monorepo,TKang,7d441ba04d1b6b7c72b5364e7ef2e09e3d1a2a5a,XRFQ-4791,5,86,32,XRFQ-4791 - refactor historypanelroot for modern viewserver pattern,tsx css,0,direct
+2026-02-06,monorepo,TKang,6aa0d9fe6a688febe3305d861925a959af48945d,,1,2,2,fix: remove unused class,tsx,0,direct
+2026-02-06,monorepo,Dimitar Christoff,58b751ce35442c6c0a03f7af7b8a45f76341bfa9,,13,322,349,fix: server side market depth sort via coldef,tsx css,25,direct
+2026-02-06,monorepo,Mercedes Kalaizic,87c8fd7899f0e1d106788e0d4545cb578ae09394,,1,110,0,Merged PR 40110: fix: tests,ts,100,squash-pr
+2026-02-06,monorepo,Nicolas Ramirez-Diaz,0fb171d135d0d30246a8f98be0c007a1e529ad83,MAUI-4402,9,2610,33,Merged PR 40105: [MAUI-4402]: Upload Storybook to Supernova,yaml,0,squash-pr
+2026-02-06,monorepo,Jim Higson,d995b8d7067f619c6189cf84ce8a8b425b46b4d2,,2,121,37,fix(platform): fix metadata properties of viewserver views defeating de-duping of streams in the ui,ts tsx,41,direct
+2026-02-06,monorepo,Mercedes Kalaizic,beff6b55828def2cfdb9d3fd07b623ee4194c792,,1,9,1,"Merged PR 40063: Filtering by status ""Open"" in aggregation",ts,0,squash-pr
+2026-02-06,monorepo,rjaen,8bcf6ed8daeddc3e28991aa9c3ae48c1094c2173,,8,161,14,wip,java,43,direct
+2026-02-06,monorepo,Kunal Choudhary,eff05e5402958aa35c1c11afc052bda6f5cd9c06,,5,9,9,Merged PR 40058: Revert 'Env has been updated for master',yml yaml,0,squash-pr
+2026-02-06,monorepo,Satraj Sehmi,e9321861a2905075ffc67c74635bb9b3c0089f99,XRFQ-4349,15,1984,2192,Merged PR 40082: XRFQ-4349 update types and GraphQL sdk for dealer selection,ts graphql,0,squash-pr
+2026-02-06,monorepo,Shreshthha Jain,bbd2d1a45792110b678dea9b3c6ee6c8302622c0,,14,83,43,Merged PR 40059: DP formatting,ts tsx,49,squash-pr
+2026-02-06,monorepo,aedwards@marketaxess.com,5f834769f3e8133c45c0e3835b04849d71582ff7,,1,4,39,fix: Transient status not working for singles,ts,0,direct
+2026-02-06,monorepo,Dan Gent,0fef097469f699a41d7a99b91964191c6ef543d3,,1,4,1,fix: security column fix - pass value object into component,ts,0,direct
+2026-02-06,monorepo,Dimitar Christoff,9c3694d7072db66e20130f90bb8f9fb17c23b5d6,,4,104,13,Merged PR 39985: allows shell-app to use real auth to QA,ts,0,squash-pr
+2026-02-05,monorepo,Vijay Bollineni,3011599acd4fa7c8ee8cf4189063b0360f623289,,3,13,9,add missing sa reference in cron manifest,tf yaml,0,direct
+2026-02-05,monorepo,Keshal Desai,fecc38cd6d0e2073697e4f6c03f49f5432e68fb8,XPMI-1359,21,68,36,Merged PR 40069: feat(XPMI-1359): Add metrics support to Auctions,yaml xml yml,0,squash-pr
+2026-02-05,monorepo,Nicolas Ramirez-Diaz,f8bb7acc9cf7cba93c05c74ea2be11f6f40dd1ea,MAUI-4342,2,629,0,Merged PR 40043: [MAUI-4342]: add docs for ui-lib and container-app migrations,mdx,0,squash-pr
+2026-02-05,monorepo,Paul Spiteri,cdd53ec066dad1db696c02f48ecaab0235c39e54,XPMI-1276,1,23,5,Merged PR 40061: (fix)XPMI-1276: Get Actual Eligible instruments fix,ts,100,squash-pr
+2026-02-05,monorepo,Vijay Bollineni,e3cf9c4ff904134370dbcf95a2d624f910dfe634,,1,6,6,Fixing cron jobs qa envs namespaces,tf,0,direct
+2026-02-05,monorepo,Dimitar Christoff,73b305808cdcaa4c19698433d227bc40ed0acdec,,1,3,1,fix: ensure the message is centred within the grid container,tsx,0,direct
+2026-02-05,monorepo,Shreshthha Jain,3268e8c49c1f9fb5037169e233db113f3604684d,,1,1,1,Merged PR 40048: fix: response Grid,ts,0,squash-pr
+2026-02-05,monorepo,Paul Spiteri,ab6690b9b6a94596c0359bd9a6d821e3e852d4e4,XPMI-1276,1,5,8,Merged PR 40045: (fix)XPMI-1276: Get Actual Eligible instruments fix,ts,100,squash-pr
+2026-02-05,monorepo,Rodrigo Jaen,b5a43443b623e1a3977b2c0587ce5fa5d127411b,,3,115,3,Merged PR 40042: Merged PR 40039: handle forwardActor order when Live,java,86,squash-pr
+2026-02-05,monorepo,Dimitar Christoff,9d7992c97018dfc14fca7f6aff073978712df496,,2,75,2,Merged PR 40035: release 1.1.0 ui,md,0,squash-pr
+2026-02-05,monorepo,Nicolas Ramirez-Diaz,4d4eb3f8c06c74eb4633c75cefe10e1febee3fdb,MAUI-4365,12,18,91,Merged PR 40005: [MAUI-4365]: Remove timezone usage and default to utc,tsx,0,squash-pr
+2026-02-05,monorepo,Evgeny Klimenchenko,5919b5e1eeb0b8cb853dc0d1e1c3ea0d2dfb02ef,,11,69,6,feat: Expiring User Preferences Cleanup System,js tsx yaml,0,direct
+2026-02-05,monorepo,Rodrigo Iparraguirre,4f3a23ca5069c5974b5f20b017529b61bfe59523,,48,1438,325,Merged PR 39509: UI selectionId to fix dealer selection flickering,java,71,squash-pr
+2026-02-05,monorepo,Sam Rose,cf7390fa140bb427f59e2c720e6b78b3d198e610,,26,918,347,Merged PR 39986: GitHub: Docs update and tidy-up,mdx yml,0,squash-pr
+2026-02-05,monorepo,shjain,3e9500d452e996c0c92d103c72d63c3925dff0a9,XRFQ-4654,2,27,5,fix: Disable create list button when more less than 2 items selected (XRFQ-4654),tsx,59,direct
+2026-02-04,monorepo,Paul Spiteri,05fd66f368073addc0e35421c0dafc2bfcc50a66,XPMI-1329,1,6,0,Merged PR 40012: (fix)XPMI-1329: Dismiss bulk action bar (due to stale data) when updating an...,tsx,0,squash-pr
+2026-02-04,monorepo,Paul Spiteri,010745c5400ccd948f4b227dfab1c31f0c305994,XPMI-1379,1,1,1,Merged PR 40018: (fix)XPMI-1379: Not Able to see current days RTS orders in QA 26.1 Env,tsx,0,squash-pr
+2026-02-04,monorepo,Paul Spiteri,7bbe8204039cb06034e4f4e026a207ac7896fd8b,XPMI-1379,3,23,6,Merged PR 39993: (fix)XPMI-1379: Not Able to see current days RTS orders in QA 26.1 Env,tsx js,0,squash-pr
+2026-02-04,monorepo,Enmanuel Rivera,274744409d5accee8ffb900bac932d7ca27c04ae,XRFQ-4334,30,575,100,Merged PR 40014: xpro/fix/XRFQ-4334-market-depth-testing,tsx ts,54,squash-pr
+2026-02-04,monorepo,Keshal Desai,c096c4551da84800eac0e037abc6013bc2bbe170,XPMI-1383,2,41,3,Merged PR 40017: fix(XPMI-1383): add Flatten transform for activity console auctions topics to prevent field collision,yaml,0,squash-pr
+2026-02-04,monorepo,Andrew Kwak,49bcf50689ea800db9e66adb544af4274752605a,,2,3,154,Merged PR 40002: fix: userPreferences remove authorization header,tsx ts,88,squash-pr
+2026-02-04,monorepo,Shane Carroll,dca0b878465cbfc6a5bcb70df7bdecd41c770d56,MAUI-4376,2,9,2,Merged PR 39981: MAUI-4376: add version json document at build time,sh json,0,squash-pr
+2026-02-04,monorepo,Pedro Noriega,cc52ab7f1964b593afd6f953794d427fb4ffd281,XRFQ-4682,1,1,2,Merged PR 40008: XRFQ-4682 fix: Prevent ListInquiryItemPanel header from shrinking,css,0,squash-pr
+2026-02-04,monorepo,Evgeny Klimenchenko,0f91d3a8a45ac7d245b331d25db7f3e65d92c118,,1,2,2,Merged PR 40007: change the liveness and readiness probe ports to 8701,yaml,0,squash-pr
+2026-02-04,monorepo,Evgeny Klimenchenko,43025893bbac2f8e333b0d2abb441b11e6af718d,,1,2,2,fix: update containerport,yaml,0,direct
+2026-02-04,monorepo,Evgeny Klimenchenko,83ebd60f447a8e07ca3c63157a658a82583c5e73,,1,0,1,fix: fixed the Market Depth,ts,0,direct
+2026-02-04,monorepo,Nicolas Ramirez-Diaz,42c054000db15eb39d1fe0afb1dd2c6793c5608d,,1,37,0,Merged PR 39992: fix: copilot ignore file,copilotignore,0,squash-pr
+2026-02-04,monorepo,Andrew Kwak,023156fd04ee70659e7a4da41fd04519228bffcd,,4,38,78,Merged PR 39999: fix: remove accessToken auth header from moc,ts,0,squash-pr
+2026-02-04,monorepo,shjain,4b08007853f778edb52ff00f5a3014d42b562247,XRFQ-4654,2,34,8,fix: Disable craete list button when more tahn 40 items selected (XRFQ-4654),tsx,45,direct
+2026-02-04,monorepo,Keshal Desai,7992cf432f3def198094d083c170464bc16b2d6b,XPMI-1359,9,107,40,"Merged PR 39973: perf(XPMI-1359): update Kafka configuration with dynamic properties for commit interval, fetch min bytes, fetch max wait, linger, batch size, and compression type",yml alloy,0,squash-pr
+2026-02-04,monorepo,Satraj Sehmi,4d2601c4fa602468b0d4e6b56d8a4c9d4c89e669,XRFQ-4765,3,26,0,Merged PR 39990: XRFQ-4765 separate out calls for dealer selections when targeted rfq selected,tsx,69,squash-pr
+2026-02-04,monorepo,Mercedes Kalaizic,68d49ca9b99f98c6514604fcafb310c6d0383d8f,,5,45,17,Merged PR 39915: fix: blank status for completed inquiries in responses grid,ts tsx,48,squash-pr
+2026-02-04,monorepo,Evgeny Klimenchenko,c973d0996dc5f69e46079999d47553a248d502e7,,1,2,0,Merged PR 39995: Change registry for feature flags,yaml,0,squash-pr
+2026-02-04,monorepo,Evgeny Klimenchenko,007b957c5934570651762734ec3bd15379962d15,,1,2,2,fix: fix registry,tf,0,direct
+2026-02-04,monorepo,Evgeny Klimenchenko,1e14e313d2c5ba4f3e52800f44e9e3ddf9f2e2f2,,1,2,0,fix: added artifactory-creds,yaml,0,direct
+2026-02-04,monorepo,Shreshthha Jain,02fed71130dc7d6f6b2da9edc30a62da8a32fcc3,XRFQ-4743,3,24,0,Merged PR 39988: fix: Added column state persistence logic in listGrid (XRFQ-4743),tsx ts,0,squash-pr
+2026-02-04,monorepo,Dan Gent,9687cc149acc7ac36865ae22e6de59b938bf42b3,,4,9,9,fix: use tradability_live for filtering,tsx ts,0,direct
+2026-02-04,monorepo,Evgeny Klimenchenko,25bdd06f82ac550db19c3cb460c734abbe103cd2,,1,2,2,Merged PR 39991: fix: try changing registry,tf,0,squash-pr
+2026-02-04,monorepo,Evgeny Klimenchenko,b3cf9659f981ec64faff6f45c2a117484654fc46,,1,2,2,fix: try changing registry,tf,0,direct
+2026-02-04,monorepo,Satraj Sehmi,123c326afc5dcf05f0e38452f4a17908f82ec3bf,XRFQ-4077,3,50,11,Merged PR 39972: XRFQ-4077 Empty states for Ac tabs,tsx,0,squash-pr
+2026-02-04,monorepo,Dimitar Christoff,1cf7eb6cde564c13ce476cf523779e90c1d3c925,MAUI-4389,1,4,3,Merged PR 39989: MAUI-4389: making sure api changes are also persisted in grid column persistence,ts,0,squash-pr
+2026-02-04,monorepo,Evgeny Klimenchenko,04ee02e5bf6d6a974f74d7177babfea600b4a8e8,,3,7,3,fix: added password to secret,yaml yml,0,direct
+2026-02-04,monorepo,Evgeny Klimenchenko,1233d19ced94ca191fea7cc9943e3cc2aab572c8,,1,2,2,fix: fixed registry,tf,0,direct
+2026-02-04,monorepo,Adam Edwards,1dcac67344ae993883bbde9258c79eda4dd12b90,,1,1,1,Merged PR 39984: fix: toLocaleString undefined,ts,0,squash-pr
+2026-02-04,monorepo,Satraj Sehmi,c76313c0c393a9638a88f1f91632844d19a232d9,XRFQ-4761,1,6,4,Merged PR 39983: XRFQ-4761 add key to detail panels,tsx,0,squash-pr
+2026-02-03,monorepo,Nicolas Ramirez-Diaz,68dc7bd342d30490fb18ff51bfbd3d0ec75d3cba,MAUI-4343,6,85,1,Merged PR 39601: [MAUI-4343]: Eslint no restricted imports warning plus deprecation tags,yaml js json,0,squash-pr
+2026-02-03,monorepo,Paul Spiteri,906b701a21ff343231c79e7af70f9bc650f90124,XPMI-1376,7,149,418,Merged PR 39969: (fix)XPMI-1376: Playwright e2e get actual eligible cusips,ts,100,squash-pr
+2026-02-03,monorepo,Mercedes Kalaizic,3a5ad7420ff517c935a409d5844c49e86f96720b,,5,42,123,Merged PR 39956: fix: updating aggregation and using new filtering,ts tsx,0,squash-pr
+2026-02-03,monorepo,Dimitar Christoff,588503593ea0db83c82d0cc60aa251bea144ba58,,4,38,1,Merged PR 39952: fix: loading state for buttons,tsx css,0,squash-pr
+2026-02-03,monorepo,Jim Higson,3b2b77d1adbcdfb789b97eda8b922b3f708f6d3b,,64,2470,3561,Merged PR 39947: feat(platform): log which ui and component is creating views on the viewserver,js ts,3,squash-pr
+2026-02-03,monorepo,Adam Edwards,41a013bfc8e1031a49c4b07203d5af3f7aa0a1cb,,3,27,25,Merged PR 39942: feat: Hit index fields with pre aggregation filter,ts,0,squash-pr
+2026-02-02,monorepo,Evgeny Klimenchenko,6c4084350c45ce924eb3a71c26a2c66af6103970,,5,214,33,feat: add grid settings to other parts of activity console,tsx,0,direct
+2026-01-29,monorepo,Evgeny Klimenchenko,90f2e2e68d9f581e3605549ce0c61db0a119e01c,,1,1,1,fix: fix build,tsx,0,direct
+2026-01-29,monorepo,Evgeny Klimenchenko,41bce35fd5c7b4ae1358ee49726c572c7c940878,,2,10,4,fix: fix build,tsx ts,0,direct
+2026-01-29,monorepo,Evgeny Klimenchenko,bd01d8ac335568c15ee1905768316f43a79b2a3c,,1,1,0,fix: remove quick filters,tsx,0,direct
+2026-01-29,monorepo,Evgeny Klimenchenko,48e59cd078d81759677f1e43b08aebf5ae8f3035,,2,49,3,feat: add grid settings to activity console,tsx,0,direct
+2026-02-03,monorepo,Evgeny Klimenchenko,10ce2177b63fe91ea999b164182102583588f788,,10,268,3,Merged PR 39941: Alert cell renderers,tsx ts,0,squash-pr
+2026-02-03,monorepo,Tim Kang,f66d053faced5c211ebdfa928849fbb9c644745e,XRFQ-4032,2,2,0,Merged PR 39931: XRFQ-4032 - add bolt icon to streaming type,tsx,50,squash-pr
+2026-02-03,monorepo,Evgeny Klimenchenko,066e241a37647d0af860e9d23d5ba6b82687c5aa,,3,17,14,fix: change port to 8080,yml yaml,0,direct
+2026-02-03,monorepo,Pedro Noriega,acb88cf24bdff51d862ff2f5b17c022b0b200bad,XRFQ-4334,1,1,0,Merged PR 39946: XRFQ-4334 fix. add initialHeight to SummaryPanel on post trade single item view,tsx,0,squash-pr
+2026-02-03,monorepo,Satraj Sehmi,150e5fd234dde72c0fb569ccc3b0b5a928acd4c0,XRFQ-4484,1,6,6,Merged PR 39940: XRFQ-4484 update order of tabs on the Ac,tsx,0,squash-pr
+2026-02-03,monorepo,rjaen,d1a7c1364ffbb7c494c685f88189cdce3e445789,,2,5,9,fix comments,java,0,direct
+2026-02-03,monorepo,rjaen,30ea293209375cf0fd50d0dde0628c3da7c0b0df,,8,242,114,"add company props aggregated by company, keyed by user in the user-settings collection for UI exposure",java,59,direct
+2026-02-03,monorepo,Adam Edwards,1853bb293eba871a83ac28628d1ed8146e973581,,8,400,312,Merged PR 39905: Perf: Alert lookup query,ts,21,squash-pr
+2026-02-03,monorepo,Evgeny Klimenchenko,cc76970901299936e89c59ba30148a0d556d947b,,62,231,64,Merged PR 39939: feat: updated storybook organization,tsx ts,0,squash-pr
+2026-02-03,monorepo,Shreshthha Jain,50b9519a578f62ac6a6cd1eb7d8ca35968938eed,XRFQ-4729,9,546,490,Merged PR 39891: fix: Closing dead lists and singles (XRFQ-4729),ts,0,squash-pr
+2026-01-30,monorepo,sat sehmi,545359b426e4af4fb94fe22dafbbed62acea5014,XRFQ-4686,1,35,76,XRFQ-4686 update aggregation to use ts map variable and helper to get the weight,ts,0,direct
+2026-01-30,monorepo,sat sehmi,6efe3700e9f4cb9538e5609a90b9d2a9ad9d3957,XRFQ-4686,1,73,70,XRFQ-4686 update aggregation to use inline status mapping,ts,0,direct
+2026-01-30,monorepo,sat sehmi,ee4a660abbc0fed5dda0c6bb24a7d61304d3d5a1,XRFQ-4686,2,3,0,XRFQ-4686 add status mapping for DNT orders,ts,67,direct
+2026-02-03,monorepo,Satraj Sehmi,a2985bd18c7a6838da8aa0aa02a72c358dcf7adb,XRFQ-4686,1,1,1,Merged PR 39936: XRFQ-4686 update regex for listname aggregation,ts,0,squash-pr
+2026-02-03,monorepo,Evgeny Klimenchenko,ea412716c61037fe0e289ea63c735ece83d7cd71,,1,1,0,Merged PR 39935: fix: fix tooltip arrow border,css,0,squash-pr
+2026-02-02,monorepo,Lola Naumova,9f9d748f0f84ceaa84aa013d44bf4a77c8215d25,XPMI-1250,5,168,38,Merged PR 39914: feat(XPMI-1250): Rts stage test,ts,96,squash-pr
+2026-02-02,monorepo,Nicolas Ramirez-Diaz,0df1edc2711bef2a237b71bd09646c27146dc6d3,MAUI-4338,13,226,3,Merged PR 39555: [MAUI-4338]: Action Bar non-fixed height + example,tsx css,0,squash-pr
+2026-02-02,monorepo,Tim Kang,9bf70156cbd24d9fb3dda91696878f0c6e018054,XRFQ-4684,6,6,84,Merged PR 39913: XRFQ-4684 - remove pass button in row,tsx ts css,52,squash-pr
+2026-02-02,monorepo,Aisen Kim,16e2145db7016fb5eef737b546fd005066551feb,XPMI-1361,17,1,27,feat(XPMI-1361): consolidate kafka config using Spring multi-document YAML approach -> cleanup,yml,0,direct
+2026-02-02,monorepo,Andrew Kwak,b207b49dded7c193e6b93a7d17da324d866b8058,,1,3,39,Merged PR 39909: Revert 'Enhance fetchWithRetry logic to handle network errors and response...',ts,0,squash-pr
+2026-02-02,monorepo,Aisen Kim,d158fd54d0a1c9cddecc0c33d669b34630c6ca31,XPMI-1361,18,33,11,feat(XPMI-1361): consolidate kafka config using Spring multi-document YAML approach,yml,0,direct
+2026-02-02,monorepo,Paul Spiteri,fabacbc1e4fc2343791dd49bed65837c9ae80efe,XPMI-1376,4,800,693,Merged PR 39907: (fix)XPMI-1376: Playwright e2e testrail ids,ts,100,squash-pr
+2026-02-02,monorepo,Pedro Noriega,fbdbe11c5de2c4a518139b0d410b7ae661c2c22a,XRFQ-4682,7,46,101,XRFQ-4682 merge conflicts,tsx,20,direct
+2026-02-02,monorepo,Tim Kang,5c7f38d6f046c6ed5d739c27249a9932d0bae112,XRFQ-4334,10,21,16,Merged PR 39889: XRFQ-4334 - fix tradability data,ts tsx,35,squash-pr
+2026-02-02,monorepo,Adam Edwards,2fa3cf99a0d6f1d2d511e7112cad6606e4273088,,1,1,1,Merged PR 39902: fix: regex error VS,ts,0,squash-pr
+2026-02-02,monorepo,Evgeny Klimenchenko,d6384069cf3d51f6e080549b1768c286e3160b15,,3,1,0,Merged PR 39894: fix: added a border go utility bar,css,0,squash-pr
+2026-02-02,monorepo,Adam Edwards,7cff7d24b0c923b0d2174186f7ae725ea73f8c08,,2,4,19,Merged PR 39879: feat: combine set to reduce $set overhead,ts,0,squash-pr
+2026-02-02,monorepo,Dimitar Christoff,2a7108e85295c1c530c596ce7dda26ad0634916b,,1,7,5,Merged PR 39899: fix: centering the error message within the grid container,tsx,0,squash-pr
+2026-02-02,monorepo,Aisen Kim,0c8606b1826bcee88342d3f0f9f0bdc8175639c0,XPMI-1361,2,12,1,feat(XPMI-1361): applied profile approach to moc-upstream-session-submission for testing,yml,0,direct
+2026-01-30,monorepo,Yarden Dvir,301ac2df16d1a898a0b9cae6530a7ec403fc48c1,XRFQ-4505,4,236,18,Merged PR 39821: XRFQ-4505_close_item_panel_on_delist,tsx,82,squash-pr
+2026-01-30,monorepo,Yarden Dvir,944b76b62ffff88f7c4c0d1ed1a93576ad0cc71b,XRFQ-4664,1,2,1,Merged PR 39844: XRFQ-4664_fix_post_submit_alerts,tsx,0,squash-pr
+2026-02-02,monorepo,Jim Higson,4a4c0b212347b95694d3c38b0ef5b3d4bcf4e832,,9,308,4,Merged PR 39882: feat(platform): viewserver logging,ts,45,squash-pr
+2026-02-02,monorepo,Dimitar Christoff,f503681ae7f1ac6b6a4357ad1f114ca3e0b79ee5,,4,130,30,Merged PR 39875: fix: useUserPreferences stale ref of accessToken + avoid reconnect websocket when authToken updates,tsx ts,62,squash-pr
+2026-02-02,monorepo,Evgeny Klimenchenko,49fe022bc2adcf8a9c9c7a0d01517a99ec97f674,,1,1,0,fix: fix build,tf,0,direct
+2026-02-02,monorepo,Rodrigo Iparraguirre,9f516f0cbd16a13ed09844051bb054178a086473,,32,174,23,Merged PR 39885: v1 services should be down,yaml,0,squash-pr
+2026-02-02,monorepo,Evgeny Klimenchenko,daa5db7e2118eaaf39f35d817b5e95c366c4ed34,,12,479,0,feat: feature flags POC,yaml md tf,0,direct
+2026-02-02,monorepo,Adam Edwards,857920e3d53793c08d13c768750b4a518b98cdb6,,1,1,2,Merged PR 39880: revert enrichmentAggregations,ts,0,squash-pr
+2026-02-02,monorepo,Adam Edwards,85c8bae2e4fb9ba8b178e1ec8889fb993971278b,,1,13,0,Merged PR 39846: feat: smart selection,tsx,0,squash-pr
+2026-02-02,monorepo,Dan Gent,4d1c866c5879042dfd6e44751691bc102a496b76,,1,1,1,fix: update colId to tradability_live for sort to work,ts,0,direct
+2026-01-30,monorepo,Aisen Kim,9ac98573abd9e818fd2a1e35866204283f44b0f4,XPMI-1361,18,42,198,"feat(XPMI-1361): applied to commons, moved to commons lib,",yml,0,direct
+2026-01-30,monorepo,Tim Kang,adef8e909e8b2379a3dd57e01f9e319aba33ac60,XRFQ-4676,1,4,0,Merged PR 39861: XRFQ-4676 - remove row focus highlight on grids,css,0,squash-pr
+2026-01-30,monorepo,Paul Spiteri,a5891ecc1823b94e4f48595af1b5f5cca1dc571e,XPMI-1376,2,237,199,Merged PR 39860: (fix)XPMI-1376: Playwright e2e testrail ids,ts,100,squash-pr
+2026-01-30,monorepo,Tim Kang,35036bf7d1c0f700f59a9b5a659ea05ee6ab1130,XRFQ-4669,2,9,3,Merged PR 39851: XRFQ-4669 - fix order depth flash on load,tsx ts,0,squash-pr
+2026-01-30,monorepo,Aisen Kim,12a1085463ccb7905906068a7ddf3371e618d6e4,XPMI-1271,5,63,164,feat(XPMI-1271): Removed unnecessary files for the update flow. Removed redundant validation,java,4,direct
+2026-01-30,monorepo,Paul Spiteri,a4287f212ed1e98f2048fafaac2f5a46250b8162,XPMI-1376,1,15,0,Merged PR 39853: (fix)XPMI-1376: Playwright e2e testrail,ts,0,squash-pr
+2026-01-30,monorepo,Michel Richard,b7402c4ac25dd53a0b483fbb4751871ef9249357,MAUI-4359,2,6,6,MAUI-4359 - update view server prod pod resources,yaml,0,direct
+2026-01-22,monorepo,Aisen Kim,e454ca980392f553320a127a36cb9568957fc078,XPMI-1271,6,64,160,feat(XPMI-1271): reduce update/submit order validations -> got rid of unnecessary code,java,11,direct
+2026-01-16,monorepo,Aisen Kim,930cc0cc95e27c18fea14e26891e9495f868088a,XPMI-1271,3,19,50,feat(XPMI-1271): reduce update validation,java,13,direct
+2026-01-30,monorepo,Andres Ivaldi,e20d0c404293cf9a3d2703ca6f9be84806fcd736,,1,4,2,Merged PR 39841: remove DO with no params restore ENV_SUFFIX,,0,squash-pr
+2026-01-30,monorepo,Vijay Bollineni,d8761dece9ce90962c456cd90ab6e118c6b94358,,2,1,70,mongo-maintenance cron schedule has been updated to 6pm EST as suggested in Prod call,yaml,0,direct
+2026-01-30,monorepo,Michel Richard,564d25512aef880fc8d3cdf91c7821b811e71fe1,MAUI-4359,3,38,1,MAUI-4359 - update view server pod resources,yaml,0,direct
+2026-01-30,monorepo,Paul Spiteri,4cf884c336b77403076da988d88f78bba68c85cf,XPMI-1376,1,1,1,Merged PR 39837: (fix)XPMI-1376: Playwright e2e pipeline QA3 config,qa3,0,squash-pr
+2026-01-30,monorepo,Andres Ivaldi,2bca6ddec5485739163b23437646ee6951f1426c,,1,1,4,Merged PR 39836: PR to revert changes in suvvix,,0,squash-pr
+2026-01-30,monorepo,Paul Spiteri,f1ccb35706242e5ed689c5237d36255d11921cde,XPMI-1248,1,11,0,Merged PR 39833: (fix)XPMI-1248: Playwright e2e pipeline,ts,0,squash-pr
+2026-01-30,monorepo,Mercedes Kalaizic,9139733dac7c77393a3e77021c6f16a25d888264,,1,1,7,Merged PR 39830: fix: fields in new alert count capabilities doc,ts,0,squash-pr
+2026-01-30,monorepo,Andres Ivaldi,abe5c3649ce459889f76ce61e2599ecac31516c4,,1,1,1,Merged PR 39829: default value for SUFFIX,,0,squash-pr
+2026-01-30,monorepo,Aisen Kim,a7f84f6754bc6183ce9b511ef3af30164d4b7acb,XPMI-1361,15,57,526,feat(XPMI-1361): refactor common app config. Values from the imported file will take precedence over the file that triggered its import.,yml,0,direct
+2026-01-30,monorepo,Tim Kang,eb68fed90442d63b5f8e2fa299bc700d40b92bc9,XRFQ-4467,6,17,9,Merged PR 39825: XRFQ-4467 - panels active on load,tsx,0,squash-pr
+2026-01-30,monorepo,Andres Ivaldi,4f4bb21a01634bc36b0b72a1a39194445fdf8071,,18,796,11,Merged PR 39820: add fix new environments,cfg,50,squash-pr
+2026-01-30,monorepo,Adam Edwards,c2833b8c29cb72f20566f85b8d4d12be547ef1a5,,3,94,5,Merged PR 39813: feat: Split migration script,yml,0,squash-pr
+2026-01-30,monorepo,Adam Edwards,9b89b44d9aad70784a4310eea0fcd22f62715096,,1,3,1,Merged PR 39822: fix: permissions,ts,0,squash-pr
+2026-01-30,monorepo,Paul Spiteri,5f77410ba68cdff5010e28cd0acf59387f436736,XPMI-1248,1,7,0,Merged PR 39817: (fix)XPMI-1248: Playwright e2e pipeline,qa3,0,squash-pr
+2026-01-30,monorepo,Dan Gent,2299ccd5952ac1bdb34e7bf8f38a9084c397e879,,1,1,1,fix: tradability_live can also be null,ts,0,direct
+2026-01-29,monorepo,Dan Gent,26d233a6aa4a57ac8553f2ac63f9feb6c8cd4dca,,3,4,1,fix: tradability field actually tradability_live,ts,0,direct
+2026-01-30,monorepo,Shreshthha Jain,9f43009bb2934bbd77e1fc3d77c341ae3de5403b,,11,231,114,Merged PR 39801: fix: Sorting columns in AC,ts,54,squash-pr
+2026-01-29,monorepo,Jim Higson,31fd8c1e545ea74ea05d223b5734600b89b84c0d,,30,2398,3343,feat(platform): viewserver advanced permissions model,ts,6,direct
+2026-01-30,monorepo,Sam Rose,9e5db5e21437b1d407d1b44167a816eaaf562123,,14,695,114,Merged PR 39748: GitHub: E2E and NPM Publish Workflows,yml sh,0,squash-pr
+2026-01-30,monorepo,Dimitar Christoff,e90f86a209f962c362416a34746704ec835dd48a,,4,253,0,Merged PR 39799: feat: adding the jxbrowser zoom handler,ts,68,squash-pr
+2026-01-30,monorepo,Satraj Sehmi,11bc603aef6e3d7631231c1972967240358ed8af,XRFQ-4484,3,32,9,Merged PR 39713: XRFQ-4484 Update Ac tabs and filters,tsx,0,squash-pr
+2026-01-29,monorepo,Paul Spiteri,9c0a435d99ecacecbbb84270625dd25e81afd26e,XPMI-1248,4,5,8,Merged PR 39792: (fix)XPMI-1248: Playwright e2e pipeline,ts env,85,squash-pr
+2026-01-29,monorepo,Tim Kang,c7c560323384218abde44a5291fa10f19c8bdea1,XRFQ-4328,9,64,54,Merged PR 39769: XRFQ-4328 - maintain column orders on grids,ts tsx,6,squash-pr
+2026-01-29,monorepo,Lola Naumova,eca98c3b0e25d66c5d8c4ede4abc08d557d0f35f,XPMI-1249,18,2348,1924,Merged PR 39788: feat(XPMI-1249): Suffix setup,ts graphql,5,squash-pr
+2026-01-29,monorepo,Aisen Kim,384fb86830d6c323d0d725647ab8669bd5ec2ce7,XPMI-1361,2,50,41,feat(XPMI-1361): refactor common app config -> moc-upstream-rts-submission,yml,0,direct
+2026-01-29,monorepo,Paul Spiteri,be6eba48120165ce1b2b27ce69a04a55f626ec12,XPMI-1248,1,2,2,Merged PR 39783: (fix)XPMI-1248: Playwright e2e pipeline fix,json,0,squash-pr
+2026-01-29,monorepo,Adam Edwards,7c0b84be7f47e4de966f78d7e844e5f09b017abc,,1,1,1,Merged PR 39779: fix: turn off migration,,0,squash-pr
+2026-01-29,monorepo,Kunal Choudhary,dd0b2606c3ae3a2a37d1dd8bd9f4d841a1ebff81,,1,4,3,Merged PR 39782: Code refactoring for guardrail,,0,squash-pr
+2026-01-29,monorepo,Paul Spiteri,101b8947d3890929ce6a8fcc7a7eac1705b95aef,XPMI-1248,4,278,251,Merged PR 39778: (fix)XPMI-1248: Playwright TestRail integration,ts,99,squash-pr
+2026-01-29,monorepo,Kunal Choudhary,f93ffcde8b8cf123e93360f1b0831bc8efeb3d08,,1,24,2,Merged PR 39766: fixing kyverno policy for platform ui,,0,squash-pr
+2026-01-29,monorepo,Adam Edwards,fa73f9867398f1f8c2a6b1af305bdf23583038ec,,1,202,0,Merged PR 39765: Alert Capability,ts,0,squash-pr
+2026-01-29,monorepo,Paul Spiteri,c0c0b35cbef956b3233b41303c983e3236ba6457,XPMI-1248,4,13,116,Merged PR 39762: (fix)XPMI-1248: Playwright Broken Test Fix,ts,100,squash-pr
+2026-01-29,monorepo,Jim Higson,2be2a83d1be79ca265632d79759ebd3e0086a7e9,,6,18,10,Merged PR 39761: feat(platform): viewserver enhanced error reporting enabled for lower environ...,yaml,0,squash-pr
+2026-01-29,monorepo,Tim Kang,8416f84a85cddd06c6c15dcfae6eba58e51c9927,XRFQ-4032,8,46,16,Merged PR 39756: XRFQ-4032 - add subscription to md and summary panels and fix logo for types,tsx ts,26,squash-pr
+2026-01-29,monorepo,Enmanuel Rivera,33bded6391adcfa214b1a114c5597739ba3e6791,XRFQ-4427,15,409,43,Merged PR 39752: xpro/fix/XRFQ-4427-alert-testing,tsx ts,28,squash-pr
+2026-01-29,monorepo,Adam Edwards,45c10c34793c7d80809fb900365ef93202979245,,1,2,0,Merged PR 39757: feat: update buildkit host,sh,0,squash-pr
+2026-01-29,monorepo,sat sehmi,9c4499b4241e3d1efc85c423e10870aeed8a68c3,XRFQ-4652,3,3,0,XRFQ-4652 remove open trading dealers when targeted rfq is selected,tsx,67,direct
+2026-01-29,monorepo,Shreshthha Jain,d8e2ad4d2efb295b2941df6d9e0543930a64b5b0,,8,297,173,Merged PR 39751: feat: Added single click behavior in post list item grid,ts tsx,21,squash-pr
+2026-01-29,monorepo,Paul Spiteri,4ac0fdab8eae5a5e991f626edc4aabb883cef1c9,XPMI-1248,8,58,19,Merged PR 39706: (fix)XPMI-1248: Playwright Broken Test Explainer,ts tsx,83,squash-pr
+2026-01-29,monorepo,Dimitar Christoff,1de2dd0ff074c95b4c7fe5e3dcaac81f506b83a4,,4,27,11,Merged PR 39753: fix: ensure the selection column is to the left always,ts tsx,0,squash-pr
+2026-01-29,monorepo,Jim Higson,05a1c0930433502bbeaf64bfe4ef514afa989d9a,,3,98,58,Merged PR 39743: feat(platform): viewserver can do a download all (not selected) before it has...,ts,0,squash-pr
+2026-01-29,monorepo,Dimitar Christoff,f6ba7f22c3e165ba743c2b8dd915fb95692addcf,,14,43,3,Merged PR 39744: fix: introduce truncation for Title and enable max width within a PageHeaderB...,css tsx ts,0,squash-pr
+2026-01-29,monorepo,YDvir,b962c0dc1253c9594a094f0b153542a0108f9188,,1,0,1,fix: remove limitLevel assignment in ListDetailsSourceMapper,java,0,direct
+2026-01-29,monorepo,Adam Edwards,eb13e7e23b85b5b76eff01bd37cb136520963706,,3,10,3,Merged PR 39747: feat: MD my history perf improvements,tsx ts,0,squash-pr
+2026-01-29,monorepo,rjaen,5c54a7c83670b9b4d576f623c30937cc12580c61,,12,349,36,wip,java,31,direct
+2026-01-29,monorepo,Evgeny Klimenchenko,511b5cbbf2e14ef6514fd39c2c02e7f4329a14a4,,36,40,308,Merged PR 39745: fix: history grid refactoring,tsx ts,43,squash-pr
+2026-01-29,monorepo,Keshal Desai,cc8795552dcd13413045451f9c678ab709472850,XPMI-1365,3,15,32,Merged PR 39725: feat(XPMI-1365): E2E interval instead of per commit,yml,0,squash-pr
+2026-01-29,monorepo,Shreshthha Jain,b484a5f8f94ac8d4e94267b5758a0b1492bdf07e,XRFQ-4550,2,18,1,Merged PR 39742: feat: Removed trade best button for Header when countering (XRFQ-4550),tsx,79,squash-pr
+2026-01-29,monorepo,Vijay Bollineni,9f43a088e121e42f369fd81d729e859a5165f092,,5,9,9,Env has been updated for master,yml yaml,0,direct
+2026-01-29,monorepo,Adam Edwards,ced7825f249d28e1ee5697204c86dab238716f89,,4,31,24,Merged PR 39740: Enable Migration,yaml ts json,0,squash-pr
+2026-01-29,monorepo,Keshal Desai,efb84ad112500216f2c2ea7fd8df6f0f86cafc92,XPMI-1364,4,0,412,Merged PR 39719: chore(XPMI-1364): remove auctions frontend pipeline and related configurations,yml,0,squash-pr
+2026-01-28,monorepo,YDvir,b4365343432e7d3c2c5485d79cd5abe16b60a150,,1,47,4,feat: add unit tests,java,100,direct
+2026-01-28,monorepo,YDvir,638c1aa48b9ffb78dd2e6185120e294d955b822f,,1,0,2,fix: remove wrong limitLevel assignment in RfqRowAggregator,java,0,direct
+2026-01-28,monorepo,Mercedes Kalaizic,09b745537cd9839f5dd84d3645bbd91c79901395,,2,3,3,Merged PR 39729: fix: updated list ids and title,tsx ts,0,squash-pr
+2026-01-28,monorepo,Keshal Desai,1c0dfeca8eb580b18d8482205ff46ab5695e66bd,XPMI-1210,32,114,54,Merged PR 39718: fix(XPMI-1210): resources.requests.memory must be equal to resources.limits.memory,yaml,0,squash-pr
+2026-01-28,monorepo,Aisen Kim,08cfe51c94dbecf33f444320626b60372008a22e,XPMI-1253,8,94,178,feat(XPMI-1253): passing in the wrapper to the mapper,java,0,direct
+2026-01-28,monorepo,Tim Kang,27c049aa890f591f9731eac196662ae8ebb681f5,XRFQ-4486,1,1,0,Merged PR 39722: XRFQ-4486 - fix for dockview panel tabs active,tsx,0,squash-pr
+2026-01-28,monorepo,Tim Kang,0573570eb0a5a6df7a4f8eeee88777e3bb4c0680,XRFQ-4032,65,1475,1604,Merged PR 39616: XRFQ-4032 - update Market Depth for requirements,tsx ts,41,squash-pr
+2026-01-28,monorepo,Adam Edwards,0b3161742cce6d50bc22d8d3eec1fc9f42b77a24,,1,1,1,Merged PR 39716: feat: turn off migration,,0,squash-pr
+2026-01-28,monorepo,Matthew Williamson,cbfdfd11b79a802eeb4f376516cd6715b94fd4e5,XPMI-1360,22,98,70,Merged PR 39703: XPMI-1360 Skip private fields during topics diagram generation and allow usin...,java json,0,squash-pr
+2026-01-28,monorepo,Shreshthha Jain,1a5f1652b781324b3fc8f96ce52a5a37079d5fda,,2,43,21,Merged PR 39710: feat: Add trade confirmation modal in dealer response grid,tsx,0,squash-pr
+2026-01-28,monorepo,Dimitar Christoff,79d79c6c19418f644afbff828df3c61bd5b33e23,,4,19,100,Merged PR 39709: fix for docktab persistence,ts,71,squash-pr
+2026-01-28,monorepo,Satraj Sehmi,492a1bffa68a1ad87bbb9f566e392eb23a4fc339,XRFQ-4489,1,2,1,Merged PR 39708: XRFQ-4489 sort by status fixed,ts,0,squash-pr
+2026-01-28,monorepo,Aisen Kim,2932b8a0cd539338880714cf6d3258621963c1a0,XPMI-1253,1,1,1,feat(XPMI-1253): formatting,java,0,direct
+2026-01-28,monorepo,Aisen Kim,e59f5abf60123833fd434767cb9ec4c6dbe952e5,XPMI-1253,19,325,336,feat(XPMI-1253): changed to use wrapper,java,33,direct
+2026-01-26,monorepo,Aisen Kim,3ab3d7b3d3d0a4b3026b13730eab86be8e9d9ee8,XPMI-1253,9,204,203,feat(XPMI-1253): pull userId from Kafka header -> moved logic from batch -> individual commands,java,0,direct
+2026-01-23,monorepo,Aisen Kim,3ef1506ccb0f699a15de84dd1d245ed9dd86d1ea,XPMI-1253,2,66,0,feat(XPMI-1253): pull userId from Kafka header -> applied changes to moc-upstream-rts-submission,java,0,direct
+2026-01-23,monorepo,Aisen Kim,3f26e08ad535d4805c0da7f3e8f774adea19b302,XPMI-1253,2,93,0,feat(XPMI-1253): pull userId from Kafka header -> applied changes to moc-upstream-session-submission,java,0,direct
+2026-01-23,monorepo,Aisen Kim,268e3c99804215200549de29e85877e9c5ab7f5a,XPMI-1253,5,60,20,feat(XPMI-1253): pull userId from Kafka header -> reuse single instance instead of creating new instance in the lambda function,java,0,direct
+2026-01-23,monorepo,Aisen Kim,d586db9a393a451fca73a2ca5c91874e48e19efc,XPMI-1253,5,97,0,feat(XPMI-1253): pull userId from Kafka header -> Made changes to the upstream-order-submission,java,0,direct
+2026-01-23,monorepo,Aisen Kim,4ec9247567a1d006107c9ec57b3493e1cd5508c8,XPMI-1253,2,27,0,feat(XPMI-1253): pull userId from Kafka header -> added util class to extract userId from the Kafka header,java xml,0,direct
+2026-01-28,monorepo,YDvir,74cac5a59e01981e4d00a44a42ff0de245ea2e49,,1,4,1,feat: enhance isCounterable to support PARTYCOUNTERKEEPLIVE action,ts,0,direct
+2026-01-28,monorepo,Dan Gent,95db3960c44b0966616dc92c61f2bddbd31be23f,,3,0,119,fix: remove actions & trade columns,tsx ts,0,direct
+2026-01-28,monorepo,Tim Kang,b9805f36268e339a2978c5a47aba340fd522f36b,XRFQ-4486,5,7,1,Merged PR 39697: XRFQ-4486 - render all panels on load,tsx,0,squash-pr
+2026-01-28,monorepo,Adam Edwards,9883ef370d3d6a2136f9904581ec1354b9215161,,1,4,1,Merged PR 39701: fix: earthfile,,0,squash-pr
+2026-01-28,monorepo,Evgeny Klimenchenko,63e577b47ee0e457a48a72b2484d69000ddc4d99,,2,60,7,Merged PR 39700: fix: fix grid resize for buy/sell grids,tsx,0,squash-pr
+2026-01-21,monorepo,Dan Gent,167970cab2662bd715f030997d9f7a553434906c,,2,53,8,feat: pass button in activity console,tsx ts,0,direct
+2026-01-28,monorepo,Shreshthha Jain,82cef6061af4493ddb68bede0b762b28a7b250e8,XRFQ-4074,3,5,10,Merged PR 39699: fix: Alert filters not in fixed position (XRFQ-4074),tsx css,0,squash-pr
+2026-01-28,monorepo,Dimitar Christoff,d10c3569e5d4b093bf8501e11a310ef36ad7924d,,1,6,0,Merged PR 39698: fix: change for background of toggle colour to work within a selected ag-grid...,css,0,squash-pr
+2026-01-28,monorepo,Adam Edwards,02ed0ae97ec753f98f6df15f60c6db75b6821c1d,,13,521,4,Merged PR 39613: feat: add userId to historical-activity capability,ts yaml,47,squash-pr
+2026-01-27,monorepo,David Behmoaras,48e765e135583fdfd419d13fe72cf757d3a40908,XRFQ-4427,6,118,24,Merged PR 39680: XRFQ-4427 update column field references for security name singles and lists,ts tsx,31,squash-pr
+2026-01-27,monorepo,Andrew Kwak,724fc12388586b5626e52af85423f390c3b60eb9,,1,10,8,Merged PR 39690: fix: account for both single + list items,ts,0,squash-pr
+2026-01-27,monorepo,Tim Kang,a0b0d967eb60e8c1cfc56f80bfdc9f79322e73df,XRFQ-4328,3,53,53,Merged PR 39624: XRFQ-4328 - fix dealer response grid,ts,0,squash-pr
+2026-01-27,monorepo,David Behmoaras,03740c95e078f2d6e50222afe50bcc30f01632b0,XRFQ-4332,1,2,2,Merged PR 39686: XRFQ-4332 hide alerts when status is complete,tsx,0,squash-pr
+2026-01-27,monorepo,Keshal Desai,94c529d04542a86819c03e399f03ca5bb40ddda5,XPMI-1358,5,119,19,Merged PR 39688: feat(XPMI-1358): Enhance MOC load test script with new configuration options and passive pricing logic,ts,0,squash-pr
+2026-01-27,monorepo,Andrew Kwak,bd055fdbadddaecf49a6245bf03709b932dcc26b,,3,24,28,Merged PR 39684: Refactor AC error / warning logic to server-side boolean to resolve filtering bugs and eliminate security vuln,ts,0,squash-pr
+2026-01-27,monorepo,Aisen Kim,ea918c40002f37895e80a3e6b7a2d51c27e1f8d4,XPMI-1347,6,12,11,feat(XPMI-1347): userId should be nullable on NucleusSessionCreateRequestReject to match nucleus schema,java avsc} yaml,17,direct
+2026-01-27,monorepo,Keshal Desai,fd4e511360aa5930da4dd8c773ee28a8e422060b,XPMI-1350,74,1610,21,Merged PR 39683: feat(XPMI-1350): Add documentation annotations and topic descriptions across Auctions modules,json java,0,squash-pr
+2026-01-27,monorepo,Bryan O'Connor,6689e4142d9eea5f3be7e3dd48d42860e00291fd,XRFQ-4468,2,41,27,Merged PR 39682: XRFQ-4468,,0,squash-pr
+2026-01-27,monorepo,Mercedes Kalaizic,79a2af00b5175277f21343e3e37b0ccec0bd1693,,1,7,5,Merged PR 39679: fix: rendering divs only when they have content,tsx,0,squash-pr
+2026-01-09,monorepo,Pedro Noriega,5e31604534570cf5971e7c525fc67b6d06bcf902,XRFQ-2893,4,111,14,XRFQ-2893 - Use viewserver onSelectionChange and requestDownload to get selected rows and row counts from serverside state,tsx,0,direct
+2026-01-27,monorepo,Dimitar Christoff,dc3b9f65d760b79d3b409357ba46f94b92f8a09b,,1,2,1,fix: remove dealerpill causing a warning because of lack of onChange,tsx,0,direct
+2026-01-27,monorepo,Shreshthha Jain,4cc53207fc6aba5b06e43a6541ae9c396eca2325,XRFQ-4473,6,31,10,Merged PR 39667: fix: Updated countering variant and timer cell renderer styles (XRFQ-4473),ts tsx,12,squash-pr
+2026-01-27,monorepo,Satraj Sehmi,54c36346a820ade70bc18a6dbb8a2916211b00bb,XRFQ-4491,1,1,1,Merged PR 39676: XRFQ-4491 fix cancel list item,tsx,0,squash-pr
+2026-01-27,monorepo,Dimitar Christoff,ddefb212ee76c95c6b330c5130391eab2c418733,,4,76,3,"Merged PR 39638: EmptyState in AC grid, numeric column types",tsx ts,0,squash-pr
+2026-01-27,monorepo,Michel Richard,34e32aa73d377d2bc7eb6a5b73c8ac67f852635f,XRFQ-3769,4,13,36,XRFQ-3769 - implement PT permission check based on Xpro 1.0,ts yaml,43,direct
+2026-01-27,monorepo,Pedro Noriega,b9cee5cb813da1bc56d6588daec50374cc39601b,XRFQ-4334,1,0,2,Merged PR 39673: XRFQ-4334: fix: Remove align-items from SummaryPanelRoot so it stretches vert...,css,0,squash-pr
+2026-01-27,monorepo,Dimitar Christoff,f48b73577fb449ae3a76495434ae698a4b725f5b,,6,179,41,Merged PR 39649: fix: dockview tabs should not save params other than expires,ts,65,squash-pr
+2026-01-27,monorepo,Andres Ivaldi,86a4be089dd983190e3689ca665eb49a7ed16120,,2,24,2,Merged PR 39644: Add fix session,cfg,46,squash-pr
+2026-01-27,monorepo,Paul Spiteri,4bedb6c050c051e2a692e73c8bc1836dad182803,,2,2,2,Merged PR 39674: (fix): Platform Interop bug fix duplicate messages,ts,0,squash-pr
+2026-01-27,monorepo,Evgeny Klimenchenko,79b7f415ec172ce52c2b7968003c93f8458b09e3,,10,40,8,Merged PR 39666: fix: fixed status cell renderer padding,tsx css ts,0,squash-pr
+2026-01-27,monorepo,Mercedes Kalaizic,cc80dd4fa86544bb7dccf09d1670265c65e5de52,,1,1,0,Merged PR 39654: fix: position relative to avoid jumping,css,0,squash-pr
+2026-01-27,monorepo,Paul Spiteri,07e9240f6c811ac9138303127e1119725a4211fb,XPMI-1248,8,61,34,Merged PR 39657: (fix)XPMI-1248: Playwright - Batch bar fixes,ts,62,squash-pr
+2026-01-27,monorepo,Adam Edwards,2fd792a04e91d748b535d7f80d58b1992d70b438,,2,22,3,Merged PR 39670: feat: preserve pill ordering,tsx,0,squash-pr
+2026-01-27,monorepo,Satraj Sehmi,2381d072af7f0ad3077b21add5ef084543ea36a4,XRFQ-4357,2,18,6,Merged PR 39668: XRFQ-4357 Dealer Response grid columns,ts tsx,0,squash-pr
+2026-01-27,monorepo,Dimitar Christoff,b25ee492e416599b2df521b36ae3bacbe30d2d33,,9,87,33,Merged PR 39648: DockTabs badge variants,tsx,3,squash-pr
+2026-01-27,monorepo,Evgeny Klimenchenko,af26be242f279ccd9318e5f589631cd5acc1da0f,,6,26,15,Merged PR 39661: feat: added VITE_PT_URL propagation,md,0,squash-pr
+2026-01-27,monorepo,Sam Rose,f35beb91c99c2db5e451e58673d71a3993f0b76b,,167,1774,1005,Merged PR 39640: GitHub: CI IAC and Config workflows,yml tfvars tf,0,squash-pr
+2026-01-27,monorepo,Satraj Sehmi,7850971decbeabd7e097f17a0e20d8afc7a09c96,XRFQ-4021,3,27,6,Merged PR 39664: XRFQ-4021 remove the additional dock view panel scroll when we have action bar,css tsx,0,squash-pr
+2026-01-27,monorepo,Shreshthha Jain,63a5091e34e454a6ae489bf42adcb3380aa0964b,XRFQ-3808,2,25,23,Merged PR 39663: fix: app crash n unmount (XRFQ-3808),tsx,0,squash-pr
+2026-01-27,monorepo,Shreshthha Jain,59ee9ca8569dd5f717c11a9a03287482bf56a764,XRFQ-3808,3,6,2,Merged PR 39662: fix: Updated timeout to 300 (XRFQ-3808),tsx ts,0,squash-pr
+2026-01-26,monorepo,shjain,3b32a8bd2b5c21610982d1fb5f0b0f04f4c66a69,XRFQ-4076,3,3,0,feat: Updated context menu to render in parent to avoid scroll (XRFQ-4076),tsx ts,0,direct
+2026-01-26,monorepo,Michel Richard,461e763a895f9a0376da08f20be4c19e2c713a48,XRFQ-3769,4,96,9,XRFQ-3769 - implement PT permission check based on Xpro 1.0,ts,52,direct
+2026-01-26,monorepo,David Behmoaras,b56730d610fbd7e4f83ef7cbba20dc53934c7a28,XRFQ-2088 XRFQ-2903 XRFQ-2224,14,139,124,"Merged PR 39565: XRFQ-2088 XRFQ-2903 XRFQ-2224 fix bugs, address feedback from UX",ts tsx,0,squash-pr
+2026-01-23,monorepo,Michel Richard,6ee77e4fce5939a2af29b53921fba1d188bf9a10,XRFQ-4024,7,50,35,XRFQ-4024 - set grid height to 32px,tsx css,0,direct
+2026-01-26,monorepo,Andrew Kwak,a49bf93f703b145b29cbc911669a80ce6c652615,,1,3,0,Merged PR 39639: fix: call docker pull to get latest image for script,sh,0,squash-pr
+2026-01-26,monorepo,Mercedes Kalaizic,f4588eecfe928a09ad0d5eb64cd2528e0bfea789,,4,4,0,Merged PR 39647: fix: borders in market depth summary  metrics,tsx,0,squash-pr
+2026-01-26,monorepo,Adam Edwards,e9af3e475048a031ba00457f4cd86dc5130aaad2,,4,4,4,Merged PR 39646: feat: persistence fix,tsx,0,squash-pr
+2026-01-26,monorepo,Shreshthha Jain,234d16ee910a55f58c169b5ce9df138e4a0eae05,XRFQ-3808,6,55,62,Merged PR 39641: fix: Removing panel on unmount (XRFQ-3808),ts tsx,13,squash-pr
+2026-01-26,monorepo,Andres Ivaldi,e6ce7f5b505c5278427cef87dd0ef53c00ac84dc,,1,1,1,Merged PR 39643: fix: husky script cleanup,,0,squash-pr
+2026-01-26,monorepo,Satraj Sehmi,ff075a9e7f7e6fa8b337bfff464018a040687360,XRFQ-4428,1,2,1,Merged PR 39642: XRFQ-4428 allow panel to scroll y if content is larger,css,0,squash-pr
+2026-01-26,monorepo,Shreshthha Jain,2b8eadac3de6556225ea0885be91b5173eade639,XRFQ-3808,2,2,2,Merged PR 39637: fix: decreased tiemout by 50ms (XRFQ-3808),tsx,0,squash-pr
+2026-01-26,monorepo,Andres Ivaldi,54258d017f70e076da5bb5273fb245a77bf873c8,,399,8026,292,Merged PR 39518: Adding new functionality to documentation,java json tsx,0,squash-pr
+2026-01-26,monorepo,Matthew Williamson,5fffca8146e4e4198f260bb58b970fe1e6012ec8,XPMI-1341,4,42,9,Merged PR 39629: XPMI-1341 Log and skip responses with a null requestId in SloResponseStream i...,kt,51,squash-pr
+2026-01-26,monorepo,sat sehmi,f6a680c3b3dfa0daa9dc0ec9851fb69579d4a0fc,XRFQ-3972,6,29,0,XRFQ-3972 center align direction cell column,ts css tsx,0,direct
+2026-01-26,monorepo,Shreshthha Jain,9cc6914ab8fca945701df77289a4ce87cb92d209,XRFQ-4354,1,8,8,Merged PR 39634: fix: Move settings tab after activity console (XRFQ-4354),ts,0,squash-pr
+2026-01-26,monorepo,Vijay Bollineni,47f7d1262b107e0371f5ff691f05a6e544d7c5c9,,1,0,6,decommissioning qa6 msk,tfvars,0,direct
+2026-01-26,monorepo,Dimitar Christoff,7dac64d06b6377460c3a5efd8f8290183d87d8df,,4,20,2,Merged PR 39633: fix: allow withoutBorders to metrics groups that preserves the box model but...,tsx css,0,squash-pr
+2026-01-23,monorepo,Pedro Noriega,630a737863a1c7f2a43c673ae1369cea3f9e423c,XRFQ-3638,2,9,2,Merged PR 39626: XRFQ-3638: fix: Summary Panel: render Bid/Offer metrics horizontally,css tsx,0,squash-pr
+2026-01-23,monorepo,Matthew Williamson,0637ec02ecf9d4180f6408018fc4af5625d17c19,XPMI-1348,2,8,12,Merged PR 39627: XPMI-1348 Update xpro-auctions-moc helm templates to match other projects (re...,yaml,0,squash-pr
+2026-01-22,monorepo,Pedro Noriega,965e787b94500e98cb787419429247dbfcf9c108,XRFQ-3638,2,12,24,XRFQ-3638: Remove fixed width from HistoryPanel columns,ts css,0,direct
+2026-01-23,monorepo,Andrew Kwak,39b21d1e7029109378cd64a4188c867b174e215d,,12,254,12,Merged PR 39598: EnrichmentAggregation Stage - Post skip/limit joins,ts,41,squash-pr
+2026-01-23,monorepo,Dimitar Christoff,d6bda7651d317a02cc1185c3e2364cf7a222f75a,,2,20,40,Merged PR 39622: changes to scrollbars as per design review,css,0,squash-pr
+2026-01-23,monorepo,Evgeny Klimenchenko,7eca46338c06bf1f20fccfe7ab5d22a398a4df04,,5,58,17,Merged PR 39615: fix: metrica centered with one value presented without label,tsx css,0,squash-pr
+2026-01-23,monorepo,Dimitar Christoff,92d0a904f3a78a764480629fb2c0ee6fa6fb3a4c,,5,491,3,Merged PR 39614: feat: adding new grid types with particular typings,tsx css,0,squash-pr
+2026-01-23,monorepo,Shreshthha Jain,2009713f6b68f8b5cdcfc24a71fec6adf551d52a,XRFQ-3808,3,2,0,Merged PR 39618: fix: corrected mispell and clearing of timeouts (XRFQ-3808),tsx,0,squash-pr
+2026-01-23,monorepo,sat sehmi,22aa643355ff8bdd837a54e67c6583920399d0f0,XRFQ-3965,1,0,1,XRFQ-3965 remove rfq in text for timer cell on Ac,ts,0,direct
+2026-01-23,monorepo,Andres Ivaldi,00046f912c20ab038d631b028977a3d25955f235,,6,138,9,Merged PR 39612: Add userId to historical-activity collection,java,44,squash-pr
+2026-01-23,monorepo,Shreshthha Jain,93cb200ba5baae44491ad78080f01b6a7af02825,XRFQ-3808,9,890,94,Merged PR 39590: feat: Updated click behaviors (XRFQ-3808),ts tsx,41,squash-pr
+2026-01-23,monorepo,Evgeny Klimenchenko,5b86d35c17418ca0dde0ed18438bb52aab40ccd4,,16,1078,2,Merged PR 39610: feat: added ToggleChip and GridChipFilters components,tsx,35,squash-pr
+2026-01-23,monorepo,Dimitar Christoff,b44f427ffdf2242638e9f8f21ba3bc3a3c1e7af5,,1,3,2,Merged PR 39609: fix: grid utility bar uses rightSection to host the error buttons (regression),tsx,0,squash-pr
+2026-01-22,monorepo,Lola Naumova,bf94b139a77548eecde756a6e3bf737775858064,XPMI-1020,1,1,4,Merged PR 39597: feat(XPMI-1020):Rts stage button fix,tsx,0,squash-pr
+2026-01-22,monorepo,Tim Kang,c02068b2ce7ab8f010a758c437659ee47d82993b,XRFQ-4325,2,11,4,Merged PR 39599: XRFQ-4325 - update presubmit loading overlay to take full viewport height,css tsx,0,squash-pr
+2026-01-22,monorepo,Jim Higson,f396e56d87c2f6bded63cc725c3267f13905e505,MAUI-4313,15,238,76,Merged PR 39560: feat(platform): MAUI-4313 - accept aggregations and pre-aggregation filters t...,ts tsx,20,squash-pr
+2026-01-22,monorepo,Dan Gent,099d3ffd8893c25367c34444038c0554285ab0a4,,1,1,2,fix: export SVGs from ui lib,tsx,0,direct
+2026-01-22,monorepo,Dan Gent,ff2838517f857693b5e59513855b3f5ea302cb2c,,2,4,4,fix: use SVG Logo icon direclty,tsx css,0,direct
+2026-01-21,monorepo,Dan Gent,358c704859b935d4fab5f8e1118242aa3cb251e1,,2,26,2,fix: targeted rfq subtitle looks more like designs,css tsx,0,direct
+2026-01-22,monorepo,Dimitar Christoff,d9b0d1c37307e06d5234b6aeda08780a3d72361f,,49,595,153,"Merged PR 39584: fix: tiny refactor to make it easier to work with dockview persistence, panel expiry, grid cell alignment",tsx,0,squash-pr
+2026-01-22,monorepo,Andres Ivaldi,4e21a516994e5ca0018793bd541e08f220770785,,3,8,19,Merged PR 39586: Fix dealer user name,cfg,78,squash-pr
+2026-01-22,monorepo,Evgeny Klimenchenko,3b67df7bb15618e109e2e7879570bc6747bf8a18,,12,67,9,Merged PR 39583: feat: new useDefaultMKTXGridOptions hook and disabled removing columns by dra...,tsx ts mdx,1,squash-pr
+2026-01-22,monorepo,Andres Ivaldi,264f9fca62f544dd0eee7f3ccf209b4a3e19a722,,3,81,26,Merged PR 39582: Update configurations,md cfg,0,squash-pr
+2026-01-22,monorepo,Shreshthha Jain,cba060a86f8234211fce50b6a2c0b70c45d93812,XRFQ-3677,11,236,423,"Merged PR 39581: Revert ""Merged PR 39430: [XRFQ-3677]: Add withLayoutPersistence HOC for dockt...",tsx,0,squash-pr
+2026-01-22,monorepo,Arshad Ahamed Syed,8fa3cf9af80ae0c1b1412344156d53c4c5d3bc4c,,1,1,1,Merged PR 39580: Vulnerability fixes,,0,squash-pr
+2026-01-22,monorepo,Dimitar Christoff,3b4fb35a683db68eb8ffedd321cdd9ad11ebdb1d,,2,8,3,"Merged PR 39578: fix: timezone to UTC, clock to render always",tsx ac,0,squash-pr
+2026-01-22,monorepo,Arshad Ahamed Syed,ea84c7d01657c7984ed7e06bee9a82c04f58bb33,XRFQ-3595,1,2,0,Merged PR 39579: XRFQ-3595 Tradability-value-disappear,,0,squash-pr
+2026-01-22,monorepo,Dimitar Christoff,adbf148d15ce828470abad6217e3ee837c9450b0,,1,44,15,Merged PR 39577: fix: remove apps not marked for production from deployable builds.,ts,0,squash-pr
+2026-01-21,monorepo,Aisen Kim,c192524f7a0f11b6d01f53c75b6d59ee7a551d3e,XPMI-1295,9,39,58,feat(XPMI-1295): remove throughput loggers -> commons,java,0,direct
+2026-01-21,monorepo,Aisen Kim,c1de1dd33ec2f5d29fe124003dfd46522f7c255b,XPMI-1295,24,32,195,feat(XPMI-1295): remove throughput loggers -> all moc services,java,0,direct
+2026-01-20,monorepo,Aisen Kim,d4f4acbcdf4a0ad0d0bc2e01b895172f2e542ffc,XPMI-1295,15,63,285,feat(XPMI-1295): remove throughput loggers -> moc-alert service,java,0,direct
+2026-01-21,monorepo,Tim Kang,53b1a6cbb79e0ac01b49f8c0afee9c1e46eae601,XRFQ-3281,5,17,23,Merged PR 39558: XRFQ-3281 - remove unnecessary char from inquiryId match,tsx ts,10,squash-pr
+2026-01-21,monorepo,Keshal Desai,274cb54133b16edc0f3f6f3a25501e581507dacd,XPMI-1139,4,27,63,Merged PR 39569: fix(XPMI-1139): improve observability by validating trace ID format instead of span,java,0,squash-pr
+2026-01-21,monorepo,Dimitar Christoff,a8918c6ed37407137c53fb2a8164f069cabe464a,,4,29,4,Merged PR 39563: fix: created a loading state component for sort being applied,ts tsx css,0,squash-pr
+2026-01-21,monorepo,Nicolas Ramirez-Diaz,9332f43090c1d4dcdb6e292b58c483de46ca5522,XRFQ-3677,11,423,236,Merged PR 39430: [XRFQ-3677]: Add withLayoutPersistence HOC for docktabs,tsx,0,squash-pr
+2026-01-21,monorepo,Vijay Bollineni,7eee4788ac5015624b25f32adfdccdaa7b5c2d19,,3,3,3,scale up jobs timings update,yaml,0,direct
+2026-01-21,monorepo,Andres Ivaldi,be2540226b25d5f04cec9a35d5e97c9548bbfc2e,,12,20,10,Merged PR 39556: Update configurations,yaml yml,10,squash-pr
+2026-01-21,monorepo,Keshal Desai,bca266a8628c2e9cd803c6f49e18457dbfccd5ad,XPMI-1135,23,30,35,Merged PR 39557: feat(XPMI-1135): set use.latest.version to false in application.yml and strip avro.java.string from Avro schemas for MOC apps,avsc yml yaml,0,squash-pr
+2026-01-21,monorepo,Evgeny Klimenchenko,c35522d2aadabd3054476229194e6c970e4ae9ee,,2,2,2,fix: fixed title in PageHeaderBar,css tsx,0,direct
+2026-01-21,monorepo,Bryan O'Connor,a0867d4103b542b8f30619a06ee4558233958eec,,17,400,5,Merged PR 39466: Add documentation for dealer response services,mmd java,0,squash-pr
+2026-01-21,monorepo,Evgeny Klimenchenko,39d7059e5f398778846105baf0ca6d04f80fdc57,,9,465,81,Merged PR 39552: feat: grid state persistence,ts mdx tsx,2,squash-pr
+2026-01-21,monorepo,Bryan O'Connor,95886ba87167f3d2b9d5bd7d059e695cb96f24aa,XRFQ-3960,3,228,3,Merged PR 39538: XRFQ-3960 fix ranking bug where dealer responds but rank does not change. Sta...,java,97,squash-pr
+2026-01-21,monorepo,Jim Higson,0d56bc5d9e2a5b38af8d5a5f144a095b8daa81a4,,19,466,91,"Merged PR 39547: fix(platform): allow viewserver capability docs to specify prefer facets, whi...",ts,44,squash-pr
+2026-01-21,monorepo,Dimitar Christoff,5e2a197fa6613f5ac5433e06286988b69979be83,,5,18,4,Merged PR 39550: fix: updating error display in AC,css tsx,0,squash-pr
+2026-01-19,monorepo,Evgeny Klimenchenko,176cf670bb0dda904823a40e9fa15f0528a887a9,,8,0,0,fix: fixed visual testing,,0,direct
+2026-01-19,monorepo,Evgeny Klimenchenko,7aae0698307429a649653b5162a3c096731741f1,,1,4,4,fix: fixed the smart dealer pill border colour,css,0,direct
+2026-01-21,monorepo,Adam Edwards,e471ed2f2f09394c863191fdb764f49bfa2dfea1,,1,19,3,Merged PR 39551: feat: stop rendering default states for placeholder rows,ts,0,squash-pr
+2026-01-21,monorepo,Rodrigo Iparraguirre,158a02ee799b9b693033d1a48ade96faf272c853,,24,435,2711,Merged PR 39548: delete list update handler service,mmd java,13,squash-pr
+2026-01-21,monorepo,Dan Gent,c233c026857631820b60fb13c131ee2458ea145f,,2,50,15,feat: AC grid cancel button,tsx ts,0,direct
+2026-01-21,monorepo,sat sehmi,7409f5183cb0a0f634fd2627c0dbac1ad053c9d0,XRFQ-3857,1,3,0,XRFQ-3857 Fix disclosed counterparties dealer pill selection toggle on and off,tsx,0,direct
+2026-01-21,monorepo,Shreshthha Jain,241d7658822c77a63c13aad228d4014b30d10c0f,,5,170,2,Merged PR 39544: Added Best Level vs CP filter,tsx ts,22,squash-pr
+2026-01-19,monorepo,Dan Gent,4bf62b012549a8c59666d0a2c944636e10ca683a,,2,7,0,fix: center toggles,css ts,0,direct
+2026-01-21,monorepo,Dimitar Christoff,6799bdabe735ca002bef9f943086d14a89db22fb,,1,3,1,"Merged PR 39543: fix: making sure the startStreaming is only called when it is not, preventing...",tsx,0,squash-pr
+2026-01-20,monorepo,Matthew Williamson,aa5ba4e9c00fd269212f68babfaae7bee6a76549,XPMI-1338,1,1,1,Merged PR 39537: XPMI-1338 Follow redirects when downloading otel javaagent,,0,squash-pr
+2026-01-20,monorepo,Evgeny Klimenchenko,7ae79653e4ab127cbda14d7682d0dabab5ee6554,,3,98,0,Merged PR 39533: feat: added right content to the gridUtilityBar,tsx,0,squash-pr
+2026-01-20,monorepo,Nicolas Ramirez-Diaz,fb3ac655d6884ecc820f648aacc286944ac8a21a,,2,0,4,Merged PR 39534: fix: remove styles-lib circular dependency,yaml json,0,squash-pr
+2026-01-16,monorepo,Pedro Noriega,61d0d9411577c6ca88d79c6dc3d1a84141df8fc9,XRFQ-3737,4,145,17,"XRFQ-3737 feat: SummaryPanel: ""More"" menu shown when container reaches a 70em. ListInquiryItemPanel now renders title and subtitle",css tsx,0,direct
+2026-01-20,monorepo,Nicolas Ramirez-Diaz,3665b8a0f8d6df9f4eec5f304e9e393611e99d63,,1,0,1,Merged PR 39526: fix: limit lookup files for css var extension to ma themes,json,0,squash-pr
+2026-01-20,monorepo,Sam Rose,e057b8e44a11ab4c8286136017bcd03b232e4bf8,,1,1,1,Merged PR 39532: fix: server script name,yml,0,squash-pr
+2026-01-20,monorepo,Dimitar Christoff,5a4999cec23bb97ec4ae5bb9ae8a2170ad903747,,4,25,14,Merged PR 39525: fix: skipping integration tests when no need,yml css,0,squash-pr
+2026-01-20,monorepo,Adam Edwards,4e5a13c94e5c3c08d543f7c4ae37af55328fab41,,2,18,8,Merged PR 39530: feat: pills formatting,tsx,0,squash-pr
+2026-01-20,monorepo,Sam Rose,b918c174209e92c59453d2c31387eb58f7841341,,32,1026,192,"Merged PR 39514: GitHub: Initial GitHub CI actions (frontend, Java, NodeJS)",sh yml,0,squash-pr
+2026-01-20,monorepo,Matthew Williamson,e6eb46b2783fc6d02f3d5e675b63dcf455f5f01c,XPMI-1313,3,52,1,Merged PR 39529: XPMI-1313 Add activityconsole to scaleUpCronjob and scaleDownCronjob,yaml,0,squash-pr
+2026-01-20,monorepo,Adam Edwards,81b3e209de5376f05aa96369f8fb645007edb01a,,1,6,13,Merged PR 39528: feat: Remove setCookie logic,ts,0,squash-pr
+2026-01-20,monorepo,Shreshthha Jain,cfd436744a4f7cd7fe5cffcc8640ab6b71bef9aa,XRFQ-3827,4,63,16,Merged PR 39527: feat: Added tradability filter and fixed limit level filter (XRFQ-3827),tsx ts,33,squash-pr
+2026-01-20,monorepo,Dimitar Christoff,e05a98f519faa2cd72b2d46404afb9f9409c2faf,,198,75,120,Merged PR 39517: fix: revert e2e,sh tsx css,0,squash-pr
+2026-01-20,monorepo,sat sehmi,59d2e3c26c3196bfdea0017feaa35d87cebdbf59,XRFQ-3846,1,2,0,XRFQ-3846 add test data for dealer options test,ts,100,direct
+2026-01-20,monorepo,Satraj Sehmi,44f58535b5e29c76454689c4c89d1525ac5a4f22,XRFQ-3846,3,40,2,Merged PR 39523: XRFQ-3846 remove duplicates from dealer group options,ts tsx,67,squash-pr
+2026-01-20,monorepo,Adam Edwards,a9d4fd026ada25f6c367d474155720fe3df78c6b,,4,27,6,Merged PR 39522: feat: pre aggregation and improved indexes,js ts tsx,0,squash-pr
+2026-01-20,monorepo,Rodrigo Iparraguirre,738482696d65b8b365ba1a1b3d73e3b16ecb93fb,,31,175,54,Merged PR 39521: scale down v1 services,yaml,0,squash-pr
+2026-01-20,monorepo,Evgeny Klimenchenko,2a78893eface97be21c2c64560a1077debaa1b3c,,3,14,5,Merged PR 39520: fix: fixed label in multiselect and added labels to filters,tsx} ts css,0,squash-pr
+2026-01-20,monorepo,Satraj Sehmi,65422b26d0994d2f3478072ed5d008c4418c11e1,XRFQ-3886,1,11,4,Merged PR 39519: XRFQ-3886 add badge with count to security column,ts,0,squash-pr
+2026-01-19,monorepo,Adam Edwards,2be466b5e83fbe08a9b03256044bb3aa92f36d6b,,7,242,128,Merged PR 39505: Move sector to multiselect,tsx ts,0,squash-pr
+2026-01-19,monorepo,Dan Gent,e4da8143312e0f5dbb3cc26ae4084d6d19a23c4a,,1,1,10,feat: de-dupe use existing function,tsx,0,direct
+2026-01-19,monorepo,sat sehmi,4f5023270ffa4845440a6101e0eaccdbbbb1caca,XRFQ-3584,1,3,1,XRFQ-3584 update smart select svg,tsx,0,direct
+2026-01-19,monorepo,Dan Gent,ea5da41e1685afaca229cb0a4cb549e7e478d0d3,,2,297,0,feat: migrate autox cell tests over,tsx,100,direct
+2026-01-19,monorepo,Dan Gent,8df066920c31950cc2d1e144eafdab2161ccac6e,,2,75,21,feat: autox list toggle,tsx ts,0,direct
+2026-01-19,monorepo,Dan Gent,9c1d87697b67b6075a51ecbeb3b768d1839930fd,,2,109,45,feat: autox single toggle cell,ts tsx,0,direct
+2026-01-19,monorepo,Satraj Sehmi,920b03d283cf4754a89cd2544d97182ce1c127c7,XRFQ-3822,4,57,16,Merged PR 39506: XRFQ-3822 order targeted rfq dealers by rank followed by a-z,ts tsx,67,squash-pr
+2026-01-19,monorepo,Adam Edwards,75e42d9ded603b80a7e0fe61b1f9b55e05d4c18f,,5,112,34,Merged PR 39503: feat: Update the MultiSelect to accept label and value,tsx,41,squash-pr
+2026-01-16,monorepo,David Behmoaras,859025c6e35975ae03c7782b46dc20fa2618283c,XRFQ-2224,8,73,27,"Merged PR 39501: XRFQ-2224 list items alerts, filter for list panel parent only",tsx ts,0,squash-pr
+2026-01-16,monorepo,Tim Kang,9752dad9072566bf6c2258419bfad10ad6ab89f0,XRFQ-3807,37,168,243,Merged PR 39387: XRFQ-3807 - remove list params panel and fix loading state,tsx ts,44,squash-pr
+2026-01-16,monorepo,Tim Kang,0085f227a5a94c356e430cdbff337da111978243,XRFQ-3889,1,1,1,Merged PR 39496: XRFQ-3889 - update tableId in posttradelist,tsx,0,squash-pr
+2026-01-16,monorepo,Tim Kang,6fee75ad3215ad5f09a37b4728eda2ffa99cc4fd,XRFQ-3558,10,151,67,Merged PR 39291: XRFQ-3558 - update logic for dealer row status,ts tsx,29,squash-pr
+2026-01-16,monorepo,Aisen Kim,b17d9e3490e983c71bcc497e182d55ed1d5b2ebf,XPMI-1043,1,1,1,feat(XPMI-1043): add activityconsole to kstream reset job,yaml,0,direct
+2026-01-16,monorepo,Shreshthha Jain,1f0b21acd0d63fe4ac0b14481cf23f486b453920,XRFQ-226,16,123,23,Merged PR 39482: feat: Added columns for ac and list item grid (XRFQ-226),ts tsx,5,squash-pr
+2026-01-16,monorepo,Evgeny Klimenchenko,c0aaab27bbd324dc45e9874cff35e988349e17f9,,9,303,20,Merged PR 39488: fix: fixed null value in Sector,tsx ts,67,squash-pr
+2026-01-16,monorepo,Evgeny Klimenchenko,b02a0026a1b15b5713d00ad6508dfdad69bd63ba,,15,1186,146,Merged PR 39457: feat: cell communication,ts tsx,34,squash-pr
+2026-01-16,monorepo,Tim Kang,3c1f49b2b772f70d9e86bfa8b602bc1fdad56a4c,XRFQ-3778,1,3,0,Merged PR 39490: XRFQ-3778 - add bestcpp fields to aggregation,ts,0,squash-pr
+2026-01-16,monorepo,Dan Gent,6113ddb740de2ce765adb3992a99c2c7e22d93dd,,2,1,1,Merged PR 39489: fix: rename typo file,tsx,0,squash-pr
+2026-01-16,monorepo,David Behmoaras,d45d233fa0bcff4a5c3ef8ccc442b5ce2955d410,XRFQ-2903,1,7,1,Merged PR 39486: XRFQ-2903 - fix extractAlertsData npe,tsx,0,squash-pr
+2026-01-16,monorepo,Jim Higson,60ffabfa5a7436f549b1cc83213728331dc2f444,,6,11,11,fix(platform): move app specific tests into own dir in integration tests,ts,100,direct
+2026-01-16,monorepo,Tim Kang,2ff1878ff8e2193c3491137ad0a17e8e4f2f6d5c,XRFQ-3281,34,880,557,Merged PR 39314: XRFQ-3281 - Updated the TradeBest button to use the rank from the viewserver instead of calculating it on the client,tsx ts,63,squash-pr
+2026-01-16,monorepo,Pedro Noriega,1980f5895298bb949aab201213a9e99a63a282e9,XRFQ-3638,6,17,13,XRFQ-3638: Use 'getDirection' prop and move helper to `x-pro-utils` package,ts yaml,0,direct
+2026-01-16,monorepo,Rodrigo Iparraguirre,7896adecb30215a48c189a16cbd69024fdad02ef,,6,39,13,Merged PR 39472: schema avro for responder for new dealer api,yaml avsc yml,8,squash-pr
+2026-01-16,monorepo,Satraj Sehmi,d925b0d7520137d58da98854f463e87c6ed5e4a0,XRFQ-3857,2,59,37,Merged PR 39478: XRFQ-3857 fix disclosed counterparties dealer pills debounce selection,tsx,76,squash-pr
+2026-01-16,monorepo,Jim Higson,41152aa2d7ebbcaf1a988c08cc165773c557cdbd,MAUI-4250,8,144,14,feat(platform): MAUI-4250 - finish work to add pre-aggregation filters,mdx tsx ts,34,direct
+2026-01-16,monorepo,Keshal Desai,586de736e6e60a5665a4b037ce6cf186e6c90be5,XPMI-1306,6,43,7,Merged PR 39481: feat(XPMI-1306): add Bondlink alerts feature flag configuration,java yml,6,squash-pr
+2026-01-16,monorepo,Keshal Desai,a584d80e42d9b8a4831f445cf53b6740a63b23b3,XPMI-1139,27,367,119,Merged PR 39267: feat: XPMI-1139 Add trace ID support for distributed tracing across various r...,java avsc,0,squash-pr
+2026-01-16,monorepo,Rodrigo Iparraguirre,b79ecab5fc6155792f01b770f41299892ff41fde,,9,639,1028,Merged PR 39480: remove sds upstream call,mmd java,14,squash-pr
+2026-01-16,monorepo,Shreshthha Jain,6edb6eefcf746adb351efed858dd04a7dc656df4,XRFQ-3702,2,9,3,Merged PR 39471: fix: updated rankings of statuses (XRFQ-3702),ts,50,squash-pr
+2026-01-16,monorepo,Rodrigo Iparraguirre,ce5e86364d8b52f958bfe5432ba92a730674416f,,3,52,47,Merged PR 39476: fix IT,java yml,98,squash-pr
+2026-01-16,monorepo,Evgeny Klimenchenko,5471f94b5f2df0bb138dc0d780dd95e597cee40a,,2,7,2,Merged PR 39477: fix: fixed filters,tsx ts,0,squash-pr
+2026-01-16,monorepo,Jim Higson,b280587124dc11b970ee4af9df5c256e3dd43ac2,,1,1,1,Merged PR 39475: fix(platform): set readPreference to primary on mongo queries when reading in...,ts,0,squash-pr
+2026-01-16,monorepo,Adam Edwards,ad36537752ee37225d0b665ab3e5c7de776df5af,,2,11,11,Merged PR 39473: fix: rename prop,tsx,0,squash-pr
+2026-01-16,monorepo,Shreshthha Jain,67dbe4f505c12d5b4df0f797e69652df763370df,XRFQ-2226,2,42,9,Merged PR 39458: feat: Search working on status and security fields(XRFQ-2226),tsx ts,0,squash-pr
+2026-01-15,monorepo,David Behmoaras,b433e8fc31af2970d6231168e109d381be122be8,XRFQ-2903,22,293,33,Merged PR 39442: WIP XRFQ-2903 alerts filter ac grid,tsx ts,1,squash-pr
+2026-01-15,monorepo,Lola Naumova,6a2c323b532dde64181a002bf64b20ed277e5ab1,XPMI-1294,2,20,3,Merged PR 39461: feat(XPMI-1294): Persist Auctions grid sorting prefs,tsx ts,0,squash-pr
+2026-01-15,monorepo,Keshal Desai,aea5720af206cafa1968cb51f01f1a1060f3461a,XPMI-1135,8,11,32,Merged PR 39463: chore(XPMI-1135): remove use.latest.version property from commons,avsc,0,squash-pr
+2026-01-15,monorepo,Keshal Desai,8a60f23c7861fc7fb5d9d31d863fb1be56728eb1,XPMI-1305,1,6,3,Merged PR 39425: feat(XPMI-1305): add composite index for auctions-rts-view and update query filter,js,0,squash-pr
+2026-01-15,monorepo,Kunal Choudhary,4c376aeccde8859e840357e7011d88b093106b96,,6,102,0,Merged PR 39465: added kafkaconnect in kafkabat ui,yaml,0,squash-pr
+2026-01-15,monorepo,Pedro Noriega,c0284c1f9fcc31ea7fe0883edf19c22562d7768f,XRFQ-3737,18,125,368,Merged PR 39464: XRFQ-3737 fix: Migrate SummaryPanel components to use MetricsGroup. Use Direc...,tsx css,7,squash-pr
+2026-01-15,monorepo,Tim Kang,502f53fb4be028477d7e57489e39ae30cb12ebdf,XRFQ-3778,1,3,0,Merged PR 39462: XRFQ-3778 - add missing bestlevelcpp fields,ts,0,squash-pr
+2026-01-15,monorepo,Pedro Noriega,190d2a482ae384e2c360aabf6242294fae2631d7,XRFQ-3737,1,1,0,"Merged PR 39460: XRFQ-3737 fix: @mktx/ui, Export MetricsGroup component",ts,0,squash-pr
+2026-01-15,monorepo,Lola Naumova,2291e0676c1aef42739518f3f09dde661ebe2b9d,XPMI-1266,5,50,8,Merged PR 39454: feat(XPMI-1266): Upload success alert test & test fixes,ts tsx,88,squash-pr
+2026-01-15,monorepo,YDvir,aaf0f14f9ee7d2da5dc3920112089c8ac65ff084,,4,7,31,feat: Remove unused preferences from user settings and related tests,tsx,26,direct
+2026-01-15,monorepo,Rodrigo Iparraguirre,2444649dec0d68020bc30870c7a6031e1d77494a,,2,29,1,Merged PR 39456: responder for new dealer api,java,93,squash-pr
+2026-01-15,monorepo,Daniel Kerr,ce37fbb49baaff382f4158b5aa22d97d072de9fa,,1,0,4,Merged PR 39375: Fix(trap): user trap in closing all tabs resolved by prescribed means,tsx,0,squash-pr
+2026-01-15,monorepo,Bryan O'Connor,96d65512d0ee9bb1cc92d7ef43ffd8c6ab79c9d4,XRFQ-3579,4,111,3,Merged PR 39432: XRFQ-3579,yaml,2,squash-pr
+2026-01-15,monorepo,Sam Rose,abf4d9eb62e514519c39aea6348b6194c0f5dd56,,5,3,35,Merged PR 39403: refactor: remove skip terraform flag,yml,0,squash-pr
+2026-01-15,monorepo,Dimitar Christoff,17ed19f1761a873d872f8074c1681f2350f6e33d,,2,4,0,Merged PR 39453: fix: missing dep,yaml json,0,squash-pr
+2026-01-15,monorepo,Keshal Desai,61edc7508ecb2ca62e0cb9370ce0453f293afe2b,XPMI-1304,14,0,188,Merged PR 39451: refactor(XPMI-1304): remove obsolete Terraform configuration files,tf tfvars hcl,0,squash-pr
+2026-01-15,monorepo,Pedro Noriega,f128b860736844b28c3e7139eac1214bf36e2e48,XRFQ-3805,10,199,59,"Merged PR 39418: XRFQ-3805: ListInquiryItemPanel renders Summary ribbon, SummaryRibbon (Active...",tsx ts,22,squash-pr
+2026-01-15,monorepo,sat sehmi,250f09557f2615ee4d42b2c5eb9607890d4249f9,XRFQ-3651,1,1,1,XRFQ-3651 cancel debouncedSetter instead of flush,tsx,0,direct
+2026-01-15,monorepo,Nicolas Ramirez-Diaz,90c3064296f3aab911de645edba257166762cb52,MAUI-4317,10,134,0,Merged PR 39391: [MAUI-4317]: Datepickerpopover component,tsx ts css,0,squash-pr
+2026-01-15,monorepo,Keshal Desai,d23cf739eb28995b12e29ed846e4c3b15ee38efd,XPMI-1303,6,20,1,Merged PR 39414: feat(XPMI-1303): Map state field from BL order to AC order,java avsc,76,squash-pr
+2026-01-15,monorepo,Dimitar Christoff,131f879e4c8d62dcee62ee8ebb3c481726f6ba53,,7,219,186,Merged PR 39449: fix: light mode support and theme sync chnages,tsx,0,squash-pr
+2026-01-15,monorepo,Dan Gent,d3d2f3e02cf5b5ca1597f37d9c52006347aa72cd,,1,34,0,fix: wire up some of the existing AC columns,ts,0,direct
+2026-01-02,monorepo,Paul Becotte,36d427ffc1d1c21daf09f12ff21f744a91ccadeb,XPCD-307,6,143,2,feat(XPCD-307): Update otel slo generation,java,66,direct
+2026-01-15,monorepo,Rodrigo Iparraguirre,3c7c9f63f011b7258bfbe868d5e46e5c56d059c5,,14,336,87,Merged PR 39447: reponder for dealer api basic and sds,java,36,squash-pr
+2026-01-15,monorepo,Shreshthha Jain,d7d2a59646ca7566875d0f76ab0a23f05a4ae3d2,XRFQ-2226,1,12,0,Merged PR 39446: feat: Updated index in mongo db sync collection(XRFQ-2226),ts,0,squash-pr
+2026-01-15,monorepo,Andres Ivaldi,1e952d10bf7566be616a61d58a866779fb012762,,59,3342,145,Merged PR 39378: PR to add Documentation,java tsx,33,squash-pr
+2026-01-15,monorepo,Dimitar Christoff,b333823782b0d288bf373eeb9e18fe084a4f1c3d,,6,131,5,feat: some user permission washing,ts,73,direct
+2026-01-15,monorepo,Satraj Sehmi,b459dbd5ae5e81fccd52a3b9f9cd581c30328873,XRFQ-3825,7,78,33,Merged PR 39444: XRFQ-3825 Fix tooltip not showing for smart select dealers,ts tsx,47,squash-pr
+2026-01-12,monorepo,Andrew Kwak,86c5ec049d32b2217e77d7e534d9bcb7c3ebe5b9,,12,6265,774,fix: prefilter aggr,js,0,direct
+2026-01-15,monorepo,Rodrigo Jaen,cef0f432a97277ee660cafc495d38284bdbb35c7,,19,47,339,"Merged PR 39397: add batch size, avoid schema creation check, fix some task wrongly allocated",java,51,squash-pr
+2026-01-15,monorepo,Evgeny Klimenchenko,b6edd02790e71f0f87b7c14a60e980b0f9244cd6,,3,3,348,fix: renamed link,md,0,direct
+2026-01-15,monorepo,Satraj Sehmi,36d36ece0f6351b13273edcc228e090e8dcc14e5,XRFQ-3821,2,2,2,Merged PR 39443: XRFQ-3821 toggle targeted rfq not to preselect smart select dealer pills,tsx,50,squash-pr
+2026-01-15,monorepo,Shreshthha Jain,f52e2597522a1f52a8659e3f27105d4ff89366fa,XRFQ-2226,1,4,0,Merged PR 39445: feat: Added text index for search (XRFQ-2226),js,0,squash-pr
+2026-01-14,monorepo,YDvir,6b56f48d9bdd7f21072da70d66d13da26467e73f,,5,90,20,feat: Refactor Counter components to use DealerResponse type and improve type consistency,ts tsx,74,direct
+2026-01-14,monorepo,YDvir,afd88a7f9079f8a613882e26890afc701255dfd5,,10,84,49,feat: Update Counter context and related components to use consistent identifier naming and improve test setups,tsx ts,43,direct
+2026-01-14,monorepo,Matthew Williamson,cd09fbc13df499d6e0300302b9fd2a34e4cdf58b,XPMI-1308,1,4,1,Merged PR 39433: XPMI-1308 Update schema for RTSSendToAuctionRejectResponse,avsc,0,squash-pr
+2026-01-14,monorepo,David Rydell,2ee8552e04f1c21ebe994ab0b1e1532034411e58,XPMI-1301,1,7,6,XPMI-1301 restore missing columns for CC Users,tsx,0,direct
+2026-01-14,monorepo,Keshal Desai,3e94c6d622441305294609d317835d9a70ac5b3b,XPMI-1304,35,853,3,Merged PR 39424: feat(XPMI-1304): MOC RTS Enricher service,kt yaml xml,20,squash-pr
+2026-01-14,monorepo,YDvir,93cd4796b285d0985827b45151bc75a9e6eaf334,,24,512,147,feat: Refactor Counter components to use Protocol type and improve input configuration,ts tsx,33,direct
+2026-01-14,monorepo,Nicolas Ramirez-Diaz,b0991170160a3ba0a7996c0315b2938fe4a81fc4,XRFQ-3659,4,23,38,Merged PR 39411: [XRFQ-3659]: update fonts and other things within xpro settings to new styles,tsx css,0,squash-pr
+2026-01-14,monorepo,Kunal Choudhary,f527d68221607184f22280d3e2545e037bdb80c3,,4,4,4,Merged PR 39410: adding cidr for lba,tfvars,0,squash-pr
+2026-01-14,monorepo,Kunal Choudhary,50af71eaab702ad45635d24a275ba8428d245cc7,,1,1,1,Merged PR 39408: added env for region 2 msk secret,tf,0,squash-pr
+2026-01-14,monorepo,David Rydell,ed8e9144c4fb0eaeb63c80f1cd68f0ec3a19b6ca,XPMI-1255,2,22,92,XPMI-1255 replace AlertDialog with ui/Dialog,css tsx,0,direct
+2026-01-14,monorepo,Sam Rose,70784412650600f35cec926d1db376961a4a78ba,,32,44,32,Merged PR 39407: fix: ensure created in relevant nested environments,yaml tf,0,squash-pr
+2026-01-14,monorepo,Nicolas Ramirez-Diaz,c61620d7411e31762ffaeea1c9c0498915cfb210,XRFQ-3659,1,22,40,Merged PR 39406: [XRFQ-3659]: replace existing dealer group dropdown,tsx,0,squash-pr
+2026-01-14,monorepo,Dimitar Christoff,35033de419b6a80a469f94b310ed0eb3a4242385,,1,27,15,fix: typefixes,tsx,100,direct
+2026-01-14,monorepo,Kunal Choudhary,9ab11cafd4cfaa4200523c6be989e49241128372,,1,1,1,Merged PR 39405: added check for prod as that is the only place where secret differs,tf,0,squash-pr
+2026-01-14,monorepo,Yan Parenteau,32cfee78439865eefd17d7e25320ee473a3d71c6,MDS-183,20,1085,62,feat: [MDS-183] GridColSettings component to support aggregated columns,tsx,75,direct
+2026-01-14,monorepo,Evgeny Klimenchenko,137d67335afe12ba4403b7772ce87e6e234e33f3,,9,499,6,feat: PT button,md tsx,0,direct
+2026-01-14,monorepo,Dimitar Christoff,5e96b42c0f4d219101e9bec3874324ef7b0e64fd,,2,27,44,fix: revert tests,tsx,100,direct
+2026-01-14,monorepo,Dimitar Christoff,9146884e3cca3fcb209ee87c40aa5515861dd16e,,5,55,96,fix: deprecated our redundant hook,tsx ts,0,direct
+2026-01-14,monorepo,Matthew Williamson,01e871ccec24fa8bd5bb89d1b1ee96f6ca110669,XPMI-636,72,2085,4955,Merged PR 39329: XPMI-636 Add an auctions-test-lib to reduce boilerplate and address some comm...,java kt,92,squash-pr
+2026-01-14,monorepo,Dimitar Christoff,fda49f1a3b7f6e04c8fa3472644e106449fc1d80,,5,70,45,fix: types tweak,tsx,37,direct
+2026-01-14,monorepo,David Behmoaras,1da1ad3a67c4b2fd0678cd58dcced0150fc318d0,XRFQ-2903,23,496,81,Merged PR 39374: XRFQ-2903 Alerts MF,yaml ts tsx json,0,squash-pr
+2026-01-14,monorepo,Kunal Choudhary,52678f523e45d423d5845bb7a14eb80bc866e121,,0,0,0,Merged PR 39402: updated CIDRs for LBA connectivity to XPRO 2.0,,0,squash-pr
+2026-01-14,monorepo,Bryan O'Connor,431e28d5965d2ce9a25a29e62bb9d0b944de07ef,XRFQ-3579,44,1182,2686,Merged PR 39168: XRFQ-3579 first iteration with foreign key join,java,52,squash-pr
+2026-01-14,monorepo,Kunal Choudhary,46e06e19147e380e4f9ff7e0daba93520f333a00,,4,4,4,Merged PR 39400: added CIDRs for LBA to connect to XPRO 2.0 MSK,tfvars,0,squash-pr
+2026-01-13,monorepo,David Rydell,ef61b4eeb4aef8f80b490a41455b7bd32847761c,XPMI-1255,3,62,56,XPMI-1255 move new context menu option to bulk button,tsx ts,1,direct
+2026-01-14,monorepo,Rodrigo Iparraguirre,9e900572dc5f861e617b7dc9c267edf8fa3dbe29,,3,45,2,Merged PR 39399: fix NPE userId,java,83,squash-pr
+2026-01-14,monorepo,Sam Rose,007425d8f6f43a4fb31271f948ae7b9fbb2f0d71,,1256,422,16350,Merged PR 39337: refactor: create service account modules. Remove redundant terraform from each java/nodejs service,tf tfvars hcl,0,squash-pr
+2026-01-14,monorepo,Shreshthha Jain,e6b5380d9c8bfc5b9b4f4f2e02d4fbaf5ae90d59,XRFQ-3661,6,525,129,Merged PR 39393: feat: Added refresh order in context menu (XRFQ-3661),ts tsx,11,squash-pr
+2026-01-14,monorepo,Andres Ivaldi,b775476301e85074ecac7850eb717f5cd42c0ec5,,5,183,1,Merged PR 39396: Keeping user changes over data coming from correlation,java yaml,66,squash-pr
+2026-01-14,monorepo,Adam Edwards,cd594e2d9e8d25f9293657d8e35436fe2f16e801,,2,2,0,Merged PR 39395: feat: Parameters and Response gird should be default,tsx,0,squash-pr
+2026-01-14,monorepo,Dimitar Christoff,ac33e4d5a2d3952d9ab9a502068e63ae5aa15efd,,4,51,37,fix: some types and failing tests,ts tsx,33,direct
+2026-01-14,monorepo,Satraj Sehmi,a278d27a692613a1662bb7e9d2f427b02b626ce2,XRFQ-3684,8,278,45,Merged PR 39367: XRFQ-3684 smart select for non targeted rfq,tsx,70,squash-pr
+2026-01-14,monorepo,Rodrigo Iparraguirre,f972c55bec1d208f3b51e878c1bc7aa65ddc2e2c,,15,1014,674,Merged PR 39358: make sds call automatically when delist action occurs after Smart group was selected,mmd java,18,squash-pr
+2026-01-13,monorepo,YDvir,5653913e9b588f58bf378bf10be45a8dc41c10e9,,2,1,18,feat: remove console log,tsx,0,direct
+2026-01-13,monorepo,YDvir,8b04a091ffc26ceaadcf72325e52c59cd723adee,,11,136,26,feat: add fixed decimal precision option to IncrementalInput and enhance product validation logic,tsx ts,0,direct
+2026-01-13,monorepo,Kunal Choudhary,da3b5d2c1d5428e004dd38ad5b1487b0c5ae83b1,,4,7,4,Merged PR 39386: added read from secondary to mongo connection string & updated platform ui helm as well,yaml tf,0,squash-pr
+2026-01-13,monorepo,Pedro Noriega,9c34ee20b7188d0ccc79a0ad641052b459f82df6,XRFQ-3796,8,49,35,"Merged PR 39379: XRFQ-3796: fix: Market Depth light mode colors; Filter should only include ALGO and AXE types; Remove ""Direct"" from column defs",ts css,8,squash-pr
+2026-01-13,monorepo,Pedro Noriega,b2e23eb2d6020543e12ecdb21a60083831521ed4,XRFQ-3796,5,23,6,"Merged PR 39377: XRFQ-3796: fix: PostTradeListItems, individual inquiry views: replace placeho...",tsx,48,squash-pr
+2026-01-13,monorepo,rahukumar,fea78725b4a0969c3ebcb8be8b206e62bf7acd07,,1,6,2,last step,java,0,direct
+2026-01-13,monorepo,rahukumar,399a18b33866cc427781b6b32f084d4356134d17,,3,30,1,unit tests fixes,java,94,direct
+2026-01-13,monorepo,rahukumar,f0a03b47ba8dfc90c46a2059277238fdd0a55989,,2,27,0,Unit tests handling double events before the other.,java,100,direct
+2026-01-13,monorepo,rahukumar,5bdcc82c1a54096b0183b12e9c6f1b7b34f9d594,,2,2,2,Fixed here.,yaml,0,direct
+2026-01-13,monorepo,rahukumar,2e53e69a398c36fc11da0f1fcda604027838416c,,5,13,17,Spotless,java,0,direct
+2026-01-13,monorepo,rahukumar,f0b6bcc9c900189164a7d6e4b0f3d54f01b72431,,2,3,1,Fix Tests,java,100,direct
+2026-01-13,monorepo,rahukumar,519a236d034c146aeba0f23a933e64c0ca37e42c,,6,56,48,Added the changes.,java,6,direct
+2026-01-13,monorepo,Adam Edwards,161185248f21adee2f9c823b087b64bf70c63a13,,13,231,1715,Merged PR 39155: feat: Run AC in CI/CD,ts,16,squash-pr
+2026-01-13,monorepo,rahukumar,44cf75334a50320c0fe5339f9d694df96b12928d,,3,6,6,Topic names updated,yaml java,0,direct
+2026-01-13,monorepo,rahukumar,cb64f402ed491f6c65d4aadc8e44e69c1e468839,,1,0,2,final pieces,java,100,direct
+2026-01-13,monorepo,rahukumar,940d3a016dc00d1bd06c01396136c74b231ce414,,1,2,2,workaround,java,100,direct
+2026-01-13,monorepo,Aisen Kim,96f02e542c662855c222076013c2de2e11f3708c,XPMI-1280,1,11,2,feat(XPMI-1280): delete old index updatedAt and create a new index name: _modifledTS,js,0,direct
+2026-01-13,monorepo,Keshal Desai,2f793c75433dc8caa00aa84b44df9e8988123094,XPMI-1293,3,43,4,Merged PR 39369: feat(XPMI-1293): update batchId mapping to use inResponseToBatchId in OrderMapper,kt avsc,85,squash-pr
+2026-01-13,monorepo,rahukumar,2488dd0356033c6c2c465bdd6993a5577fe71934,,5,36,42,Fix Spotless,java,67,direct
+2026-01-13,monorepo,rahukumar,970b8ff68a32c8c0d51bf086d37f72c05f3e81f8,,1,4,4,"changed string, and did testing.",java,100,direct
+2026-01-13,monorepo,rahukumar,57ee664bebc2383ab38f8caf9f79f3af3e871942,,6,133,24,Client IOI Enrichments Code Cleanup,java,62,direct
+2026-01-13,monorepo,Evgeny Klimenchenko,1b86bd4de97e1f3d04ba871e1d43d38c9f2fd2f4,,2,23,0,Merged PR 39357: fix: modal background,css,0,squash-pr
+2026-01-13,monorepo,YDvir,04211fa4150c4c0515291a276e65fdeae967b3ca,,1,48,0,feat: tests,java,100,direct
+2026-01-13,monorepo,YDvir,880d45848dc97eff53f50d7edd5d7bafa8642ce6,,1,3,1,init,java,0,direct
+2026-01-13,monorepo,Dimitar Christoff,3a783280e4914fa8f8e754a22567d63ad215a7e3,,1,2,2,Merged PR 39360: fix: ensure certs copy,,0,squash-pr
+2026-01-13,monorepo,Rodrigo Jaen,4848ce9655f9c9f0ec44b8237d65afdf827a9d49,,27,45,434,"Merged PR 39354: tune pods, removed unused deployment",yaml tf tfvars,0,squash-pr
+2026-01-13,monorepo,aedwards@marketaxess.com,a81d936a61ac4dd89577569e9764d76cb25a1987,,1,1,0,feat: Add isTargetedRFQChecked,ts,0,direct
+2026-01-13,monorepo,Sam Rose,9c395a64ee8911c62008c0016adf106b0e59ebb7,,1,1,1,Merged PR 39355: docs: update client id for auth0 qa,mdx,0,squash-pr
+2026-01-13,monorepo,Dimitar Christoff,a88890bb1c2b5d3f4f1ea3c1e0cdf4b0ecd8cdc2,,188,14,7,Merged PR 39351: fix: updated snapshots and moved to playwright image for e2e ci/cd testing,sh,0,squash-pr
+2026-01-13,monorepo,Vijay Bollineni,2eb75d06cedae9045bf7b76d1a44435704616012,,1,6,0,deploying QA6 MSK,tfvars,0,direct
+2026-01-13,monorepo,Adam Edwards,c3f817beb4cd72429da1dbbd2079ff2cf7b37283,,5,126,49,Merged PR 39352: [FE] List Filters wire up,tsx,0,squash-pr
+2026-01-13,monorepo,Dan Gent,059adad9b17b0cd0df58fda304fe20dec31a38ad,,2,3,3,fix: targeted rfq actually on ac-collection,ts,0,direct
+2026-01-13,monorepo,Shreshthha Jain,5874409120375b94264d36210233bb7506925754,XRFQ-3642,1,8,6,Merged PR 39350: fix: Clear the timer when status is not live (XRFQ-3642),tsx,0,squash-pr
+2026-01-13,monorepo,Pedro Noriega,f19c24f4eafd5b00f3b3a151255f88f31c342a51,XRFQ-3407,1,2,1,"Merged PR 39330: XRFQ-3407: Move summary panel above parameters panel, add initialHeight",tsx,0,squash-pr
+2026-01-12,monorepo,YDvir,bdbd38e75605a1a1833875000224f963907f4a05,,9,346,59,feat: enhance dialog and dealer grid components with improved type definitions and new currency utilities,tsx ts,0,direct
+2026-01-12,monorepo,David Rydell,014ec29b6dcf79df733f2c109b25c056783fd979,XPMI-1255,3,187,29,XPMI-1255 add Remove Selected to context menu,tsx css,0,direct
+2026-01-12,monorepo,David Behmoaras,afdb8a78187d984641f927423e6d59ed74018895,XRFQ-3737,13,262,53,Merged PR 39344: XRFQ-3737 finish data integration for summary panel data,ts,53,squash-pr
+2026-01-12,monorepo,Keshal Desai,42d92e5066d7183433a485385b16c2ba7e358d4a,XPMI-1292,1,16,0,Merged PR 39342: bug(XPMI-1292): add _modifiedTS field to existing auctions-users and auctions-instruments documents,js,0,squash-pr
+2026-01-12,monorepo,Tim Kang,9d9800e4991c62954d6be3d1b1bb274bec6c1b13,XRFQ-3648,1,2,0,Merged PR 39338: XRFQ-3648 - expose autox counts for lists,ts,0,squash-pr
+2026-01-12,monorepo,YDvir,ac0faa2d0ed8a719c89189cb1d2caa36f47cca0a,,1,0,3,feat: remove conditional check for DISABLE_REACT_SCAN in initReactScan,tsx,0,direct
+2026-01-12,monorepo,YDvir,bef456b83bb5b2677eee7dc80137105140d1634e,,12,389,441,init,ts graphql,0,direct
+2026-01-12,monorepo,YDvir,f3363522ce220753f91d5445283e4f263538231a,,18,543,35,init,tsx ts css,0,direct
+2026-01-12,monorepo,Aisen Kim,54bf74a2f7e32f4cab8e819ee85056fcdcf3fa89,XPMI-1280,7,14,26,feat(XPMI-1280): Added timestamp through modifying the write strategy,yaml js,0,direct
+2026-01-12,monorepo,Dimitar Christoff,5e251c1357affec1081c9570afc168e8352b4368,,6,32,5,Merged PR 39332: fix: allow sections to not have a lead border in case their parent does,tsx css,0,squash-pr
+2026-01-12,monorepo,Shreshthha Jain,b9535219f2af4bd7f57d313483e270e69150069f,,1,2,2,Merged PR 39333: fix: Build fix,tsx,100,squash-pr
+2026-01-12,monorepo,Kunal Choudhary,83c2966d8742b4eb3639f89e98d9b230b46c6100,,1,3,3,Merged PR 39331: added quotes as it was throwing error on kafka connection,yaml,0,squash-pr
+2026-01-12,monorepo,Lola Naumova,b1f79c23048fff0969a1037e84a48dfe4f20b289,XPMI-1020,24,415,1232,feat(XPMI-1020): Remove midx commands & raname send RTS command,ts tsx graphql,0,direct
+2026-01-12,monorepo,Satraj Sehmi,689b5a4006d130558a7fc31d55fae582e4825fae,XRFQ-3583,14,413,20,Merged PR 39326: XRFQ-3583 add unit tests for targeted rfq smart select,tsx,65,squash-pr
+2026-01-12,monorepo,Shreshthha Jain,f571e06c8eb32bba3c759349d6fa847239195993,,11,334,31,Merged PR 39302: Added limit level popup for lists and singles,tsx ts,46,squash-pr
+2026-01-12,monorepo,Shreshthha Jain,06f51cad44fd480daa131d56ccf74dd87ca3e099,,7,197,3,Merged PR 39327: feat: Updated display status value based on displayTransientStatus and weight...,ts,52,squash-pr
+2026-01-12,monorepo,David Behmoaras,c41824575f4b4f796ce9d82454eaf0503a05a668,XRFQ-3273,23,338,78,"Merged PR 39317: XRFQ-3273 protocol focus, more styling update",tsx ts,53,squash-pr
+2026-01-12,monorepo,Adam Edwards,603662012a39b8b57a88ede581d2e8413d0469e3,,6,113,102,Merged PR 39321: Dynamic dropdown,tsx,0,squash-pr
+2026-01-12,monorepo,Rodrigo Iparraguirre,31d7d4189d37c66d16db7a9158bd4e2f71af44ea,,4,84,260,Merged PR 39322: instrument amount outstanding,avsc java,12,squash-pr
+2026-01-12,monorepo,Rodrigo Jaen,d865579d8c95edea857e82d3ab7598538b982035,,6,9,106,"Merged PR 39323: join inquiry size, autox agg into same list level connector since there is no...",yaml,4,squash-pr
+2026-01-12,monorepo,Arshad Ahamed Syed,5bf24c12ef19a923c9c1f7c435ae5058ac190341,XRFQ-3595,2,1,2,Merged PR 39319: XRFQ-3595-Tradability value disappears after submitting inquiry,java,0,squash-pr
+2026-01-12,monorepo,Shreshthha Jain,0215e2c7865de2e2d7e936c1da8990cb81a9dd98,,3,3,1,Merged PR 39320: fix: activity console and list item grid style fix,tsx css,0,squash-pr
+2026-01-12,monorepo,Rodrigo Jaen,2fe0f99820db4f413141f2cc2b3c66dd69e856b7,,14,260,45,Merged PR 39265: rename transient field to avoid late messages. Ui will pick the right one on read,java,54,squash-pr
+2026-01-09,monorepo,Paul Spiteri,1eef5fdabe6221d2b46bcd70fceea6cb5f91244a,XPMI-1276,4,29,24,Merged PR 39315: (fix)XPMI-1276: Playwright - Eligible Cusips only SPREAD,ts,100,squash-pr
+2026-01-09,monorepo,Aisen Kim,ecb305a7534524eb7a18418218a1cb2cfb20d519,XPMI-1280,1,3,27,feat(XPMI-1280): Added timestamp (updatedAt) for all mongo documents without expiration,js,0,direct
+2026-01-09,monorepo,Aisen Kim,2dd48102cd2946e9c23eecb5ab77094294b922f9,XPMI-1280,5,39,7,feat(XPMI-1280): Added timestamp (updatedAt) for all mongo documents,js yaml,0,direct
+2026-01-09,monorepo,rahukumar,72e13b47650357f41312634f54605a47f66f2ffa,,9,94,94,Spotless,java,59,direct
+2026-01-09,monorepo,rahukumar,81e3510b195454a4d1cc2647c14b9aea472801e2,,16,210,1,Add Config,tf tfvars hcl yaml,1,direct
+2026-01-09,monorepo,rahukumar,c4c91ba193382cb3c791fda1ab638b85f70b675d,,1,1,0,New Changes,java,100,direct
+2026-01-09,monorepo,rahukumar,32db382bde4578dae14c0fa32e18d5b51538f310,,8,169,25,Unit Tests,java yaml,49,direct
+2026-01-07,monorepo,rahukumar,72ec35c42a4f56b4af56e9b7e5ced1af3be61264,,6,53,44,Good stopping point for Enricher,java,21,direct
+2026-01-07,monorepo,rahukumar,74b977df571d3dc09aec6714059e5bce20856dc9,,10,244,42,Code Without Tests,java,18,direct
+2026-01-06,monorepo,rahukumar,793ce3050851387328301b0dd79ae526080fe077,,16,1088,0,client ioi initial scaffolding,java cmd,27,direct
+2026-01-09,monorepo,rahukumar,048d54b3a654f433c10547acaa32e3a0a9eada4f,,8,169,25,Unit Tests,java yaml,49,direct
+2026-01-07,monorepo,Aisen Kim,a780e8d8fef3e2d0a4f956b8c2623e23a4fcd8c6,XPMI-1020,2,48,48,feat(XPMI-1020): formatting,yaml java,0,direct
+2026-01-05,monorepo,Aisen Kim,c8415960d035871c639b27b8152a7e5769285668,XPMI-1020,15,79,68,feat(XPMI-1020): renamed/refactored naming of SendRTSToAuction*,java json,29,direct
+2026-01-09,monorepo,Keshal Desai,707ee156a044115ff23fbe7c96def32ceb6e02b3,XPMI-1291,3,24,2,Merged PR 39303: perf(XPMI-1291): add OpenTelemetry environment variables for tracing configuration to Mirror Maker,yaml tf,0,squash-pr
+2026-01-09,monorepo,David Behmoaras,810e9e9817759a2e0a7c29c4adb3aa94a2692552,XRFQ-3273,20,547,24,Merged PR 39280: XRFQ-3273 order depth styling integration,tsx ts,53,squash-pr
+2026-01-09,monorepo,Keshal Desai,f789f0b17072eacb8518d61b4f657c06f89c0f58,XPMI-1291,4,113,320,Merged PR 39296: refactor(XPMI-1291): remove AvroToJsonProcessor and streamline JSON conversio...,java,19,squash-pr
+2026-01-09,monorepo,Satraj Sehmi,66f5985c98cf7dfc63c18ffe25344ce6a949f88b,XRFQ-3739,6,86,63,Merged PR 39287: XRFQ-3739 List Inquiry Item,tsx ts,33,squash-pr
+2026-01-09,monorepo,Dan Gent,edb1320df2c41222f0050c594e42afc8bd776cd1,,3,8,7,fix: isTargetedRFQChecked is in inquiry data,tsx,67,direct
+2026-01-09,monorepo,Nicolas Ramirez-Diaz,7e72b76a85d5702a026599c6464ce460af8ed93e,MAUI-4293,55,490,174,Merged PR 39204: [MAUI-4293]: Stylelint autofix support for strict css var usage rule,css js mjs,0,squash-pr
+2026-01-09,monorepo,Paul Spiteri,a75d519b0730573225d84a609884e205f587138a,,1,12,47,"Merged PR 39298: Revert ""Merged PR 38401: fix: Checkbox selection can get out of sync""",ts,0,squash-pr
+2026-01-09,monorepo,Paul Spiteri,d23b10d5cd322f28e672e970bf307d396bfd7ca7,XPMI-1276,2,7,5,Merged PR 39277: (fix)XPMI-1276: Playwright - dismiss alert fix,ts,100,squash-pr
+2026-01-09,monorepo,Dimitar Christoff,a208e2aefda99b7466c490c3878e21b56ec130e1,,7,99,13,Merged PR 39285: fix: running playwright from devcontainer without pnpm install,sh ts,0,squash-pr
+2026-01-09,monorepo,Nicolas Ramirez-Diaz,0e6e94f0f68267446e2cb65d3a2cb8f2e114ea09,,1,1,1,Merged PR 39294: fix: check affected,json,0,squash-pr
+2026-01-09,monorepo,Arshad Ahamed Syed,d7668030ce856b316533210be96881010e14f52e,XRFQ-3595,7,39,26,Merged PR 39286: XRFQ-3595 Tradability-value-disappear,java,83,squash-pr
+2026-01-09,monorepo,Adam Edwards,85ccc09754add8418e70941dc10b00a8bd43fdd4,,1,3,1,Merged PR 39293: fix: pass smartSelectGroup prop to inquiry item tab,tsx,0,squash-pr
+2026-01-09,monorepo,Rodrigo Iparraguirre,15c1d5271ffd3055bee6eac1ace6d53f5b5ca688,,2,25,12,Merged PR 39292: do not send reason at list level,java,46,squash-pr
+2026-01-09,monorepo,Andres Ivaldi,337ca79751722a6098c50073b842fd1e5878f306,,1,2,2,Merged PR 39290: update connector due the schema change,yaml,0,squash-pr
+2026-01-09,monorepo,arathore,8fd5a0244e9ed51e202bafef975590b77eafb026,XRFQ-3611,1,6,0,XRFQ-3611 Added erros and warnings fields to compatibility document,ts,0,direct
+2026-01-09,monorepo,Rodrigo Iparraguirre,57c4d799ed9d520be15035a68bb39e6f8a77b068,,35,2308,2,Merged PR 39283: slo sds v2,java json,47,squash-pr
+2026-01-09,monorepo,Dan Gent,02f532cd73aa76f7e2d91d8a4f65671bccfa0a4e,,1,1,2,fix: duplicate font-weight declaration,css,0,direct
+2026-01-09,monorepo,Alex Munteanu,ce290282c9b75536da049619ab5cf2363328d2c2,,26,466,13,Merged PR 38114: feat: add filters to the AC all orders grid,tsx ts,0,squash-pr
+2026-01-07,monorepo,Dan Gent,3433c08b1c9b652ee66eeb1394811121b6043ce6,,3,6,4,fix: wire up targeted RFQ toggle to new graphql types,tsx ts,20,direct
+2026-01-09,monorepo,Tim Kang,f45d454ad18acb05841f787467b3edf856196384,XRFQ-2522,10,243,74,Merged PR 39159: XRFQ-2522 - implement show action buttons for best only,tsx ts,67,squash-pr
+2026-01-09,monorepo,Adam Edwards,33d0537f10c46ee6b48a306dff163c45634cf92f,,21,500,551,Merged PR 39284: Update GraphQL Trageted mutation and rename Xpro_Submission_TradeExecutionOperationType -> Xpro_Submission_UiOperationType,ts graphql,2,squash-pr
+2026-01-09,monorepo,Adam Edwards,bc21914972485281b43b4771e3b127252c037b64,,10,127,84,Merged PR 39263: feat: migrate to the new dealer api,tsx ts,68,squash-pr
+2026-01-08,monorepo,Pedro Noriega,73ffccadbe6116ba3986dd13605ca65d7823167c,XRFQ-3670,1,1,1,Merged PR 39261: XRFQ-3670: Fix: ActivityConsole: Fix ISIN column backing field,ts,0,squash-pr
+2026-01-08,monorepo,Kunal Choudhary,0b788d8d151238b1ef6f49f76b2b96bba506d476,,1,1,1,Merged PR 39269: Revert 'removing role temp till cloud fixes it',yaml,0,squash-pr
+2026-01-08,monorepo,Evgeny Klimenchenko,c935fb5942eb1676ee8f2ead5bfbce41c0694b30,,2,11,2,Merged PR 39268: feat: 1.0.0 @mktx/ui release,md json,0,squash-pr
+2026-01-08,monorepo,Dimitar Christoff,3e7f05bebd45661d925a0d9e34bbdf312759c651,,5,133,30,Merged PR 39260: fix: latest tokens,txt css js,0,squash-pr
+2026-01-08,monorepo,Andres Ivaldi,1794515ea6e503ac1ae7b16a0264000be3f0696c,,3,3,2,Merged PR 39254: Fix schema to be compatible with codeGen,md avsc,0,squash-pr
+2026-01-08,monorepo,Andres Ivaldi,d29f62bf78c5df64316e7d4a5c36bd1f3fabb423,,1,1,1,Merged PR 39266: add is deleted topic to connector,yaml,0,squash-pr
+2026-01-08,monorepo,Tim Kang,38262a6b33054e1e4e921bdd3eeb623713262454,XRFQ-2041,37,1166,402,Merged PR 39104: XRFQ-2041 - Render action buttons based on response next actions,tsx ts,26,squash-pr
+2026-01-08,monorepo,YDvir,aa9294495be3859a82b74e7a79a175176a3981fa,,7,45,286,fix: remove unused modals and styles from BulkActions component,tsx css,15,direct
+2026-01-08,monorepo,Dimitar Christoff,bdeb5955230e8bccea0ad9dad128711a067dca25,,9,240,55,Merged PR 39222: fix: initial bump to pnpm 10,lock,0,squash-pr
+2026-01-08,monorepo,Dan Gent,27684173a7aa9045608cca4efa57e6b3e8c5a372,,7,26,27,fix: swap order OT & DP,tsx,34,direct
+2026-01-08,monorepo,Paul Spiteri,3a9f42a36a690a42a53cb1bc30965fd4c40c9d52,XPMI-1276,17,291,224,Merged PR 39212: (fix)XPMI-1276: Playwright - Eligible Instruments fixes,ts,98,squash-pr
+2026-01-08,monorepo,Adam Edwards,16b2dc21ca6841058358b51ef516a419aed338d7,,21,658,11,Merged PR 39027: feat: Bulk actions,tsx ts,22,squash-pr
+2026-01-08,monorepo,Dan Gent,ef14a9547e5c535522ecc6421c5516b6f779f833,,4,4,4,"fix: change labels to ""cptys"" on toggles",tsx,0,direct
+2026-01-08,monorepo,Dan Gent,8fb0ff2a413296e81a9f10554c5a40625e6f74fc,,1,1,1,fix: flip opentrading pills & checkbox order,tsx,0,direct
+2026-01-08,monorepo,Rodrigo Iparraguirre,a780cff2cd32ef67c90935eb43e993058b29d8b5,,2,18,9,Merged PR 39259: vl last sds timestamp null for 1st time,java,37,squash-pr
+2026-01-08,monorepo,David Behmoaras,87ff24a9fd05cb798930ee3d15e97be18b057c53,XRFQ-3273,14,121,175,Merged PR 39238: XRFQ-3273 Order Depth change dependency from inquiryData to instrumentID,tsx ts css,34,squash-pr
+2026-01-08,monorepo,Satraj Sehmi,9e3916522fe5fe7395bf9413c424064dc1f7f7ad,XRFQ-3584,9,46,26,Merged PR 39258: XRFQ-3584 integrate smart select with targeted rfq,ts tsx,0,squash-pr
+2026-01-08,monorepo,Kunal Choudhary,c9ced793a25426f11591f47ef2ecaa7455d8ad3d,,1,1,1,Merged PR 39257: removing role temp till cloud fixes it,yaml,0,squash-pr
+2026-01-08,monorepo,Dan Gent,11af4ee1504faf642e37bff83d663f57a167cf2d,,2,9,9,fix: new label and swap vertical order,tsx,11,direct
+2026-01-08,monorepo,Rodrigo Iparraguirre,addcf4227f5ba575484d540d4561dcfbd260454c,,3,53,54,Merged PR 39256: v2 input topic correlation,mmd},0,squash-pr
+2026-01-08,monorepo,Shreshthha Jain,bac8606eebe0e49775ecdc5bf3bc9d9321913d21,XRFQ-3652,1,1,0,Merged PR 39255: fix: Added level limit in dealer response eu view (XRFQ-3652),ts,0,squash-pr
+2026-01-08,monorepo,Rodrigo Iparraguirre,16f49fd2b553188afb44a2c9d9f2049c07c2f14f,,1,1,1,Merged PR 39251: add v2 to sink connector,yaml,0,squash-pr
+2026-01-08,monorepo,Dimitar Christoff,8151d0701b8a88c3117a1f7b52db909ccdc05391,,25,8104,7,Merged PR 39157: start tests,tsx ts,100,squash-pr
+2026-01-08,monorepo,Rodrigo Iparraguirre,e72d809c8d0a30fd8a61efbb40598741895b3080,,2,86,1,Merged PR 39250: fix NPE,java,98,squash-pr
+2026-01-08,monorepo,Evgeny Klimenchenko,56b464e01babe6c38d5a68f93e67a3138f867db1,,3,367,4,Merged PR 39249: feat: filtering out the merge commits and test for changelog script;,bats,0,squash-pr
+2026-01-08,monorepo,Andres Ivaldi,84f325522afd66645e32a89d72a5f962eddb8ac3,,7,23,25,Merged PR 39248: Move upstream schema to be inline,avsc,2,squash-pr
+2026-01-08,monorepo,Satraj Sehmi,56c2e5fcf2c2ad1532fee9701206961293687661,XRFQ-3584,7,74,5,Merged PR 39247: XRFQ-3584 TargetedRFQ smart select dealer pills,tsx css,0,squash-pr
+2026-01-08,monorepo,Rodrigo Iparraguirre,830c6eaed8a734dc9766b17c5fe83b09cf112906,,1,2,0,Merged PR 39246: pom v2,xml,0,squash-pr
+2026-01-08,monorepo,Rodrigo Iparraguirre,1a84cdc623674537412fc25169b1c5eccae3dce8,,88,4334,640,Merged PR 39147: full dealer api integration upstream submission service v2,java yaml,32,squash-pr
+2026-01-07,monorepo,Dimitar Christoff,c7acba960b9c3dbf7398c8496d144deeb81d1f44,,3,10,7,Merged PR 39241: chore: release ui 0.13.1,yaml md json,0,squash-pr
+2026-01-07,monorepo,rahukumar,b9de2a179a5c875e2ebe4fb6cdded883d0b1a416,,6,53,44,Good stopping point for Enricher,java,21,direct
+2026-01-07,monorepo,rahukumar,159b35999612bbcca0b7dd8f238cfa9bfc650b7a,,10,244,42,Code Without Tests,java,18,direct
+2026-01-07,monorepo,Michel Richard,2bcc939a8cf31d660a8d7b6df6fd54acec4884d8,,2,36,2,Merged PR 39240: Publish UI package 0.13.0,md,0,squash-pr
+2026-01-07,monorepo,Aisen Kim,d722c648a959053f12ad755d2169e269b40ea9ac,XPMI-1043,1,0,9,fix(XPMI-1043): removed code that deletes unnecessary index,js,0,direct
+2026-01-07,monorepo,Adam Edwards,b53c362b12988a7be6b338e7e85d6a9a600b7e14,,1,4,3,Merged PR 39232: fix: Capabilities doc,ts,0,squash-pr
+2026-01-07,monorepo,David Rydell,e78c5616072cbe612503bd1dd690f7fe1b7386b9,XPMI-1237,3,26,3,XPMI-1237 disable Default Treasury setting dropdown if user not permissioned,tsx,0,direct
+2026-01-07,monorepo,Aisen Kim,018cbbbe6b97e19550e98ba8f5e18f95a303d4be,XPMI-1043,3,32,2,fix(XPMI-1043): add timestamp to users and instrument collection,js yaml,0,direct
+2026-01-07,monorepo,Kunal Choudhary,aab02b72e2e8e0c6b9323569dc18bde14b912965,,1,4,4,Merged PR 39235: changed casing of names of cron jobs,tf,0,squash-pr
+2026-01-07,monorepo,Kunal Choudhary,30894373d1c4ff590fc36c1cf30d6e31b6524565,,11,158,148,Merged PR 39231: code refactoring and adding scaling for kafka connectors and MM2,tf yaml,0,squash-pr
+2026-01-07,monorepo,Shreshthha Jain,361d449839c1f3b3bf5d5162376bd722bea9c03a,XRFQ-1986,10,677,274,Merged PR 39229: feat: Moved cptys and rating values display in mongo for sorting (XRFQ-1986),ts,36,squash-pr
+2026-01-07,monorepo,Adam Edwards,a5782e7ace5caaeaa989db0c9fb0ff38b4a95d29,,11,344,386,Merged PR 39227: Add mutation to set targeted,ts graphql json,0,squash-pr
+2026-01-07,monorepo,arathore,768a1988ca376ceb0c9edecf6b78f4d743822eee,XRFQ-3611,1,0,18,XRFQ-3611 Removed the errorsOnList and warningsOnList fields,ts,0,direct
+2026-01-07,monorepo,Aisen Kim,0d5415f0e8f507807a922fe217d5cfd101cd6a56,XPMI-1043,1,1,1,fix(XPMI-1043): added moc path to deleting internal topics,yaml,0,direct
+2026-01-07,monorepo,Aisen Kim,7eba217ba061db95b88baec54c220f356e012a91,XPMI-1043,2,26,26,fix(XPMI-1043): added commons path to deleting internal topics and uncommented scale down cronjob,yaml,0,direct
+2026-01-07,monorepo,Tim Kang,a1775c0c06b6f4c7bf6bd9e6e7e5d4c1b36753cc,XRFQ-1875,1,1,0,Merged PR 39223: XRFQ-1875 - sort dealer responses based on rank,ts,0,squash-pr
+2026-01-06,monorepo,David Rydell,e5305276ac30618c4bdba8232bb40c31645b17e6,XPMI-1177,1,13,5,XPMI-1177 match Hedge Status filter options to the data values in the column,ts,0,direct
+2026-01-07,monorepo,Dan Gent,7a0cca5f4342f65d3ef98ba4049170af564c9e82,,1,1,1,Merged PR 39224: fix: send up empty dealer group on selection on targetedRFQ,tsx,0,squash-pr
+2026-01-07,monorepo,arathore,78253c4681d920091582e91ba28038d021f631da,XRFQ-3611,1,73,73,XRFQ-3611 Ran prettier,ts,0,direct
+2026-01-07,monorepo,arathore,6925d3bf2e68fec71f25ac03b589ae1706d78fdf,XRFQ-3611,1,248,248,XRFQ-3611 Removing errors and warning for list documents,ts,0,direct
+2026-01-07,monorepo,Satraj Sehmi,d56964d97628cd948f2e2ea6490a833e7651eb35,XRFQ-3584,12,301,39,Merged PR 39067: XRFQ-3584 Targeted RFQ Smart Select,tsx,3,squash-pr
+2026-01-07,monorepo,Rodrigo Jaen,e3f36cef5271bece38a29411dc42803feafba70d,,10,194,5,Merged PR 39221: adding standalone connector for AC,yaml tf,0,squash-pr
+2026-01-05,monorepo,Dan Gent,3ee3b92f394b4a18c7c0d7073cf7eb65a8a05d1e,,3,82,23,feat: test isTargetedRFQChecked,tsx,93,direct
+2026-01-07,monorepo,Shreshthha Jain,595f728863d60111d377f207d5ccdf0f06b3a589,XRFQ-3616,1,6,2,Merged PR 39220: fix: Formatter applied on receive time column (XRFQ-3616),ts,0,squash-pr
+2026-01-07,monorepo,Satraj Sehmi,96fc565f42b10081e4ac7104131ca1fb3c39a98d,XRFQ-3688,3,37,7,Merged PR 39219: XRFQ-3688 update list inquiry items to use inquiry data from the item not list,ts tsx,0,squash-pr
+2026-01-07,monorepo,Shreshthha Jain,8c439a416e31c054fd6c3feb440e1a774540989f,XRFQ-1986,5,151,46,Merged PR 39185: feat: Updated default column order for pre-submission(XRFQ-1986),ts,7,squash-pr
+2026-01-07,monorepo,Dimitar Christoff,b6c5d7687d2f0a4a0fe5e6b7ae0449029c9f2c95,,4,295,350,Merged PR 39218: feat: SB bump to 10,yaml,0,squash-pr
+2026-01-07,monorepo,Evgeny Klimenchenko,a794acef4dc9eb472ea38b8ec5ee15654186f2b7,,26,142,28,Merged PR 39216: feat: update dealler pill,tsx css,0,squash-pr
+2026-01-06,monorepo,Pedro Noriega,6edc376d8fcff79606d66b6da09fb9eab5ab2641,XRFQ-3670,1,2,2,Merged PR 39163: XRFQ-3670: ActivityConsole: Pull ISIN and CUSIP from instrument projections,ts,0,squash-pr
+2026-01-06,monorepo,Lola Naumova,14e51747951ef7d8060a0831dff10053a70f32d9,XPMI-1289,4,18,173,Merged PR 39203: feat(XPMI-1289): Remove midx types,ts graphql,33,squash-pr
+2026-01-07,monorepo,arathore,8d1eebdf454f2830e632285211cf8f844e70c417,XRFQ-3611,1,267,1,XRFQ-3611 Migrate errors and warnings to xpro-activity-console connection,ts,0,direct
+2026-01-06,monorepo,rahukumar,320439f9e7139a1205f22d60fbcf4040ddf2bae6,,17,1141,1,client ioi initial scaffolding,java cmd,25,direct
+2026-01-06,monorepo,Kunal Choudhary,2f6276c8e0f62e22c9a27123ad1fdaf8dcebf856,,1,2,5,Merged PR 39199: adding scale resource for strimzi,yaml,0,squash-pr
+2026-01-06,monorepo,Kunal Choudhary,d0cc4e802e9679f2bf8b78e13ac6bb1eb1d08ca4,,1,1,1,Merged PR 39198: adding scaling role for strimzi resource,yaml,0,squash-pr
+2026-01-06,monorepo,Kunal Choudhary,a29757825323857d6830fdc841f763acb6d771cd,,1,4,1,Merged PR 39197: added scale role for mm2,yaml,0,squash-pr
+2026-01-06,monorepo,Kunal Choudhary,1d06bd0c28c900d06f320b04ec8140b892ca41f5,,1,1,1,Merged PR 39194: adding correct role,yaml,0,squash-pr
+2026-01-06,monorepo,Dimitar Christoff,44017ee1f0293c7aa4f5b1991d0944dfb3bf0afa,,14,40,15,Merged PR 39186: column manager fixes,css tsx,0,squash-pr
+2026-01-06,monorepo,Satraj Sehmi,c7cc4c593d1206997c1b89a0912c51203183923f,XRFQ-3687,1,2,1,Merged PR 39189: XRFQ-3687 page header done status fix,tsx,0,squash-pr
+2026-01-06,monorepo,Kunal Choudhary,d323f0caf276a0f6f7883be86504f21f031f8ef0,,4,12,12,Merged PR 39193: fix deployment errors,yaml,0,squash-pr
+2026-01-05,monorepo,Dan Gent,729de0e0dd810ebccf0cd9b7f3948115552279e9,,10,546,574,fix: move isTargetedRFQChecked into submission,tsx,93,direct
+2026-01-06,monorepo,Dan Gent,08df9cbc0b0a98266f5ae193fbad37ea414cab71,,5,5,25,fix: remove duplicate graphql client,ts tsx,13,direct
+2026-01-06,monorepo,Kunal Choudhary,b95f8b9ff3cdc8a0c355b2de9dc0eb895e5f9805,,10,217,9,Merged PR 39160: Scaling cronjob for strimzi mm2,yaml tf,0,squash-pr
+2026-01-06,monorepo,Shreshthha Jain,98840b05ba000aa6adf6de77df545580c7d23296,XRFQ-3512,3,4,7,Merged PR 39181: feat: Added isTragetedRfq flag in submission (XRFQ-3512),tsx,55,squash-pr
+2026-01-06,monorepo,Yan Parenteau,1caa99b47800a3d9c94680a4da2e332ccee83b1f,,25,1775,1462,Merged PR 39126: feat: ag-grid agnostic col settings,tsx ts,7,squash-pr
+2026-01-06,monorepo,Adam Edwards,06fccb2358d5cd3044dc96b9cb628bd15d23a228,,28,115,2720,Merged PR 39176: feat: Update GraphQL codegen,ts avsc graphql,0,squash-pr
+2026-01-06,monorepo,Raju Guduri,9d065c4f462289736ed532c07206aa652ef11651,XRFQ-3679,3,22,3,Merged PR 39174: XRFQ-3679: Populating userid when creating dealer stack post submission,java,80,squash-pr
+2026-01-06,monorepo,Shreshthha Jain,4d6cd32724fd00ac3b85ac21f581267eee8dfd23,XRFQ-3386,1,4,1,Merged PR 39130: fix: Update page header timer state after it is expired once (XRFQ-3386),tsx,0,squash-pr
+2026-01-05,monorepo,David Rydell,de15629bc3ca99df0c17e93f576c70277d2bf6d6,XPMI-1211,2,4,3,XPMI-1211_minor_earlier_fixes,ts tsx,0,direct
+2026-01-05,monorepo,Andrew Kwak,ca8da512cf2676e4043b20e48725249bb559729f,,1,17,6,Merged PR 39151: Update Loadtest Script to Support Other QA Envs,sh,0,squash-pr
+2026-01-05,monorepo,Keshal Desai,59cdf6cb37c3009de0d88722c6e604e85f9ed2fe,XPMI-793,30,286,2,Merged PR 39161: feat: XPMI-793 KStreams K8s probes for all MOC apps,yaml yml,0,squash-pr
+2026-01-05,monorepo,Paul Spiteri,4b8e22155b93fd114bed18e3d5700ac0f06ea4fe,XPMI-1276,7,43,79,Merged PR 39158: (feat)XPMI-1276: Playwright - Eligible Instruments fixes,ts,100,squash-pr
+2026-01-05,monorepo,Paul Becotte,484429916edfae303083fc3d81e37939bddb4996,XSRE-961,2,5,5,bug(XSRE-961): The default alloy endpoint value was incorrect,,0,direct
+2026-01-05,monorepo,Dimitar Christoff,e16fdaf5bcd6220593bd8932852ed11758222831,,37,509,89,Merged PR 39149: feat: ui css api added,tsx css,0,squash-pr
+2026-01-05,monorepo,Keshal Desai,2f8d9ecac722cdbf255184d71076b2d20816e855,XPMI-793,2,19,0,Merged PR 39150: feat: XPMI-793 KStreams K8s probes,yaml yml,0,squash-pr
+2026-01-05,monorepo,Andres Ivaldi,62549e9b63538b69d898576c6d686a6b660dfdc0,,2,2,2,Merged PR 39145: Changing the collection where to persist the change,yaml java,0,squash-pr
+2026-01-05,monorepo,Evgeny Klimenchenko,1a3f170b3d4a76acd7feb8dd7563ded8280c60f6,,3,10,1,fix: fixes after review,ts yaml,0,direct
+2026-01-05,monorepo,Adam Edwards,cd7fe2b16d57274ed66754b253842ba32e20daee,,1,13,0,Merged PR 39144: feat: add QA4 automation for 1.5,qa4,0,squash-pr
+2026-01-05,monorepo,Evgeny Klimenchenko,6e906dd9a11cf98ab9adda5ece9e018cf7d6c9e0,,2,17,7,fix: fixes after review,cjs ts,0,direct
+2026-01-02,monorepo,Michel Richard,7a208db55620e31e8c48370c50a8ca5a209909b4,MAUI-4252,10,22,19,feat(MAUI-4252): upgrade vitest 4. integration test suites,ts tsx,12,direct
+2026-01-02,monorepo,Keshal Desai,c018e59c4fdadf8c2709e8b42616863e9840d093,XPMI-684,25,120,324,Merged PR 39140: XPMI-684 Add support for envMap in Kubernetes deployment configuration,yaml,0,squash-pr
+2026-01-02,monorepo,Shreshthha Jain,83d8b3aa95994bd3f598483b72f878824ccfed9b,XRFQ-3642,1,5,1,Merged PR 39137: fix: Clear the timer when status is not live (XRFQ-3642),tsx,0,squash-pr
+2026-01-02,monorepo,Keshal Desai,366454e9b6f249e2d232ace6232bc7018b0f2365,XPMI-684,7,130,36,Merged PR 39135: Revert 'XPMI-684 Add support for envMap in Kubernetes deployment configuration',yaml,0,squash-pr
+2026-01-02,monorepo,Keshal Desai,750735ed0b36b8e538a66e8e52613b9d7ebaa70a,XPMI-684,1,3,3,Merged PR 39139: fix: XPMI-684 Try typeIs for the helm envMap check,,0,squash-pr
+2026-01-02,monorepo,Rodrigo Iparraguirre,b69564e4b61393034e0765decd0be38c76444275,,100,5845,129,Merged PR 39113: Full dealer API integration,java,43,squash-pr
+2026-01-02,monorepo,Keshal Desai,d7fee0eee45046e365f1dbcdfe084ffc3e5b0614,XPMI-684,1,3,3,Merged PR 39138: fix: XPMI-684 Try a more compatible kind check,,0,squash-pr
+2026-01-02,monorepo,Keshal Desai,b6f2dbb84bc53becad1526ea31685d965f3b4932,XPMI-648,1,1,1,Merged PR 39136: fix: XPMI-648 Show helm errors,,0,squash-pr
+2026-01-02,monorepo,Michael Dalby,2c9aa35459ed64d066f4abd13cbdd8471b49d479,XRFQ-3623,3,204,2,Merged PR 39026: fix(XRFQ-3623): Ranking: Dealers without Response Rank alphabetically,java,99,squash-pr
+2026-01-02,monorepo,Keshal Desai,887af90f2da9e1496fff72d8e2c58d75a26bf9c8,XPMI-684,7,36,130,Merged PR 39133: XPMI-684 Add support for envMap in Kubernetes deployment configuration,yaml,0,squash-pr
+2026-01-02,monorepo,Evgeny Klimenchenko,5b844e3a5342f6adb5d3d6b6b9f032d6219f28a9,,4,14,29,fix: refactoring,ts yaml json,0,direct
+2026-01-02,monorepo,Shreshthha Jain,a81eab7d542ba57eae5899fab92bc4994bab3dee,,2,12,2,Merged PR 39124: Fix timer variant for Page header timer,tsx,0,squash-pr
+2026-01-02,monorepo,shjain,cdce162ac591cb395fd97fe362aec64ed81303ba,XRFQ-3386,3,16,21,fix: Hide Target action buttons when not available in nextActions (XRFQ-3386),tsx,27,direct
+2026-01-02,monorepo,Dan Gent,7398699ff0b8d6eef1f3e7003c968154d47d6fd7,,1,1,1,Merged PR 39129: fix: expect 2026 in spreadsheet test,ts,100,squash-pr

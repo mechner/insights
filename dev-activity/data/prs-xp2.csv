@@ -1,0 +1,596 @@
+date,repo,author,pr-id,jira-link,file-count,+lines,-lines,message,file-types,%test
+2026-02-27,monorepo,Lola Naumova,40706,XPMI-1419,3,428,1,feat(XPMI-1419): RTS phase based order type test,ts,100
+2026-02-27,monorepo,Paul Spiteri,40704,,9,75,85,fix: Auctions e2e getEligibleCusips loop,ts,100
+2026-02-27,monorepo,Paul Spiteri,40658,,1,9,7,(fix): Auctions orders onContentChange clearPendingUpdate fix,tsx,0
+2026-02-19,monorepo,Rahul Kumar,40465,XRFQ-4846,6,665,4,XRFQ-4846 Implementation of stopping double click trade,java,83
+2026-02-27,monorepo,Paul Spiteri,40694,,1,6,3,fix: Auctions e2e dismissAll bugfix,ts,100
+2026-02-27,monorepo,Nicolas Ramirez-Diaz,40677,MAUI-4463,2,145,3,[MAUI-4463]: select all header renderer empty table checkbox,tsx,93
+2026-02-27,monorepo,Andrew Kwak,40687,,2,1,8,fix: remove setting content to undefined on userAggregation update,ts,44
+2026-02-27,monorepo,Rodrigo Iparraguirre,40676,,5,776,12,disclosed ot dealers submission,java,94
+2026-02-27,monorepo,Shreshthha Jain,40672,,2,16,0,Dealer ordering issue in 1.5,js ts,0
+2026-02-27,monorepo,Daniel Kerr,39492,XRFQ-3573,9,572,37,XRFQ-3573 dealer grid icon and partial size tooltip,ts tsx,61
+2026-02-27,monorepo,Andres Ivaldi,40675,,2,0,45,Revert specmesh test,yaml avsc,0
+2026-02-27,monorepo,Andres Ivaldi,40674,,2,19,1,test specmesh deployment to qa and dev,avsc yaml,0
+2026-02-27,monorepo,Andres Ivaldi,40669,,5,54,5769,Test changes in specmesh,yaml,0
+2026-02-27,monorepo,Satraj Sehmi,40670,XRFQ-4763,1,1,1,XRFQ-4763 update confirm button for trade to primary button,tsx,0
+2026-02-27,monorepo,Raju Guduri,40666,XRFQ-4844,13,0,41,XRFQ-4844: Enable enricher service & cleanup of LBL v1 services in QA2,yaml,0
+2026-02-27,monorepo,Andres Ivaldi,40664,,3,21,6,disable schema registry in dev,sh yml,0
+2026-02-26,monorepo,David Behmoaras,40651,XRFQ-4912,1,2,2,XRFQ-4912 show list name in tab header,tsx,0
+2026-02-26,monorepo,David Behmoaras,40643,XRFQ-4951,1,8,3,XRFQ-4951 - Fix trailing zeros in market depth,ts,0
+2026-02-26,monorepo,Joshua Vargas,40575,XRFQ-4897,13,3843,13,[Playwright] [XRFQ-4897] Add Ranorex to Playwright BDD migration tooling,md ts json,99
+2026-02-26,monorepo,Paul Spiteri,40642,,4,40,13,Merged PR 40640: (fix): Auctions orders view tabs isCountOnly mode when not v...,ts tsx,0
+2026-02-26,monorepo,Lola Naumova,40620,,2,17,0,(fix): Fix RTS row not found,ts,100
+2026-02-26,monorepo,Nicolas Ramirez-Diaz,40566,MAUI-4450,2,399,39,[MAUI-4450]: New workflow schema plus docs page update for loader,ts mdx,0
+2026-02-26,monorepo,Rodrigo Iparraguirre,40626,,7,196,17,PR default autox off to master,java json,87
+2026-02-26,monorepo,Sam Rose,40631,,6,20,8,fix: update branch names and fix sourcing hooks in devbox,yml sh,0
+2026-02-26,monorepo,Keshal Desai,40630,XPMI-1424,1,1,1,fix(XPMI-1424): add libstdc++ for RocksDB native library on Alpine,,0
+2026-02-26,monorepo,Shreshthha Jain,40625,XRFQ-3772,2,1,18,fix: REmove counetring check on showing Trade button (XRFQ-3772),tsx,79
+2026-02-26,monorepo,Keshal Desai,40613,XPMI-1424,7,74,42,chore(XPMI-1424): optimize Java CI pipeline and switch to Alpine JRE,yml xml,0
+2026-02-26,monorepo,Shreshthha Jain,40623,XRFQ-4963,4,36,3,fix: count for selected OT dealers (XRFQ-4963),tsx,74
+2026-02-26,monorepo,Adam Edwards,40595,,24,127,644,feat: Read alerts from xpro-activity-console,ts,37
+2026-02-26,monorepo,Raju Guduri,40585,,10,390,57,Select included dealers by default,java,73
+2026-02-25,monorepo,Lola Naumova,40612,,1,36,1,(fix): Fix scroll column into view,ts,100
+2026-02-25,monorepo,Keshal Desai,40586,XPMI-1326,21,520,10,feat(XPMI-1326): add CompositePlus pipeline (inbound converter + instrument sink + RTS fan-out),kt java yaml,61
+2026-02-25,monorepo,Andres Ivaldi,40559,,205,2638,627,Remove dependencies from mktx-data on xpro services,java avsc,52
+2026-02-25,monorepo,Lola Naumova,40592,,2,86,65,(fix): Add annotation and unskip bulk bar test,ts,100
+2026-02-25,monorepo,Keshal Desai,40596,XPMI-1423,2,2,2,fix(XPMI-1423): swap pino logger.error arg order to serialize errors,ts,0
+2026-02-25,monorepo,Shreshthha Jain,40584,XRFQ-4750,5,70,6,feat: Added row level action buttons (XRFQ-4750,tsx ts,0
+2026-02-25,monorepo,David Behmoaras,40589,XRFQ-4951,4,14,10,XRFQ-4951 QA feedback: remove trailing zeros from decimals,ts,58
+2026-02-25,monorepo,Evgeny Klimenchenko,40556,,5,62,42,fix: component fixes,tsx ts,0
+2026-02-25,monorepo,Rodrigo Jaen,40580,,1,2,2,add app_id variable,yml,0
+2026-02-25,monorepo,Satraj Sehmi,40576,XRFQ-4763,14,428,128,XRFQ-4763 trade action confirmation modals,tsx,42
+2026-02-24,monorepo,Paul Spiteri,40572,,3,22,15,(fix): Fix auctions session-manager test,tsx ts,35
+2026-02-24,monorepo,Kunal Choudhary,40571,,1,1,1,Updated Earthfile to accomodate namespaces with suffixes after services,,0
+2026-02-24,monorepo,Paul Spiteri,40570,,1,5,2,(fix): Fix auctions session-manager test,ts,100
+2026-02-24,monorepo,Paul Spiteri,40564,,1,6,0,(fix): Fix auctions publish to testrail,ts,0
+2026-02-24,monorepo,Paul Spiteri,40562,,9,44,71,(fix): Auctions improve playwright getRowByIdentifier,ts,100
+2026-02-24,monorepo,Rodrigo Jaen,40540,,14,318,184,move request/response split to order splitter,java,78
+2026-02-23,monorepo,Keshal Desai,40550,XPMI-1409,4,88,9,fix(XPMI-1409): auto-close KafkaStreams in test extension before container teardown,java,0
+2026-02-23,monorepo,Paul Spiteri,40551,,2,14,3,(fix): Add debugging to flakey playwright getRowByIdentifier,ts,100
+2026-02-23,monorepo,Keshal Desai,40549,XPMI-1409,1,5,2,fix(XPMI-1409): clean up stale KStreams state dir before each test,kt,0
+2026-02-23,monorepo,Paul Spiteri,40547,,1,17,11,(fix): Fix Auctions unsubmit orders e2e tests when using checkboxes,ts,100
+2026-02-23,monorepo,Satraj Sehmi,40489,XRFQ-4760,9,574,57,XRFQ-4760 Live actions for bulk action bar on selected list items,tsx,31
+2026-02-23,monorepo,Andrew Kwak,40532,,2,3,1,fix: viewserver-api-server failing due to otel pkg,npmrc json,0
+2026-02-23,monorepo,Paul Spiteri,40541,,1,8,0,(feat): Add QA5 auctions pipeline e2e,qa5,0
+2026-02-23,monorepo,Satraj Sehmi,40531,XRFQ-4928,14,45,165,XRFQ-4928 generate types from avro,ts,1
+2026-02-23,monorepo,Rodrigo Iparraguirre,40490,,38,1148,433,support disclosed OT dealers,java json,63
+2026-02-23,monorepo,Shreshthha Jain,40530,XRFQ-4893,4,40,12,fix: Clear loading state on unmount (XRFQ-4893),tsx,0
+2026-02-20,monorepo,Keshal Desai,40521,XPMI-1409,22,192,617,chore(XPMI-1409): clean up auctions pom.xml files,xml,0
+2026-02-20,monorepo,Tim Kang,40466,XRFQ-4009,27,1395,1036,XRFQ-4009 - rework disclosed counter parties,tsx ts,61
+2026-02-20,monorepo,David Behmoaras,40509,XRFQ-4752,13,469,60,XRFQ-4752 decimal points main grid,ts,59
+2026-02-20,monorepo,Keshal Desai,40516,XPMI-1409,17,0,80,chore(XPMI-1409): consolidate application-local.yml into model lib,yml,0
+2026-02-20,monorepo,Keshal Desai,40515,XPMI-1326,17,599,4,feat(XPMI-1326): add instrument session market data enricher,kt xml yaml,27
+2026-02-20,monorepo,Evgeny Klimenchenko,40481,,15,390,13,feat: ProgressBar component,tsx css,0
+2026-02-20,monorepo,Keshal Desai,40514,XPMI-1399,14,283,41,feat(XPMI-1399): add OTel span attributes to services,java mmd xml,0
+2026-02-20,monorepo,Paul Spiteri,40513,XPMI-1376,1,1,1,(fix)XPMI-1376: Fix pipeline test Auctions,ts,100
+2026-02-19,monorepo,Paul Spiteri,40510,XPMI-1376,1,4,4,(fix)XPMI-1376: Fix pipeline test Auctions,ts,100
+2026-02-19,monorepo,Paul Spiteri,40505,XPMI-1376,1,0,15,(fix)XPMI-1376: Allure publishing for auctions,ts,0
+2026-02-19,monorepo,Nicolas Ramirez-Diaz,40503,MAUI-4450,2,58,0,[MAUI-4450]: Add spreadsheet loader to shell app registry,md ts,0
+2026-02-19,monorepo,Andres Ivaldi,40496,,5,0,652,Cleaning up topics definitions that are not used,yaml,0
+2026-02-19,monorepo,Raju Guduri,40492,XRFQ-4898,2,4,2,XRFQ-4898: Adding status timestamp to UIRequestRowModel schemas,avsc,0
+2026-02-19,monorepo,Mercedes Kalaizic,40464,,21,408,16,displaying counter good-for timing and level information in the dealer grid after counter submission,tsx ts,71
+2026-02-19,monorepo,Keshal Desai,40487,XPMI-1326,10,192,2,feat(XPMI-1326): add NucleusMarketDataUpdate JSON-to-Avro topology to inbound data converter,java yaml,58
+2026-02-19,monorepo,Shreshthha Jain,40483,,1,2,1,fix: product column colId,ts,0
+2026-02-19,monorepo,Shreshthha Jain,40474,,1,1,1,feat: Update list type,tsx,0
+2026-02-19,monorepo,Rodrigo Iparraguirre,40470,,1,0,1,cleanup v1 services,xml,0
+2026-02-18,monorepo,Paul Spiteri,40463,,2,2,1,(fix): Try fix pipeline auctions e2e,development qa3,0
+2026-02-18,monorepo,Andrew Kwak,40262,,22,824,293,[feat] Viewserver OTEL setup,ts yaml,25
+2026-02-18,monorepo,Keshal Desai,40460,XPMI-1326,1,2,2,chore(XPMI-1326): replace MM2 topic wildcards with explicit specmesh topics,tf,0
+2026-02-18,monorepo,Rodrigo Iparraguirre,40457,,19,5,760,cleanup v1 services,yaml avsc,0
+2026-02-18,monorepo,Dimitar Christoff,40447,,22,378,209,remote µfe token federation and market depth as standalone,tsx,34
+2026-02-18,monorepo,Andres Ivaldi,40453,,6,128,6,Adding new sessions,cfg,17
+2026-02-18,monorepo,Joshua Vargas,40206,XRFQ-4822,13,812,183,[XRFQ-4822][Playwright]  Add Playwright test for USHG single RFQ submission,ts,99
+2026-02-18,monorepo,Evgeny Klimenchenko,40445,,3,7,6,fix: fix timer in storybook,tsx,0
+2026-02-18,monorepo,Bryan O'Connor,40452,XRFQ-4843,4,88,13,XRFQ-4843 cherry pick done dealer sorts to top of stack,java,71
+2026-02-18,monorepo,Shreshthha Jain,40448,XRFQ-4885,3,4,76,feat: SHow smart select always in dealer group selection (XRFQ-4885),tsx,84
+2026-02-18,monorepo,Dimitar Christoff,40341,,2,25,1,feat: adding isActive boolean to allow useWorskapce to detect current app state,ts,92
+2026-02-18,monorepo,Andres Ivaldi,39982,,538,2170,30159,Library update mktx.trading.rfq.transaction.api,java,49
+2026-02-17,monorepo,Lola Naumova,40441,XPMI-1254,3,3,60,fix(XPMI-1254): Select all checkbox fixes,tsx ts,0
+2026-02-17,monorepo,Keshal Desai,40350,XPMI-1326,22,187,316,XPMI-1326: Key instrument topics by security ID instead of cusip/isin,csv kt,21
+2026-02-17,monorepo,Matthew Williamson,40424,,7,198,5,user-relationship-enricher MR changes cherrypick,java yaml,64
+2026-02-17,monorepo,Arshad Ahamed Syed,40411,XRFQ-4749,11,463,17,XRFQ-4749-Add errors and warning count to LIST_ITEM,java yaml,55
+2026-02-17,monorepo,Paul Spiteri,40342,,4,39,2,fix: Setup JDK certificates in devbox,sh,0
+2026-02-17,monorepo,Mercedes Kalaizic,40311,,7,118,81,fix: EU default good for,ts tsx,9
+2026-02-17,monorepo,David Behmoaras,40414,XRFQ-4876,3,10,10,XRFQ-4876 update useActivityConsoleData filter to use _id instead of rowId,ts,70
+2026-02-17,monorepo,Adam Edwards,40409,,2,38,21,fix: revert 1.5 dealer persistence,tsx,17
+2026-02-17,monorepo,David Behmoaras,40316,XRFQ-4752,19,161,44,"XRFQ-4752 market depth, history, summary panel decimal points 4 for eu, 3 for US",ts tsx,28
+2026-02-17,monorepo,Rodrigo Jaen,40390,,7,902,1,merge to 26.2,json java,95
+2026-02-17,monorepo,Satraj Sehmi,40398,XRFQ-4847,3,10,16,XRFQ-4847 fix post trade list item panel showing onclick of list item,ts,12
+2026-02-17,monorepo,Andres Ivaldi,40400,,1,1,1,adding new file to the projection,yaml,0
+2026-02-16,monorepo,Dimitar Christoff,40363,,12,256,21,feat: updating app params via interop hook in shell-app,tsx ts,0
+2026-02-16,monorepo,Andres Ivaldi,40383,,9,314,66,Adding new functionality to disable targeterRFQ,java,51
+2026-02-16,monorepo,Satraj Sehmi,40384,XRFQ-4849,1,20,2,XRFQ-4849 Empty state and filter empty state fix,tsx,0
+2026-02-16,monorepo,Adam Edwards,40378,,13,37,470,fix: Merge list item components,tsx,41
+2026-02-16,monorepo,Rodrigo Iparraguirre,40347,,10,374,173,next actions union for list level,java,65
+2026-02-16,monorepo,Raju Guduri,40253,XRFQ-4677,8,214,150,XRFQ-4677: Handling VL Side on delist,java java},56
+2026-02-13,monorepo,Keshal Desai,40354,XPMI-1405 CVE-2026,1,1,1,chore(XPMI-1405): upgrade maven base image to 3.9.12 for JDK 21.0.10 (CVE-2026-21932),,0
+2026-02-13,monorepo,Keshal Desai,40346,XPMI-1326,1,10,2,chore(XPMI-1326): decouple reject alerts view from instrument _id keying,js,0
+2026-02-13,monorepo,Sam Rose,40296,MAUI-4433,2,16,3,feat: MAUI-4433 - add routing strategy overrides for ingressroutes,,0
+2026-02-13,monorepo,Jim Higson,40299,MAUL-4427,43,819,635,feat(platform): MAUL-4427 - use AOP for viewserver logging,ts,13
+2026-02-13,monorepo,Evgeny Klimenchenko,40334,,2,29,2,feat: release branch,md,0
+2026-02-13,monorepo,Shreshthha Jain,40336,,9,13,15,fix: Moved key to top level,tsx,0
+2026-02-13,monorepo,Evgeny Klimenchenko,40338,,2,7,7,fix: update featurehub ingressroute and base path for cloudfront routing,yaml,0
+2026-02-13,monorepo,Dimitar Christoff,40306,,17,94,92,"fix: ensuring the idToken is propagated correctly after refresh within child mfe, mantine upgrade",yaml tsx ts,0
+2026-02-12,monorepo,Nicolas Ramirez-Diaz,40309,MAUI-4387,5,44,29,[MAUI-4387]: Completed select all checkbox option for viewserver grids,tsx,0
+2026-02-12,monorepo,Shreshthha Jain,40315,XRFQ-4848,4,4,4,fix: Loading group context getting shared on single click (XRFQ-4848),tsx,0
+2026-02-12,monorepo,Rodrigo Iparraguirre,40307,,12,108,6,Merged PR 40218: tune v2 services,yaml,0
+2026-02-12,monorepo,Rodrigo Iparraguirre,40100,,6,93,81,autox default off for singles,java,51
+2026-02-12,monorepo,Shreshthha Jain,40304,,2,2,2,fix: weird behavior of isTargeted flag,tsx,0
+2026-02-12,monorepo,Pedro Noriega,40302,,4,13,13,"fix AC, MD, Alerts package.json to include mantine as a devDependency",yaml json,0
+2026-02-12,monorepo,Satraj Sehmi,40295,XRFQ-4655 XRFQ-3968,10,280,166,XRFQ-4655 XRFQ-3968 Update empty states for grids when filtering,tsx,0
+2026-02-12,monorepo,Dimitar Christoff,40293,,11,27,37,fix: title alignment and countdown update frequency fixes,css tsx ts,0
+2026-02-12,monorepo,Rodrigo Iparraguirre,40273,,14,349,93,ui overall slo,java,33
+2026-02-11,monorepo,Mercedes Kalaizic,40278,,1,64,62,fix: hiding countering for mr1,ts,0
+2026-02-11,monorepo,Pedro Noriega,40272,XRFQ-4812,1,4,2,XRFQ-4812 fix: Market Depth: apply overlay to yield column when focused,ts,0
+2026-02-11,monorepo,Satraj Sehmi,40268,XRFQ-4428,9,102,48,XRFQ-4428 make post trade and pretrade item panel styling consistent,tsx css,0
+2026-02-06,monorepo,Yarden Dvir,40104,,11,563,26,Kstream enhancements for autox,java,73
+2026-02-11,monorepo,Shreshthha Jain,40264,,2,2,4,fix: remove duplicated field,ts,0
+2026-02-11,monorepo,Mercedes Kalaizic,40226,,2,41,1,fix: show countering timer,tsx,98
+2026-02-11,monorepo,Satraj Sehmi,40199,XRFQ-4349,20,128,113,XRFQ-4349 SelectionId Sync server state for disclosed counterparties,tsx ts,24
+2026-02-11,monorepo,Satraj Sehmi,40098,XRFQ-4349,10,550,47,XRFQ-4349 hook for syncing state and implementation on open trading,ts tsx,73
+2026-02-11,monorepo,Yarden Dvir,40212,XRFQ-4751,29,859,488,XRFQ-4751_auto_x_enhancements,tsx ts,34
+2026-02-11,monorepo,Paul Spiteri,40256,,1,3,0,fix: Add missing .env file for development,development,0
+2026-02-11,monorepo,Sam Rose,40252,MAUI-4377,1,2,0,fix: MAUI-4377 - nodejs vulnerability,,0
+2026-02-11,monorepo,Nicolas Ramirez-Diaz,40227,MAUI-4360,5,64,1,[MAUI-4360]: Activity Console Grid Select All,tsx ts,0
+2026-02-11,monorepo,Andres Ivaldi,40249,,9,221,71,in moemory process,java,2
+2026-02-11,monorepo,Dimitar Christoff,40246,,2,3,14,release bunmp and changelog fix,md json,0
+2026-02-11,monorepo,Dimitar Christoff,40244,,3,5,4,fix: renaming the build targets for packages published through npm,json yml,0
+2026-02-11,monorepo,Adam Edwards,40240,,9,149,86,Loading state to trade and pass,tsx,32
+2026-02-11,monorepo,Andres Ivaldi,40193,,7,13,10,restore helm,yaml,0
+2026-02-10,monorepo,Paul Spiteri,40233,XPMI-1392,1,5,6,Merged PR 40231: (fix)XPMI-1392: Auctions - Count mismatch between Submit/Wit...,ts,0
+2026-02-10,monorepo,Enmanuel Rivera,40229,XRFQ-3810,13,156,55,xpro/fix/XRFQ-3810-unit-testing,tsx ts,49
+2026-02-10,monorepo,Rodrigo Iparraguirre,40060,,6,292,19,sds reasons for submission,java,89
+2026-02-10,monorepo,Andres Ivaldi,40219,,4,105,7,Add processor in memmory,java,1
+2026-02-10,monorepo,Dimitar Christoff,40217,,1,175,39,"fix: better test coverage for logic in bid offer grid, including bestDirectio...",tsx,100
+2026-02-10,monorepo,Paul Spiteri,40210,XPMI-1387,1,2,2,Merged PR 40201: (fix)XPMI-1387: Auctions - Allow row selection on any Order...,ts,0
+2026-02-10,monorepo,Tim Kang,40207,XRFQ-4791,2,0,7,XRFQ-4791 - remove tooltips from market depth,ts tsx,0
+2026-02-10,monorepo,Dimitar Christoff,40205,,2,23,2,release ui package,md,0
+2026-02-10,monorepo,Dimitar Christoff,40203,,1,18,12,fix: prevent a crash,tsx,0
+2026-02-10,monorepo,Tim Kang,40200,XRFQ-4791,1,7,2,XRFQ-4791 - remove inventory text from type cell,ts,0
+2026-02-10,monorepo,Evgeny Klimenchenko,40190,,13,95,42,feat: updated dropdown paddings to match design,css tsx txt,0
+2026-02-10,monorepo,Shreshthha Jain,40149,,3,118,13,Use timestamp to compare when statuses have equal weights,ts,69
+2026-02-10,monorepo,Dimitar Christoff,40184,,2,104,16,fix: adding support for other origins,tsx ts,0
+2026-02-10,monorepo,Sam Rose,40185,MAIU-4382,1,3,3,feat: MAIU-4382 - add check:build,json,0
+2026-02-10,monorepo,Dimitar Christoff,40171,,9,75,90,fix: market depth ux sync issues,css ts tsx,2
+2026-02-09,monorepo,Joshua Vargas,39790,XRFQ-3720,12,1368,8,[XRFQ-3720] feat(market-depth): add Playwright E2E tests for Market Depth panel,ts md yaml,53
+2026-02-09,monorepo,Tim Kang,40179,XRFQ-4486,2,4,4,XRFQ-4486 - remove list summary panel api references,tsx,0
+2026-02-09,monorepo,Tim Kang,40172,XRFQ-4810,2,7,6,XRFQ-4810 - fix market depth filter behavior,ts tsx,0
+2026-02-09,monorepo,Sam Rose,40162,,6,26,12,Use NX for package publishing,json yml md,0
+2026-02-09,monorepo,Kunal Choudhary,40168,,1,1,1,fix if condition,,0
+2026-02-09,monorepo,Kunal Choudhary,40166,,1,1,1,adding namespace variable,,0
+2026-02-09,monorepo,Kunal Choudhary,40165,,1,2,2,fixing if condition to set kyverno policy,,0
+2026-02-09,monorepo,Shreshthha Jain,40164,,1,29,11,fix: Added filter bar in post trade list,tsx,0
+2026-02-09,monorepo,Kunal Choudhary,40163,,1,14,6,fixing kyverno guardrail policy,,0
+2026-02-09,monorepo,Raju Guduri,40147,XRFQ-4338,17,137,77,XRFQ-4338: Populating display & trasient status timestamps(cherry pick),java yaml,47
+2026-02-09,monorepo,Rodrigo Iparraguirre,40161,,1,4,4,test sds latency,yaml,0
+2026-02-09,monorepo,Adam Edwards,40142,,15,436,63,feat: Add loading state to buttons,tsx,43
+2026-02-09,monorepo,Kunal Choudhary,40158,,1,1,1,updated http2jms to point to qa3 as qa5 is unavailable,tfvars,0
+2026-02-09,monorepo,Mercedes Kalaizic,40115,,4,7,8,fix: using counterTimes instead of goodForTimersAsap,tsx ts,0
+2026-02-09,monorepo,Paul Spiteri,40157,XPMI-1384,4,111,117,Merged PR 40112: (feat)XPMI-1384: Auctions - Allow row selection on any Order...,tsx ts,0
+2026-02-09,monorepo,Nicolas Ramirez-Diaz,40156,MAUI-4402,2,5,15,[MAUI-4402]: update how-to to include running cli without installing it,md json,0
+2026-02-09,monorepo,Rodrigo Iparraguirre,40155,,1,14,0,test sds latency,tf,0
+2026-02-09,monorepo,Dimitar Christoff,40150,,2,27,2220,fix: removed supernova cli for now,yaml,0
+2026-02-09,monorepo,Keshal Desai,40151,XPMI-1380,4,48,58,perf(XPMI-1380): Refactor user permission checks for auctions access,ts yml,0
+2026-02-09,monorepo,Rodrigo Iparraguirre,40152,,2,3,0,test sds latency,yaml tf,0
+2026-02-09,monorepo,Paul Spiteri,40068,,2,13,24,(fix): Auctions revert column if amend-order fails to send,ts tsx,76
+2026-02-09,monorepo,Rodrigo Iparraguirre,40148,,3,204,1,test sds latency,yaml,0
+2026-02-09,monorepo,Sam Rose,40146,MAUI-4382,5,72,11,feat: MAUI-4382 - fallback is used for Auth0,tsx,67
+2026-02-09,monorepo,Raju Guduri,40143,XRFQ-3851,2,3,2,XRFQ-3851: Replicating TRACE topic from datalake to xpro,tf,0
+2026-02-09,monorepo,Shreshthha Jain,40139,,1,1,0,fix: Added done status mapping,ts,0
+2026-02-09,monorepo,Dimitar Christoff,40134,,3,105,3,fix: documenting custom icons,tsx,0
+2026-02-07,monorepo,Rodrigo Iparraguirre,40126,,1,15,14,fix failiing integration test,java,100
+2026-02-06,monorepo,Mercedes Kalaizic,40110,,1,110,0,fix: tests,ts,100
+2026-02-06,monorepo,Nicolas Ramirez-Diaz,40105,MAUI-4402,9,2610,33,[MAUI-4402]: Upload Storybook to Supernova,yaml,0
+2026-02-06,monorepo,Mercedes Kalaizic,40063,,1,9,1,"Filtering by status ""Open"" in aggregation",ts,0
+2026-02-06,monorepo,Kunal Choudhary,40058,,5,9,9,Revert 'Env has been updated for master',yml yaml,0
+2026-02-06,monorepo,Satraj Sehmi,40082,XRFQ-4349,15,1984,2192,XRFQ-4349 update types and GraphQL sdk for dealer selection,ts graphql,0
+2026-02-06,monorepo,Shreshthha Jain,40059,,14,83,43,DP formatting,ts tsx,49
+2026-02-06,monorepo,Dimitar Christoff,39985,,4,104,13,allows shell-app to use real auth to QA,ts,0
+2026-02-05,monorepo,Keshal Desai,40069,XPMI-1359,21,68,36,feat(XPMI-1359): Add metrics support to Auctions,yaml xml yml,0
+2026-02-05,monorepo,Nicolas Ramirez-Diaz,40043,MAUI-4342,2,629,0,[MAUI-4342]: add docs for ui-lib and container-app migrations,mdx,0
+2026-02-05,monorepo,Paul Spiteri,40061,XPMI-1276,1,23,5,(fix)XPMI-1276: Get Actual Eligible instruments fix,ts,100
+2026-02-05,monorepo,Shreshthha Jain,40048,,1,1,1,fix: response Grid,ts,0
+2026-02-05,monorepo,Paul Spiteri,40045,XPMI-1276,1,5,8,(fix)XPMI-1276: Get Actual Eligible instruments fix,ts,100
+2026-02-05,monorepo,Rodrigo Jaen,40042,,3,115,3,Merged PR 40039: handle forwardActor order when Live,java,86
+2026-02-05,monorepo,Dimitar Christoff,40035,,2,75,2,release 1.1.0 ui,md,0
+2026-02-05,monorepo,Nicolas Ramirez-Diaz,40005,MAUI-4365,12,18,91,[MAUI-4365]: Remove timezone usage and default to utc,tsx,0
+2026-02-05,monorepo,Rodrigo Iparraguirre,39509,,48,1438,325,UI selectionId to fix dealer selection flickering,java,71
+2026-02-05,monorepo,Sam Rose,39986,,26,918,347,GitHub: Docs update and tidy-up,mdx yml,0
+2026-02-04,monorepo,Paul Spiteri,40012,XPMI-1329,1,6,0,(fix)XPMI-1329: Dismiss bulk action bar (due to stale data) when updating an...,tsx,0
+2026-02-04,monorepo,Paul Spiteri,40018,XPMI-1379,1,1,1,(fix)XPMI-1379: Not Able to see current days RTS orders in QA 26.1 Env,tsx,0
+2026-02-04,monorepo,Paul Spiteri,39993,XPMI-1379,3,23,6,(fix)XPMI-1379: Not Able to see current days RTS orders in QA 26.1 Env,tsx js,0
+2026-02-04,monorepo,Enmanuel Rivera,40014,XRFQ-4334,30,575,100,xpro/fix/XRFQ-4334-market-depth-testing,tsx ts,54
+2026-02-04,monorepo,Keshal Desai,40017,XPMI-1383,2,41,3,fix(XPMI-1383): add Flatten transform for activity console auctions topics to prevent field collision,yaml,0
+2026-02-04,monorepo,Andrew Kwak,40002,,2,3,154,fix: userPreferences remove authorization header,tsx ts,88
+2026-02-04,monorepo,Shane Carroll,39981,MAUI-4376,2,9,2,MAUI-4376: add version json document at build time,sh json,0
+2026-02-04,monorepo,Pedro Noriega,40008,XRFQ-4682,1,1,2,XRFQ-4682 fix: Prevent ListInquiryItemPanel header from shrinking,css,0
+2026-02-04,monorepo,Evgeny Klimenchenko,40007,,1,2,2,change the liveness and readiness probe ports to 8701,yaml,0
+2026-02-04,monorepo,Nicolas Ramirez-Diaz,39992,,1,37,0,fix: copilot ignore file,copilotignore,0
+2026-02-04,monorepo,Andrew Kwak,39999,,4,38,78,fix: remove accessToken auth header from moc,ts,0
+2026-02-04,monorepo,Keshal Desai,39973,XPMI-1359,9,107,40,"perf(XPMI-1359): update Kafka configuration with dynamic properties for commit interval, fetch min bytes, fetch max wait, linger, batch size, and compression type",yml alloy,0
+2026-02-04,monorepo,Satraj Sehmi,39990,XRFQ-4765,3,26,0,XRFQ-4765 separate out calls for dealer selections when targeted rfq selected,tsx,69
+2026-02-04,monorepo,Mercedes Kalaizic,39915,,5,45,17,fix: blank status for completed inquiries in responses grid,ts tsx,48
+2026-02-04,monorepo,Evgeny Klimenchenko,39995,,1,2,0,Change registry for feature flags,yaml,0
+2026-02-04,monorepo,Shreshthha Jain,39988,XRFQ-4743,3,24,0,fix: Added column state persistence logic in listGrid (XRFQ-4743),tsx ts,0
+2026-02-04,monorepo,Evgeny Klimenchenko,39991,,1,2,2,fix: try changing registry,tf,0
+2026-02-04,monorepo,Satraj Sehmi,39972,XRFQ-4077,3,50,11,XRFQ-4077 Empty states for Ac tabs,tsx,0
+2026-02-04,monorepo,Dimitar Christoff,39989,MAUI-4389,1,4,3,MAUI-4389: making sure api changes are also persisted in grid column persistence,ts,0
+2026-02-04,monorepo,Adam Edwards,39984,,1,1,1,fix: toLocaleString undefined,ts,0
+2026-02-04,monorepo,Satraj Sehmi,39983,XRFQ-4761,1,6,4,XRFQ-4761 add key to detail panels,tsx,0
+2026-02-03,monorepo,Nicolas Ramirez-Diaz,39601,MAUI-4343,6,85,1,[MAUI-4343]: Eslint no restricted imports warning plus deprecation tags,yaml js json,0
+2026-02-03,monorepo,Paul Spiteri,39969,XPMI-1376,7,149,418,(fix)XPMI-1376: Playwright e2e get actual eligible cusips,ts,100
+2026-02-03,monorepo,Mercedes Kalaizic,39956,,5,42,123,fix: updating aggregation and using new filtering,ts tsx,0
+2026-02-03,monorepo,Dimitar Christoff,39952,,4,38,1,fix: loading state for buttons,tsx css,0
+2026-02-03,monorepo,Jim Higson,39947,,64,2470,3561,feat(platform): log which ui and component is creating views on the viewserver,js ts,3
+2026-02-03,monorepo,Adam Edwards,39942,,3,27,25,feat: Hit index fields with pre aggregation filter,ts,0
+2026-02-03,monorepo,Evgeny Klimenchenko,39941,,10,268,3,Alert cell renderers,tsx ts,0
+2026-02-03,monorepo,Tim Kang,39931,XRFQ-4032,2,2,0,XRFQ-4032 - add bolt icon to streaming type,tsx,50
+2026-02-03,monorepo,Pedro Noriega,39946,XRFQ-4334,1,1,0,XRFQ-4334 fix. add initialHeight to SummaryPanel on post trade single item view,tsx,0
+2026-02-03,monorepo,Satraj Sehmi,39940,XRFQ-4484,1,6,6,XRFQ-4484 update order of tabs on the Ac,tsx,0
+2026-02-03,monorepo,Adam Edwards,39905,,8,400,312,Perf: Alert lookup query,ts,21
+2026-02-03,monorepo,Evgeny Klimenchenko,39939,,62,231,64,feat: updated storybook organization,tsx ts,0
+2026-02-03,monorepo,Shreshthha Jain,39891,XRFQ-4729,9,546,490,fix: Closing dead lists and singles (XRFQ-4729),ts,0
+2026-02-03,monorepo,Satraj Sehmi,39936,XRFQ-4686,1,1,1,XRFQ-4686 update regex for listname aggregation,ts,0
+2026-02-03,monorepo,Evgeny Klimenchenko,39935,,1,1,0,fix: fix tooltip arrow border,css,0
+2026-02-02,monorepo,Lola Naumova,39914,XPMI-1250,5,168,38,feat(XPMI-1250): Rts stage test,ts,96
+2026-02-02,monorepo,Nicolas Ramirez-Diaz,39555,MAUI-4338,13,226,3,[MAUI-4338]: Action Bar non-fixed height + example,tsx css,0
+2026-02-02,monorepo,Tim Kang,39913,XRFQ-4684,6,6,84,XRFQ-4684 - remove pass button in row,tsx ts css,52
+2026-02-02,monorepo,Andrew Kwak,39909,,1,3,39,Revert 'Enhance fetchWithRetry logic to handle network errors and response...',ts,0
+2026-02-02,monorepo,Paul Spiteri,39907,XPMI-1376,4,800,693,(fix)XPMI-1376: Playwright e2e testrail ids,ts,100
+2026-02-02,monorepo,Tim Kang,39889,XRFQ-4334,10,21,16,XRFQ-4334 - fix tradability data,ts tsx,35
+2026-02-02,monorepo,Adam Edwards,39902,,1,1,1,fix: regex error VS,ts,0
+2026-02-02,monorepo,Evgeny Klimenchenko,39894,,3,1,0,fix: added a border go utility bar,css,0
+2026-02-02,monorepo,Adam Edwards,39879,,2,4,19,feat: combine set to reduce $set overhead,ts,0
+2026-02-02,monorepo,Dimitar Christoff,39899,,1,7,5,fix: centering the error message within the grid container,tsx,0
+2026-01-30,monorepo,Yarden Dvir,39821,XRFQ-4505,4,236,18,XRFQ-4505_close_item_panel_on_delist,tsx,82
+2026-01-30,monorepo,Yarden Dvir,39844,XRFQ-4664,1,2,1,XRFQ-4664_fix_post_submit_alerts,tsx,0
+2026-02-02,monorepo,Jim Higson,39882,,9,308,4,feat(platform): viewserver logging,ts,45
+2026-02-02,monorepo,Dimitar Christoff,39875,,4,130,30,fix: useUserPreferences stale ref of accessToken + avoid reconnect websocket when authToken updates,tsx ts,62
+2026-02-02,monorepo,Rodrigo Iparraguirre,39885,,32,174,23,v1 services should be down,yaml,0
+2026-02-02,monorepo,Adam Edwards,39880,,1,1,2,revert enrichmentAggregations,ts,0
+2026-02-02,monorepo,Adam Edwards,39846,,1,13,0,feat: smart selection,tsx,0
+2026-01-30,monorepo,Tim Kang,39861,XRFQ-4676,1,4,0,XRFQ-4676 - remove row focus highlight on grids,css,0
+2026-01-30,monorepo,Paul Spiteri,39860,XPMI-1376,2,237,199,(fix)XPMI-1376: Playwright e2e testrail ids,ts,100
+2026-01-30,monorepo,Tim Kang,39851,XRFQ-4669,2,9,3,XRFQ-4669 - fix order depth flash on load,tsx ts,0
+2026-01-30,monorepo,Paul Spiteri,39853,XPMI-1376,1,15,0,(fix)XPMI-1376: Playwright e2e testrail,ts,0
+2026-01-30,monorepo,Andres Ivaldi,39841,,1,4,2,remove DO with no params restore ENV_SUFFIX,,0
+2026-01-30,monorepo,Paul Spiteri,39837,XPMI-1376,1,1,1,(fix)XPMI-1376: Playwright e2e pipeline QA3 config,qa3,0
+2026-01-30,monorepo,Andres Ivaldi,39836,,1,1,4,PR to revert changes in suvvix,,0
+2026-01-30,monorepo,Paul Spiteri,39833,XPMI-1248,1,11,0,(fix)XPMI-1248: Playwright e2e pipeline,ts,0
+2026-01-30,monorepo,Mercedes Kalaizic,39830,,1,1,7,fix: fields in new alert count capabilities doc,ts,0
+2026-01-30,monorepo,Andres Ivaldi,39829,,1,1,1,default value for SUFFIX,,0
+2026-01-30,monorepo,Tim Kang,39825,XRFQ-4467,6,17,9,XRFQ-4467 - panels active on load,tsx,0
+2026-01-30,monorepo,Andres Ivaldi,39820,,18,796,11,add fix new environments,cfg,50
+2026-01-30,monorepo,Adam Edwards,39813,,3,94,5,feat: Split migration script,yml,0
+2026-01-30,monorepo,Adam Edwards,39822,,1,3,1,fix: permissions,ts,0
+2026-01-30,monorepo,Paul Spiteri,39817,XPMI-1248,1,7,0,(fix)XPMI-1248: Playwright e2e pipeline,qa3,0
+2026-01-30,monorepo,Shreshthha Jain,39801,,11,231,114,fix: Sorting columns in AC,ts,54
+2026-01-30,monorepo,Sam Rose,39748,,14,695,114,GitHub: E2E and NPM Publish Workflows,yml sh,0
+2026-01-30,monorepo,Dimitar Christoff,39799,,4,253,0,feat: adding the jxbrowser zoom handler,ts,68
+2026-01-30,monorepo,Satraj Sehmi,39713,XRFQ-4484,3,32,9,XRFQ-4484 Update Ac tabs and filters,tsx,0
+2026-01-29,monorepo,Paul Spiteri,39792,XPMI-1248,4,5,8,(fix)XPMI-1248: Playwright e2e pipeline,ts env,85
+2026-01-29,monorepo,Tim Kang,39769,XRFQ-4328,9,64,54,XRFQ-4328 - maintain column orders on grids,ts tsx,6
+2026-01-29,monorepo,Lola Naumova,39788,XPMI-1249,18,2348,1924,feat(XPMI-1249): Suffix setup,ts graphql,5
+2026-01-29,monorepo,Paul Spiteri,39783,XPMI-1248,1,2,2,(fix)XPMI-1248: Playwright e2e pipeline fix,json,0
+2026-01-29,monorepo,Adam Edwards,39779,,1,1,1,fix: turn off migration,,0
+2026-01-29,monorepo,Kunal Choudhary,39782,,1,4,3,Code refactoring for guardrail,,0
+2026-01-29,monorepo,Paul Spiteri,39778,XPMI-1248,4,278,251,(fix)XPMI-1248: Playwright TestRail integration,ts,99
+2026-01-29,monorepo,Kunal Choudhary,39766,,1,24,2,fixing kyverno policy for platform ui,,0
+2026-01-29,monorepo,Adam Edwards,39765,,1,202,0,Alert Capability,ts,0
+2026-01-29,monorepo,Paul Spiteri,39762,XPMI-1248,4,13,116,(fix)XPMI-1248: Playwright Broken Test Fix,ts,100
+2026-01-29,monorepo,Jim Higson,39761,,6,18,10,feat(platform): viewserver enhanced error reporting enabled for lower environ...,yaml,0
+2026-01-29,monorepo,Tim Kang,39756,XRFQ-4032,8,46,16,XRFQ-4032 - add subscription to md and summary panels and fix logo for types,tsx ts,26
+2026-01-29,monorepo,Enmanuel Rivera,39752,XRFQ-4427,15,409,43,xpro/fix/XRFQ-4427-alert-testing,tsx ts,28
+2026-01-29,monorepo,Adam Edwards,39757,,1,2,0,feat: update buildkit host,sh,0
+2026-01-29,monorepo,Shreshthha Jain,39751,,8,297,173,feat: Added single click behavior in post list item grid,ts tsx,21
+2026-01-29,monorepo,Paul Spiteri,39706,XPMI-1248,8,58,19,(fix)XPMI-1248: Playwright Broken Test Explainer,ts tsx,83
+2026-01-29,monorepo,Dimitar Christoff,39753,,4,27,11,fix: ensure the selection column is to the left always,ts tsx,0
+2026-01-29,monorepo,Jim Higson,39743,,3,98,58,feat(platform): viewserver can do a download all (not selected) before it has...,ts,0
+2026-01-29,monorepo,Dimitar Christoff,39744,,14,43,3,fix: introduce truncation for Title and enable max width within a PageHeaderB...,css tsx ts,0
+2026-01-29,monorepo,Adam Edwards,39747,,3,10,3,feat: MD my history perf improvements,tsx ts,0
+2026-01-29,monorepo,Evgeny Klimenchenko,39745,,36,40,308,fix: history grid refactoring,tsx ts,43
+2026-01-29,monorepo,Keshal Desai,39725,XPMI-1365,3,15,32,feat(XPMI-1365): E2E interval instead of per commit,yml,0
+2026-01-29,monorepo,Shreshthha Jain,39742,XRFQ-4550,2,18,1,feat: Removed trade best button for Header when countering (XRFQ-4550),tsx,79
+2026-01-29,monorepo,Adam Edwards,39740,,4,31,24,Enable Migration,yaml ts json,0
+2026-01-29,monorepo,Keshal Desai,39719,XPMI-1364,4,0,412,chore(XPMI-1364): remove auctions frontend pipeline and related configurations,yml,0
+2026-01-28,monorepo,Mercedes Kalaizic,39729,,2,3,3,fix: updated list ids and title,tsx ts,0
+2026-01-28,monorepo,Keshal Desai,39718,XPMI-1210,32,114,54,fix(XPMI-1210): resources.requests.memory must be equal to resources.limits.memory,yaml,0
+2026-01-28,monorepo,Tim Kang,39722,XRFQ-4486,1,1,0,XRFQ-4486 - fix for dockview panel tabs active,tsx,0
+2026-01-28,monorepo,Tim Kang,39616,XRFQ-4032,65,1475,1604,XRFQ-4032 - update Market Depth for requirements,tsx ts,41
+2026-01-28,monorepo,Adam Edwards,39716,,1,1,1,feat: turn off migration,,0
+2026-01-28,monorepo,Matthew Williamson,39703,XPMI-1360,22,98,70,XPMI-1360 Skip private fields during topics diagram generation and allow usin...,java json,0
+2026-01-28,monorepo,Shreshthha Jain,39710,,2,43,21,feat: Add trade confirmation modal in dealer response grid,tsx,0
+2026-01-28,monorepo,Dimitar Christoff,39709,,4,19,100,fix for docktab persistence,ts,71
+2026-01-28,monorepo,Satraj Sehmi,39708,XRFQ-4489,1,2,1,XRFQ-4489 sort by status fixed,ts,0
+2026-01-28,monorepo,Tim Kang,39697,XRFQ-4486,5,7,1,XRFQ-4486 - render all panels on load,tsx,0
+2026-01-28,monorepo,Adam Edwards,39701,,1,4,1,fix: earthfile,,0
+2026-01-28,monorepo,Evgeny Klimenchenko,39700,,2,60,7,fix: fix grid resize for buy/sell grids,tsx,0
+2026-01-28,monorepo,Shreshthha Jain,39699,XRFQ-4074,3,5,10,fix: Alert filters not in fixed position (XRFQ-4074),tsx css,0
+2026-01-28,monorepo,Dimitar Christoff,39698,,1,6,0,fix: change for background of toggle colour to work within a selected ag-grid...,css,0
+2026-01-28,monorepo,Adam Edwards,39613,,13,521,4,feat: add userId to historical-activity capability,ts yaml,47
+2026-01-27,monorepo,David Behmoaras,39680,XRFQ-4427,6,118,24,XRFQ-4427 update column field references for security name singles and lists,ts tsx,31
+2026-01-27,monorepo,Andrew Kwak,39690,,1,10,8,fix: account for both single + list items,ts,0
+2026-01-27,monorepo,Tim Kang,39624,XRFQ-4328,3,53,53,XRFQ-4328 - fix dealer response grid,ts,0
+2026-01-27,monorepo,David Behmoaras,39686,XRFQ-4332,1,2,2,XRFQ-4332 hide alerts when status is complete,tsx,0
+2026-01-27,monorepo,Keshal Desai,39688,XPMI-1358,5,119,19,feat(XPMI-1358): Enhance MOC load test script with new configuration options and passive pricing logic,ts,0
+2026-01-27,monorepo,Andrew Kwak,39684,,3,24,28,Refactor AC error / warning logic to server-side boolean to resolve filtering bugs and eliminate security vuln,ts,0
+2026-01-27,monorepo,Keshal Desai,39683,XPMI-1350,74,1610,21,feat(XPMI-1350): Add documentation annotations and topic descriptions across Auctions modules,json java,0
+2026-01-27,monorepo,Bryan O'Connor,39682,XRFQ-4468,2,41,27,XRFQ-4468,,0
+2026-01-27,monorepo,Mercedes Kalaizic,39679,,1,7,5,fix: rendering divs only when they have content,tsx,0
+2026-01-27,monorepo,Shreshthha Jain,39667,XRFQ-4473,6,31,10,fix: Updated countering variant and timer cell renderer styles (XRFQ-4473),ts tsx,12
+2026-01-27,monorepo,Satraj Sehmi,39676,XRFQ-4491,1,1,1,XRFQ-4491 fix cancel list item,tsx,0
+2026-01-27,monorepo,Dimitar Christoff,39638,,4,76,3,"EmptyState in AC grid, numeric column types",tsx ts,0
+2026-01-27,monorepo,Pedro Noriega,39673,XRFQ-4334,1,0,2,XRFQ-4334: fix: Remove align-items from SummaryPanelRoot so it stretches vert...,css,0
+2026-01-27,monorepo,Dimitar Christoff,39649,,6,179,41,fix: dockview tabs should not save params other than expires,ts,65
+2026-01-27,monorepo,Andres Ivaldi,39644,,2,24,2,Add fix session,cfg,46
+2026-01-27,monorepo,Paul Spiteri,39674,,2,2,2,(fix): Platform Interop bug fix duplicate messages,ts,0
+2026-01-27,monorepo,Evgeny Klimenchenko,39666,,10,40,8,fix: fixed status cell renderer padding,tsx css ts,0
+2026-01-27,monorepo,Mercedes Kalaizic,39654,,1,1,0,fix: position relative to avoid jumping,css,0
+2026-01-27,monorepo,Paul Spiteri,39657,XPMI-1248,8,61,34,(fix)XPMI-1248: Playwright - Batch bar fixes,ts,62
+2026-01-27,monorepo,Adam Edwards,39670,,2,22,3,feat: preserve pill ordering,tsx,0
+2026-01-27,monorepo,Satraj Sehmi,39668,XRFQ-4357,2,18,6,XRFQ-4357 Dealer Response grid columns,ts tsx,0
+2026-01-27,monorepo,Dimitar Christoff,39648,,9,87,33,DockTabs badge variants,tsx,3
+2026-01-27,monorepo,Evgeny Klimenchenko,39661,,6,26,15,feat: added VITE_PT_URL propagation,md,0
+2026-01-27,monorepo,Sam Rose,39640,,167,1774,1005,GitHub: CI IAC and Config workflows,yml tfvars tf,0
+2026-01-27,monorepo,Satraj Sehmi,39664,XRFQ-4021,3,27,6,XRFQ-4021 remove the additional dock view panel scroll when we have action bar,css tsx,0
+2026-01-27,monorepo,Shreshthha Jain,39663,XRFQ-3808,2,25,23,fix: app crash n unmount (XRFQ-3808),tsx,0
+2026-01-27,monorepo,Shreshthha Jain,39662,XRFQ-3808,3,6,2,fix: Updated timeout to 300 (XRFQ-3808),tsx ts,0
+2026-01-26,monorepo,David Behmoaras,39565,XRFQ-2088 XRFQ-2903 XRFQ-2224,14,139,124,"XRFQ-2088 XRFQ-2903 XRFQ-2224 fix bugs, address feedback from UX",ts tsx,0
+2026-01-26,monorepo,Andrew Kwak,39639,,1,3,0,fix: call docker pull to get latest image for script,sh,0
+2026-01-26,monorepo,Mercedes Kalaizic,39647,,4,4,0,fix: borders in market depth summary  metrics,tsx,0
+2026-01-26,monorepo,Adam Edwards,39646,,4,4,4,feat: persistence fix,tsx,0
+2026-01-26,monorepo,Shreshthha Jain,39641,XRFQ-3808,6,55,62,fix: Removing panel on unmount (XRFQ-3808),ts tsx,13
+2026-01-26,monorepo,Andres Ivaldi,39643,,1,1,1,fix: husky script cleanup,,0
+2026-01-26,monorepo,Satraj Sehmi,39642,XRFQ-4428,1,2,1,XRFQ-4428 allow panel to scroll y if content is larger,css,0
+2026-01-26,monorepo,Shreshthha Jain,39637,XRFQ-3808,2,2,2,fix: decreased tiemout by 50ms (XRFQ-3808),tsx,0
+2026-01-26,monorepo,Andres Ivaldi,39518,,399,8026,292,Adding new functionality to documentation,java json tsx,0
+2026-01-26,monorepo,Matthew Williamson,39629,XPMI-1341,4,42,9,XPMI-1341 Log and skip responses with a null requestId in SloResponseStream i...,kt,51
+2026-01-26,monorepo,Shreshthha Jain,39634,XRFQ-4354,1,8,8,fix: Move settings tab after activity console (XRFQ-4354),ts,0
+2026-01-26,monorepo,Dimitar Christoff,39633,,4,20,2,fix: allow withoutBorders to metrics groups that preserves the box model but...,tsx css,0
+2026-01-23,monorepo,Pedro Noriega,39626,XRFQ-3638,2,9,2,XRFQ-3638: fix: Summary Panel: render Bid/Offer metrics horizontally,css tsx,0
+2026-01-23,monorepo,Matthew Williamson,39627,XPMI-1348,2,8,12,XPMI-1348 Update xpro-auctions-moc helm templates to match other projects (re...,yaml,0
+2026-01-23,monorepo,Andrew Kwak,39598,,12,254,12,EnrichmentAggregation Stage - Post skip/limit joins,ts,41
+2026-01-23,monorepo,Dimitar Christoff,39622,,2,20,40,changes to scrollbars as per design review,css,0
+2026-01-23,monorepo,Evgeny Klimenchenko,39615,,5,58,17,fix: metrica centered with one value presented without label,tsx css,0
+2026-01-23,monorepo,Dimitar Christoff,39614,,5,491,3,feat: adding new grid types with particular typings,tsx css,0
+2026-01-23,monorepo,Shreshthha Jain,39618,XRFQ-3808,3,2,0,fix: corrected mispell and clearing of timeouts (XRFQ-3808),tsx,0
+2026-01-23,monorepo,Andres Ivaldi,39612,,6,138,9,Add userId to historical-activity collection,java,44
+2026-01-23,monorepo,Shreshthha Jain,39590,XRFQ-3808,9,890,94,feat: Updated click behaviors (XRFQ-3808),ts tsx,41
+2026-01-23,monorepo,Evgeny Klimenchenko,39610,,16,1078,2,feat: added ToggleChip and GridChipFilters components,tsx,35
+2026-01-23,monorepo,Dimitar Christoff,39609,,1,3,2,fix: grid utility bar uses rightSection to host the error buttons (regression),tsx,0
+2026-01-22,monorepo,Lola Naumova,39597,XPMI-1020,1,1,4,feat(XPMI-1020):Rts stage button fix,tsx,0
+2026-01-22,monorepo,Tim Kang,39599,XRFQ-4325,2,11,4,XRFQ-4325 - update presubmit loading overlay to take full viewport height,css tsx,0
+2026-01-22,monorepo,Jim Higson,39560,MAUI-4313,15,238,76,feat(platform): MAUI-4313 - accept aggregations and pre-aggregation filters t...,ts tsx,20
+2026-01-22,monorepo,Dimitar Christoff,39584,,49,595,153,"fix: tiny refactor to make it easier to work with dockview persistence, panel expiry, grid cell alignment",tsx,0
+2026-01-22,monorepo,Andres Ivaldi,39586,,3,8,19,Fix dealer user name,cfg,78
+2026-01-22,monorepo,Evgeny Klimenchenko,39583,,12,67,9,feat: new useDefaultMKTXGridOptions hook and disabled removing columns by dra...,tsx ts mdx,1
+2026-01-22,monorepo,Andres Ivaldi,39582,,3,81,26,Update configurations,md cfg,0
+2026-01-22,monorepo,Shreshthha Jain,39581,XRFQ-3677,11,236,423,"Revert ""Merged PR 39430: [XRFQ-3677]: Add withLayoutPersistence HOC for dockt...",tsx,0
+2026-01-22,monorepo,Arshad Ahamed Syed,39580,,1,1,1,Vulnerability fixes,,0
+2026-01-22,monorepo,Dimitar Christoff,39578,,2,8,3,"fix: timezone to UTC, clock to render always",tsx ac,0
+2026-01-22,monorepo,Arshad Ahamed Syed,39579,XRFQ-3595,1,2,0,XRFQ-3595 Tradability-value-disappear,,0
+2026-01-22,monorepo,Dimitar Christoff,39577,,1,44,15,fix: remove apps not marked for production from deployable builds.,ts,0
+2026-01-21,monorepo,Tim Kang,39558,XRFQ-3281,5,17,23,XRFQ-3281 - remove unnecessary char from inquiryId match,tsx ts,10
+2026-01-21,monorepo,Keshal Desai,39569,XPMI-1139,4,27,63,fix(XPMI-1139): improve observability by validating trace ID format instead of span,java,0
+2026-01-21,monorepo,Dimitar Christoff,39563,,4,29,4,fix: created a loading state component for sort being applied,ts tsx css,0
+2026-01-21,monorepo,Nicolas Ramirez-Diaz,39430,XRFQ-3677,11,423,236,[XRFQ-3677]: Add withLayoutPersistence HOC for docktabs,tsx,0
+2026-01-21,monorepo,Andres Ivaldi,39556,,12,20,10,Update configurations,yaml yml,10
+2026-01-21,monorepo,Keshal Desai,39557,XPMI-1135,23,30,35,feat(XPMI-1135): set use.latest.version to false in application.yml and strip avro.java.string from Avro schemas for MOC apps,avsc yml yaml,0
+2026-01-21,monorepo,Bryan O'Connor,39466,,17,400,5,Add documentation for dealer response services,mmd java,0
+2026-01-21,monorepo,Evgeny Klimenchenko,39552,,9,465,81,feat: grid state persistence,ts mdx tsx,2
+2026-01-21,monorepo,Bryan O'Connor,39538,XRFQ-3960,3,228,3,XRFQ-3960 fix ranking bug where dealer responds but rank does not change. Sta...,java,97
+2026-01-21,monorepo,Jim Higson,39547,,19,466,91,"fix(platform): allow viewserver capability docs to specify prefer facets, whi...",ts,44
+2026-01-21,monorepo,Dimitar Christoff,39550,,5,18,4,fix: updating error display in AC,css tsx,0
+2026-01-21,monorepo,Adam Edwards,39551,,1,19,3,feat: stop rendering default states for placeholder rows,ts,0
+2026-01-21,monorepo,Rodrigo Iparraguirre,39548,,24,435,2711,delete list update handler service,mmd java,13
+2026-01-21,monorepo,Shreshthha Jain,39544,,5,170,2,Added Best Level vs CP filter,tsx ts,22
+2026-01-21,monorepo,Dimitar Christoff,39543,,1,3,1,"fix: making sure the startStreaming is only called when it is not, preventing...",tsx,0
+2026-01-20,monorepo,Matthew Williamson,39537,XPMI-1338,1,1,1,XPMI-1338 Follow redirects when downloading otel javaagent,,0
+2026-01-20,monorepo,Evgeny Klimenchenko,39533,,3,98,0,feat: added right content to the gridUtilityBar,tsx,0
+2026-01-20,monorepo,Nicolas Ramirez-Diaz,39534,,2,0,4,fix: remove styles-lib circular dependency,yaml json,0
+2026-01-20,monorepo,Nicolas Ramirez-Diaz,39526,,1,0,1,fix: limit lookup files for css var extension to ma themes,json,0
+2026-01-20,monorepo,Sam Rose,39532,,1,1,1,fix: server script name,yml,0
+2026-01-20,monorepo,Dimitar Christoff,39525,,4,25,14,fix: skipping integration tests when no need,yml css,0
+2026-01-20,monorepo,Adam Edwards,39530,,2,18,8,feat: pills formatting,tsx,0
+2026-01-20,monorepo,Sam Rose,39514,,32,1026,192,"GitHub: Initial GitHub CI actions (frontend, Java, NodeJS)",sh yml,0
+2026-01-20,monorepo,Matthew Williamson,39529,XPMI-1313,3,52,1,XPMI-1313 Add activityconsole to scaleUpCronjob and scaleDownCronjob,yaml,0
+2026-01-20,monorepo,Adam Edwards,39528,,1,6,13,feat: Remove setCookie logic,ts,0
+2026-01-20,monorepo,Shreshthha Jain,39527,XRFQ-3827,4,63,16,feat: Added tradability filter and fixed limit level filter (XRFQ-3827),tsx ts,33
+2026-01-20,monorepo,Dimitar Christoff,39517,,198,75,120,fix: revert e2e,sh tsx css,0
+2026-01-20,monorepo,Satraj Sehmi,39523,XRFQ-3846,3,40,2,XRFQ-3846 remove duplicates from dealer group options,ts tsx,67
+2026-01-20,monorepo,Adam Edwards,39522,,4,27,6,feat: pre aggregation and improved indexes,js ts tsx,0
+2026-01-20,monorepo,Rodrigo Iparraguirre,39521,,31,175,54,scale down v1 services,yaml,0
+2026-01-20,monorepo,Evgeny Klimenchenko,39520,,3,14,5,fix: fixed label in multiselect and added labels to filters,tsx} ts css,0
+2026-01-20,monorepo,Satraj Sehmi,39519,XRFQ-3886,1,11,4,XRFQ-3886 add badge with count to security column,ts,0
+2026-01-19,monorepo,Adam Edwards,39505,,7,242,128,Move sector to multiselect,tsx ts,0
+2026-01-19,monorepo,Satraj Sehmi,39506,XRFQ-3822,4,57,16,XRFQ-3822 order targeted rfq dealers by rank followed by a-z,ts tsx,67
+2026-01-19,monorepo,Adam Edwards,39503,,5,112,34,feat: Update the MultiSelect to accept label and value,tsx,41
+2026-01-16,monorepo,David Behmoaras,39501,XRFQ-2224,8,73,27,"XRFQ-2224 list items alerts, filter for list panel parent only",tsx ts,0
+2026-01-16,monorepo,Tim Kang,39387,XRFQ-3807,37,168,243,XRFQ-3807 - remove list params panel and fix loading state,tsx ts,44
+2026-01-16,monorepo,Tim Kang,39496,XRFQ-3889,1,1,1,XRFQ-3889 - update tableId in posttradelist,tsx,0
+2026-01-16,monorepo,Tim Kang,39291,XRFQ-3558,10,151,67,XRFQ-3558 - update logic for dealer row status,ts tsx,29
+2026-01-16,monorepo,Shreshthha Jain,39482,XRFQ-226,16,123,23,feat: Added columns for ac and list item grid (XRFQ-226),ts tsx,5
+2026-01-16,monorepo,Evgeny Klimenchenko,39488,,9,303,20,fix: fixed null value in Sector,tsx ts,67
+2026-01-16,monorepo,Evgeny Klimenchenko,39457,,15,1186,146,feat: cell communication,ts tsx,34
+2026-01-16,monorepo,Tim Kang,39490,XRFQ-3778,1,3,0,XRFQ-3778 - add bestcpp fields to aggregation,ts,0
+2026-01-16,monorepo,Dan Gent,39489,,2,1,1,fix: rename typo file,tsx,0
+2026-01-16,monorepo,David Behmoaras,39486,XRFQ-2903,1,7,1,XRFQ-2903 - fix extractAlertsData npe,tsx,0
+2026-01-16,monorepo,Tim Kang,39314,XRFQ-3281,34,880,557,XRFQ-3281 - Updated the TradeBest button to use the rank from the viewserver instead of calculating it on the client,tsx ts,63
+2026-01-16,monorepo,Rodrigo Iparraguirre,39472,,6,39,13,schema avro for responder for new dealer api,yaml avsc yml,8
+2026-01-16,monorepo,Satraj Sehmi,39478,XRFQ-3857,2,59,37,XRFQ-3857 fix disclosed counterparties dealer pills debounce selection,tsx,76
+2026-01-16,monorepo,Keshal Desai,39481,XPMI-1306,6,43,7,feat(XPMI-1306): add Bondlink alerts feature flag configuration,java yml,6
+2026-01-16,monorepo,Keshal Desai,39267,XPMI-1139,27,367,119,feat: XPMI-1139 Add trace ID support for distributed tracing across various r...,java avsc,0
+2026-01-16,monorepo,Rodrigo Iparraguirre,39480,,9,639,1028,remove sds upstream call,mmd java,14
+2026-01-16,monorepo,Shreshthha Jain,39471,XRFQ-3702,2,9,3,fix: updated rankings of statuses (XRFQ-3702),ts,50
+2026-01-16,monorepo,Rodrigo Iparraguirre,39476,,3,52,47,fix IT,java yml,98
+2026-01-16,monorepo,Evgeny Klimenchenko,39477,,2,7,2,fix: fixed filters,tsx ts,0
+2026-01-16,monorepo,Jim Higson,39475,,1,1,1,fix(platform): set readPreference to primary on mongo queries when reading in...,ts,0
+2026-01-16,monorepo,Adam Edwards,39473,,2,11,11,fix: rename prop,tsx,0
+2026-01-16,monorepo,Shreshthha Jain,39458,XRFQ-2226,2,42,9,feat: Search working on status and security fields(XRFQ-2226),tsx ts,0
+2026-01-15,monorepo,David Behmoaras,39442,XRFQ-2903,22,293,33,WIP XRFQ-2903 alerts filter ac grid,tsx ts,1
+2026-01-15,monorepo,Lola Naumova,39461,XPMI-1294,2,20,3,feat(XPMI-1294): Persist Auctions grid sorting prefs,tsx ts,0
+2026-01-15,monorepo,Keshal Desai,39463,XPMI-1135,8,11,32,chore(XPMI-1135): remove use.latest.version property from commons,avsc,0
+2026-01-15,monorepo,Keshal Desai,39425,XPMI-1305,1,6,3,feat(XPMI-1305): add composite index for auctions-rts-view and update query filter,js,0
+2026-01-15,monorepo,Kunal Choudhary,39465,,6,102,0,added kafkaconnect in kafkabat ui,yaml,0
+2026-01-15,monorepo,Pedro Noriega,39464,XRFQ-3737,18,125,368,XRFQ-3737 fix: Migrate SummaryPanel components to use MetricsGroup. Use Direc...,tsx css,7
+2026-01-15,monorepo,Tim Kang,39462,XRFQ-3778,1,3,0,XRFQ-3778 - add missing bestlevelcpp fields,ts,0
+2026-01-15,monorepo,Pedro Noriega,39460,XRFQ-3737,1,1,0,"XRFQ-3737 fix: @mktx/ui, Export MetricsGroup component",ts,0
+2026-01-15,monorepo,Lola Naumova,39454,XPMI-1266,5,50,8,feat(XPMI-1266): Upload success alert test & test fixes,ts tsx,88
+2026-01-15,monorepo,Rodrigo Iparraguirre,39456,,2,29,1,responder for new dealer api,java,93
+2026-01-15,monorepo,Daniel Kerr,39375,,1,0,4,Fix(trap): user trap in closing all tabs resolved by prescribed means,tsx,0
+2026-01-15,monorepo,Bryan O'Connor,39432,XRFQ-3579,4,111,3,XRFQ-3579,yaml,2
+2026-01-15,monorepo,Sam Rose,39403,,5,3,35,refactor: remove skip terraform flag,yml,0
+2026-01-15,monorepo,Dimitar Christoff,39453,,2,4,0,fix: missing dep,yaml json,0
+2026-01-15,monorepo,Keshal Desai,39451,XPMI-1304,14,0,188,refactor(XPMI-1304): remove obsolete Terraform configuration files,tf tfvars hcl,0
+2026-01-15,monorepo,Pedro Noriega,39418,XRFQ-3805,10,199,59,"XRFQ-3805: ListInquiryItemPanel renders Summary ribbon, SummaryRibbon (Active...",tsx ts,22
+2026-01-15,monorepo,Nicolas Ramirez-Diaz,39391,MAUI-4317,10,134,0,[MAUI-4317]: Datepickerpopover component,tsx ts css,0
+2026-01-15,monorepo,Keshal Desai,39414,XPMI-1303,6,20,1,feat(XPMI-1303): Map state field from BL order to AC order,java avsc,76
+2026-01-15,monorepo,Dimitar Christoff,39449,,7,219,186,fix: light mode support and theme sync chnages,tsx,0
+2026-01-15,monorepo,Rodrigo Iparraguirre,39447,,14,336,87,reponder for dealer api basic and sds,java,36
+2026-01-15,monorepo,Shreshthha Jain,39446,XRFQ-2226,1,12,0,feat: Updated index in mongo db sync collection(XRFQ-2226),ts,0
+2026-01-15,monorepo,Andres Ivaldi,39378,,59,3342,145,PR to add Documentation,java tsx,33
+2026-01-15,monorepo,Satraj Sehmi,39444,XRFQ-3825,7,78,33,XRFQ-3825 Fix tooltip not showing for smart select dealers,ts tsx,47
+2026-01-15,monorepo,Rodrigo Jaen,39397,,19,47,339,"add batch size, avoid schema creation check, fix some task wrongly allocated",java,51
+2026-01-15,monorepo,Satraj Sehmi,39443,XRFQ-3821,2,2,2,XRFQ-3821 toggle targeted rfq not to preselect smart select dealer pills,tsx,50
+2026-01-15,monorepo,Shreshthha Jain,39445,XRFQ-2226,1,4,0,feat: Added text index for search (XRFQ-2226),js,0
+2026-01-14,monorepo,Matthew Williamson,39433,XPMI-1308,1,4,1,XPMI-1308 Update schema for RTSSendToAuctionRejectResponse,avsc,0
+2026-01-14,monorepo,Keshal Desai,39424,XPMI-1304,35,853,3,feat(XPMI-1304): MOC RTS Enricher service,kt yaml xml,20
+2026-01-14,monorepo,Nicolas Ramirez-Diaz,39411,XRFQ-3659,4,23,38,[XRFQ-3659]: update fonts and other things within xpro settings to new styles,tsx css,0
+2026-01-14,monorepo,Kunal Choudhary,39410,,4,4,4,adding cidr for lba,tfvars,0
+2026-01-14,monorepo,Kunal Choudhary,39408,,1,1,1,added env for region 2 msk secret,tf,0
+2026-01-14,monorepo,Sam Rose,39407,,32,44,32,fix: ensure created in relevant nested environments,yaml tf,0
+2026-01-14,monorepo,Nicolas Ramirez-Diaz,39406,XRFQ-3659,1,22,40,[XRFQ-3659]: replace existing dealer group dropdown,tsx,0
+2026-01-14,monorepo,Kunal Choudhary,39405,,1,1,1,added check for prod as that is the only place where secret differs,tf,0
+2026-01-14,monorepo,Matthew Williamson,39329,XPMI-636,72,2085,4955,XPMI-636 Add an auctions-test-lib to reduce boilerplate and address some comm...,java kt,92
+2026-01-14,monorepo,David Behmoaras,39374,XRFQ-2903,23,496,81,XRFQ-2903 Alerts MF,yaml ts tsx json,0
+2026-01-14,monorepo,Kunal Choudhary,39402,,0,0,0,updated CIDRs for LBA connectivity to XPRO 2.0,,0
+2026-01-14,monorepo,Bryan O'Connor,39168,XRFQ-3579,44,1182,2686,XRFQ-3579 first iteration with foreign key join,java,52
+2026-01-14,monorepo,Kunal Choudhary,39400,,4,4,4,added CIDRs for LBA to connect to XPRO 2.0 MSK,tfvars,0
+2026-01-14,monorepo,Rodrigo Iparraguirre,39399,,3,45,2,fix NPE userId,java,83
+2026-01-14,monorepo,Sam Rose,39337,,1256,422,16350,refactor: create service account modules. Remove redundant terraform from each java/nodejs service,tf tfvars hcl,0
+2026-01-14,monorepo,Shreshthha Jain,39393,XRFQ-3661,6,525,129,feat: Added refresh order in context menu (XRFQ-3661),ts tsx,11
+2026-01-14,monorepo,Andres Ivaldi,39396,,5,183,1,Keeping user changes over data coming from correlation,java yaml,66
+2026-01-14,monorepo,Adam Edwards,39395,,2,2,0,feat: Parameters and Response gird should be default,tsx,0
+2026-01-14,monorepo,Satraj Sehmi,39367,XRFQ-3684,8,278,45,XRFQ-3684 smart select for non targeted rfq,tsx,70
+2026-01-14,monorepo,Rodrigo Iparraguirre,39358,,15,1014,674,make sds call automatically when delist action occurs after Smart group was selected,mmd java,18
+2026-01-13,monorepo,Kunal Choudhary,39386,,4,7,4,added read from secondary to mongo connection string & updated platform ui helm as well,yaml tf,0
+2026-01-13,monorepo,Pedro Noriega,39379,XRFQ-3796,8,49,35,"XRFQ-3796: fix: Market Depth light mode colors; Filter should only include ALGO and AXE types; Remove ""Direct"" from column defs",ts css,8
+2026-01-13,monorepo,Pedro Noriega,39377,XRFQ-3796,5,23,6,"XRFQ-3796: fix: PostTradeListItems, individual inquiry views: replace placeho...",tsx,48
+2026-01-13,monorepo,Adam Edwards,39155,,13,231,1715,feat: Run AC in CI/CD,ts,16
+2026-01-13,monorepo,Keshal Desai,39369,XPMI-1293,3,43,4,feat(XPMI-1293): update batchId mapping to use inResponseToBatchId in OrderMapper,kt avsc,85
+2026-01-13,monorepo,Evgeny Klimenchenko,39357,,2,23,0,fix: modal background,css,0
+2026-01-13,monorepo,Dimitar Christoff,39360,,1,2,2,fix: ensure certs copy,,0
+2026-01-13,monorepo,Rodrigo Jaen,39354,,27,45,434,"tune pods, removed unused deployment",yaml tf tfvars,0
+2026-01-13,monorepo,Sam Rose,39355,,1,1,1,docs: update client id for auth0 qa,mdx,0
+2026-01-13,monorepo,Dimitar Christoff,39351,,188,14,7,fix: updated snapshots and moved to playwright image for e2e ci/cd testing,sh,0
+2026-01-13,monorepo,Adam Edwards,39352,,5,126,49,[FE] List Filters wire up,tsx,0
+2026-01-13,monorepo,Shreshthha Jain,39350,XRFQ-3642,1,8,6,fix: Clear the timer when status is not live (XRFQ-3642),tsx,0
+2026-01-13,monorepo,Pedro Noriega,39330,XRFQ-3407,1,2,1,"XRFQ-3407: Move summary panel above parameters panel, add initialHeight",tsx,0
+2026-01-12,monorepo,David Behmoaras,39344,XRFQ-3737,13,262,53,XRFQ-3737 finish data integration for summary panel data,ts,53
+2026-01-12,monorepo,Keshal Desai,39342,XPMI-1292,1,16,0,bug(XPMI-1292): add _modifiedTS field to existing auctions-users and auctions-instruments documents,js,0
+2026-01-12,monorepo,Tim Kang,39338,XRFQ-3648,1,2,0,XRFQ-3648 - expose autox counts for lists,ts,0
+2026-01-12,monorepo,Dimitar Christoff,39332,,6,32,5,fix: allow sections to not have a lead border in case their parent does,tsx css,0
+2026-01-12,monorepo,Shreshthha Jain,39333,,1,2,2,fix: Build fix,tsx,100
+2026-01-12,monorepo,Kunal Choudhary,39331,,1,3,3,added quotes as it was throwing error on kafka connection,yaml,0
+2026-01-12,monorepo,Satraj Sehmi,39326,XRFQ-3583,14,413,20,XRFQ-3583 add unit tests for targeted rfq smart select,tsx,65
+2026-01-12,monorepo,Shreshthha Jain,39302,,11,334,31,Added limit level popup for lists and singles,tsx ts,46
+2026-01-12,monorepo,Shreshthha Jain,39327,,7,197,3,feat: Updated display status value based on displayTransientStatus and weight...,ts,52
+2026-01-12,monorepo,David Behmoaras,39317,XRFQ-3273,23,338,78,"XRFQ-3273 protocol focus, more styling update",tsx ts,53
+2026-01-12,monorepo,Adam Edwards,39321,,6,113,102,Dynamic dropdown,tsx,0
+2026-01-12,monorepo,Rodrigo Iparraguirre,39322,,4,84,260,instrument amount outstanding,avsc java,12
+2026-01-12,monorepo,Rodrigo Jaen,39323,,6,9,106,"join inquiry size, autox agg into same list level connector since there is no...",yaml,4
+2026-01-12,monorepo,Arshad Ahamed Syed,39319,XRFQ-3595,2,1,2,XRFQ-3595-Tradability value disappears after submitting inquiry,java,0
+2026-01-12,monorepo,Shreshthha Jain,39320,,3,3,1,fix: activity console and list item grid style fix,tsx css,0
+2026-01-12,monorepo,Rodrigo Jaen,39265,,14,260,45,rename transient field to avoid late messages. Ui will pick the right one on read,java,54
+2026-01-09,monorepo,Paul Spiteri,39315,XPMI-1276,4,29,24,(fix)XPMI-1276: Playwright - Eligible Cusips only SPREAD,ts,100
+2026-01-09,monorepo,Keshal Desai,39303,XPMI-1291,3,24,2,perf(XPMI-1291): add OpenTelemetry environment variables for tracing configuration to Mirror Maker,yaml tf,0
+2026-01-09,monorepo,David Behmoaras,39280,XRFQ-3273,20,547,24,XRFQ-3273 order depth styling integration,tsx ts,53
+2026-01-09,monorepo,Keshal Desai,39296,XPMI-1291,4,113,320,refactor(XPMI-1291): remove AvroToJsonProcessor and streamline JSON conversio...,java,19
+2026-01-09,monorepo,Satraj Sehmi,39287,XRFQ-3739,6,86,63,XRFQ-3739 List Inquiry Item,tsx ts,33
+2026-01-09,monorepo,Nicolas Ramirez-Diaz,39204,MAUI-4293,55,490,174,[MAUI-4293]: Stylelint autofix support for strict css var usage rule,css js mjs,0
+2026-01-09,monorepo,Paul Spiteri,39298,,1,12,47,"Revert ""Merged PR 38401: fix: Checkbox selection can get out of sync""",ts,0
+2026-01-09,monorepo,Paul Spiteri,39277,XPMI-1276,2,7,5,(fix)XPMI-1276: Playwright - dismiss alert fix,ts,100
+2026-01-09,monorepo,Dimitar Christoff,39285,,7,99,13,fix: running playwright from devcontainer without pnpm install,sh ts,0
+2026-01-09,monorepo,Nicolas Ramirez-Diaz,39294,,1,1,1,fix: check affected,json,0
+2026-01-09,monorepo,Arshad Ahamed Syed,39286,XRFQ-3595,7,39,26,XRFQ-3595 Tradability-value-disappear,java,83
+2026-01-09,monorepo,Adam Edwards,39293,,1,3,1,fix: pass smartSelectGroup prop to inquiry item tab,tsx,0
+2026-01-09,monorepo,Rodrigo Iparraguirre,39292,,2,25,12,do not send reason at list level,java,46
+2026-01-09,monorepo,Andres Ivaldi,39290,,1,2,2,update connector due the schema change,yaml,0
+2026-01-09,monorepo,Rodrigo Iparraguirre,39283,,35,2308,2,slo sds v2,java json,47
+2026-01-09,monorepo,Alex Munteanu,38114,,26,466,13,feat: add filters to the AC all orders grid,tsx ts,0
+2026-01-09,monorepo,Tim Kang,39159,XRFQ-2522,10,243,74,XRFQ-2522 - implement show action buttons for best only,tsx ts,67
+2026-01-09,monorepo,Adam Edwards,39284,,21,500,551,Update GraphQL Trageted mutation and rename Xpro_Submission_TradeExecutionOperationType -> Xpro_Submission_UiOperationType,ts graphql,2
+2026-01-09,monorepo,Adam Edwards,39263,,10,127,84,feat: migrate to the new dealer api,tsx ts,68
+2026-01-08,monorepo,Pedro Noriega,39261,XRFQ-3670,1,1,1,XRFQ-3670: Fix: ActivityConsole: Fix ISIN column backing field,ts,0
+2026-01-08,monorepo,Kunal Choudhary,39269,,1,1,1,Revert 'removing role temp till cloud fixes it',yaml,0
+2026-01-08,monorepo,Evgeny Klimenchenko,39268,,2,11,2,feat: 1.0.0 @mktx/ui release,md json,0
+2026-01-08,monorepo,Dimitar Christoff,39260,,5,133,30,fix: latest tokens,txt css js,0
+2026-01-08,monorepo,Andres Ivaldi,39254,,3,3,2,Fix schema to be compatible with codeGen,md avsc,0
+2026-01-08,monorepo,Andres Ivaldi,39266,,1,1,1,add is deleted topic to connector,yaml,0
+2026-01-08,monorepo,Tim Kang,39104,XRFQ-2041,37,1166,402,XRFQ-2041 - Render action buttons based on response next actions,tsx ts,26
+2026-01-08,monorepo,Dimitar Christoff,39222,,9,240,55,fix: initial bump to pnpm 10,lock,0
+2026-01-08,monorepo,Paul Spiteri,39212,XPMI-1276,17,291,224,(fix)XPMI-1276: Playwright - Eligible Instruments fixes,ts,98
+2026-01-08,monorepo,Adam Edwards,39027,,21,658,11,feat: Bulk actions,tsx ts,22
+2026-01-08,monorepo,Rodrigo Iparraguirre,39259,,2,18,9,vl last sds timestamp null for 1st time,java,37
+2026-01-08,monorepo,David Behmoaras,39238,XRFQ-3273,14,121,175,XRFQ-3273 Order Depth change dependency from inquiryData to instrumentID,tsx ts css,34
+2026-01-08,monorepo,Satraj Sehmi,39258,XRFQ-3584,9,46,26,XRFQ-3584 integrate smart select with targeted rfq,ts tsx,0
+2026-01-08,monorepo,Kunal Choudhary,39257,,1,1,1,removing role temp till cloud fixes it,yaml,0
+2026-01-08,monorepo,Rodrigo Iparraguirre,39256,,3,53,54,v2 input topic correlation,mmd},0
+2026-01-08,monorepo,Shreshthha Jain,39255,XRFQ-3652,1,1,0,fix: Added level limit in dealer response eu view (XRFQ-3652),ts,0
+2026-01-08,monorepo,Rodrigo Iparraguirre,39251,,1,1,1,add v2 to sink connector,yaml,0
+2026-01-08,monorepo,Dimitar Christoff,39157,,25,8104,7,start tests,tsx ts,100
+2026-01-08,monorepo,Rodrigo Iparraguirre,39250,,2,86,1,fix NPE,java,98
+2026-01-08,monorepo,Evgeny Klimenchenko,39249,,3,367,4,feat: filtering out the merge commits and test for changelog script;,bats,0
+2026-01-08,monorepo,Andres Ivaldi,39248,,7,23,25,Move upstream schema to be inline,avsc,2
+2026-01-08,monorepo,Satraj Sehmi,39247,XRFQ-3584,7,74,5,XRFQ-3584 TargetedRFQ smart select dealer pills,tsx css,0
+2026-01-08,monorepo,Rodrigo Iparraguirre,39246,,1,2,0,pom v2,xml,0
+2026-01-08,monorepo,Rodrigo Iparraguirre,39147,,88,4334,640,full dealer api integration upstream submission service v2,java yaml,32
+2026-01-07,monorepo,Dimitar Christoff,39241,,3,10,7,chore: release ui 0.13.1,yaml md json,0
+2026-01-07,monorepo,Michel Richard,39240,,2,36,2,Publish UI package 0.13.0,md,0
+2026-01-07,monorepo,Adam Edwards,39232,,1,4,3,fix: Capabilities doc,ts,0
+2026-01-07,monorepo,Kunal Choudhary,39235,,1,4,4,changed casing of names of cron jobs,tf,0
+2026-01-07,monorepo,Kunal Choudhary,39231,,11,158,148,code refactoring and adding scaling for kafka connectors and MM2,tf yaml,0
+2026-01-07,monorepo,Shreshthha Jain,39229,XRFQ-1986,10,677,274,feat: Moved cptys and rating values display in mongo for sorting (XRFQ-1986),ts,36
+2026-01-07,monorepo,Adam Edwards,39227,,11,344,386,Add mutation to set targeted,ts graphql json,0
+2026-01-07,monorepo,Tim Kang,39223,XRFQ-1875,1,1,0,XRFQ-1875 - sort dealer responses based on rank,ts,0
+2026-01-07,monorepo,Dan Gent,39224,,1,1,1,fix: send up empty dealer group on selection on targetedRFQ,tsx,0
+2026-01-07,monorepo,Satraj Sehmi,39067,XRFQ-3584,12,301,39,XRFQ-3584 Targeted RFQ Smart Select,tsx,3
+2026-01-07,monorepo,Rodrigo Jaen,39221,,10,194,5,adding standalone connector for AC,yaml tf,0
+2026-01-07,monorepo,Shreshthha Jain,39220,XRFQ-3616,1,6,2,fix: Formatter applied on receive time column (XRFQ-3616),ts,0
+2026-01-07,monorepo,Satraj Sehmi,39219,XRFQ-3688,3,37,7,XRFQ-3688 update list inquiry items to use inquiry data from the item not list,ts tsx,0
+2026-01-07,monorepo,Shreshthha Jain,39185,XRFQ-1986,5,151,46,feat: Updated default column order for pre-submission(XRFQ-1986),ts,7
+2026-01-07,monorepo,Dimitar Christoff,39218,,4,295,350,feat: SB bump to 10,yaml,0
+2026-01-07,monorepo,Evgeny Klimenchenko,39216,,26,142,28,feat: update dealler pill,tsx css,0
+2026-01-06,monorepo,Pedro Noriega,39163,XRFQ-3670,1,2,2,XRFQ-3670: ActivityConsole: Pull ISIN and CUSIP from instrument projections,ts,0
+2026-01-06,monorepo,Lola Naumova,39203,XPMI-1289,4,18,173,feat(XPMI-1289): Remove midx types,ts graphql,33
+2026-01-06,monorepo,Kunal Choudhary,39199,,1,2,5,adding scale resource for strimzi,yaml,0
+2026-01-06,monorepo,Kunal Choudhary,39198,,1,1,1,adding scaling role for strimzi resource,yaml,0
+2026-01-06,monorepo,Kunal Choudhary,39197,,1,4,1,added scale role for mm2,yaml,0
+2026-01-06,monorepo,Kunal Choudhary,39194,,1,1,1,adding correct role,yaml,0
+2026-01-06,monorepo,Dimitar Christoff,39186,,14,40,15,column manager fixes,css tsx,0
+2026-01-06,monorepo,Satraj Sehmi,39189,XRFQ-3687,1,2,1,XRFQ-3687 page header done status fix,tsx,0
+2026-01-06,monorepo,Kunal Choudhary,39193,,4,12,12,fix deployment errors,yaml,0
+2026-01-06,monorepo,Kunal Choudhary,39160,,10,217,9,Scaling cronjob for strimzi mm2,yaml tf,0
+2026-01-06,monorepo,Shreshthha Jain,39181,XRFQ-3512,3,4,7,feat: Added isTragetedRfq flag in submission (XRFQ-3512),tsx,55
+2026-01-06,monorepo,Yan Parenteau,39126,,25,1775,1462,feat: ag-grid agnostic col settings,tsx ts,7
+2026-01-06,monorepo,Adam Edwards,39176,,28,115,2720,feat: Update GraphQL codegen,ts avsc graphql,0
+2026-01-06,monorepo,Raju Guduri,39174,XRFQ-3679,3,22,3,XRFQ-3679: Populating userid when creating dealer stack post submission,java,80
+2026-01-06,monorepo,Shreshthha Jain,39130,XRFQ-3386,1,4,1,fix: Update page header timer state after it is expired once (XRFQ-3386),tsx,0
+2026-01-05,monorepo,Andrew Kwak,39151,,1,17,6,Update Loadtest Script to Support Other QA Envs,sh,0
+2026-01-05,monorepo,Keshal Desai,39161,XPMI-793,30,286,2,feat: XPMI-793 KStreams K8s probes for all MOC apps,yaml yml,0
+2026-01-05,monorepo,Paul Spiteri,39158,XPMI-1276,7,43,79,(feat)XPMI-1276: Playwright - Eligible Instruments fixes,ts,100
+2026-01-05,monorepo,Dimitar Christoff,39149,,37,509,89,feat: ui css api added,tsx css,0
+2026-01-05,monorepo,Keshal Desai,39150,XPMI-793,2,19,0,feat: XPMI-793 KStreams K8s probes,yaml yml,0
+2026-01-05,monorepo,Andres Ivaldi,39145,,2,2,2,Changing the collection where to persist the change,yaml java,0
+2026-01-05,monorepo,Adam Edwards,39144,,1,13,0,feat: add QA4 automation for 1.5,qa4,0
+2026-01-02,monorepo,Keshal Desai,39140,XPMI-684,25,120,324,XPMI-684 Add support for envMap in Kubernetes deployment configuration,yaml,0
+2026-01-02,monorepo,Shreshthha Jain,39137,XRFQ-3642,1,5,1,fix: Clear the timer when status is not live (XRFQ-3642),tsx,0
+2026-01-02,monorepo,Keshal Desai,39135,XPMI-684,7,130,36,Revert 'XPMI-684 Add support for envMap in Kubernetes deployment configuration',yaml,0
+2026-01-02,monorepo,Keshal Desai,39139,XPMI-684,1,3,3,fix: XPMI-684 Try typeIs for the helm envMap check,,0
+2026-01-02,monorepo,Rodrigo Iparraguirre,39113,,100,5845,129,Full dealer API integration,java,43
+2026-01-02,monorepo,Keshal Desai,39138,XPMI-684,1,3,3,fix: XPMI-684 Try a more compatible kind check,,0
+2026-01-02,monorepo,Keshal Desai,39136,XPMI-648,1,1,1,fix: XPMI-648 Show helm errors,,0
+2026-01-02,monorepo,Michael Dalby,39026,XRFQ-3623,3,204,2,fix(XRFQ-3623): Ranking: Dealers without Response Rank alphabetically,java,99
+2026-01-02,monorepo,Keshal Desai,39133,XPMI-684,7,36,130,XPMI-684 Add support for envMap in Kubernetes deployment configuration,yaml,0
+2026-01-02,monorepo,Shreshthha Jain,39124,,2,12,2,Fix timer variant for Page header timer,tsx,0
+2026-01-02,monorepo,Dan Gent,39129,,1,1,1,fix: expect 2026 in spreadsheet test,ts,100

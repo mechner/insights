@@ -1,0 +1,96 @@
+Name,Title,Level,Manager,Start Date,Location
+"Pfeiffer, Karl","Chief Business Officer, Pragma",1 - Head of / Principal,"Mechner, David",3/18/09,NY-Pragma
+"Smith, Andrew","Senior Systems Architect, Nucleus",1 - Head of / Principal,"Fishler, Eran",5/1/19,NY-Pragma
+"Polen, David","Head of Software Products, Pragma",1 - Head of / Principal,"Mechner, David",3/2/21,NY-Pragma
+"Fishler, Eran","Head of Software Platform, Pragma",1 - Head of / Principal,"Mechner, David",8/6/07,NY-Pragma
+"Carroll, Shane",Head of X-Pro & UI Platform Engineering,1 - Head of / Principal,"Mechner, David",4/7/25,55 Hudson Yards
+"Kurchuk, Mariya","Head of Algorithmic Trading, Pragma",1 - Head of / Principal,"Mechner, David",7/11/11,NY-Pragma
+"Sanan, Abhay","Head of Trade Desk, Pragma",1 - Head of / Principal,"Pfeiffer, Karl C.",4/6/09,NY-Pragma
+"Caravetta, Danielle","Head of Global Sales, Pragma",1 - Head of / Principal,"Pfeiffer, Karl C.",6/17/13,Florida
+"Richard, Michel",Head of UI Platform,1 - Head of / Principal,"Carroll, Shane",12/8/25,55 Hudson Yards
+"Tran, Hoa","Senior Software Engineer, Nucleus",3 - Manager / Senior Engineer,"Fishler, Eran",6/16/25,55 Hudson Yards
+"Bhagwat, Manasi","Senior Trade Desk Manager, Pragma",2 - Senior Manager / Lead,"Sanan, Abhay",12/21/15,NY-Pragma
+"Bar, Maarten","Senior Quantitative Engineer, Pragma",3 - Manager / Senior Engineer,"Kurchuk, Mariya",10/1/07,NY-Pragma
+"Yu, Yiwen","Senior Software Engineer, Nucleus",3 - Manager / Senior Engineer,"Fishler, Eran",7/5/21,NY-Pragma
+"Rivera, Enmanuel","Engineering Manager, X-Pro",2 - Senior Manager / Lead,"Carroll, Shane",7/14/25,55 Hudson Yards
+"Krylov, Dmitriy","Senior Quantitative Engineer, Pragma",3 - Manager / Senior Engineer,"Kurchuk, Mariya",11/6/17,NY-Pragma
+"Widawsky, Jonathan","Software Engineering Manager, Pragma Quant",2 - Senior Manager / Lead,"Kurchuk, Mariya",9/16/13,NY-Pragma
+"Stauffer, Cortney",Head of UX Design,2 - Senior Manager / Lead,"Mechner, David",10/21/24,55 Hudson Yards
+"Cameron, Andrew",Senior Product Specialist - Automation,2 - Senior Manager / Lead,"Mechner, David",11/2/20,Massachusetts
+"Desai, Keshal",Lead Software Engineer,2 - Senior Manager / Lead,"Carroll, Shane",4/28/25,55 Hudson Yards
+"Bobbala, Ramakrishna",Software Engineering Manager,2 - Senior Manager / Lead,"Carroll, Shane",6/27/22,55 Hudson Yards
+"Zia, Yosef","Senior Software Engineer, Nucleus",3 - Manager / Senior Engineer,"Fishler, Eran",11/17/25,55 Hudson Yards
+"Steinmann, Andrew",Software Engineering Manager,2 - Senior Manager / Lead,"Carroll, Shane",1/1/21,Missouri
+"O'Connor, Bryan",Lead Software Engineer,2 - Senior Manager / Lead,"Rivera, Enmanuel",6/25/18,55 Hudson Yards
+"Dunn, Shaun","Senior Account Manager, Pragma",2 - Senior Manager / Lead,"Sanan, Abhay",12/2/19,NY-Pragma
+"Ho, Terrence","Senior Quantitative Engineer, Pragma",3 - Manager / Senior Engineer,"Kurchuk, Mariya",8/26/13,NY-Pragma
+"Williamson, Matthew",Senior Software Engineer,3 - Manager / Senior Engineer,"Desai, Keshal",6/8/20,Texas
+"Zhang, Xiaowen",Senior Software Engineer,3 - Manager / Senior Engineer,"Fishler, Eran",6/11/18,55 Hudson Yards
+"Spiteri, Paul",Senior Software Engineer,3 - Manager / Senior Engineer,"Desai, Keshal",7/14/25,55 Hudson Yards
+"O'Toole, Paul",Lead Software Engineer,2 - Senior Manager / Lead,"Steinmann, Andrew",11/29/21,Georgia
+"Kreps, Charles",Senior Software Engineer,3 - Manager / Senior Engineer,"Rivera, Enmanuel",11/3/25,55 Hudson Yards
+"Dalby, Michael",Senior Software Engineer,3 - Manager / Senior Engineer,"Rivera, Enmanuel",12/16/24,Oregon
+"Kwak, Andrew",Senior Software Engineer,3 - Manager / Senior Engineer,"Richard, Michel",3/4/24,55 Hudson Yards
+"Finocchio, Jon","Head of Broker-Dealer Operations, Pragma",2 - Senior Manager / Lead,"Pfeiffer, Karl C.",3/7/22,NY-Pragma
+"O'Shaughnessy, Stephen","Head of NYSE Floor Operations, Pragma",2 - Senior Manager / Lead,"Pfeiffer, Karl C.",4/1/15,NY-Pragma
+"Kalaizic, Mercedes",Senior Software Engineer,3 - Manager / Senior Engineer,"Rivera, Enmanuel",9/29/25,55 Hudson Yards
+"Dayton, Jeffrey",Senior Software Engineer,3 - Manager / Senior Engineer,"Steinmann, Andrew",9/11/23,NY OTHER
+"Kerr, Daniel",Senior Software Engineer,3 - Manager / Senior Engineer,"Rivera, Enmanuel",10/6/25,55 Hudson Yards
+"Chandy, Prithvi","Quantitative Engineer, Pragma",4 - Senior Associate / Engineer,"Widawsky, Jonathan R.",7/12/21,NY-Pragma
+"Rydell, David",Senior Software Engineer,3 - Manager / Senior Engineer,"Desai, Keshal",6/5/23,55 Hudson Yards
+"Flynn, Francis","Account Manager, Pragma",3 - Manager / Senior Engineer,"Bhagwat, Manasi",9/6/22,NY-Pragma
+"McAtee, John","Trade Desk Specialist, Pragma",3 - Manager / Senior Engineer,"Sanan, Abhay",6/19/15,NY-Pragma
+"Mane, Priyanka",Senior Software Engineer,3 - Manager / Senior Engineer,"Bobbala, Ramakrishna",7/13/20,55 Hudson Yards
+"Giambanco, Michael","Account Manager, Pragma",3 - Manager / Senior Engineer,"Dunn, Shaun B.",1/6/25,55 Hudson Yards
+"House, Anthony",Senior Software Engineer,3 - Manager / Senior Engineer,"O'Toole, Paul J.",1/12/26,Colorado
+"Araje, Alan","Trade Desk Specialist, Pragma",3 - Manager / Senior Engineer,"Sanan, Abhay",10/8/18,NY-Pragma
+"Kumar, Rahul",Senior Software Engineer,3 - Manager / Senior Engineer,"Steinmann, Andrew",10/30/23,55 Hudson Yards
+"Behmoaras, David",Software Engineer,4 - Senior Associate / Engineer,"Rivera, Enmanuel",10/6/25,55 Hudson Yards
+"Kang, Timothy",Software Engineer,4 - Senior Associate / Engineer,"Rivera, Enmanuel",10/6/25,55 Hudson Yards
+"Wang, Yiren",Senior Software Engineer,3 - Manager / Senior Engineer,"Steinmann, Andrew",3/20/23,Virginia
+"Steffen, Ryan",Product Specialist,3 - Manager / Senior Engineer,"Cameron, Andrew",11/12/24,55 Hudson Yards
+"Kuan, Poh Chuan",Software Engineer,4 - Senior Associate / Engineer,"Dayton, Jeffrey",6/9/25,55 Hudson Yards
+"Vargas, Joshua",Senior Test Engineer,3 - Manager / Senior Engineer,"Rivera, Enmanuel",12/8/25,55 Hudson Yards
+"Liu, Steven",Senior Software Engineer,3 - Manager / Senior Engineer,"Steinmann, Andrew",10/3/11,55 Hudson Yards
+"Jahan, Mohammed",Software Engineer,4 - Senior Associate / Engineer,"Bobbala, Ramakrishna",8/17/20,55 Hudson Yards
+"Goldberg, Julie",Senior Test Engineer,3 - Manager / Senior Engineer,"Bobbala, Ramakrishna",8/1/02,Los Angeles
+"Dvir, Yarden",Software Engineer,4 - Senior Associate / Engineer,"Rivera, Enmanuel",11/29/21,55 Hudson Yards
+"Shovan, Jeremy",Software Engineer,4 - Senior Associate / Engineer,"Steinmann, Andrew",7/28/08,Georgia
+"Naumova, Lola",Software Engineer,4 - Senior Associate / Engineer,"Desai, Keshal",7/7/25,55 Hudson Yards
+"Smith, Jeffrey",Software Engineer,4 - Senior Associate / Engineer,"Steinmann, Andrew",9/1/17,55 Hudson Yards
+"Ghotgalkar, Mitali",Software Engineer,4 - Senior Associate / Engineer,"Bobbala, Ramakrishna",5/15/23,Massachusetts
+"Henry, Leslie",Software Engineer,4 - Senior Associate / Engineer,"Steinmann, Andrew",10/3/11,55 Hudson Yards
+"Sosa Garcia, Eduardo",Software Engineer,4 - Senior Associate / Engineer,"Bobbala, Ramakrishna",9/6/22,Massachusetts
+"Kim, Aisen",Software Engineer,4 - Senior Associate / Engineer,"Desai, Keshal",8/1/22,55 Hudson Yards
+"Nayak, Sakshi",Software Engineer,4 - Senior Associate / Engineer,"Bobbala, Ramakrishna",9/5/23,55 Hudson Yards
+"Patel, Kruti",Test Automation Engineer,4 - Senior Associate / Engineer,"Rivera, Enmanuel",7/10/23,55 Hudson Yards
+"Ramirez-Diaz, Nicolas",Associate Software Engineer,5 - Associate,"Richard, Michel",7/8/24,55 Hudson Yards
+"Hasani, Jurgen","NYSE Floor Associate, Pragma",5 - Associate,"O'Shaughnessy, Stephen M.",9/16/24,55 Hudson Yards
+"Higson, James",Lead UI Engineer,2 - Senior Manager / Lead,"Richard, Michel",11/13/23,London
+"Jaen, Rodrigo",Lead Software Engineer,2 - Senior Manager / Lead,"Carroll, Shane",10/5/15,London
+"Mundy, Barry",Senior Technical Product Manager,2 - Senior Manager / Lead,"Carroll, Shane",12/8/25,London
+"Kodjabashev, Dimitar",Lead UI Engineer,2 - Senior Manager / Lead,"Richard, Michel",6/10/24,London
+"Klimenchenko, Evgeny",Senior Software Engineer,3 - Manager / Senior Engineer,"Richard, Michel",5/12/25,London
+"Rose, Sam",Senior Software Engineer,3 - Manager / Senior Engineer,"Richard, Michel",8/1/23,London
+"Bird, Amy",Senior Software Engineer,3 - Manager / Senior Engineer,"Steinmann, Andrew",6/2/25,London
+"Guduri, Raju",Senior Software Engineer,3 - Manager / Senior Engineer,"Rivera, Enmanuel",7/3/23,London
+"Brooks, Sebastian",Senior Software Engineer,3 - Manager / Senior Engineer,"Steinmann, Andrew",2/1/24,London
+"Edwards, Adam",Senior Software Engineer,3 - Manager / Senior Engineer,"Jaen, Rodrigo",10/1/24,London
+"Jain, Shreshthha",Senior Software Engineer,3 - Manager / Senior Engineer,"Jaen, Rodrigo",11/24/25,London
+"Syed, Arshad",Senior Software Engineer,3 - Manager / Senior Engineer,"Jaen, Rodrigo",10/1/24,London
+"Nguyen, Thang",Senior UX Designer,3 - Manager / Senior Engineer,"Stauffer, Cortney",9/22/25,London
+"Ivaldi, Andres",Senior Software Engineer,3 - Manager / Senior Engineer,"Jaen, Rodrigo",9/1/24,London
+"Talapalli, Vanitha",Test Engineer,4 - Senior Associate / Engineer,"Jaen, Rodrigo",11/4/19,London
+"Regi, Jenny",UX Designer,4 - Senior Associate / Engineer,"Stauffer, Cortney",10/24/22,"London"
+"Hakim, Jawaid",,,"Mechner, David",,55 Hudson Yards
+"Parenteau, Yan Leigh",,,"Hakim, Jawaid",,55 Hudson Yards
+"Sarker, Md",,,"Hakim, Jawaid",,55 Hudson Yards
+"Pokrovskiy, Andrey",,,"Hakim, Jawaid",,55 Hudson Yards
+"Sukuri, Chandrashekar",,,"Hakim, Jawaid",,55 Hudson Yards
+"Stewart, Jamie",,,"Hakim, Jawaid",,55 Hudson Yards
+"Leykin, Anton",,,"Fishler, Eran",,55 Hudson Yards
+"Zhang, Yiming",,,"Fishler, Eran",,55 Hudson Yards
+"Chaudhary, Priyanka",,,"Fishler, Eran",,55 Hudson Yards
+"Wallingford, Micah",,,"Fishler, Eran",,55 Hudson Yards
+"Sehmi, Satraj",,,"Jean, Rodrigo",,London
+"Iparraguirre, Rodrigo",,,"Jean, Rodrigo",,London

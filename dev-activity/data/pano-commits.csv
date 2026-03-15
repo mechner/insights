@@ -1,0 +1,172 @@
+date,repo,author,git-hash,jira-link,file-count,added-lines,removed-lines,message,file-types,%test,commit-type
+2026-02-27,pano2,Yan Leigh Parenteau,52512f4992106b0b2cf5b505951f6ee1d3d011f8,PAN-11186,114,27316,26,PAN-11186 test(adx): Playwright E2E setup for generating AMS  tests -> ADX (#6511),md json ts,12,direct
+2026-02-25,pano2,Md Sarker,4412172061fa578801de8c32a5c0f615f2994216,PAN-11197,4,97,30,PAN-11197: Gateway recorder: Enable to record bond response feed (#6507),java,0,direct
+2026-02-24,pano2,Md Sarker,06deb8eb90654c6cd9a64291acda70ee77e05429,PAN-11075,11,1104,22,PAN-11075: RS - BE Diff Service (#6457),java,37,direct
+2026-02-24,pano2,Chandrashekar Sukuri,265122ecd953cd9bed51db28f0e6d2b34d35c5c6,PAN-11169,4,19,10,PAN-11169-develop-test-fixes (#6484),ts,100,direct
+2026-02-23,pano2,Yan Leigh Parenteau,a0c6f018a6ba0c7344a03a7e4105de7dffa84386,PAN-11058,36,2095,641,PAN-11058 feat(adx) Workspace rearrangement + local persistance (#6496),ts tsx,50,direct
+2026-02-23,pano2,Andrey Pokrovskiy,a513550a69d051ad6d2587e74f81f055b0de5eb9,PAN-10980,10,626,19,PAN-10980 DevTools - Checklist summary (#6409),ts,0,direct
+2026-02-23,pano2,Yan Leigh Parenteau,d94f94304c2592437c753c746815a7186c093a0c,PAN-11148,4,10,6,PAN-11148 feat(fix) Fix E2E tests,tsx java,0,direct
+2026-02-20,pano2,Md Sarker,19577a87c064eeadff563f040e9f1d97bb625f70,PAN-10989,1,5,0,PAN-10989: Add rule-svc and rule-ui to jenkins release pipeline (#6497),ams,0,direct
+2026-02-19,pano2,Andrey Pokrovskiy,51581538b17eb0666e07d757bce84814e4882926,,3,3,11,merge conflicts fix,tsx ts,0,direct
+2026-02-18,pano2,Yan Leigh Parenteau,7e52ef6e217267f26fff84f8accff711194f2997,PAN-11171,7,356,33,PAN-11171 feat(adx) Grid header checkbox for select all,tsx,42,direct
+2026-02-18,pano2,Yan Leigh Parenteau,5b304d349eb1ce479f4e966ada4e1b73f0290ca1,PAN-11170,5,225,0,PAN-11170 feat(adx) Disconnected modal (#6485),tsx ts,43,direct
+2026-02-18,pano2,Yan Leigh Parenteau,e26e9d87691470a6f6d1138751f10317b6df7a7f,PAN-11094,6,40,11,PAN-11094 feat(adx) - Package ADX to support baseUrl /adx,java ts,0,direct
+2026-02-18,pano2,Rahul Chabra,36b9c80b1fccf59bcc953a31ee039c0a263c55f8,PAN-11154,1,1,1,PAN-11154: Fix Fields reverting to hotbutton values (#6483),tsx,0,direct
+2026-02-18,pano2,Rahul Chabra,f84e0ad07f5ca04da606bdc3199f5a63a844b06d,PAN-11154,1,1,1,PAN-11154: Fix Fields reverting to hotbutton values (#6482),tsx,0,direct
+2026-02-18,pano2,Andrey Pokrovskiy,5d79b9e6ef0e9eafb9de3ad3d5e9f0494969976c,PAN-11069,36,2071,492,"PAN-11069 Rules - ""What if (Dry Run)"" UI (#6428)",ts tsx,23,direct
+2026-02-17,pano2,Yan Leigh Parenteau,c978bae3b5f36e075dddeb2aaa2f7bad796b4c76,PAN-11144,49,1445,629,PAN-11144 feat(adx) Workspace side panel per Parent order,ts tsx,29,direct
+2026-02-17,pano2,Md Sarker,9e98cb1e0853942a54a9f6c8475cba36c45da631,PAN-11159,3,24,18,PAN-11159: Bonds: Review button is missing from Unsolicited RTS alert… (#6479),java,5,direct
+2026-02-17,pano2,Rahul Chabra,af44a23c8dd6d8989025d20b111a6be6b711cb47,PAN-11097,1,40,1,PAN-11097: Confirmation dialog for Role addition to user (#6478),tsx,0,direct
+2026-02-16,pano2,yparenteau,6a2f5c11526f7aad23161abbf4e1780520551a50,,2,9,9,Merge 1.75 -> develop - fix build,ts,100,direct
+2026-02-16,pano2,yparenteau,5a4fe344ad2618d0fc21d107d6e1013f64c5338c,,1,5,5,Merge 1.75 -> develop - fix build,ts,100,direct
+2026-02-16,pano2,Chandrashekar Sukuri,d950a90e6838613601a77b005b5dc409489721de,PAN-11165,2,311,0,PAN-11165 Reject Buy/Sell order with LocateReqd (#6475),ts,100,direct
+2026-02-16,pano2,Chandrashekar Sukuri,8124804cdf179cf006aa9d9c26a0578ceb527a54,PAN-11160,15,79,69,PAN-11160 Fix the failing Polaris e2e tests of release/1.75 for Nucleus (#6472),ts,100,direct
+2026-02-13,pano2,Yan Leigh Parenteau,97bee44247410932b4f2dcd271c24259120b6af2,PAN-11135,35,447,161,PAN-11135 feat(adx) ADX embedded in XPRO Shell App (#6473),tsx yaml java ts,1,direct
+2026-02-13,pano2,Md Sarker,99da0f6b6e2da2e77e62d38a95bc3e9bf6dbfe35,PAN-11155,1,1,1,PAN-11155: Bonds 1.83: Need mktx-data-26.1.0.0.0-39.jar to be embedded (#6474),properties,0,direct
+2026-02-13,pano2,Yan Leigh Parenteau,5125f28f67218101878524ec6a67873066636610,PAN-11142,9,232,61,PAN-11142 feat(core) RX Services to allow a subset of columns to be requested (#6461),java,49,direct
+2026-02-12,pano2,Md Sarker,a6bcde51851bee3b35662445c47520e2a8379ae7,PAN-11158,5,11,83,PAN-11158: update pano2 jenkins file to publish adx-client and db-svc for ams build (#6471),gradle,0,direct
+2026-02-12,pano2,Yan Leigh Parenteau,bf18f88ba8c3508723081d27601b49b84a61ee4e,PAN-11148,19,194,152,PAN-11148 Fix AG-Grid checkbox selection + upgrade to Ag-Grid 35 + improve playwright flaky tests,yaml tsx ts,2,direct
+2026-02-12,pano2,Sreeram Ramanathan,985e74c6ab3fb810640dd38468aaa2d0ce6d99a9,PAN-11140,1,18,46,PAN-11140 - jenkins bugfix for - bad rc name when cutting new releases e.g. release/1.75 -> 1.75-rcNN instead of 1.75.0-rcNN (#6467),release,0,direct
+2026-02-12,pano2,Chandrashekar Sukuri,0a9dfe6b11a157ad0555822c182b48bd902367ec,PAN-11152,1,140,0,PAN-11152-Tests for NUC Set AlertType to RiskFailedChildOrder (#6470),ts,100,direct
+2026-02-12,pano2,Chandrashekar Sukuri,8aa7c37184dd226fa4cff1331e1f92aafd7f9ec9,PAN-11132,50,3503,447,PAN-11132-server-side-filters (#6465),ts json,97,direct
+2026-02-12,pano2,Chandrashekar Sukuri,09703d5bf1c33a4556eaa2e4d39e9317d8c36db5,PAN-11150,4,697,0,PAN-11150-Tape-B/C-symbols-crossing (#6468),ts,100,direct
+2026-02-10,pano2,Jawaid Hakim,a04fb49c49a450e0823e8ad492d68920d6d274a1,PAN-11119,3,45,28,PAN-11119 - Fix buildQueryParams to skip exclusion filters (#6464),java,71,direct
+2026-02-10,pano2,Chandrashekar Sukuri,7f20a61845d9114e66d71a535f165624b4d25a2a,PAN-11143,1,1,0,PAN-11143 Fix Health check for Polaris Nucleus develop (#6463),tsx,0,direct
+2026-02-10,pano2,Andrey Pokrovskiy,17221ad7a95bf6693b8d09b4dc5c0c28d752f8f6,PAN-11092,3,6,2,"PAN-11092 EU Bond - ""No Description"" decoration (#6456)",tsx scss ts,0,direct
+2026-02-09,pano2,Chandrashekar Sukuri,dd6a6c67666d435513648e69e47a412be0ffb2be,PAN-11134,2,6,5,PAN-11134-ams-pipeline-fix (#6459),ams properties,0,direct
+2026-02-09,pano2,Rahul Chabra,05b16e3536ed16c0996fccd7787dc7cadc18bead,PAN-11093,2,232,26,PAN-11093: Updated Override and Pass button text condition (#6458),tsx,79,direct
+2026-02-06,pano2,Yan Leigh Parenteau,f39586635492929fe4409950eb649ab20618a3ee,PAN-11100,68,783,230,PAN-11100 feat(adx): Grid cell renderers - LimitPx + Fix status + Progress,ts tsx,25,direct
+2026-02-06,pano2,Andrey Pokrovskiy,cb959c16175ab45f2797a82ea237c15f87fe7f95,PAN-11130,1,1,1,PAN-11130 TE Api downgrade patch - RC.te-9.14.3_1 (#6455),properties,0,direct
+2026-02-06,pano2,Andrey Pokrovskiy,f45a4218068cd38ef50510bac11e6fdbc2973cb7,PAN-11083,6,142,5,PAN-11083 Rates - instrument options sorting and styling (#6447),ts tsx,71,direct
+2026-02-06,pano2,Andrey Pokrovskiy,44cfb98572299b6c84139a98e829db9c26c3e1ce,,1,3,2,be build fix,java,0,direct
+2026-02-06,pano2,Jawaid Hakim,7c4f1bf91c76cf31593645e51c0977cfded0f7ae,PAN-11119,15,1253,80,feat(ams): PAN-11119 - Implement server-side filtering with wildcard protection,java,57,direct
+2026-02-06,pano2,Andrey Pokrovskiy,e99dfcfc1e05276e8d5cc4f827cb35afef03650c,,2,37,38,test fix,ts tsx,81,direct
+2026-02-06,pano2,Andrey Pokrovskiy,364b5824a35431d48682b0f7290808124a507ec9,,1,2,9,BE build fix,java,0,direct
+2026-02-06,pano2,Rahul Chabra,059380486901fb6d1122a516fd26fe7bdcccfe1e,PAN-11093,3,4,7,"PAN-11093: Fixed text related to no best level, refactored code (#6453)",ts tsx,0,direct
+2026-02-06,pano2,Rahul Chabra,30fea165251f3c2dba6bcec45492edd1fb9993da,PAN-11091,3,3,16,PAN-11091: Fix label CSS and Pass Button CSS (#6449),tsx scss,0,direct
+2026-02-06,pano2,yparenteau,30d0360bdb84a35dba1183bcdfdcc5e348b1bdcb,,1,1,1,1.77 -> develop - e2e fix,properties,0,direct
+2026-02-06,pano2,yparenteau,f78cf65a92bf7c3e0969a22d5e545d8eb9eefa57,,1,1,1,1.77 -> develop - e2e fix,properties,0,direct
+2026-02-06,pano2,Rahul Chabra,6abe9fab250a9b89875f27bec818573a0f42d098,PAN-11093,3,27,7,PAN-11093: Fix action button not updating with remaining time (#6445),tsx ts,0,direct
+2026-02-05,pano2,yparenteau,c241098b764d81550ea3223ae7f0467f0dfb52b4,,13,0,761,1.77 -> develop - conflicts,md json,0,direct
+2026-02-04,pano2,Md Sarker,75c6f46df207f0a0a0b33829c244e2a12db6aa0d,PAN-11116,1,1,1,PAN-11116: Update AMS TEAPI in 1.75 to RC.te-9.17.0_5 (#6444),properties,0,direct
+2026-02-04,pano2,Yan Leigh Parenteau,b4fbbbb6fd60eb9acb4e375c74f569a812eb3afe,PAN-11115,61,3282,940,PAN-11115 Move ADX required control action code into common-platform,ts,82,direct
+2026-02-04,pano2,yparenteau,38570c6ff5c6fc5af554d4aa6bf7fa6e194a2392,,3,35,7,1.77 -> develop - fix e2e,ts,0,direct
+2026-02-04,pano2,Dione Kist,350bf56ca6f154f7e070dd33766a47e8f6289335,PAN-11085,3,15,8,PAN-11085 Adapt Polaris Docker image to use node 20 (#6443),sh polaris,0,direct
+2026-02-04,pano2,Jamie Stewart,e217abdcbf52e5b6f684c726b81407715e7b8ec2,PAN-11107,1,1,1,"PAN-11107: MDF: When subscribing to NBBO, if at least one symbol in the list is not in Secmaster, MDF does not subscribe for NBBO or Imbalance for any of them (#6433)",java,0,direct
+2026-02-04,pano2,Jamie Stewart,089f5976cf053d01ecb4506e9ba53247891d18fc,PAN-11099,3,10,12,"PAN-11099: IL 3914: NullPointerException subscribing for trade state changes of symbols, if unknown symbol is in the symbol list (#6429)",java,0,direct
+2026-02-04,pano2,yparenteau,8fa82fd774f44573e6dcde3ff9a620b0949a081e,,1,1,1,1.77 -> develop - fix e2e test,ts,100,direct
+2026-02-04,pano2,Andrey Pokrovskiy,87f18f57345c3bc79eac705a3faa70eef88512bb,PAN-11109,2,3,2,PAN-11109 POL Mobile - L2 gets cutoff fix (#6438),tsx scss,0,direct
+2026-02-04,pano2,Md Sarker,99e7f832548fe56d50c88effa704692e147d365e,PAN-11105,1,2,1,PAN-11105: DATA API:  Patch 1.75 for backwards compatible with ams-1.83. (#6432),java,0,direct
+2026-02-04,pano2,Yan Leigh Parenteau,0264773433d39950bae8686081cd3ab82b888bc1,PAN-11100,44,835,225,"PAN-11100 ADX/XPRO - Cell renderers - Indicative prices, Progress and LimitPx",ts tsx scss,46,direct
+2026-02-03,pano2,Yan Leigh Parenteau,1d2c528b518502b3298f57bac4d0ab31e38fa400,PAN-11100,37,679,232,PAN-11100 ADX/XPRO - Cell renderers - Algo Summary,ts tsx,41,direct
+2026-02-03,pano2,Yan Leigh Parenteau,0b343ee37c617104b553f6e3bb18a8891b52a621,PAN-11051,11,66,110,PAN-11051 BOND local configuration to use bond-2026-01-29 replay data,java csv,0,direct
+2026-02-03,pano2,Md Sarker,4a53c19736765ea30dbebe1b0bddf7fdb89e8943,PAN-11090,5,574,6,PAN-11090: Nuc pef-test harness improvements (#6425),java sh,23,direct
+2026-02-03,pano2,Dione Kist,f17b0d560275702db800f83ce30d3fa0c1d14165,PAN-11085,5,19,9,PAN-11085 Adapt Polaris Docker base image to use node22 (#6420),sh polaris json,7,direct
+2026-02-03,pano2,Dione Kist,d9100a391a7aa2e2a2943d653c94459902f9da6c,PAN-11085,2,4,3,PAN-11085 Adapt Polaris Docker base image to use node20 (#6430),polaris,0,direct
+2026-02-02,pano2,Yan Leigh Parenteau,a11f838ed98bbbf667e4eba70cc8c23ad69bed0e,PAN-11077,81,1715,1372,PAN-11077 feat(adx): Grid menu actions,tsx ts css,15,direct
+2026-01-30,pano2,Chandrashekar Sukuri,d2d71cb5bbdf1c8b6767e313f4feb695dd1e796b,PAN-11034,5,873,195,PAN-11034-Mobile-parent-order-disable-sorting (#6417),ts,100,direct
+2026-01-29,pano2,Md Sarker,0bbb3542529750c2db5785e649ca058d49fe3d5b,PAN-11067,3,686,8,PAN-11067: RS - BE create what-if service; return rules trace (#6416),java,99,direct
+2026-01-29,pano2,Yan Leigh Parenteau,eea7894bf471af098a65e2329efd46c6cb033a2a,PAN-9365,37,581,696,PAN-9365 RTK migration - AMS Control (ADX required work),ts tsx,0,direct
+2026-01-29,pano2,Dione Kist,b8ad6478f5044ffee4cd7544cd77ea40d9286fc5,PAN-11085,2,11,5,PAN-11085 Fix parameter NUCLEUS_TAG - Polaris Docker Pipeline (#6419),sh polaris,0,direct
+2026-01-29,pano2,Md Sarker,82261d1168bd7969b1b124aa9a3dc11b3e659e98,PAN-11089,1,1,1,PAN-11089: Upgrade BLGW marketaxess jar to 26.1.0.0.0-39 (#6423),properties,0,direct
+2026-01-29,pano2,Andrey Pokrovskiy,450fc9b0e3841c2f0a84c8aee603cd0abaf2b77d,PAN-11086,11,105,68,PAN-11086 POL IM updates and fixes (#6421),tsx,0,direct
+2026-01-29,pano2,Rahul Chabra,566086daa7f3f3a12295cfe0a9b7474a1fcc49d5,PAN-9734,20,298,34,PAN-9734: Added logic to show last applied hot-button for Order for AMS (#6418),ts tsx,0,direct
+2026-01-28,pano2,Andrey Pokrovskiy,5127e2ccacf6ca2450cc06c5b99ee4ef9b9ed360,PAN-11072,24,451,130,PAN-11072 Rules UI - demo feedback and fixes (#6411),ts tsx,31,direct
+2026-01-28,pano2,Chandrashekar Sukuri,bd95daae0f85e8e150048017478667fde760e9ef,PAN-11043,7,921,47,PAN-11043-Sticky-order-selection-bug (#6386),ts,98,direct
+2026-01-27,pano2,Md Sarker,f91e39f1f46ac2ebd189a94d6f6aab11457d123f,PAN-10780,10,168,21,PAN-10780: EMS errors for users logging in with expired JWT tokens (#6406),java,3,direct
+2026-01-27,pano2,Md Sarker,2d491208ecfaaf8b8a50e089072d82e6f37d9d73,PAN-11029,8,676,9,PAN-11029: RS: Move scope client mapping from application yml to a csv file (#6380),java,48,direct
+2026-01-27,pano2,Md Sarker,75bfd35635eb9e28d8108d07f9c43e107144faf3,PAN-11071,3,59,44,PAN-11071: Allow data-api parent-order only setup enable in prod profile. (#6413),java,92,direct
+2026-01-27,pano2,Chandrashekar Sukuri,0b678f2922c7d86e430e2c453dc889e7e4b4f1a8,PAN-11062,15,608,35,PAN-11062 rates-navbar-ui-validations (#6410),ts,95,direct
+2026-01-27,pano2,Chandrashekar Sukuri,22db5fc2d29a069afd17433d83368f4f0ce0be91,PAN-11076,7,12,18,PAN-11076 Fix the failing Polaris e2e tests of release/1.75 for MOG (#6412),ts,100,direct
+2026-01-26,pano2,Yan Leigh Parenteau,d0722d486c1fc779d6c4448858f8fd0107ce61d3,PAN-11059,34,686,532,PAN-11059 Cleanup ADX grid for future Layout cleanup + RTK dashboard reducer (#6407),tsx ts,0,direct
+2026-01-26,pano2,Md Sarker,7cdb2c24dd1b4f7394ec8342068a20f71a892f0f,PAN-11071,1,1,1,PAN-11071: Fix AMS Pipeline error in Develop (Could not resolve placeholder 'DB_SVC_HOST') (#6408),yml,0,direct
+2026-01-26,pano2,Andrey Pokrovskiy,6cf2224e0a229659c1356d0dd4608a954b7926d6,PAN-11015,39,905,764,"PAN-11015 Rules UI demo feedback, refactoring (#6359)",ts tsx,43,direct
+2026-01-23,pano2,Dione Kist,f5adf505d154193790535284d1c6b63463199beb,PAN-11054,1,1,1,PAN-11054 Fix wrong variable NUCLEUS_TAG - Polaris Docker pipeline (#6405),polaris,0,direct
+2026-01-23,pano2,Dione Kist,c7dee852a614c1f2908c94a577860349929ef7c5,PAN-11054,1,1,1,PAN-11054 Fix wrong variable NUCLEUS_TAG - Polaris Docker pipeline (#6404),polaris,0,direct
+2026-01-23,pano2,Sreeram Ramanathan,9adf0e03974fd1633b7005eba60ecfbbc1bfc138,PAN-11061,1,1,1,PAN-11061 - update mktx-data.jar version to 26.1.0.0.0-38 (#6403),properties,0,direct
+2026-01-23,pano2,Yan Leigh Parenteau,ef46a1e1df5693e53a4e52583e857bd20ae7fd34,PAN-110559,33,138,77,PAN-110559 feat(adx) Force using backward compatible Layout,ts tsx,0,direct
+2026-01-23,pano2,Andrey Pokrovskiy,b024804f2aaa2f4b1498d7e2b286efcf55171e70,PAN-10980,18,438,150,PAN-10980 Release checklist script updates (#6337),ts,4,direct
+2026-01-22,pano2,Yan Leigh Parenteau,ec21052c880a4c2fc2c8e97f511ce8a0470bc902,PAN-11052,45,1028,154,PAN-11052 feat(adx): Child order panel,tsx ts css,35,direct
+2026-01-22,pano2,Andrey Pokrovskiy,cd62e711f3c0e4dfe05cf30da57238157bcbc9c0,PAN-10813,1,1,1,PAN-10813 MDM Portfolio - decrease max heigh to show more T&S (#6401),tsx,0,direct
+2026-01-22,pano2,Sreeram Ramanathan,7f67fe900d5d4359a2a0d8b131740420732b9d2e,PAN-11056,1,23,5,"PAN-11056 - modify Pano release pipeline to support minor versions other than 0, and optional prefix to version e.g. ws-1.75.1",release,0,direct
+2026-01-22,pano2,Dione Kist,c93ce08db90480604ac0c168031a9398a40bb59f,PAN-11054,1,4,4,PAN-11054 Fix gateway validation in the Polaris Docker pipeline (#6391),polaris,0,direct
+2026-01-22,pano2,Dione Kist,0c152f54bbac98d3436cab48f785a6219968e1da,PAN-11050,1,1,1,PAN-11050 Fix missing parameter PLAYWRIGHT_TEST_FOLDER (#6383),ams,0,direct
+2026-01-22,pano2,Dione Kist,4c4b570c7fc5b77be461fcfb2725bcf833ba684a,PAN-11054,1,4,4,PAN-11054 Fix gateway valdiating in the Polaris Docker pipeline (#6390),polaris,0,direct
+2026-01-22,pano2,yparenteau,c7d7b482d863b584e653a344e30399299394707b,,2,24,2,Merge 1.83->develop - Fix build,yaml,0,direct
+2026-01-22,pano2,Yan Leigh Parenteau,4c87c93a2dab2e06e8d9398ea63890da55738944,PAN-1053,1,3,0,PAN-1053 Cleanup GIT ignored files (1.77),gitignore,0,direct
+2026-01-22,pano2,yparenteau,aeba50ac8fa53634bafb296ec6716abc37e2bddc,,1,18,18,1.76 -> develop - Fix merge,env,100,direct
+2026-01-22,pano2,Yan Leigh Parenteau,b7aa16efced3a7e1581263a89569673f4cd45276,PAN-1053,2,4,20,PAN-1053 Cleanup GIT ignored files (1.76),json gitignore,0,direct
+2026-01-22,pano2,Md Sarker,947efa84c58b54e651acb3b5b6e416dbea92f1ac,PAN-10941,19,1785,13,PAN-10941: RS - Effect Masking (#6356),java,70,direct
+2026-01-21,pano2,Jamie Stewart,f7df47728496a6d73f199e5f325a588cf99689aa,AD-16915,32,2485,104,"AD-16915: Investigate IL 3833: generate ETF/NAV calculation logs showing market and reference data, calculated values, and intermediate values (#6311)",java,26,direct
+2026-01-21,pano2,Yan Leigh Parenteau,b65e4c2964bc1cb85078750ffe1359f1f8fd4887,PAN-10999,60,3153,1320,PAN-10999 feat(adx): Workspace grids Tabs,ts yaml tsx,33,direct
+2026-01-21,pano2,Andrey Pokrovskiy,4bf80098e8f7ea6d1f433f615cae521ae428004c,,1,9,2,BE PMD fix,java,0,direct
+2026-01-21,pano2,Yan Leigh Parenteau,544b0f1ac42d92c0f72e5d400e467517f4719f19,PAN-11047,5,749,1183,PAN-11047 fix(bonds): Algo Summary css is missing (#6382),json,0,direct
+2026-01-21,pano2,Chandrashekar Sukuri,d1f38ed359b66ae4ce689a53db5bfd52aa04d6b9,PAN-11042,1,4,4,PAN-11042 increase test timeout (#6381),env,100,direct
+2026-01-20,pano2,Md Sarker,03fb29a5d73dc3b4d413b583f432e9d8c2ed81a2,PAN-11030,5,186,34,PAN-11030: DATA-API: Include firms in parent_order feed request in RX… (#6372),java,52,direct
+2026-01-20,pano2,Md Sarker,5dafc6f8fc2e4a99c608ab81e3178048029bd434,PAN-11024,4,596,30,PAN-11024: Rx: Only the PARENT_ORDER table provider will be created when OrderStats API is enabled (#6362),java,73,direct
+2026-01-20,pano2,Yan Leigh Parenteau,53b3eda9383ac60a2b8248908359d80c85e0584d,PAN-10554,50,1716,1184,PAN-10554 feat(adx): Stream layout updates - Frontend (Active only for ADX local dev),ts yaml,5,direct
+2026-01-20,pano2,Yan Leigh Parenteau,6b58a25b35362cd0835d2b3472be4f991a474167,PAN-10554,22,925,120,PAN-10554 Stream layout updates - Backend (Active only for ADX local dev),java,29,direct
+2026-01-20,pano2,Jamie Stewart,978d6d8117f992e43db4594652cc242d0d0a9716,PAN-10879,5,1318,151,"PAN-10879: Display Depth-of-book data in shares, not lots (#6360)",java,78,direct
+2026-01-20,pano2,Andrey Pokrovskiy,1cbe34f2b7c02a293818f295582666741942fc35,PAN-10973,7,14,100,"Revert ""PAN-10973 POL - Respect badge when amending (#6377)"" (#6378)",ts tsx,38,direct
+2026-01-20,pano2,Andrey Pokrovskiy,3af3c57695d3d0badc6f63b12cf22af105ec1b47,PAN-10973,7,100,14,PAN-10973 POL - Respect badge when amending (#6377),ts tsx,38,direct
+2026-01-20,pano2,Andrey Pokrovskiy,92e8ebcebb00601b2acb6d23fd17745e160f00ab,PAN-10904,7,221,3,PAN-10904 POL Mobile - Disable sorting in order grids fix (#6375),ts,94,direct
+2026-01-20,pano2,Rahul Chabra,c6d6146abeb143a228edcde949babe54be43047c,PAN-10920,1,3,0,PAN-10920: Fix inconsistent data in response grid and price chart res… (#6329),tsx,0,direct
+2026-01-20,pano2,Chandrashekar Sukuri,4abf7c620e0938fe3cd6ab74d21d982d8800ba51,PAN-10836,57,36283,59,PAN-10836 Data-API (#6365),json ts,99,direct
+2026-01-20,pano2,Chandrashekar Sukuri,14a79239fd80d2612feb0d8c3d7b6623c1a56f38,PAN-10931,4,385,1,PAN-10931-Parent-order-selection-on-tab-switch (#6376),ts,99,direct
+2026-01-16,pano2,Yan Leigh Parenteau,12674d7311482762c156feb2fe3534e916c19051,PAN-10993,15,525,88,PAN-10993 feat(adx): Workspace - Reset,ts java tsx,51,direct
+2026-01-16,pano2,Dione Kist,d342aef94ed92d08daa8dc711064b8273f729116,PAN-11008,2,2,2,PAN-11008 Add Jira Cloud integration,release releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,9794e6e986fd95d39ccb36c38f17e95b85283d88,PAN-11008,2,2,2,PAN-11008 Add Jira Cloud integration,release releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,bc74f7c59f8a2756512268e543d4ac65e7f0d47e,PAN-11008,2,2,2,PAN-11008 Add Jira Cloud integration,release releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,8dd38d439dfa9cbbcfdcdbfb4414c885c3634958,PAN-11008,3,3,3,PAN-11008 Add Jira Cloud integration,release release2 releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,5e990a51812f43610d99a35e21c6ac60af06528a,PAN-11008,3,3,3,PAN-11008 Add Jira Cloud integration,release release2 releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,67afdc52a027e5ac99c52a43f3eac7bd6cdee12f,PAN-11008,3,15,15,PAN-11008 Add Jira Cloud integration,release release2 releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,865036c942995706bc7c9ed874a2accfa8d67a97,PAN-11008,3,15,15,PAN-11008 Add Jira Cloud integration,release release2 releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,5c339b3829fad510709c12072f2964c50ccbac29,PAN-11008,2,10,10,PAN-11008 Add Jira Cloud integration,release releasepatch,0,direct
+2026-01-16,pano2,Dione Kist,0517c9e7a1c07bf107ddf63cfd6ba3df2c0cb0f2,PAN-11008,2,10,10,PAN-11008 Add Jira Cloud integration,release releasepatch,0,direct
+2026-01-16,pano2,Chandrashekar Sukuri,7e6596b6046ebb6d84a88787fb942e40a727f63f,PAN-10825,2,9,9,PAN-10825-Fix-the-failing-Polaris-e2e-tests (#6255),ts,100,direct
+2026-01-15,pano2,Jamie Stewart,026327da5e3e6a708982a19e5624ab6c573b0611,PAN-10797,1,32,4,"PAN-10797: Fix for AMS bean construction, where we have no CLAD, and no SecMaster (#6358)",java,0,direct
+2026-01-15,pano2,Yan Leigh Parenteau,547ddc1a71cd5a643e6e92945a32555931d575f3,PAN-11023,12,477,285,PAN-11023 feat(ams): Db-svcs setup for local development,java,0,direct
+2026-01-15,pano2,Dione Kist,0084ab2d9aaa62bf0f2baab27eba01ea99799d84,PAN-11008,2,2,2,PAN-11008 Add Jira Cloud integration,release releasepatch,0,direct
+2026-01-15,pano2,Jamie Stewart,e6b6bdd0fcea4c25739e7df2a6a2b83e0ed3f490,PAN-10970,35,1120,172,PAN-10970: Suppress TOB quotes which have conditions that exclude them from the NBBO (#6322),java,55,direct
+2026-01-15,pano2,Yan Leigh Parenteau,3455daf6151dd543a1964b15af2fe6b574731e05,PAN-10992,38,1011,33,feat(adx): PAN-10992 ADX/XPRO - Workspace - Sharing,ts tsx,49,direct
+2026-01-15,pano2,Dione Kist,485ef459815c8e000ef02f8bfcb7b24a2371e248,PAN-11008,2,7,7,PAN-11008 Add Jira Cloud integration,releasepatch release,0,direct
+2026-01-15,pano2,Md Sarker,0cbfffc1475b41b3258624ffb40801c2a39d572d,PAN-11020,3,26,0,PAN-11020: Pano2 Bonds: Error with pausing / re-starting orders or submitting to ADX using a selected strategy. (#6355),java,50,direct
+2026-01-15,pano2,Yan Leigh Parenteau,2f11a99abc6dbb57ddf34fc2c48e331c5512338e,PAN-11012,8,19,10,feat(test): PAN-11012 Use data-testid instead of data-qa for E2E testing (develop - adx + rules),tsx ts,14,direct
+2026-01-15,pano2,Yan Leigh Parenteau,e1c509d7e99454f494233361728eb59ddf111830,PAN-11012,509,3634,1991,feat(test): PAN-11012 Use data-testid instead of data-qa for E2E testing (1.77),ts tsx md,43,direct
+2026-01-15,pano2,Yan Leigh Parenteau,d4e64fb3c56fb4e5e465b7aaa04284cb57443e4e,PAN-11012,482,2831,2016,feat(test): PAN-11012 Use data-testid instead of data-qa for E2E testing (1.83) (#6352),ts tsx,52,direct
+2026-01-15,pano2,Yan Leigh Parenteau,116f91b857907f203d31c4b8b7fa4c2429fc858a,PAN-11012,487,2846,2026,PAN-11012 Use data-testid instead of data-qa for E2E testing (develop),ts tsx,52,direct
+2026-01-15,pano2,Yan Leigh Parenteau,4ff285e9691d1bd9b2ad92562856a26fc916e7fc,PAN-11012,594,26235,1981,feat(test): PAN-11012 Use data-testid instead of data-qa for E2E testing (1.76),md ts,11,direct
+2026-01-15,pano2,Yan Leigh Parenteau,747e5f714c4b4e2afed14813bfdbe2e14493ca30,PAN-11012,483,2871,2025,PAN-11012 Use data-testid instead of data-qa for E2E testing (#6346),ts tsx,52,direct
+2026-01-14,pano2,Md Sarker,b3901a0eb7b6e9b35ac641ff58dcf6cf467e8bfb,PAN-11017,1,0,1,PAN-11017: BLGW is failed to run on release/bonds-1.83 branch (#6348),yml,0,direct
+2026-01-14,pano2,Andrey Pokrovskiy,e2162b72d7bae92f6b21a7a38137fdcf83e8af4e,PAN-11009,17,197,4,PAN-11009 OT ticket updates (#6347),tsx ts,0,direct
+2026-01-14,pano2,Andrey Pokrovskiy,138f813339c656712450721d5e56a3420e3c6fc2,PAN-10944,38,3115,115,PAN-10944 Rules UI - Conditions/Effects filter (#6341),ts tsx,47,direct
+2026-01-13,pano2,Andrey Pokrovskiy,6933878292e6a47ef504477ba7dab23eb53c2ae7,PAN-11010,1,1,1,PAN-11010 TEApi update RC.te-9.14.2_1 (#6345),properties,0,direct
+2026-01-13,pano2,Yan Leigh Parenteau,283f2412ebebad562bd978edf67402938312a218,PAN-11003,33,899,158,PAN-11003 feature(adx): ADX/XPRO Use GridSettings and Context menu (#6344),ts tsx,25,direct
+2026-01-13,pano2,Md Sarker,1fa792c797c48f6f0ca49112bd093208dc873ff6,PAN-10940,6,145,43,PAN-10940: RS - Rulespace Config (#6343),java yml properties,16,direct
+2026-01-12,pano2,Md Sarker,a2a6089daf0fd554940405f570fd9db8037fbaca,PAN-10829,52,5179,201,PAN-10829: RS Phase 1 - Define interfaces for authentication and auth… (#6243),java,66,direct
+2026-01-09,pano2,Jawaid Hakim,3f09a3274452f57ac9410a1b95f7fc7888486907,PAN-10986,2,4,3,PAN-10986 fix: Updated entitlement details (#6339),md,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,deee18166f9317e505cff26fc695c94388ed4215,,1,1,1,lint,tsx,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,5d2944f27638b1255999bbc4fed589763af9d6f3,PAN-10982,3,41,11,PAN-10982 TEST: E2E Fix (#6335),ts,98,direct
+2026-01-08,pano2,Juan Junger,50022d03ca91526c285702b5024f1026b987c693,PAN-10935,4,16,4,PAN-10935 - WS: Child Order related risk reject Alert issue (#6312),tsx ts,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,c2ef5c873257bef9199e6d880471ea94ad3334ca,,1,5,1,be test fix,java,100,direct
+2026-01-08,pano2,Jawaid Hakim,d7189bb588a507a6866359773ebd9fb0043a4dda,PAN-10978 ISO-8601,13,318,133,PAN-10978 fix: Fix batched/compressed streaming and add ISO-8601 date… (#6332),java,10,direct
+2026-01-08,pano2,Andrey Pokrovskiy,d91665c4404b5ba74fce94cfdc13ee33cf6fe35b,,1,1,1,be build fix,java,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,2043de2f635d173b78e144c3063f2f40e41e662d,PAN-10955,3,10,2,PAN-10955 IM - Forward drawing fix (#6334),scss ts,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,07a7cba5339f8062a9d429b732ba8d815d613708,,3,69,125,build fix,java,41,direct
+2026-01-08,pano2,Andrey Pokrovskiy,68622b355d70723f2753a4ce87be362668463dde,,1,1,0,build fix,ts,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,2f88188279271c89e0b2dc4e9a089687296fc326,,2,25,50,build fix,java,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,90caa6d0c502fd529e6c4804044c237660932832,,3,23,40,IM sliding panel animation fixes,tsx scss,0,direct
+2026-01-08,pano2,Andrey Pokrovskiy,311d9354addc218c1db8db5d377046fd6901dba5,,6,78,86,merge conflicts,tsx,0,direct
+2026-01-07,pano2,Juan Junger,244780868c684808362fc110468892d2f01d0dfa,PAN-10834,2,56,1,PAN-10834: Fix Manual Order Entry Qty step to update when symbol changes (#6292),ts,91,direct
+2026-01-07,pano2,Juan Junger,4ce01bbad043cfb0545adda217551359f38a05ef,PAN-10904,3,20,11,PAN-10904: disable sorting order grids on POL mobile (#6291),ts tsx,0,direct
+2026-01-07,pano2,Andrey Pokrovskiy,62bd45eaaf3ea09a42857ba6f368a22aab90fea3,PAN-10820,12,472,160,PAN-10820 RS - FE Implement Rules Group Filter (#6321),tsx css ts,0,direct
+2026-01-07,pano2,Andrey Pokrovskiy,64882acd081f57f606abdc7cf8f2b3fc131bae44,PAN-10955,3,21,10,PAN-10955 POL IM - Reply/Forward updates (#6328),ts tsx,0,direct
+2026-01-06,pano2,Jamie Stewart,0b5ecdf0a7897a890bd8b9fcc204186c7cdb55ec,PAN-10888,24,1501,243,PAN-10888: MDF: 'stale' L2 top-of-books data is not being removed (#6234),java,39,direct
+2026-01-06,pano2,Andrey Pokrovskiy,b6283978c78ac651ce4a4c4787f8e6de97adf0d0,PAN-10956,7,193,179,PAN-10956 POL IM - General Cleanup (#6309),tsx scss,0,direct
+2026-01-06,pano2,Oscar Ardila,59a27131a44cfd78869f7716979149f1c7f5ac62,,1,712,0,Create Jenkinsfile.release2,release2,0,direct
+2026-01-06,pano2,Yan Leigh Parenteau,d3be0894ef2fd52bd456564a52a21d2975505c74,PAN-10930,1,0,4,PAN-10930 fix(ws): (ag-grid 34) Mobile - Order highlighting toggling on/off with row selection/un-selection,scss,0,direct
+2026-01-06,pano2,Yan Leigh Parenteau,5992a3aaa2055078dcdf1872d9e049a857060473,PAN-10930,5,15,9,PAN-10930 fix(ws): Mobile - Order highlighting toggling on/off with row selection/un-selection. (#6316),tsx java scss,29,direct
+2026-01-06,pano2,Andrey Pokrovskiy,57e7ef0e3510863c86fc78d0bf729498a06674b9,PAN-10820,24,619,38,PAN-10820 RS - FE Implement Rules table - read only (#6306),tsx css ts,0,direct
+2026-01-06,pano2,Md Sarker,bd5ba299580acde4da812a02c48876969b07bd3f,PAN-10769,5,573,30,PAN-10769 feat(ams):  Change Reactive web request loging filter like AMS to print http header (#6258),java,72,direct
+2026-01-06,pano2,Jawaid Hakim,a8f6ba1c24c1df66549d97e0b6abfd874b090be0,PAN-10929,1,76,0,PAN-10929 fix: adjusted the OrderStats entitlement handler to only re… (#6294),java,0,direct
+2026-01-05,pano2,Md Sarker,9bde0346c378f9716fb89e6314c0f150b2e9fbb0,PAN-10960,1,2,1,PAN-10960: DATA API - parent_api Config Set in PAD causes UI access i… (#6314),java,0,direct

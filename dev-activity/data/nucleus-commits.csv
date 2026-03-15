@@ -1,0 +1,131 @@
+date,repo,author,git-hash,jira-link,file-count,added-lines,removed-lines,message,file-types,%test,commit-type
+2026-02-26,Nucleus,Evan Yu,21e4bb4c30829cd478635426b9b398f28023717b,CODE-6509,30,189,101,test: CODE-6509 Add support to datetime formatting for time variable definition in beaker,bek java,92,direct
+2026-02-24,Nucleus,Evan Yu,8c30e4ef4173c3d38f9b7958be488fef6ca5c85d,CODE-6419,39,3705,99,feat: CODE-6419 Create OPPT specific DMA workflows,java bek,64,direct
+2026-02-20,Nucleus,mwallingford,93ae60921fb7fd60ca901e3422b750f72b6f61fb,NUMA-74,4,245,1,test: NUMA-74 Acceptance tests for the CP+ Drop,bek,100,direct
+2026-02-17,Nucleus,mwallingford,8c76a522da994853b172c358afb300e8218d7bed,NUMA-60,17,537,216,feat: NUMA-60 Send fees and net levels on the Fill request drop,java,48,direct
+2026-02-25,Nucleus,aleykin,c87c3035d87f0aa029a9098299c152af984fb2b4,NUMA-83,8,521,377,feat: NUMA-83 Update CP+ drop and API to publish only fields related to default price type,java bek,70,direct
+2026-02-23,Nucleus,Hoa Tran,6fca1657d1eb20849b3fc7ef3391c79058099f7f,NUMA-65,15,1050,37,feat: NUMA-65 Add VenueId and SessionId Writers for MatchingFixToFlexOrderRequestCommandWriter,java,57,direct
+2026-02-09,Nucleus,jshah,912cb2d01b53edb262c98eaa2670f6eea7e35259,CODE-6472,23,591,202,feat: CODE-6472 Add Optional Fields for Opportunities MKTX Outbound FIX gateway (Outbound D),java java} bek,71,direct
+2026-02-23,Nucleus,mwallingford,99c11bba8684d15679ee4c8d6639e99c5ad3529c,NUMA-69,1,40,0,feat: NUMA-69 Acceptance Tests for Maximum Orders Constraints,bek,100,direct
+2026-02-23,Nucleus,azhang,45debea016f94ec69bfba186fecb905382369a38,CODE-6486,6,214,320,test: CODE-6486 Opportunities: Fix Beaker Tests for Dealer Axe Feed,bek,100,direct
+2026-02-24,Nucleus,Evan Yu,3be3d4295a388feb2173c76298ae4979f69d4d94,CODE-6421,20,1032,131,refactor: CODE-6421 Additional refactoring and cleanup of single instrument workflows,java,59,direct
+2026-02-25,Nucleus,Andy Smith,e60182cefaceba09d2dbfdae4182feabc0a2af28,CODE-6498,10,418,1157,refactor: CODE-6498 Refactor data class generation to single invocation per module,gradle,0,direct
+2026-02-20,Nucleus,pchaudhary,63275514a4b8dbb506fa1bcb59a31b6d7d06d655,CODE-6374,31,1760,138,feat: CODE-6374 Implement Interest Replace/Cancel FixToCommand Writers,java,69,direct
+2026-02-24,Nucleus,Andy Smith,782ba0da36bb5a52de6f4dc5fb40cb9ca1514195,CODE-6495,19,982,140,feat: CODE-6495 Add ability to specify Pojo concrete class for C&C,java,51,direct
+2026-02-23,Nucleus,Andy Smith,fda4b56b6efa91acd7df567bee2b2ad0f5ae7210,CODE-6491,49,2036,1175,feat: CODE-6491 Support for deep copy of lists with local pooling in data classes,java xml,71,direct
+2026-02-13,Nucleus,mwallingford,2ac168b6c45654e1007913b7a47ac0485a4dc99c,NUMA-70,6,96,9,feat: NUMA-70 Add total interest to the order based market data drop,java bek,71,direct
+2026-01-27,Nucleus,yzia,5959f7b38936c83a389595e1565b0502536a8e52,NUMA-11,9,454,45,feat: NUMA-11 Set Reject Reason Text In Order Mass Cancel Reject Command Writer,java,59,direct
+2026-02-17,Nucleus,mwallingford,e3341a8a02de682ef5e84fa9c58f294b1faaeca1,NUMA-59,35,310,353,feat: NUMA-59 Send the net level on the Auctions Order Market Data drop,java commands,57,direct
+2026-02-12,Nucleus,mwallingford,89d57fc8f4f883db66c7d03a2303fcc9b3432624,NUMA-68,20,1025,182,feat: NUMA-68 Adhere to Maximum Orders and Maximum Order Per Trader Session Settings,java bek,67,direct
+2026-02-11,Nucleus,mwallingford,5fd68cf82a59346e966e9c375e1d16ee8e4e896c,NUMA-67,8,27,11,feat: NUMA-67 Add Maximum Orders and Maximum Orders Per Trader to Session Settings,bek csv xml json,66,direct
+2026-02-18,Nucleus,azhang,97f2e291aeaafe4d8c04cda561e392609057d405,CODE-6453,13,1341,153,feat: CODE-6453 Add Optional Fields to Dealer Axes Create Writer,java bek,74,direct
+2026-02-17,Nucleus,Evan Yu,516ff642c3d9d2b8f0dbd2568dae2ec41699382a,CODE-6479,98,3156,2536,refactor: CODE-6479 Refactor ClOrdIdService to be used by other types of business object,java,63,direct
+2026-02-09,Nucleus,Hoa Tran,730d852c39a837eb9be7e4ab8222efcb8d2034ae,NUMA-55,9,694,19,feat: NUMA-55 Implement FixedIncomeRuleCommandWriter for inbound FIX,java,64,direct
+2026-01-29,Nucleus,mwallingford,033ac49db4ff4556be8293ecb824043f67f028a7,NUMA-50,22,1367,59,feat: NUMA-50 Create a CP+ Drop,java bek,67,direct
+2026-02-17,Nucleus,pchaudhary,30131d246d4b73553afdf5f9525dbfe04bf750d9,CODE-6371,20,979,105,feat: CODE-6371 Implement Interest Create Command writer,java bek,70,direct
+2026-02-19,Nucleus,Andy Smith,2626b993fbefe4782cf49fa6c67b8af30d2b2bd3,CODE-6489,13,457,45,fix: CODE-6489 Fixes for decoding nested objects in FIX data,java,73,direct
+2026-02-13,Nucleus,Evan Yu,0c85a8d15b94aa290c6cf9b5d99e6a6a094380e0,CODE-6460,12,1145,59,test: CODE-6460 Add native support for FIX over kafka in beaker tests,java,95,direct
+2026-02-18,Nucleus,Andy Smith,d01f3e8bb552af8faa731ea5099fea151a04e786,CODE-6482,8,135,60,deploy: CODE-6482 Prevent release from branches not off a master final release,java,0,direct
+2026-02-13,Nucleus,Andy Smith,95f4eba343f474b6dc178dd9cda55eb0ff2da6d7,CODE-6481,26,231,663,ci: CODE-6481 Create Polaris and Opportunities maintenance and live build jobs,maintenance yml live,0,direct
+2026-02-13,Nucleus,Andy Smith,1f6c19ff33b7717e282d3e0aaea1d6aefeefe832,CODE-6477,10,103,32,build: CODE-6477 Improve pitest time for infrastructure project,java,21,direct
+2026-02-12,Nucleus,pchaudhary,d4cef27eadcfbe7c479688363a830fc91086b2b7,CODE-6474,26,445,206,refactor: CODE-6474 Move Common Writers to apps,java xml,85,direct
+2026-02-10,Nucleus,pchaudhary,b48728f0e3dbb3aacfe7565a6d8f50ee0d942a73,CODE-6382,23,1479,35,feat: CODE-6382 Opportunities Inbound Interest handlers and mutators,java,47,direct
+2026-02-09,Nucleus,jshah,47f7596919939092bfb6223712c72870c74b70d8,CODE-6386,29,992,154,feat: CODE-6386 Opportunities to MKTX Order to Fix (Outbound D ),java xml,56,direct
+2026-02-13,Nucleus,azhang,b499222669f09813e8c82e8835c5325b5b7b3d5f,CODE-6476,4,117,42,fix: CODE-6476 Polaris: Modify Drop Fields in EligibleForCrossingEvent Broadcast Alert,java,63,direct
+2026-02-06,Nucleus,aleykin,45a289eed587de7ae235f6e653efe28ebc5a2828,NUMA-62,13,1573,658,feat: NUMA-62 Use gross levels to determine the matching level in Exchange bot,java,76,direct
+2026-02-12,Nucleus,Andy Smith,bdc4aa3f7fe253b20bc31f9aff01d3dafd91ee41,CODE-6467,9,592,92,feat: CODE-6467 Define the matching engine messages,java xml gradle,22,direct
+2026-02-12,Nucleus,Andy Smith,f225f3db4689a77f20d56a5cf7c1f5a5d8ff79c9,CODE-6473,14,462,57,feat: CODE-6473 Support for extended types on generated classes object and list fields,java rst,68,direct
+2026-01-28,Nucleus,mwallingford,2cfe25af6f1f112e6a91613ddfa7bab43f00bb9b,NUMA-3,5,391,177,feat: NUMA-3 Acceptance tests for custom pegged orders in Beaker,bek,98,direct
+2026-02-13,Nucleus,azhang,dc0a54c3f45e2d87a6b9a2d9d16d4b57efeb4d84,CODE-5804,2,6,0,feat: CODE-5804 Nucleus sets SelfTradeType on manually created orders (2),bek,100,direct
+2026-02-10,Nucleus,mwallingford,2932c76a8e8d2676d0f1f360d4f0f8d8b3ebe5c8,NUMA-48,4,67,31,fix: NUMA-48 DW Hedge value on OLU should be rounded to the nearest 1000,java,85,direct
+2026-02-11,Nucleus,azhang,fe42c50cf654ff300aaa1df32af2062f564c0f4c,CODE-6446,28,1337,329,feat: CODE-6446 Opportunities: Create Dealer Axe Feed Create Request with Required Fields,java bek,75,direct
+2026-02-11,Nucleus,Evan Yu,7df712ec063f96d6b966929ee598efa15ad38c43,CODE-6465,20,766,294,perf: CODE-6465 Performance improvement on handling of keys in spinner,java,72,direct
+2026-02-11,Nucleus,Andy Smith,dc2c8d55d5e78b8e76610948cb41ad6c8029bf34,CODE-6468,1,54,44,docs: CODE-6468 Update Stream Concepts guide with information on scheduling,rst,0,direct
+2026-02-12,Nucleus,Andy Smith,623714412364b9b6b18534d8970faa9332caf194,CODE-6445,2,2,2,deploy: CODE-6445 Fix issues with release Jira updating,yml,0,direct
+2026-02-05,Nucleus,aleykin,5946f6eb37059c814803ea1ef58a7b2a07d57a1b,NUMA-58,6,11,5,docs: NUMA-58 Update Matching API docs to include fees,json rst,0,direct
+2026-02-10,Nucleus,azhang,7ddbc6d001a258a14936816e780283703d22ade9,CODE-6452,16,127,36,feat: CODE-6452 Platform: Enhance platform support for fixed income FIX,java,72,direct
+2026-02-11,Nucleus,azhang,11a8fb1bf837b7faec806f110bf2cc68d17ff63f,CODE-6451,1,2,0,feat: CODE-6451 Polaris: Modify Parent Resubmit and Mass Resubmit APIs (2),bek,100,direct
+2026-02-09,Nucleus,azhang,7a686ad922befce59b143c61689f0fdf8c527697,CODE-6451,16,474,127,feat: CODE-6451 Polaris: Modify Parent Resubmit and Mass Resubmit APIs,java bek bek},85,direct
+2026-02-06,Nucleus,Andy Smith,301f8b48bb428d6861dd359005bcb6f69431ca56,CODE-6456,54,459,533,refactor: CODE-6456 Clean up and consolidate apps logs codes,java xml,6,direct
+2026-02-09,Nucleus,Evan Yu,c7db24438fc5421e08de5822b25a859712ddea88,CODE-6461,4,211,19,fix: CODE-6461 Backup spinner throws exception on startup,java bek,86,direct
+2026-01-22,Nucleus,mwallingford,fb98e3eb1a695fe6f4f79adeb7cfd1163c2b1de2,NUMA-7,15,743,189,feat: NUMA-7 Add validations for custom pegged orders,java bek,80,direct
+2026-02-03,Nucleus,pchaudhary,47218f9b22a1e0be67cbf228d248975d5015ffad,CODE-6439,25,473,304,refactor: CODE-6439 Fix Handlers Interfaces Cleanup,java,52,direct
+2026-01-22,Nucleus,yzia,41c9d3c25959d2185d98ef8be00fa062426c90f9,NUMA-47,8,519,31,feat: NUMA-47 Add a MessageDefinitionValidator to validate limit price based on price type,java bek,81,direct
+2026-01-29,Nucleus,aleykin,dc5afc0c297e93dba5ce1700c9880ebf7e6a5998,NUMA-51,32,625,179,feat: NUMA-51 Publish total interest data at order entry,java bek,63,direct
+2026-01-22,Nucleus,Hoa Tran,c4afc939a5fbd7dcdec3c63dd6f848b59d72cb84,NUMA-13,23,4330,88,feat: NUMA-13 Inbound Order Request Fix To Command Writer,java,77,direct
+2026-02-04,Nucleus,Evan Yu,3984c598b4670b1ad41adbc737b54c142c7de83f,CODE-6420,21,2687,2,feat: CODE-6420 Create the DMA order manager bot,java,58,direct
+2026-02-05,Nucleus,Andy Smith,434853659a71b7348adf4737cd7b72972b7e64c8,CODE-6449,8,85,49,feat: CODE-6449 Standard handling of null input values in feeds,java,60,direct
+2026-02-05,Nucleus,Andy Smith,14fe8ade4d75d08c974d12f9dc961424a44c661e,CODE-6450,2,142,4,fix: CODE-6450 Allow referenced objects from C&C as MimeTypeRegistry configuration parameters,java,85,direct
+2026-02-06,Nucleus,pchaudhary,5ff62acbfdacbd39db6f10631bcbb94305e0c88c,CODE-6366,48,499,290,docs: CODE-6366 Company Relationship API,rst,11,direct
+2026-02-05,Nucleus,azhang,e24fb1c3f854584421910665b99b1fe9afe62f08,CODE-6448,10,10,10,docs: CODE-6448 Matching: Fix Javadoc,java,0,direct
+2026-02-02,Nucleus,azhang,62737c8ffd387b383ec8101284464e776262e939,CODE-6411,21,1773,1,feat: CODE-6411 Opportunities: Create an Opportunities Dealer Axe Feed,java,58,direct
+2026-01-26,Nucleus,jshah,5bb3d2529274507c33ef874ac05591f4c08e0cf3,CODE-6436,2,648,0,feat: CODE-6436 Outbound messages to MKTX schema,xml,0,direct
+2026-01-28,Nucleus,mwallingford,0c1d8db709f6d7b510f93478634081dfb7324412,NUMA-52,3,252,50,feat: NUMA-52 Parent/Child Consistency Checks for Pegged Order Fields,java,81,direct
+2026-01-23,Nucleus,jshah,dd5aca1e1ec328192c2cfcbfd1405a4c0f4edd99,CODE-6431,1,78,0,feat: CODE-6431 Add IOI message from mktx dealer axe api fix spec,xml,0,direct
+2026-02-04,Nucleus,Andy Smith,67aee44e2dc244883e0bcce4d4b25ef366879b37,CODE-6445,2,31,34,deploy: CODE-6445 Fix issues with release Jira updating,gradle,0,direct
+2026-02-04,Nucleus,Andy Smith,e7f510ce2d9e1dd723c308feee976ea90ba7fe37,CODE-6445,1,4,1,deploy: CODE-6445 Fix issues with release Jira updating,java,0,direct
+2026-02-03,Nucleus,Andy Smith,8e0fe0d207743fc7555833e57f707745b0578753,CODE-6445,1,1,1,deploy: CODE-6445 Fix issues with release Jira updating,master,0,direct
+2026-02-02,Nucleus,Andy Smith,07cf06ef6d9d615af3bedc4a54a6475dbe499158,CODE-6434,20,802,44,feat: CODE-6434 Automate format context enum parsing for FIX,java,69,direct
+2026-01-28,Nucleus,Evan Yu,e5f35bfc3bd163c0ed47efaddc9eb1763013a912,CODE-6433,43,2652,2866,refactor: CODE-6433 Refactoring FIX Gateway to allow handling of multiple business objects,java} java,70,direct
+2026-02-03,Nucleus,Andy Smith,fa4b2f4132a9abbeff73e7151bdb304c674ce13f,CODE-6445,1,4,2,deploy: CODE-6445 Fix issues with release Jira updating,java,0,direct
+2026-02-03,Nucleus,Andy Smith,88def33d4dc5fdd06504470c5b49a010768fdfeb,CODE-6445,1,1,0,deploy: CODE-6445 Fix issues with release Jira updating,properties,0,direct
+2026-02-03,Nucleus,Andy Smith,bb66b6c9b438bafee53aa78251838b36621d159b,CODE-6445,3,3,3,deploy: CODE-6445 Fix issues with release Jira updating,java yml,0,direct
+2026-01-26,Nucleus,Evan Yu,8ad90e837c03858f4c9bf85e067b52c6adf6b45c,CODE-6418,47,5401,6236,refactor: CODE-6418 Refactor reusable code from the Matching DMA workflow into apps,java,86,direct
+2026-01-30,Nucleus,Andy Smith,b11d71cf7cf87b0fc403679ae3a74abbfa5960ef,CODE-6443,21,845,382,feat: CODE-6443 Add release information to Jira issues,java,0,direct
+2026-01-30,Nucleus,pchaudhary,8c7c8fc05ea40c128cbe99f9575724cac716d2a0,CODE-6367,7,496,0,feat: CODE-6367 Defined Interest Messages and BusinessObject,java xml,20,direct
+2026-01-30,Nucleus,pchaudhary,bb8b846f70c859c8ff130c39e78c8d2c2bf2100f,CODE-6442,102,447,966,refactor: CODE-6442 Move Common Reference Data Entities from Matching to Nucleus,java xml,63,direct
+2026-01-28,Nucleus,azhang,d58e22fc78319d1982ecdb93e3d1fa4e44a83236,CODE-6422,44,4236,704,feat: CODE-6422 Polaris: MassResubmitRequest,java bek,76,direct
+2026-01-28,Nucleus,Andy Smith,d5293c725ecffecf681df786c2332db1acbf3252,CODE-6424,16,1988,181,feat: CODE-6424 Add support for command redirect,java,64,direct
+2026-01-28,Nucleus,aleykin,80b96821e54d0830e77b29e8870bb1a5d15c7e54,NUMA-53,3,103,10,fix: NUMA-53 Multiple venue CLOSED messages cause session workflow bot to go into infinite loop,bek java,91,direct
+2026-01-16,Nucleus,pchaudhary,25eec6ceb461d11f7c30ef641830b9c13bfbfb28,CODE-6370,39,3010,7,feat: CODE-6370 Inbound/Outbound Gateways for Opportunities Orders,java,49,direct
+2026-01-27,Nucleus,Andy Smith,b123288e084d3faa2cd3e163eb78c048c1acfd63,CODE-6423,4,1314,8,feat: CODE-6423 Create feed FIX parser,java,72,direct
+2026-01-21,Nucleus,aleykin,3a63b19fbefef37c85273f5f6e2b8f179ec80b5e,NUMA-6,26,1819,242,feat: NUMA-6 Implement limit price calculation logic for custom pegged orders,java,76,direct
+2026-01-22,Nucleus,mwallingford,abca27df1a9c34060dd25857b14cd2a3e00f5645,NUMA-8,5,375,69,feat!: NUMA-8 Update matching engine to support custom pegged order priority rules,bek java,92,direct
+2026-01-26,Nucleus,Andy Smith,1768a73453aa4de71620fa1dd6b531ebac813cd1,CODE-6437,10,1898,208,feat: CODE-6437 Improve use and testing of decoders,java,99,direct
+2026-01-22,Nucleus,jshah,40a9da9333dcaa617298bb82ee0fd4f03838fde4,CODE-6387,2,49,0,feat: CODE-6387 Add inbound CRD messages to opportunities fix schema,xml,0,direct
+2026-01-23,Nucleus,Evan Yu,98ce81c363d223cbba34c1b3b23e80a5fa2830ef,CODE-6328,1,2,2,test: CODE-6328: Add performance test for Kafka apps,java,100,direct
+2026-01-23,Nucleus,Evan Yu,4d2371c6ec488db3d6472c884f7ea87d9897f3e4,CODE-6385,18,125,53,fix: CODE-6385 Cross trade cancel sent before trade complete,java bek,65,direct
+2026-01-09,Nucleus,Hoa Tran,a4df587ecc493f1e5df0359eec94da9e012f03fd,CODE-6319,7,182,20,feat: CODE-6319 Remove redundant SessionUpdate from Auctions Drop,java bek,64,direct
+2026-01-20,Nucleus,mwallingford,eae54e4d87aa860eca356a13753985d00e9115f8,NUMA-5,21,398,12,feat: NUMA-5 Update commands and mutators to support custom pegged orders,java bek,65,direct
+2026-01-21,Nucleus,azhang,09675e6ec8cb12900cb1807d8456165d15eafd5c,CODE-6395,6,282,54,fix!: CODE-6395 Polaris: Reject Buy/Sell order with LocateReqd present in NOS and amends,bek java,88,direct
+2026-01-21,Nucleus,Andy Smith,1b3c6744cbd792bf78542d7087a8a72c85b7da2c,CODE-6384,13,69,77,ci: CODE-6384 Update on-prem Jenkins config,yml live maintenance master,0,direct
+2026-01-14,Nucleus,mwallingford,984bf98fc7f75c213e2be653c4fbd1d04c8a3334,NUMA-43,5,514,216,feat: NUMA-43 Acceptance Tests for Instrument Based Market Data Drop,bek,100,direct
+2026-01-12,Nucleus,Evan Yu,308a048b2fdf785e9eb38fbc524d554ce04e554e,CODE-6328,30,3619,37,test: CODE-6328: Add performance test for Kafka apps,java bek,99,direct
+2026-01-15,Nucleus,jshah,20eefd302dfeee4299fabfd30923675446a9c6ec,CODE-6352,2,66,0,feat: CODE-6352 Create an initial FIX Schema for the msgType=6 (IOI),xml gradle,0,direct
+2026-01-15,Nucleus,pchaudhary,3c01001b4d25ab4f18abd3e4fc096c79079784c2,CODE-6334,28,686,175,feat: CODE-6334 Beaker Setup for Opportunities,rst bek csv commands,55,direct
+2026-01-15,Nucleus,jshah,ce6c196f34100d8672f2bae4df06cbef3289507c,CODE-5291,12,19,36,test: CODE-5291 Remove deprecated calls to JmhUtils,java,51,direct
+2026-01-15,Nucleus,aleykin,6dee0620cab4107dbbf77516843d519fc5d41512,NUMA-4,7,33,23,docs: NUMA-4 Update API documentation for custom pegged orders,rst json,0,direct
+2026-01-15,Nucleus,Andy Smith,a1ed30b89854b6f5f38216a1e96c99c52527686b,CODE-6079,31,1320,384,feat: CODE-6079 Support for non-static factory create in C&C,java,48,direct
+2026-01-17,Nucleus,Andy Smith,650b7082075a92a33a3049dd860f07675f63b315,CODE-6357,18,435,185,deploy: CODE-6357 Include live and maintenance deltas in release notes,java rst gradle,0,direct
+2026-01-15,Nucleus,Evan Yu,265390832ae3e33bf7b44d97e298b5add4fe73d9,CODE-6351,10,109,105,feat!: CODE-6351 Change config item pollPeriod to pollInterval in Kafka spinner,java,50,direct
+2026-01-14,Nucleus,Evan Yu,4bd936c0dd610ddf01e4f9a4aa67803fe33bfa8d,CODE-6342,29,757,727,fix: CODE-6342 Reduce memory usages from MutableOptionalDetailedResult,java,71,direct
+2026-01-16,Nucleus,Andy Smith,b00cefb34ac245d59545a4f89a86e65b5ce52e41,CODE-6353,40,626,310,build: CODE-6353 Add skeleton Opportunities documentation files,rst py,0,direct
+2026-01-16,Nucleus,Andy Smith,c6b4980baae3b92f971508396cd82b72864fd4d4,CODE-6333,1,12,0,build: CODE-6333 Fixes for integration test building continued,gradle,0,direct
+2026-01-13,Nucleus,mwallingford,c26619f4cf2c56a37d7af462964637289eca6f70,CODE-6320,13,650,36,feat: CODE-6320 Enforce Maximum Qty Settings in Auctions MarketData Drop Helper,java bek,62,direct
+2026-01-13,Nucleus,pchaudhary,dbb8ba4a0f35d78efe55a713953c1bbda5708c4e,CODE-6330,35,620,41,build: CODE-6330 New Module for Opportunities project,gradle commands py,0,direct
+2026-01-05,Nucleus,pchaudhary,f1faaaca5ff3bbacf93c3baf00acaec5f5d28519,CODE-6163,44,151,70,perf!: CODE-6163 Implement consistent sizing of matching app pools,commands java,12,direct
+2026-01-14,Nucleus,Andy Smith,b97d7b891476877a969856af3deaf13fe9f75d09,CODE-6341,1,1,2,test: CODE-6341 Fixes for starting/stopping Matching Beaker apps,bek,100,direct
+2026-01-12,Nucleus,aleykin,d7f21a518973c748c72e37965ad5514c8fbdc14f,CODE-6314,16,148,35,feat: CODE-6314 Write Total Interest Qty to AuctionsMarketData command,java bek,66,direct
+2026-01-14,Nucleus,Andy Smith,e395132da68c9cae8c400e56ff23e5d9d68d735a,CODE-6333,2,8,4,build: CODE-6333 Fixes for integration test building,gradle,0,direct
+2026-01-08,Nucleus,mwallingford,d292a1fbbe8999991df4e47e6b622a74bbbdd736,CODE-6312,28,464,189,feat: CODE-6312 Create Delegating Market Data Drop application,java bek commands,34,direct
+2026-01-14,Nucleus,Evan Yu,72410de6b49cfd78aea4acbb1de39da117803fd2,CODE-6321,1,2,2,test: CODE-6321 Fix failing performance tests,java,100,direct
+2026-01-13,Nucleus,pchaudhary,c4d65b047d24685b740345b7f83bafc644170235,CODE-6317,403,1746,1888,feat: CODE-6317 Implement adding additional information in OptionalDetailedResult,java,71,direct
+2026-01-09,Nucleus,Evan Yu,bb928e9b7428a74d3816ef5eac7adacaaef51c8e,CODE-6321,9,91,26,test: CODE-6321 Fix failing performance tests,java bek,100,direct
+2026-01-13,Nucleus,Andy Smith,956df490cf9fe8ab8ae627f2db986db1b63a77ee,CODE-6332,1,8,3,fix: CODE-6332 Fix for release build,gradle,0,direct
+2026-01-12,Nucleus,jshah,b813be3a8323d898a9ba3a3f5a2cd4674bfc6e62,CODE-5250,1,18,2,refactor: CODE-5250 FIX Schema Generation Cleanup,xsd,0,direct
+2026-01-06,Nucleus,mwallingford,b9caad32faa632f7b8c15a7a403f63703fa2d91f,CODE-6298,17,481,178,feat: CODE-6298 Check for command finalization in all command validators,java,64,direct
+2026-01-08,Nucleus,Andy Smith,c61e191ca17632013fb7956ad4ab90b3034b343b,CODE-6316,19,5638,68,perf: CODE-6316 Garbage free float and double decoding,java,17,direct
+2026-01-09,Nucleus,Andy Smith,cc3f4591f0134c8aec877f63845b0a2dd58983e0,CODE-6307,19,329,12,refactor: CODE-6307 Improve fixed point encoding,java,70,direct
+2026-01-08,Nucleus,aleykin,210d10efb25d59a761057fa952dcf024f8e61942,CODE-6310,6,50,1,docs: CODE-6310 Create API docs for instrument based market data message,rst json,0,direct
+2026-01-08,Nucleus,mwallingford,70aef53f5f6da0b86a8716a98af369f5640f0cd3,CODE-6313,5,188,0,feat: CODE-6313 Modify DelegatingMarketDataMutator and helpers to include missing imbalance fields,java xml,38,direct
+2026-01-09,Nucleus,Andy Smith,8a564a8fc7aa40c96a3d99f4b4e6437aefe467c1,CODE-6322,1,1,1,deploy: CODE-6322 Update Jira host,properties,0,direct
+2026-01-07,Nucleus,Evan Yu,ec4935ba29cceeefe00a47938ec39006f0a45a75,CODE-6318,25,127,27,feat: CODE-6318 Default the Kafka group id for the Kafka spin source,java config,51,direct
+2026-01-09,Nucleus,Andy Smith,6f1c15fdc77bec70e8b51351545afa3dcf380b6a,CODE-6323,1,11,0,docs: CODE-6323 Update SDLC for separate system groups,rst,0,direct
+2026-01-06,Nucleus,mwallingford,b121cbab8d1d39b1ca0ef6956d2019bdb063b35f,CODE-6283,21,31,40,feat!: CODE-6283 Remove SendingTimestamp field from drops,json java rst,18,direct
+2026-01-06,Nucleus,Evan Yu,965da9ad11e9f3d3e71ca3df4cf9222f6b537de6,CODE-6055,13,497,68,feat: CODE-6055 Improve the reason and text for reject messages generated by cross workflow,java,59,direct
+2026-01-05,Nucleus,mwallingford,f2d47a499e47d4f3415240ee83b18fde03f81c76,CODE-6242,11,374,15,feat: CODE-6242 Enhance CancelRequestDefinition to support BotCancelReason,java,58,direct
+2026-01-07,Nucleus,azhang,5b8d77969675e4d71d570289668627190879a7ce,CODE-6291,1,2,3,fix: CODE-6291 Polaris: Allow crossing in Tape B/C with annotation fix,java,100,direct
+2026-01-05,Nucleus,azhang,f014dbcaa35203cab091f66f9e35ff9463e91170,CODE-5017,538,2961,3320,feat: CODE-5017 Simplify OptionalDetailedResult's additional info,java,73,direct
+2026-01-05,Nucleus,azhang,770c1335778fbfb9be7dffce340ee07ff2c2a2ab,CODE-6306,12,92,37,feat: CODE-6306 Downgrade log level for selected Polaris log messages,java,88,direct
+2026-01-02,Nucleus,azhang,9f18ddd3aaa1e65a3bb23d9783e9a91e0deff365,CODE-6291,25,357,169,test: CODE-6291 Polaris: Allow crossing in Tape B/C,bek java,100,direct
+2026-01-02,Nucleus,pchaudhary,671cb404cbfaeb5f10e785bb4a257d1691c9b21a,CODE-5829,48,807,68,feat!: CODE-5829 Platform Status Validator,java bek,68,direct

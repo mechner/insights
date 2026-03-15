@@ -1,0 +1,11 @@
+date,repo,author,pr-id,jira-link,file-count,+lines,-lines,message,file-types,%test
+2026-01-09,bondlinkbridge-deployment,Kunal Choudhary,487,,1,1,1,adding TRN version manifest,env,0
+2026-01-09,bondlinkbridge-deployment,Kunal Choudhary,486,,1,1,1,.env edited online with Bitbucket,env,0
+2026-02-23,hulk-api-srv,Ram Bobbala,3606,,3,76,75,Feature/K2 5758 merge conflicts 26 2 0,java,96
+2026-02-20,hulk-api-srv,Sakshi Nayak,3603,,4,173,114,K2 5743 conflict merge,java,87
+2026-02-19,hulk-api-srv,Eduardo Sosa,3599,,1,1,1,Feature/K2 5729 conflict,xml,0
+2026-02-06,hulk-api-srv,Sakshi Nayak,3588,,88,8398,947,K2 5627 merge conflicts,java,85
+2026-02-04,hulk-api-srv,Sakshi Nayak,3583,,2,3,3,K2-5627_spread_limit_est_cost_bugfix,java,0
+2026-02-19,maom-action-svc,Eduardo Sosa,2073,,3,273,11,Feature/K2 5729 conflict,java,82
+2026-02-23,maom-commons,Ram Bobbala,1708,,6,109,5,Feature/K2 5758 merge conflicts 26 2 0,java,80
+2026-02-19,maom-commons,Eduardo Sosa,1705,,0,0,0,Feature/K2 5729 conflict,,0

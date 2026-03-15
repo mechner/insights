@@ -1,0 +1,44 @@
+ function copilot-ro() {
+     gh copilot \
+       --allow-all-paths \
+       --allow-tool 'shell(ls)' \
+       --allow-tool 'shell(echo)' \
+       --allow-tool 'shell(cat)' \
+       --allow-tool 'shell(grep)' \
+       --allow-tool 'shell(rg)' \
+       --allow-tool 'shell(sed)' \
+       --allow-tool 'shell(awk)' \
+       --allow-tool 'shell(find)' \
+       --allow-tool 'shell(head)' \
+       --allow-tool 'shell(tail)' \
+       --allow-tool 'shell(wc)' \
+       --allow-tool 'shell(sort)' \
+       --allow-tool 'shell(uniq)' \
+       --allow-tool 'shell(cut)' \
+       --allow-tool 'shell(tr)' \
+       --allow-tool 'shell(xargs)' \
+       --allow-tool 'shell(pwd)' \
+       --allow-tool 'shell(which)' \
+       --allow-tool 'shell(date)' \
+       --allow-tool 'shell(env)' \
+       --allow-tool 'shell(jq)' \
+       --allow-tool 'shell(python3)' \
+       --allow-tool 'shell(node)' \
+       --allow-tool 'shell(git:*)' \
+       --deny-tool 'shell(git push)' \
+       --deny-tool 'shell(git commit)' \
+       --deny-tool 'shell(git add)' \
+       --deny-tool 'shell(git rm)' \
+       --deny-tool 'shell(git mv)' \
+       --deny-tool 'shell(git reset)' \
+       --deny-tool 'shell(git rebase)' \
+       --deny-tool 'shell(git merge)' \
+       --deny-tool 'shell(git cherry-pick)' \
+       --deny-tool 'shell(git switch)' \
+       --deny-tool 'shell(git restore)' \
+       --deny-tool 'shell(git fetch)' \
+       --deny-tool 'shell(git pull)' \
+       --deny-tool 'shell(git clone)' \
+       --deny-tool 'shell(git init)' \
+       "$@"
+   }

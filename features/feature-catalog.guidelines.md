@@ -1,0 +1,38 @@
+---
+title: Feature Catalog Guidelines
+description: Guidelines for high-quality Feature documents.
+---
+
+# Feature Catalog Guidelines
+**Features** are confluence pages that document functional description and requirements for parts of xpro. They should provide enough specific detail for devs to implement and QA to verify. They also then serve as common reference for developers, QA, and product team as the product evolves.
+
+The x-pro **feature catalog** is the collection of the x-pro features. It represents a cumulative, always “up to date” description of the x-pro product as it evolves over time. Note: The x-pro feature catalog need not document our entire trading system’s functionality, only the x-pro UI functionality per se.
+
+The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
+
+Features should:
+
+* Contain pointers to figma diagram links, if applicable (and a static image from that design as a quick visual reference). 
+* Clearly define the scope of the feature. Where possible, it should be a UI component that is likely to be developed as a unit, or is natural to think about as a separate feature or component, for example:
+  * A micro-frontend - for example a panel or tab with specific content and functionality. 
+  * A component of a microfrontend (especially when common to multiple frontends) that’s complex enough to warrant its own feature page. 
+  * A set of interactions, workflows, or related behaviors that span multiple components, and have complex enough logic that it represents material scope for implementation and testing. 
+  * A collection of relatively small, related functional specifications that are likely to follow similar implementation patterns and be used in the same place - for example standard formatters. 
+* Provide a table with all the fields that are displayed or represented in the component, where relevant. Each row represents a data element that appears, with columns:
+  * **Label** that a user should see (matching Figma design where relevant); or exact text and templates for more complex labels and messages, using CanAPI {fieldName} placeholders. 
+  * **Data source**, a CanAPI field name(s) or other calculation or source for calculated or composite columns. Where forms offer multiple choices, how is that set of options sourced? For inputs, what are the defaults, if not provided by the back end? 
+  * **Formatting and decoration** for numbers, dates, etc. including conditional formatting e.g. by product (decimals), side (color), or comparison between two fields; decoration such as icons, colors, etc. 
+  * **Conditional behavior** where appearance, label, modifiability, or behavior is conditional - including specifying what CanAPI fields, user or company settings, etc. control. 
+  * **Validation** for input, what logic should the UI perform to ensure that the input is valid, either on an individual field basis or across fields where relevant.
+
+Complex functionality that logically spans multiple fields should be referenced in the table, but be specified in detail outside the table.
+
+The feature catalog as a whole should be organized so that common functionality is “factored out” to common feature pages that can then simply be referenced in other feature pages, observing the DRY (Don’t Repeat Yourself) principle. This assumes and encourages implementation that benefits from code reuse where we actually reuse standard formatters, renderers, etc. in various parts of our codebase. For example:
+* **Standard formatters** - e.g. for numbers, dates, enums.
+* **Standard enums** - mappings from CanAPI code (string) values to what should be displayed to a user in a grid, form, etc.
+* **Standard widgets** - complex widgets such as multi-selectors, date pickers, etc. These will often be platform UI components, but they should have feature pages where their functionality is described.
+
+
+ 
+
+ 
