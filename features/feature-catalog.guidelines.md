@@ -39,7 +39,7 @@ Features should:
   * **Label** that a user should see (matching Figma design where relevant); or exact text and templates for more complex labels and messages, using CanAPI {fieldName} placeholders. 
   * **Data source**, a CanAPI field name(s) or other calculation or source for calculated or composite columns. Where forms offer multiple choices, how is that set of options sourced? For inputs, what are the defaults, if not provided by the back end? 
   * **Formatting and decoration** for numbers, dates, etc. including conditional formatting e.g. by product (decimals), side (color), or comparison between two fields; decoration such as icons, colors, etc. 
-  * **Conditional behavior** where appearance, label, modifiability, or behavior is conditional - including specifying what CanAPI fields, user or company settings, etc. control. 
+  * **Conditional behavior** where appearance, label, modifiability, or behavior is conditional or state-dependent - including specifying what CanAPI fields, user or company settings, etc. control. 
   * **Validation** for input, what logic should the UI perform to ensure that the input is valid, either on an individual field basis or across fields where relevant.
 
 Complex functionality that logically spans multiple fields should be referenced in the table, but be specified in detail outside the table.
@@ -47,6 +47,8 @@ Complex functionality that logically spans multiple fields should be referenced 
 A checklist of other relevant information to include in the feature page, if applicable: 
 * **Side effects** of user interactions should be specified, for example, if a user input should trigger an update to another field, or a call to the back end, etc.
 * **Empty States** — "no results" UX for grids, panels, etc. when there is no applicable content 
+* **Secondary Workflows** - for example modals and confirmations that may appear as part of the feature’s functionality, but are not the main workflow.
+
 
 The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
 

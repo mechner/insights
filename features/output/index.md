@@ -29,35 +29,34 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 
 ## Common Panel Features
 * **Common Panel Tab Behavior** — standard behavior for dragging, arranging, and sizing tabs with the three tab levels · [Figma](https://www.figma.com/design/GRNFTbZpvkhIQdmaipUsEX/Desktop-Components)
-* **Modals** — system modal dialogs: Rename list, Trade confirmation (with partials), Amend order, Choose spot time, Update limit levels; warning/error modals · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=820-53018)
 * **Validation Messages** — inline tooltip/banner validation errors and warnings on forms · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
-* **Notifications & Alerts** — toast notification system (Success, Error, Warning, Informative, User types) with default/hover states and actionable notifications; Notification Center panel for history · [Figma](https://www.figma.com/design/4MgZjcHNNywWXOtQwAoQ1h/Notifications-Alerts-2.0)
+* **Notifications & Alerts** — toast notifications with multiple severity levels and actionable variants; Notification Center panel · [Figma](https://www.figma.com/design/4MgZjcHNNywWXOtQwAoQ1h/Notifications-Alerts-2.0)
 * **Workspace Layout Persistence** — saving and restoring panel sizes, column widths, and tab selection across sessions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5132877825)
 * **User Preference Parity** — x-pro 2.0 user preference coverage: feature parity with xp1 / xp1.5 · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5152931974)
 
 ## Single Order or Bond Scoped Features
 * **Market Depth Panel** — two-sided pre-trade market data panel: axes, inventory, and CP+ for a given instrument · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
-  * **Market Depth tab** — live Bid/Offer depth grid by source (Axe, Algo, MKT, QTE, CP+); Type filter; Focus on toggle (Price / Spread / Yield)
+  * **Market Depth tab** — live Bid/Offer depth grid by source with type filtering and focus-on toggle
   * **My History tab** — user's own prior trades and inquiries for this security · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=925-70063)
-* **Responses Panel** — live dealer response grid with state-dependent actions (Buy Best / Sell Best / Counter / Pass); response sorting by best level; Trying to Trade (EU); Tied Levels · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=111-11298)
-* **Trade Ticket Panel** — post-trade summary with collapsible sections: Pricing, Trade Proceeds, Instrument Details, Identifiers · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-27675)
+* **Responses Panel** — live dealer response grid with state-dependent actions and response sorting · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=111-11298)
+* **Trade Ticket Panel** — post-trade summary with collapsible detail sections · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-27675)
 * **Activity Log Panel** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-38809)
 * **Single Item Panel Header** — summarizes an order, its current state, and provides action buttons (Cancel, Pass, Trade)
 * **Trace/TRAX** — pre-trade last-print and recent trade data display for a bond in the global RFQ context · [Figma](https://www.figma.com/design/dpD5uLu4D22Pc1xTNjchLr/Trace-TRAX?node-id=4-21)
 
 ## List or Multi-Order Scoped Features
 * **Summary Ribbon** — persistent compact horizontal list analytics summary above the AC grid · [Figma](https://www.figma.com/design/vQYE6xznZXiYBeDQFGWLlI/List-Analytics-Ribbon?node-id=3-8) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
-* **List Analytics Panel** *(out of scope for July)* — separate aggregation grid grouped by side with YTW, VWAP, DWAS, Duration, DV01, Tradability; pricing mode selector and distribution charts · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
+* **List Analytics Panel** *(out of scope for July)* — separate aggregation grid with key analytics by side, pricing modes, and distribution charts · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
 * **List Panel Header** — summarizes list items, their current state, and provides list action buttons
-* **List Structure Operations** — Create List (from selected singles, max 40), Delist (remove items pre-submission), Rename
+* **List Structure Operations** — creating, modifying, and delisting items in a list
 
 ## Single/List Combined Scoped Features
-* **RFQ Parameters Panel** — panel for configuring RFQ parameters: direction, quantity, limit/target level, protocol, timing, settlement date, Auto-X, internal notes · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1)
-  * **Single/List Overrides** — where list-level parameters are overridden for an individual item (line-by-line dealer selection, per-item Auto-X)
+* **RFQ Parameters Panel** — panel for configuring RFQ parameters before submission · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1)
+  * **Single/List Overrides** — overriding list-level parameters for individual items
 * **Dealer Selection Panel** — panel for selecting counterparties to receive an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=5-5540)
-  * **Open Trading (Anonymous)** — visibility group selection (Long Only, Hedge Funds, Private Banks, Alt Liquidity Providers, Other Dealers, My Dealers); defaults from BondLink user preferences
-  * **Disclosed OT Counterparties** — Disclosed Open Trading: disclosed inquiry to dealers without a bilateral relationship, settling through MKTX · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5160665141)
-  * **Bilateral Counterparties** — disclosed dealer selection from existing relationships; dealer groups; Targeted RFQ toggle · [Figma](https://www.figma.com/design/RYefL603oPOdeldqcAaWlv/Targeted-(HT)?node-id=3-8)
+  * **Disclosed Cptys** — disclosed dealer selection from existing relationships; dealer groups; Targeted RFQ toggle · [Figma](https://www.figma.com/design/RYefL603oPOdeldqcAaWlv/Targeted-(HT)?node-id=3-8)
+  * **Open Trading** — anonymous counterparty selection via visibility groups
+  * **Disclosed Open Trading** — disclosed inquiry to dealers without a bilateral relationship, settling through MKTX · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5160665141)
   * **Smart Select** — AI-driven dealer selection based on inquiry parameters; shown as a dealer group option
   * **Restricted Dealer Selection** — rules and UI for excluding specific dealers · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649)
 * **Countering Workflow** — optional counter-quote: trader proposes a less favorable level to a dealer · [Figma](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering)
@@ -72,28 +71,23 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 *[Figma: AC Microfrontend](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend) · [Figma: AC Prototype](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)*
 
 * **Activity Console** — the left-hand order-list microfrontend: overall layout, panel lifecycle, and tab structure
-  * **Tab Bar & Navigation** — tab set (All Orders, Staged, In Progress, Spotting, Done, Auto-X, Auction Eligible) with live counts and pop-out support · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898)
-  * **Order Grid — Single Bond Row** — per-row field layout, status badge, inline action buttons, and state-dependent rendering · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
-  * **Order Grid — List / Basket Row** — expandable list-level row with child-bond expansion and aggregate status · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
-  * **Workflow Status Banner** — Staged / In Progress / Done summary counts above the grid · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)
-  * **Summary Tiles / Metrics Bar** — per-tab aggregate metrics above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
-  * **Bulk Action Bar** — bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
-  * **Single Item Action Button** - state-dependent action button (e.g. Submit, Buy Best, etc.)
-  * **Opportunities Column** — inline axe and AI-Select opportunity hints on AC order rows · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
-  * **Trade Type Column** — protocol label (RFQ, PT List, Auto-X) with icon
-  * 
+* **Tab Bar & Navigation** — workflow-stage tabs with live counts and pop-out support · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898)
+* **Order Grid — Single Bond Row** — per-row field layout, status badge, inline action buttons, and state-dependent rendering · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
+* **Order Grid — List / Basket Row** — expandable list-level row with child-bond expansion and aggregate status · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
+* **Workflow Status Banner** — Staged / In Progress / Done summary counts above the grid · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)
+* **Summary Tiles / Metrics Bar** — per-tab aggregate metrics above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
+* **Bulk Action Bar** — bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
+* **Single Item Action Button** - state-dependent action button (e.g. Submit, Buy Best, etc.)
+* **Opportunities Column** — inline opportunity icon and action buttons · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
+* **Trade Type Column** — protocol label with icon
+* **Trade Manager** — order takeover and reassignment workflow for the Trade Manager role; filtered views (Mine / Others / All) · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
 
 ## Auto-X (ADX)
 
-* **ADX Panel** — Adaptive Auto-X panel: Summary by list, Parent bond grid with eligibility status, and TAKE / SEEK actions · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=19-29554)
-  * **Summary view tabs** — aggregation views: List | Product | Side | Liq Score
-  * **Parent grid filter tabs** — grid filters: All | Eligible | Take Eligible
+* **ADX Panel** — Adaptive Auto-X panel with summary views and eligibility-based actions · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=19-29554)
+  * **Summary view tabs** — aggregation views by list, product, side, and liquidity score
+  * **Parent grid filter tabs** — filtering by eligibility status
 
-## Trade Manager
-
-* **Trade Manager** — order takeover and reassignment workflow for the Trade Manager role; filtered views (Mine / Others / All) · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
-
-## Cross-Cutting Things That Should Be Part Of Inidividual Features
 
 ## Reference
 
