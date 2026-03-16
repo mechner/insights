@@ -25,21 +25,28 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **Market Depth Panel** — inline single-bond pre-trade panel; pre-trade summary header (Tradability, best pre-trade levels, axed size, pre-trade depth, CP+, last print); toggles between depth view and trade history · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
   * **Market Depth tab** — live Bid/Offer depth grid by source (Axe, Algo, MKT, QTE, CP+); columns: Direct, Source, Type, Cpty, Qty(M), Yield, Spread; Type filter; Focus on toggle (Price / Spread / Yield)
   * **My History tab** — user's own prior trades and inquiries for this security; columns: My Action, Formatted Size, Trade Level, Best Level, Price, Cpty, Depth, Status, Trader, Company, Date · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=925-70063)
-* **Summary Ribbon** — compact horizontal analytics bar embedded above the AC grid showing per-list key metrics · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
-* **List Analytics Panel** — floating analytics overlay for list orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
-  * **Analytics summary grid** — per-side and total row showing YTW, VWAP, DWAS, Duration, DV01, Tradability; pricing mode selector: CP+ | CP+ Close | Ref Limit | Near-touch | Mid | Far-touch
-  * **Distribution charts** — histogram tiles for Duration, YTW, DWAS, Rating, Tradability, Est Cost
+* **Summary Ribbon** — persistent compact analytics bar above the AC grid showing key list metrics; "List Analytics" expands below it · [Figma](https://www.figma.com/design/vQYE6xznZXiYBeDQFGWLlI/List-Analytics-Ribbon?node-id=3-8) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
+  * **List Analytics** — expandable section/tab within the ribbon: summary grid (YTW, VWAP, DWAS, Duration, DV01, Tradability) with pricing mode selector (CP+ | CP+ Close | Ref Limit | Near-touch | Mid | Far-touch) and distribution charts · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
+* **Trace/TRAX** — pre-trade last-print and recent trade data display for a bond in the global RFQ context · [Figma](https://www.figma.com/design/dpD5uLu4D22Pc1xTNjchLr/Trace-TRAX?node-id=4-21)
 
 ## RFQ — Single Bond
 
-* **Direct RFQ** — the right-panel for a single-bond inquiry from submission through traded state · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5155815530) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=118-4905)
-  * **Inquiry Parameters** — submission form: all input fields, defaults, and validation rules · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1)
+* **Direct RFQ** — the right-panel for a standard single-bond inquiry from submission through traded state · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5155815530) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=118-4905)
+  * **Inquiry Parameters** — submission form: all input fields, defaults, and validation rules; includes Targeted toggle + dealer selection widget when Targeted is ON · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1)
   * **Trade Ticket: Responses** — live dealer response grid (Responses tab); Buy Best / Sell Best actions; counter-quote flow · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=111-11298)
+    * **Countering** — optional counter-quote: trader proposes a less favorable level to a dealer; 3-step flow: hit Counter → populate level field → submit · [Figma](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering)
   * **Trade Ticket: Details** — post-trade summary tab with collapsible sections: Pricing, Trade Proceeds, Instrument Details, Identifiers · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-27675)
   * **Trade Ticket: Activity Log** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-38809)
+* **Direct (HT)** — High Touch direct flow: client initiates from Market Depth by clicking a specific dealer; lifecycle: Market Depth → Direct Modal → Bin (awaiting response) → Live (with optional Countering) → Done · [Figma](https://www.figma.com/design/uLEut9g8NJEyB6tEuBB2jN/Direct-(HT)?node-id=3-8)
 * **Process Trades** — workflow for executing a trade: selecting a response, confirming, and completing settlement · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006)
   * **Trade at Best** — one-click best-response execution: eligibility rules, behavior, and confirmation · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294689)
 * **Editable Inquiry Fields** — rules governing which inquiry fields are editable after submission and under what conditions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5028380695)
+
+## Spot Negotiation
+
+* **Amend Inquiry** — modifying inquiry parameters (level, settlement date) for an in-flight order · [Figma](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation)
+* **Spotting** — Awaiting Spot state: order has traded but requires FX spot rate agreement before settlement; visible as Spotting tab in AC with "Spot Now" action
+* **Spot Negotiation** — FX spot rate negotiation workflow for cross-currency trades: client and dealer agree on the spot rate to complete the trade · [Figma](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation)
 
 ## RFQ — List
 *[Figma: EU List](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=18-32065) · [Figma: RFQ List quoting](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-221094)*

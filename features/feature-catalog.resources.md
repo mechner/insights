@@ -38,6 +38,12 @@ The referenced code repositories can be found in the parent directory from the r
 
 ## Figma Designs
 Figma designs for xp2 are located in the MarketAxess Figma workspace across three projects:
+* RFQ Panel: https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=118-4905
+* Activity Console: https://www.figma.com/files/1279115914045676988/team/1613317744861427514
+* XP2 Features: https://www.figma.com/files/1279115914045676988/project/488812420
+
+## Legacy Resources
+* CI Client Workflows: https://marketaxess.atlassian.net/wiki/spaces/CI/pages/1082032221/Client+Workflows
 
 ### Project: Activity Console 2.0
 https://www.figma.com/files/1279115914045676988/project/344298335
@@ -69,7 +75,6 @@ https://www.figma.com/files/1279115914045676988/project/488812420
 * **Trace/TRAX** (`dpD5uLu4D22Pc1xTNjchLr`) — trade reporting integration
 * **Trade Ticket** (`HOUfJChNoOTWgahm3jezFO`) — Trade Ticket dedicated designs
 
-
 ## Test Cases
 JSON files containing test cases for xp1 and xp2 can be found in @xpro-monorepo/ui/tools/testrail-fix-extractor.output. The summary file is in summary.json; it points to test case content in project subdirectories. 
 
@@ -79,7 +84,9 @@ Access jira using MCP. The primary project for xp2 work is **XRFQ**.
 ## Confluence
 Access confluence using MCP. 
 Some key "source" pages that contain important information and documentation about xp2 include:
-* https://marketaxess.atlassian.net/wiki/spaces/XE/pages/4022075525/XPro+2.0+Supported+Workflows
+* A hand-written doc describing workflows supported in xp2: https://marketaxess.atlassian.net/wiki/spaces/XE/pages/4022075525/XPro+2.0+Supported+Workflows
+* A glossary of terms: https://marketaxess.atlassian.net/wiki/x/dYACMwE
 
-A glossary of terms can be found here:
-https://marketaxess.atlassian.net/wiki/x/dYACMwE
+Some "Legacy" resources with background information: 
+* CI Client Workflows (general BondLink/FIX and xp1, not specific to xp2): https://marketaxess.atlassian.net/wiki/spaces/CI/pages/1082032221/Client+Workflows
+

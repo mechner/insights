@@ -9,12 +9,17 @@ When capturing questions or inferences, use the following format:
   * {Reasoning}: the reasoning process that led to this inference, including any relevant information from the resources or general background knowledge.
 
 ## Questions
-* **Is "Countering" a separate feature from Trade Ticket responses?** A dedicated Figma file "Countering" exists in project 488812420. Is this a distinct workflow (trader counter-quoting a dealer response) that should be its own index entry, or is it a sub-feature of Trade Ticket: Responses?
-* **What are "Direct (HT)" and "Targeted (HT)"?** Two Figma files in project 488812420 suggest High Touch variants of Direct and Targeted RFQ. Are these distinct features from the current "Direct RFQ" entry, or design variants of the same feature?
-* **Is "Spot Negotiation" in scope?** A Figma file exists for Spot Negotiation (project 488812420) and the AC has a "Spotting" tab. Is the spot negotiation workflow (agreeing on the FX spot rate) in scope for the feature catalog?
-* **Is "Trace/TRAX" in scope?** A Figma file "Trace/TRAX" exists in project 488812420. Is trade reporting/TRACE display in scope?
-* **Summary Ribbon vs List Analytics Panel — are these one feature or two?** The Figma file has separate pages for "Summary Ribbon" and "List Analytics" and a dedicated "List Analytics Ribbon" file exists in project 488812420. Should these be two separate index entries?
-* **Parameters page xp1 content** — The Parameters page in RFQ Micro-frontends contains xp1 reference screenshots alongside xp2 designs. The sub-pages (Open Trading, Disclosed CPs, etc.) appear to be the authoritative xp2 content. Needs UX team confirmation on which sections are target state.
+
+*All questions from the previous session have been resolved — see Resolved Questions below.*
+
+## Resolved Questions
+* **Countering** — confirmed as an optional sub-workflow within the Live response state: client proposes a less favorable price to a dealer. 3-step flow: hit Counter button → populate level field → submit counter. Shown inline in the Direct (HT) "Post-Submit: Live" design. *(Confirmed in knowledge.md)*
+* **Direct (HT)** — a High Touch flow where the client targets a single pre-selected dealer, initiated from Market Depth by clicking a specific dealer's quote. Has its own complete lifecycle: Market Depth → Direct Modal → Bin (Awaiting Response) → Live (with optional Countering) → Done. *(Confirmed in knowledge.md)*
+* **Targeted (HT)** — implemented as a "Targeted" toggle in the Inquiry Parameters form; when ON, a dealer selection widget appears. The AC order row shows a Targeted indicator tag. Not a separate submission flow — it is a variant within the standard parameters form. *(Confirmed in knowledge.md)*
+* **Spot Negotiation** — in scope. The Figma file "Spot Negotiation" is actually titled "Amend, Spotting, Spot Negotiation" covering three related post-submission workflows. Ready for Dev page is empty; designs are in High Fidelity pages. *(Confirmed in knowledge.md)*
+* **Trace/TRAX** — in scope. Figma subtitle is "Global RFQ" suggesting it covers last-print/pre-trade data display in the RFQ context. Design V2 (node 4:21) is the current design. *(Confirmed in knowledge.md)*
+* **Summary Ribbon vs List Analytics Panel** — List Analytics Ribbon design shows a persistent summary bar (the Ribbon) with an expandable "List Analytics" section below it, confirming knowledge.md note that the Panel is likely a tab/expandable within the Ribbon context. *(Partially confirmed — further exploration needed to finalize feature boundary)*
+* **Parameters page xp1 content** — all content in node 0:1 of RFQ Micro-frontends MVP is xp2. *(Confirmed in knowledge.md)*
 
 ## Inferences
 
@@ -71,8 +76,17 @@ All designs explored are in the **MarketAxess** Figma team, under the **Activity
   * **Architectural inference — single-bond RFQ quoting state**: There appears to be no separate right-panel for a single bond during quoting. The order sits in In Progress (Bin → Ready); the trader uses Buy Best / Sell Best inline, or opens the Trade Ticket → Responses tab. Inferred from exhaustive exploration of all named frames in this file — none showed a single-bond live response grid.
   * **Trade Manager tab structure**: The Trade Manager design (node 2082:38879 in file 0cvRqbb7fVqoM5bs0HSLEJ) uses the same Activity Console tabstrip as the standard AC — no additional TM-specific tabs. TM adds a "Traders: Mine / Desk" quick-filter toggle and extra columns (Counterparty, Best Level, Auction Eligible, Trader) to the AC grid.
 
-#### Other files (Features project)
+#### Other files (Features project and project 488812420)
 * **Trade Manager** — order takeover/reassignment workflow for the Trade Manager role. [web](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager)
 * **Loading States** — component-level loading state designs. [web](https://www.figma.com/design/LkCk1f2EOgKC0NH89kVSHy)
 * **Open Trading Errors** — error state designs for Open Trading flows. [web](https://www.figma.com/design/2i2fmG1E226mvkolADhrhn)
+* **Direct (HT)** — High Touch Direct RFQ lifecycle (pre-submit via Market Depth → Direct Modal → bin → live → done). Ready for Dev page is authoritative (node 3:8); High Fidelity → Q2 Release (node 4:20). Contains Countering sub-flow inline. [web](https://www.figma.com/design/uLEut9g8NJEyB6tEuBB2jN/Direct-(HT)?node-id=3-8)
+* **Countering** — Counter-quote workflow. Ready for Dev page (node 3:8) is empty; use High Fidelity → Version 1 (node 4:20, popover) and Version 2 (node 4523:106571, inline). [web](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering)
+* **Targeted (HT)** — Targeted RFQ toggle and dealer selection in Inquiry Parameters. Ready for Dev (node 3:8) has designs; also High Fidelity Version 1 (node 4:20) and Version 2 (node 6212:94296). WIP. [web](https://www.figma.com/design/RYefL603oPOdeldqcAaWlv/Targeted-(HT)?node-id=3-8)
+* **Spot Negotiation** ("Amend, Spotting, Spot Negotiation") — covers three related post-submission workflows: Amend inquiry, Spotting (Awaiting Spot state), and Spot Negotiation (FX rate agreement). Ready for Dev page (node 3:8) is empty; use High Fidelity Version 1 (node 4:20) and Version 2 (node 4:21). [web](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation)
+* **Trace/TRAX** ("Global RFQ") — pre-trade last print / recent trade data display in the RFQ context. Design V2 (node 4:21) is current. [web](https://www.figma.com/design/dpD5uLu4D22Pc1xTNjchLr/Trace-TRAX?node-id=4-21)
+* **List Analytics Ribbon** ("Summary of Key Metrics") — persistent summary bar above AC grid; "List Analytics" appears as an expandable section/tab below it. WIP (no date). Ready for Dev Version 1 (node 3:8) and Version 2 (node 8220:52453). [web](https://www.figma.com/design/vQYE6xznZXiYBeDQFGWLlI/List-Analytics-Ribbon?node-id=3-8)
+* **Auto-X** — ADX panel dedicated design file. [web](https://www.figma.com/design/tovFPT7H78xZ0SShVM02ux/Auto-X)
+* **Process Trade Single Updates** — process trade workflow updates. [web](https://www.figma.com/design/veQkHiIYQdSvlguduea8UR/Process-Trade-Single-Updates)
+* **RFQ Statuses** — inquiry status badge designs. [web](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
 

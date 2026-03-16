@@ -9,3 +9,12 @@ This document contains specific knowledge and clarifications that should be reli
 
 ## Other 
 * Field definitions in @mktx-data/schema-documentation/field-dictionary.csv should be treated as reliable and reflecting target naming conventions for canon schemas. Fields that appear in schemas that don't match one of these names are still suspect. 
+
+## Answers to Recent Questions
+* Countering is an optional part of the RFQ workflow (when the client proposes a less favorable price to a particular dealer than that dealer's latest response). 
+* Direct (HT) is when a client wants to trade with a pre-selected dealer
+* Targeted (HT) is when a client wants to select a small number of dealers to receive an RFQ
+* Spot negotiation is in scope. 
+* Trace/TRAX is in scope
+* Summary Ribbon and List Analytics Panel are separate features; Summary Ribbon is a compact, single-row analytics, while the List Analytics Panel is a more detailed, floating overlay with additional metrics and charts.
+* All the parts of https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1 are xp2, none are xp1
