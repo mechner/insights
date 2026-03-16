@@ -37,8 +37,38 @@ The following systems are relevant to xp2 development and testing:
 The referenced code repositories can be found in the parent directory from the root of this project; you have permission to read them freely. 
 
 ## Figma Designs
-Figma designs for xp2 are located in the MarketAxess Figma workspace
-**TODO**: fill in references for the primary figma designs 
+Figma designs for xp2 are located in the MarketAxess Figma workspace across three projects:
+
+### Project: Activity Console 2.0
+https://www.figma.com/files/1279115914045676988/project/344298335
+* **Activity Console Microfrontend** (`Q4keHW9QtaM3adu9y6Nsjq`) — AC grid, tabs, row states, filters, context menus
+* **Activity Console Prototype** (`2q1qq3C53E0sqnqmgChTgw`) — full-screen workstation layouts (left + right panels); some frames use xp1 screenshots as background
+* **Activity Console Functionality** (`CcpJ6jo6jiq1ascqoBfn4N`) — additional functionality designs
+* **Loading States** (`LkCk1f2EOgKC0NH89kVSHy`) — component-level loading state designs
+* **Open Trading Errors** (`2i2fmG1E226mvkolADhrhn`) — error state designs for Open Trading flows
+* Files to treat as non-authoritative: Activity Console Archive, Activity Console Microfrontend (Copy), Dev Copy (25th July), Q1 release
+
+### Project: Features
+https://www.figma.com/files/1279115914045676988/project/405813627
+* **RFQ Micro-frontends - MVP** (`1BASLVXWRKMUzvPU23o3am`) — **primary detailed design reference** for the RFQ micro-frontend; pages: RFQ Panel, Parameters (+ sub-pages: Open Trading, Disclosed OT, Disclosed CPs, Auto-X WIP), Responses, Trade Ticket, Activity Log, Market Depth, My History, Summary Ribbon, List Analytics, Context Menus, Modals, Tooltips (Errors + Warnings), Headers, EM
+* **Market Depth** (`3QWBnnFsZ8hmp2QHJrRbPb`) — dedicated Market Depth component designs
+* **Desktop Components** (`GRNFTbZpvkhIQdmaipUsEX`) — shared UI component designs
+* **Bulk Action Bar Updates** (`CouTz2fR9nCGcmek7cUebd`) — AC bulk action bar
+* **Notifications & Alerts 2.0** (`4MgZjcHNNywWXOtQwAoQ1h`) — notification and alert designs
+
+### Project: (unnamed / project 488812420)
+https://www.figma.com/files/1279115914045676988/project/488812420
+* **Auto-X** (`tovFPT7H78xZ0SShVM02ux`) — Auto-X / ADX panel
+* **Countering** (`LgGqkaz17hRBiyCwOMLDun`) — counter-quote workflow
+* **Direct (HT)** (`uLEut9g8NJEyB6tEuBB2jN`) — High Touch Direct RFQ
+* **List Analytics Ribbon** (`vQYE6xznZXiYBeDQFGWLlI`) — compact analytics ribbon above AC grid
+* **Process Trade Single Updates** (`veQkHiIYQdSvlguduea8UR`) — process trade workflow updates
+* **RFQ Statuses** (`HQAq0qmgWefd8b9JfgkxMk`) — inquiry status badge designs
+* **Spot Negotiation** (`EWt91nQV6zncWrO9PNmsQe`) — spot negotiation workflow (Spotting tab)
+* **Targeted (HT)** (`RYefL603oPOdeldqcAaWlv`) — High Touch Targeted RFQ
+* **Trace/TRAX** (`dpD5uLu4D22Pc1xTNjchLr`) — trade reporting integration
+* **Trade Ticket** (`HOUfJChNoOTWgahm3jezFO`) — Trade Ticket dedicated designs
+
 
 ## Test Cases
 JSON files containing test cases for xp1 and xp2 can be found in @xpro-monorepo/ui/tools/testrail-fix-extractor.output. The summary file is in summary.json; it points to test case content in project subdirectories. 
@@ -48,9 +78,8 @@ Access jira using MCP. The primary project for xp2 work is **XRFQ**.
 
 ## Confluence
 Access confluence using MCP. 
-
-The primary space for xp2 feature documentation is
-https://marketaxess.atlassian.net/wiki/spaces/XE/folder/5007343617?atlOrigin=eyJpIjoiZDlmNTg2ZGIxZTYxNDQ0OTkxYzVhZjk0NzI0ZWNhNTQiLCJwIjoiYyJ9 
+Some key "source" pages that contain important information and documentation about xp2 include:
+* https://marketaxess.atlassian.net/wiki/spaces/XE/pages/4022075525/XPro+2.0+Supported+Workflows
 
 A glossary of terms can be found here:
 https://marketaxess.atlassian.net/wiki/x/dYACMwE

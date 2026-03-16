@@ -2,9 +2,26 @@
 # Feature Catalog Guidelines
 **Features** are confluence pages that document functionality and requirements for parts of x-pro. They should provide enough specific detail for devs to implement and QA to verify. They also then serve as common reference for developers, QA, and product team as the product evolves.
 
-The x-pro **feature catalog** is the collection of the x-pro features. It represents a cumulative, always “up to date” description of the x-pro product as it evolves over time. *Note: The x-pro feature catalog need not document our entire trading system’s functionality, only the x-pro UI functionality per se.*
+The x-pro **feature catalog** is the collection of the x-pro features. It represents a cumulative, always up to date description of the x-pro product as it evolves over time. *Note: The x-pro feature catalog need not document our entire trading system’s functionality, only the x-pro UI functionality per se.*
 
-The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
+The x-pro **feature index** is an index of the features in the catalog, providing a single location to easily understand how the product is organized in terms of features, and to link to the individual feature pages.
+
+## Feature Index
+
+Feature index is a bulleted list, one line per feature or sub-feature. 
+* {name} - {description} ({confluence link} | {figma link})
+
+Where:
+* name is the feature name (matching the title of the feature page)
+* description is a brief (1-line) description of the feature’s scope in terms of user-facing functionality or behavior
+* confluence link is a link to the feature page in the feature catalog
+* figma link is a link to the main figma page for the feature if applicable, for quick reference
+
+Large or complex features should be broken down into subfeatures, indented bullets under the enclosing feature.
+
+Links should be formatted not to display the entire link URL, but just "Confluence" or "Figma", for readability.
+
+## Feature Guidelines
 
 Features should:
 
@@ -30,8 +47,6 @@ The feature catalog as a whole should be organized so that common functionality 
 * **Standard enums** - mappings from CanAPI code (string) values to what should be displayed to a user in a grid, form, etc.
 * **Standard widgets** - complex widgets such as multi-selectors, date pickers, etc. These will often be platform UI components, but they should have feature pages where their functionality is described.
 
-The feature index should summarize the features, one bullet point per feature or subfeature: 
-* {Feature name} - {one-line summary of the feature, in terms of user-facing functionality or behavior}
-For large or complex features, the feature should be broken down into subfeatures, indented bullets under the enclosing feature. 
+The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
 
  

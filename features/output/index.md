@@ -1,7 +1,7 @@
 
 # X-Pro 2.0 Feature Catalog Index
 
-**Scope**: EU and US RFQ, and common components. Auctions/MOC and Nucleus are out of scope.
+**Scope**: EU and US RFQ, and common components only. Auctions/MOC, Nucleus, PT, Rates, EM, and Munis are out of scope.
 
 Links: [Figma] refers to the primary design frame. [Confluence] means a feature page already exists there.
 
@@ -17,25 +17,26 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
   * **Workflow Status Banner** — Staged / In Progress / Done summary counts displayed above the grid · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)
   * **Summary Tiles / Metrics Bar** — per-tab aggregate metrics displayed above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
   * **Filters & Search** — filter panel and keyword search with result count display · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867)
-  * **Context Menus & Row Actions** — per-row overflow menu and bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=1699-34899)
+  * **Context Menus & Row Actions** — per-row overflow menu (Edit, Cancel, Pass, New ADQ, Open in new tab, Copy ISIN/identifiers, Export to Excel, Counter, Orders) and bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
   * **Opportunities Column** — inline axe and AI-Select opportunity hints on AC order rows · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
 
 ## Pre-Trade Intelligence
 
-* **Market Depth Panel** — inline single-bond pre-trade panel showing pre-trade market context, toggling between depth and trade history · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-288880)
-  * **Market Depth tab** — live Bid/Offer depth grid by source (Axe, Algo, CP+); columns: Time, Source, Type, Size, Yield, Spread, Price; Focus on filter (Price / Spread / Yield); Show filter (All / Axe / +)
-  * **My History tab** — the user's own prior trades and inquiries for this security
-* **List Analytics Panel** — floating analytics overlay for list orders · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=5-280945)
-  * **Analytics summary grid** — per-side and total row showing YTW, VWAP, DWAS, Duration, DV01, Tradability; pricing mode selector switches reference: CP+ | CP+ Close | Ref Limit | Near-touch | Mid | Far-touch
+* **Market Depth Panel** — inline single-bond pre-trade panel; pre-trade summary header (Tradability, best pre-trade levels, axed size, pre-trade depth, CP+, last print); toggles between depth view and trade history · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
+  * **Market Depth tab** — live Bid/Offer depth grid by source (Axe, Algo, MKT, QTE, CP+); columns: Direct, Source, Type, Cpty, Qty(M), Yield, Spread; Type filter; Focus on toggle (Price / Spread / Yield)
+  * **My History tab** — user's own prior trades and inquiries for this security; columns: My Action, Formatted Size, Trade Level, Best Level, Price, Cpty, Depth, Status, Trader, Company, Date · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=925-70063)
+* **Summary Ribbon** — compact horizontal analytics bar embedded above the AC grid showing per-list key metrics · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
+* **List Analytics Panel** — floating analytics overlay for list orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
+  * **Analytics summary grid** — per-side and total row showing YTW, VWAP, DWAS, Duration, DV01, Tradability; pricing mode selector: CP+ | CP+ Close | Ref Limit | Near-touch | Mid | Far-touch
   * **Distribution charts** — histogram tiles for Duration, YTW, DWAS, Rating, Tradability, Est Cost
 
 ## RFQ — Single Bond
 
-* **Direct RFQ** — the right-panel for a single-bond inquiry from submission through traded state · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5155815530)
-  * **Inquiry Parameters** — submission form: all input fields, defaults, and validation rules · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145)
-  * **Trade Ticket: Responses** — live dealer response grid (Responses tab); Buy Best / Sell Best actions; counter-quote flow · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108)
-  * **Trade Ticket: Details** — post-trade summary tab with collapsible sections: Pricing, Trade Proceeds, Instrument Details, Identifiers · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108)
-  * **Trade Ticket: Activity Log** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=73-46108)
+* **Direct RFQ** — the right-panel for a single-bond inquiry from submission through traded state · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5155815530) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=118-4905)
+  * **Inquiry Parameters** — submission form: all input fields, defaults, and validation rules · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1)
+  * **Trade Ticket: Responses** — live dealer response grid (Responses tab); Buy Best / Sell Best actions; counter-quote flow · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=111-11298)
+  * **Trade Ticket: Details** — post-trade summary tab with collapsible sections: Pricing, Trade Proceeds, Instrument Details, Identifiers · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-27675)
+  * **Trade Ticket: Activity Log** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-38809)
 * **Process Trades** — workflow for executing a trade: selecting a response, confirming, and completing settlement · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006)
   * **Trade at Best** — one-click best-response execution: eligibility rules, behavior, and confirmation · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294689)
 * **Editable Inquiry Fields** — rules governing which inquiry fields are editable after submission and under what conditions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5028380695)
@@ -64,10 +65,12 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **Standard Enums** — display label mappings for CanAPI coded values: order status, trade type, direction, protocol, and other enumerations
 * **Security Description** — standard display of bond identity (issuer, coupon, maturity, callable flag) used across all panels
 * **Direction Indicator** — B / S / B+S side indicator: label text, color conventions, and conditional rendering
-* **Status Badge** — order/inquiry status badge: label and color mapping per status value
+* **Status Badge** — order/inquiry status badge: label and color mapping per status value · [Figma](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
 * **Timer Component** — countdown timer: display format, color-state transitions, and expiry behavior
-* **Counterparty Selection Widget** — multi-select dealer picker: Open Trading toggle, Disclosed CPs, dealer groups · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=18-32065)
+* **Counterparty Selection Widget** — multi-select dealer picker: Open Trading toggle, Disclosed CPs, dealer groups · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=5-5540)
 * **Restricted Dealer Selection** — rules and UI for excluding specific dealers from counterparty selection · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649)
+* **Modals** — system modal dialogs: Rename list, Trade confirmation (with partials), Amend order, Choose spot time, Update limit levels; warning/error modals (Limit worse than Limit, Not best level, Negative Spread/Yield, 2 Warnings combined) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=820-53018)
+* **Validation Messages** — inline tooltip/banner validation errors and warnings on forms: required field errors, non-standard settlement date, minimum increment warnings · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
 * **Workspace Layout Persistence** — saving and restoring panel sizes, column widths, and tab selection across sessions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5132877825)
 * **User Preference Parity** — x-pro 2.0 user preference coverage: feature parity with xp1 / xp1.5 · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5152931974)
 
