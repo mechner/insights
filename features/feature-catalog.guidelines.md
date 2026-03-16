@@ -9,7 +9,9 @@ The x-pro **feature index** is an index of the features in the catalog, providin
 ## Feature Index
 
 Feature index is a bulleted list, one line per feature or sub-feature. 
-* {name} - {description} ({confluence link} | {figma link})
+* {name} - {description} · [Confluence](url) · [Figma](url)
+
+Omit a link if not applicable. Use `· [Confluence (wip)](url)` for pages that exist but are incomplete.
 
 Where:
 * name is the feature name (matching the title of the feature page)

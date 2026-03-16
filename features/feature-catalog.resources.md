@@ -67,7 +67,7 @@ https://www.figma.com/files/1279115914045676988/project/488812420
 * **Auto-X** (`tovFPT7H78xZ0SShVM02ux`) — Auto-X / ADX panel
 * **Countering** (`LgGqkaz17hRBiyCwOMLDun`) — counter-quote workflow
 * **Direct (HT)** (`uLEut9g8NJEyB6tEuBB2jN`) — High Touch Direct RFQ
-* **List Analytics Ribbon** (`vQYE6xznZXiYBeDQFGWLlI`) — compact analytics ribbon above AC grid
+* **List Analytics Ribbon** (`vQYE6xznZXiYBeDQFGWLlI`) — designs the Summary Ribbon (compact single-row bar above AC grid); the separate List Analytics Panel (aggregation grid, out of scope for July) is designed in RFQ Micro-frontends MVP node 401:43176
 * **Process Trade Single Updates** (`veQkHiIYQdSvlguduea8UR`) — process trade workflow updates
 * **RFQ Statuses** (`HQAq0qmgWefd8b9JfgkxMk`) — inquiry status badge designs
 * **Spot Negotiation** (`EWt91nQV6zncWrO9PNmsQe`) — spot negotiation workflow (Spotting tab)

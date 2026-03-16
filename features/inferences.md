@@ -18,7 +18,7 @@ When capturing questions or inferences, use the following format:
 * **Targeted (HT)** — implemented as a "Targeted" toggle in the Inquiry Parameters form; when ON, a dealer selection widget appears. The AC order row shows a Targeted indicator tag. Not a separate submission flow — it is a variant within the standard parameters form. *(Confirmed in knowledge.md)*
 * **Spot Negotiation** — in scope. The Figma file "Spot Negotiation" is actually titled "Amend, Spotting, Spot Negotiation" covering three related post-submission workflows. Ready for Dev page is empty; designs are in High Fidelity pages. *(Confirmed in knowledge.md)*
 * **Trace/TRAX** — in scope. Figma subtitle is "Global RFQ" suggesting it covers last-print/pre-trade data display in the RFQ context. Design V2 (node 4:21) is the current design. *(Confirmed in knowledge.md)*
-* **Summary Ribbon vs List Analytics Panel** — List Analytics Ribbon design shows a persistent summary bar (the Ribbon) with an expandable "List Analytics" section below it, confirming knowledge.md note that the Panel is likely a tab/expandable within the Ribbon context. *(Partially confirmed — further exploration needed to finalize feature boundary)*
+* **Summary Ribbon vs List Analytics Panel** — confirmed as two distinct features: Summary Ribbon is a compact single-row analytics bar; List Analytics Panel is a separate aggregation grid grouped by side (and other groupings). List Analytics Panel is out of scope for July. *(Fully confirmed in knowledge.md)*
 * **Parameters page xp1 content** — all content in node 0:1 of RFQ Micro-frontends MVP is xp2. *(Confirmed in knowledge.md)*
 
 ## Inferences
