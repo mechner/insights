@@ -1,25 +1,13 @@
 
 # Questions and Inferences
-This document contains questions and inferences made by the AI agent when generating or evaluating features in the feature catalog. These inferences are your "working hypothesis" based on the information available in the various resources, and may include reconciliations of conflicting information, assumptions made to fill in gaps, and any other insights that the AI agent has generated. Questions should call out ambiguous or conflicting information that the AI agend it unsure how to resolve, and that should be clarified by a human expert. 
-
-When generating or evaluating features, or analyzing resources for such purposes, the AI agent should capture any relevant inferences here, along with the reasoning behind them and any relevant context. This will help ensure consistent interpretation of source materials across sessions, and that any assumptions or reconciliations are transparent and can be reviewed by human experts.
-
-When capturing questions or inferences, use the following format: 
-* {summary} - a brief summary of the inference, question, or assumption
-  * {Reasoning}: the reasoning process that led to this inference, including any relevant information from the resources or general background knowledge.
 
 ## Questions
 
-*All questions from the previous session have been resolved — see Resolved Questions below.*
+*No open questions.*
 
 ## Resolved Questions
-* **Countering** — confirmed as an optional sub-workflow within the Live response state: client proposes a less favorable price to a dealer. 3-step flow: hit Counter button → populate level field → submit counter. Shown inline in the Direct (HT) "Post-Submit: Live" design. *(Confirmed in knowledge.md)*
-* **Direct (HT)** — a High Touch flow where the client targets a single pre-selected dealer, initiated from Market Depth by clicking a specific dealer's quote. Has its own complete lifecycle: Market Depth → Direct Modal → Bin (Awaiting Response) → Live (with optional Countering) → Done. *(Confirmed in knowledge.md)*
-* **Targeted (HT)** — implemented as a "Targeted" toggle in the Inquiry Parameters form; when ON, a dealer selection widget appears. The AC order row shows a Targeted indicator tag. Not a separate submission flow — it is a variant within the standard parameters form. *(Confirmed in knowledge.md)*
-* **Spot Negotiation** — in scope. The Figma file "Spot Negotiation" is actually titled "Amend, Spotting, Spot Negotiation" covering three related post-submission workflows. Ready for Dev page is empty; designs are in High Fidelity pages. *(Confirmed in knowledge.md)*
-* **Trace/TRAX** — in scope. Figma subtitle is "Global RFQ" suggesting it covers last-print/pre-trade data display in the RFQ context. Design V2 (node 4:21) is the current design. *(Confirmed in knowledge.md)*
-* **Summary Ribbon vs List Analytics Panel** — confirmed as two distinct features: Summary Ribbon is a compact single-row analytics bar; List Analytics Panel is a separate aggregation grid grouped by side (and other groupings). List Analytics Panel is out of scope for July. *(Fully confirmed in knowledge.md)*
-* **Parameters page xp1 content** — all content in node 0:1 of RFQ Micro-frontends MVP is xp2. *(Confirmed in knowledge.md)*
+
+*7 questions resolved in prior sessions (Countering, Direct HT, Targeted HT, Spot Negotiation, Trace/TRAX, Summary Ribbon vs List Analytics Panel, Parameters page xp1 content). All answers confirmed and recorded in knowledge.md.*
 
 ## Inferences
 

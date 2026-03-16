@@ -10,7 +10,7 @@ developers and AI agents working on implementing and testing xp2.
 * @feature-catalog.guidelines.md: you must follow these guidelines for generating and evaluating features in the catalog.
 * @feature-catalog.resources.md: background information and resources for generating and evaluating features in the catalog.
 * @feature-catalog.knowledge.md: specific human-expert-verified knowledge and clarifications that should be relied on.
-* @inferences.md: a document for you to capture your inferences, assumptions, and reconciliations of conflicting information as you generate and evaluate features. As information is verified and confirmed by a human expert, it will be moved from here to the knowledge document.
+* @inferences.md: a document for you to capture your inferences, assumptions, and reconciliations of conflicting information as you generate and evaluate features. As information is verified and confirmed by a human expert, it will be moved from here to the knowledge document. When adding inferences, use the format: `* {summary} — {reasoning}`. When adding questions, phrase them so a human expert can answer without needing additional context.
 
 ## Scope and Focus
 Initially focus on EU and US RFQ (including Auto-X) and common components of xp2.
@@ -26,7 +26,7 @@ There is conflicting information across the various resources. Follow these prin
 **ASK FOR CLARIFICATION** if you are unsure about which information to prioritize or how to reconcile conflicting information. It's better to ask than to make incorrect assumptions.
 
 ## Instructions
-**IMPORTANT NOTE:** while we are developing the feature index and testing this prompt and your ability to draft feature pages based on reference material, the feature index and feature pages will be drafted locally in markdown files in the @output/ directory, not confluence as stated in various places. Wherever confluence is mentioned, for now refer to the pages in the @output directory.
+All output (index and future feature pages) goes to the **@output/** directory as local markdown files. Wherever other documents mention Confluence as the output target, treat @output/ as the equivalent for now.
 
 ### Step 1 — Orient: read reference documents
 1. Review @feature-catalog.knowledge.md (never modify this file unless explicitly instructed to do so — it has been reviewed and curated by human experts.)

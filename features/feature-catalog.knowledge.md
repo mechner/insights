@@ -20,6 +20,5 @@ This document contains specific knowledge and clarifications that should be reli
 * All the parts of https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1 are xp2, none are xp1
 
 
-Out Of Scope for "July"
-* List Analytics Panel - a grid displaying aggregate data (e.g. weighted average or summed) across groups of RFQs (e.g. by side)
-* 
+## Out of Scope for "July"
+* List Analytics Panel — a grid displaying aggregate data (e.g. weighted average or summed) across groups of RFQs (e.g. by side)

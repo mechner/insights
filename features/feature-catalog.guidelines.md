@@ -23,7 +23,9 @@ Large or complex features should be broken down into subfeatures, indented bulle
 
 Links should be formatted not to display the entire link URL, but just "Confluence" or "Figma", for readability.
 
-## Feature Guidelines
+## Feature Page Guidelines
+
+*The following applies when writing individual feature pages. Skip this section when working only on the feature index.*
 
 Features should:
 
