@@ -16,5 +16,10 @@ This document contains specific knowledge and clarifications that should be reli
 * Targeted (HT) is when a client wants to select a small number of dealers to receive an RFQ
 * Spot negotiation is in scope. 
 * Trace/TRAX is in scope
-* Summary Ribbon and List Analytics Panel are separate features; Summary Ribbon is a compact, single-row analytics, while the List Analytics Panel is a more detailed, floating overlay with additional metrics and charts.
+* Summary Ribbon and List Analytics Panel are separate features; Summary Ribbon is a compact, single-row analytics, while the List Analytics Panel shows a grid with grouping and aggregation over items in each group (e.g. by side in the desgins)
 * All the parts of https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1 are xp2, none are xp1
+
+
+Out Of Scope for "July"
+* List Analytics Panel - a grid displaying aggregate data (e.g. weighted average or summed) across groups of RFQs (e.g. by side)
+* 
