@@ -75,7 +75,7 @@ https://www.figma.com/files/1279115914045676988/project/488812420
 * Trace/TRAX (`dpD5uLu4D22Pc1xTNjchLr`)
 * Trade Ticket (`HOUfJChNoOTWgahm3jezFO`)
 
-See @inferences.md for detailed page-level descriptions and node IDs for each file.
+See @output/inferences.md for detailed page-level descriptions and node IDs for each file.
 
 ## Test Cases
 JSON files containing test cases for xp1 and xp2 can be found in @xpro-monorepo/ui/tools/testrail-fix-extractor.output. The summary file is in summary.json; it points to test case content in project subdirectories. 

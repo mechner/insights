@@ -1,11 +1,19 @@
 
 **This is a hand-generated index of features. AI do not modify without explicit human approval.**
 
+## Other Common Components or Features
+* Application Shell and Nav Bar
+
 ## Common Grid Components
 * Filter Bar - top-of-grid filter bar providing quicksearch and column filters
-* ((Column selection, other options behind vertical dots button))
-* Selection - checkbox row selection behavior and appearance
-* Common Renderers - a description of common renderers used cross 
+* Row Selection - checkbox row selection behavior and appearance
+* Grid Column Selection Panel
+* Common Grid Behavior
+  * Sorting - clicking in column header to sort by column
+  * Column selection panel - to configure which columns are displayed in the grid and where
+  * Resizing and Reordering - allowing users to persistently resize and reorder columnss by dragging
+* Common Renderers - a description of common renderers used cross
+* ((other options behind vertical dots button))
 
 ## Common Panel Features  
 * Common Panel Tab Behavior - standard behavior for dragging, arranging, and sizing tabs
@@ -29,6 +37,8 @@
   * Open Trading (Anonymous) 
   * Disclosed OT counterparties
   * Bilateral Counterparties - 
+* Countering Workflow
+* Spot Negotiation
 
 * Not Yet In Scope?
 * List Analytics Panel

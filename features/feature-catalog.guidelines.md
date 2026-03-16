@@ -44,12 +44,9 @@ Features should:
 
 Complex functionality that logically spans multiple fields should be referenced in the table, but be specified in detail outside the table.
 
-Side effects of user interactions should be specified, for example, if a user input should trigger an update to another field, or a call to the back end, etc.
-
-The feature catalog as a whole should be organized so that common functionality is “factored out” to common feature pages that can then simply be referenced in other feature pages, observing the DRY (Don’t Repeat Yourself) principle. This assumes and encourages implementation that benefits from code reuse where we actually reuse standard formatters, renderers, etc. in various parts of our codebase. For example:
-* **Standard formatters** - e.g. for numbers, dates, enums.
-* **Standard enums** - mappings from CanAPI code (string) values to what should be displayed to a user in a grid, form, etc.
-* **Standard widgets** - complex widgets such as multi-selectors, date pickers, etc. These will often be platform UI components, but they should have feature pages where their functionality is described.
+A checklist of other relevant information to include in the feature page, if applicable: 
+* **Side effects** of user interactions should be specified, for example, if a user input should trigger an update to another field, or a call to the back end, etc.
+* **Empty States** — "no results" UX for grids, panels, etc. when there is no applicable content 
 
 The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
 

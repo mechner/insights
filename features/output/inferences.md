@@ -3,7 +3,10 @@
 
 ## Questions
 
-*No open questions.*
+* **RFQ List section** — the old index had "RFQ List: Submission / Trading Options", "Negotiation Panel", and "Items Grid" as subfeatures. In the new scope-based structure, List submission uses the same RFQ Parameters Panel and Dealer Selection Panel as singles. Should there still be a separate "RFQ List" section for list-specific panel behaviors (e.g., Negotiation Panel during quoting, Items Grid), or are they subsumed?
+* **Spreadsheet Upload** — Jira epic XRFQ-2381 ("Unsolicited RFQ") covers creating orders from a spreadsheet upload. Is "Spreadsheet Upload" the right feature name, or is there a better term?
+* **My History placement** — should My History be a tab within Market Depth Panel (as in the AI-generated index) or a separate top-level feature under Single Order Scoped (as in the manual index)?
+* **Disclosed Open Trading scope** — the Confluence page (5160665141, created 2026-03-16) describes a "Day 1" scope with several permissions deferred. Is this feature in scope for July, or later?
 
 ## Resolved Questions
 
@@ -77,4 +80,37 @@ All designs explored are in the **MarketAxess** Figma team, under the **Activity
 * **Auto-X** — ADX panel dedicated design file. [web](https://www.figma.com/design/tovFPT7H78xZ0SShVM02ux/Auto-X)
 * **Process Trade Single Updates** — process trade workflow updates. [web](https://www.figma.com/design/veQkHiIYQdSvlguduea8UR/Process-Trade-Single-Updates)
 * **RFQ Statuses** — inquiry status badge designs. [web](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
+
+#### Additional Figma Files Explored (session 2)
+* **Activity Console Functionality** (`CcpJ6jo6jiq1ascqoBfn4N`) — contains Global Search workflow (search collapsed → expanded → type → enter) and Empty States (no results, no results with filter). Enriches Filter Bar and adds Empty States as a common pattern.
+* **Desktop Components** (`GRNFTbZpvkhIQdmaipUsEX`) — tab design system: three levels of tabs (Page/DockTabs with pop-out, Panel/DockTabs with reorder, Default/Mantine Tabs). Panel Container and Group Container components. Enriches Common Panel Tab Behavior.
+* **Notifications & Alerts 2.0** (`4MgZjcHNNywWXOtQwAoQ1h`) — toast notification system with 5 types (Success, Error, Warning, Informative, User) in Default/Hover states. Actionable notifications with CTA buttons. Also has a Notification Center panel design. NEW feature added to index.
+* **Open Trading Errors** (`2i2fmG1E226mvkolADhrhn`) — extensive error state designs for OT in list context ("All Orders - List with Error"). Cross-cutting concern for Activity Console and Open Trading features.
+* **Loading States** (`LkCk1f2EOgKC0NH89kVSHy`) — empty file (no designs).
+* **Bulk Action Bar Updates** (`CouTz2fR9nCGcmek7cUebd`) — cover page only (no designs).
+* **Trade Ticket** standalone (`HOUfJChNoOTWgahm3jezFO`) — cover page only; real Trade Ticket designs are in RFQ MVP node 161:27675.
+* **Market Depth** standalone (`3QWBnnFsZ8hmp2QHJrRbPb`) — cover page only; real Market Depth designs are in RFQ MVP node 113:12963.
+
+### Confluence / Jira Cross-Check (2026-03-16)
+
+**Supported Workflows page** (4022075525, v65): Rich authoritative source covering EU Price protocol workflows. Key topics with feature-index implications:
+* **Dealer Selection complexity** — Filter on Inventory, line-by-line dealer selection, dealer inclusions/exclusions via FIX, dealer groups, Smart Select. All these are now part of the Dealer Selection Panel feature.
+* **EU-specific response behaviors** — Trying to Trade (Subject → TRADE → 25s counterparty response), Tied Levels (sorting and multiple trade buttons), Partials. These belong in the Responses Panel feature.
+* **Create List / Delist** — full workflow described; max 40 items; delist returns items as singles. Now under List Structure Operations.
+* **Cancel / Pass** — detailed rules: cancel only pre-submission or live-without-levels; pass only submitted. These are Context Menu actions with business rules.
+* **RTS on DNT** — auto-recreate RTS order when inquiry DNTs (requires LINX property). This is a system behavior, not a panel feature; belongs in process documentation.
+* **Targeted RFQ** — EU default from "Default to Targeted RFQ (EU)" permission; EM from "Disable Targeted RFQ (EM)" permission. Enriches the Bilateral Counterparties sub-feature.
+* **Smart Select** — AI-driven dealer selection, shown as dealer group option; uses BondLink Smart Select preferences. Added as sub-feature of Dealer Selection Panel.
+
+**Disclosed Open Trading** — new Confluence page (5160665141, created 2026-03-16 by Omer Naseer). Describes Disclosed OT as a distinct workflow: disclosed inquiry to a dealer without a bilateral relationship, settling through MKTX. Has its own LINX permissions (AllowDisclosedOT, per-market-segment relationships). Jira epic XRFQ-2389 (PI27, At Risk). Figma node 233:41438 in RFQ MVP.
+
+**Field Specifications & Validation Rules** — Confluence page (5065638683), child of Editable Inquiry Fields. Contains detailed per-field validation rules, LINX property mappings, and formatter specifications. Useful as source material when writing feature pages for RFQ Parameters Panel and Editable Inquiry Fields.
+
+**Active Jira epics of note** (not yet reflected in index):
+* XRFQ-2381: Unsolicited RFQ (PI27, At Risk) — spreadsheet upload for creating unsolicited orders
+* XRFQ-4065: High Touch: Leave Order — interim until Order Manager GA; backlog
+* XRFQ-5100/4991: Auto-Create List Functionality — parity with 1.0; backlog
+* XRFQ-2382: Create, Share, Edit Dealer Groups — backlog
+* XRFQ-2372: Historical Activity / Blotter — backlog
+* XRFQ-2374: Instrument Search — backlog
 
