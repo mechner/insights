@@ -42,16 +42,15 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **Activity Console** — the left-hand global orders-list assembly microfrontend
   * **AC Tabstrip** — workflow-stage tabs with order counts · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898)
   * **AC Filter Bar** — default AC instance of filter bar component · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867)
-  * **AC Grid** — default column configuration
-* **AC Grid — List Row** — expandable list-level row with child-bond expansion and aggregate status · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
-* **Workflow Status Banner** — Staged / In Progress / Done summary counts above the grid · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)
+  * **AC Grid** — default column configuration and expandable list row aggregation logic
 * **Summary Tiles / Metrics Bar** — per-tab aggregate metrics above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
 * **Bulk Action Bar** — bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
-* **Single Item Action Button** - state-dependent action button (e.g. Submit, Buy Best, etc.)
+* **Action Button Column** - state-dependent single/list action button (e.g. Submit, Buy Best, etc.)
 * **Opportunities Column** — inline opportunity icon and action buttons · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
 * **Trade Type Column** — protocol label with icon
 * **Trade Manager** — ownership filtered views (Mine / Others / All) and order takeover actions · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
 * **List Structure Operations** — create list from selected singles, or move selected items from a list 
+* **Context Menu** — state-dependent context menu for AC singles and list rows
 
 ## Instrument Context Features
 * **Market Depth Panel** — two-sided pre-trade market data panel: axes, inventory, and CP+ for a given instrument · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
@@ -69,6 +68,7 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **List Panel Header** — summarizes list items, their current state, and provides list action buttons
 * **Analytics Ribbon** — compact horizontal list analytics summary · [Figma](https://www.figma.com/design/vQYE6xznZXiYBeDQFGWLlI/List-Analytics-Ribbon?node-id=3-8) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
 * **List Items Grid** — displays the items in a list with key fields and inline actions
+  * **List Item Context Menu** — state-dependent context menu for list items
 * **List Analytics Panel** aggregation grid with key analytics by side, pricing modes, and distribution charts *(WIP - Not for July)* · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
 * **Order List Panel** — rhs assembly for a multi-order (list) context
 

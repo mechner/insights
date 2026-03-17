@@ -46,9 +46,12 @@ Complex functionality that logically spans multiple fields should be referenced 
 
 A checklist of other relevant information to include in the feature page, if applicable: 
 * **Side effects** of user interactions should be specified, for example, if a user input should trigger an update to another field, or a call to the back end, etc.
-* **Empty States** — "no results" UX for grids, panels, etc. when there is no applicable content 
+* **Empty Display** - any special empty or "no results" display for grids, panels, etc. 
 * **Secondary Workflows** - for example modals and confirmations that may appear as part of the feature’s functionality, but are not the main workflow.
-
+* **Column Universe** - for grids with configurable columns, including synthetic/compound columns if applicable
+* **Default Column Layout** - for grids with configurable columns, the full default layout; if state dependent provide for each state
+* **Error and Warning Messages** - for forms, how are validation errors and warnings displayed, with what exact message text
+* **State-Dependent Actions** - where available actions are state-dependent, clearly marked sections for each state and how the state is determined
 
 The existence of feature pages means that Jira stories that we use to define and track dev work can be “lighter” - they don’t need to duplicate content that already exists in the feature: they can just reference the feature, clarify the portion that’s being implemented or changed, and address technical questions.
 
