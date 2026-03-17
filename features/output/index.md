@@ -48,7 +48,7 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **Action Button Column** - state-dependent single/list action button (e.g. Submit, Buy Best, etc.)
 * **Opportunities Column** — inline opportunity icon and action buttons · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
 * **Trade Type Column** — protocol label with icon
-* **Trade Manager** — ownership filtered views (Mine / Others / All) and order takeover actions · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
+* **Trade Manager** — order takeover/assignment actions · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
 * **List Structure Operations** — create list from selected singles, or move selected items from a list 
 * **Context Menu** — state-dependent context menu for AC singles and list rows
 
