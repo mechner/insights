@@ -8,7 +8,7 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 ---
 
 ## Common Components or Features
-* **Application Shell and Nav Bar** — outer application frame, navigation, and app switching
+* **Application Shell and Nav Bar** — outer application frame, auth, navigation, and app switching
 * **Tooltips** — standard tooltip for errors, warnings, and info · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
 * **Toast Notifications** — toast notifications with multiple severity levels and actionable variants · [Figma](https://www.figma.com/design/4MgZjcHNNywWXOtQwAoQ1h/Notifications-Alerts-2.0)
 * **Common Panel Tab Behavior** — standard behavior for dragging, arranging, and sizing tabs with the three tab levels · [Figma](https://www.figma.com/design/GRNFTbZpvkhIQdmaipUsEX/Desktop-Components)
@@ -26,8 +26,8 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
   * **Sorting** — clicking column header to sort ascending/descending
   * **Column Selection Panel** — to configure which columns are displayed in the grid and where
   * **Column Resizing and Reordering** — allowing users to persistently resize and reorder columns by dragging
-* **Common Renderers** — shared cell renderers used across AC and panel grids · [Figma](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
-  * **Status Badge** — icon + colored label per inquiry status · [Figma](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
+* **Common Renderers** — shared cell renderers used across AC and panel grids
+  * **Status Badge** — icon + colored label per inquiry status
   * **Timer** — countdown timer with color-coded background and timer description text
   * **Direction Indicator** — colored letter badge for B, S or B/S
   * **Level Formatter** — renders based on level type (prefix) and product market convention (decimals)
@@ -44,13 +44,13 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
   * **AC Filter Bar** — default AC instance of filter bar component · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867)
   * **AC Grid** — default column configuration and expandable list row aggregation logic
 * **Summary Tiles / Metrics Bar** — per-tab aggregate metrics above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
-* **Bulk Action Bar** — bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
+* **Bulk Action Bar** — bulk-action bar for multi-selected orders
 * **Action Button Column** - state-dependent single/list action button (e.g. Submit, Buy Best, etc.)
 * **Opportunities Column** — inline opportunity icon and action buttons · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5128355882)
 * **Trade Type Column** — protocol label with icon
 * **Trade Manager** — order takeover/assignment actions · [Figma](https://www.figma.com/design/0cvRqbb7fVqoM5bs0HSLEJ/Trade-Manager) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5087100951)
 * **List Structure Operations** — create list from selected singles, or move selected items from a list 
-* **Context Menu** — state-dependent context menu for AC singles and list rows
+* **Context Menu** — state-dependent context menu for AC singles and list rows · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
 
 ## Instrument Context Features
 * **Market Depth Panel** — two-sided pre-trade market data panel: axes, inventory, and CP+ for a given instrument · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
@@ -58,14 +58,14 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **Trace/TRAX** — pre-trade last-print and recent trade data display for a bond in the global RFQ context · [Figma](https://www.figma.com/design/dpD5uLu4D22Pc1xTNjchLr/Trace-TRAX?node-id=4-21)
 
 ## Single Order Context Features
-* **Single Order Panel Header** — summarizes order terms, state, and provides action buttons
+* **Single Order Panel Header** — summarizes order terms, state, and provides action buttons · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=41-14118)
 * **Responses Panel** — live dealer response grid with state-dependent actions · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=111-11298)
 * **Trade Ticket Panel** — post-trade summary with collapsible detail sections · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-27675)
 * **Activity Log Panel** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-38809)
 * **Single Order Panel** — rhs assembly for a single order context
 
 ## Multi-Order Context Features
-* **List Panel Header** — summarizes list items, their current state, and provides list action buttons
+* **List Panel Header** — summarizes list items, their current state, and provides list action buttons · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=41-14118)
 * **Analytics Ribbon** — compact horizontal list analytics summary · [Figma](https://www.figma.com/design/vQYE6xznZXiYBeDQFGWLlI/List-Analytics-Ribbon?node-id=3-8) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
 * **List Items Grid** — displays the items in a list with key fields and inline actions
   * **List Item Context Menu** — state-dependent context menu for list items
@@ -76,14 +76,14 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **RFQ Parameters Panel** — panel for configuring RFQ parameters before submission · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5022548145) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=0-1)
 * **Dealer Selection Panel** — panel for selecting counterparties to receive an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=5-5540)
   * **Disclosed Cptys** — disclosed dealer selection; dealer groups; Targeted RFQ toggle · [Figma](https://www.figma.com/design/RYefL603oPOdeldqcAaWlv/Targeted-(HT)?node-id=3-8)
-  * **Open Trading** — anonymous counterparty selection via visibility groups
-  * **Disclosed Open Trading** — disclosed inquiry to dealers without a bilateral relationship, settling through MKTX · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5160665141)
+  * **Open Trading** — anonymous counterparty selection via visibility groups · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=659-88942)
+  * **Disclosed Open Trading** — disclosed inquiry to dealers without a bilateral relationship, settling through MKTX · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1853-529776) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5160665141)
   * **Smart Select** — rule-based dealer selection shown as a dealer group option
   * **Restricted Dealer Selection** — displays excluded or restricted dealers · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649)
 * **List Item Override** — overriding list-level parameters or dealer selection for individual item
-* **Countering Workflow** — optional counter-quote: trader proposes a level to a dealer · [Figma](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering)
-* **Spot Negotiation** — Amend Inquiry, Spotting (Awaiting Spot state), and FX spot rate negotiation for cross-currency trades · [Figma](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation)
-* **Process Trades** — workflow for booking a pre-negotiated trade · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006)
+* **Countering Workflow** — optional counter-quote: trader proposes a level to a dealer · [Figma](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering?node-id=4-20)
+* **Spot Negotiation** — Amend Inquiry, Spotting (Awaiting Spot state), and FX spot rate negotiation for cross-currency trades · [Figma](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation?node-id=4-21)
+* **Process Trades** — workflow for booking a pre-negotiated trade · [Figma](https://www.figma.com/design/veQkHiIYQdSvlguduea8UR/Process-Trade-Single-Updates) · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006)
 * **Editable Inquiry Fields** — rules governing which inquiry fields are editable after submission and under what conditions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5028380695)
 * **Direct (HT)** — High Touch direct flow: client initiates from Market Depth targeting a single dealer · [Figma](https://www.figma.com/design/uLEut9g8NJEyB6tEuBB2jN/Direct-(HT)?node-id=3-8)
 * **Spreadsheet Upload** — creating unsolicited orders from a spreadsheet
