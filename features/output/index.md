@@ -9,6 +9,10 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 
 ## Other Common Components or Features
 * **Application Shell and Nav Bar** — outer application frame, navigation, and app switching
+* **Tooltips** — standard tooltip for errors and warnings · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
+* **Toast Notifications** — toast notifications with multiple severity levels and actionable variants · [Figma](https://www.figma.com/design/4MgZjcHNNywWXOtQwAoQ1h/Notifications-Alerts-2.0)
+* **Notifications Center** — notification center for displaying alerts, with actionable variants (WIP - Not for July)
+* **User Preference Framework** - framework for user preferences and settings, including persistence and application across features (WIP - Not for July)
 
 ## Common Grid Components
 * **Filter Bar** — top-of-grid filter bar providing column filters and "global" search · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867) · [Figma: Global Search](https://www.figma.com/design/CcpJ6jo6jiq1ascqoBfn4N/Activity-Console-Functionality?node-id=23-43424)
@@ -29,15 +33,11 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 
 ## Common Panel Features
 * **Common Panel Tab Behavior** — standard behavior for dragging, arranging, and sizing tabs with the three tab levels · [Figma](https://www.figma.com/design/GRNFTbZpvkhIQdmaipUsEX/Desktop-Components)
-* **Validation Messages** — inline tooltip/banner validation errors and warnings on forms · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
-* **Notifications & Alerts** — toast notifications with multiple severity levels and actionable variants; Notification Center panel · [Figma](https://www.figma.com/design/4MgZjcHNNywWXOtQwAoQ1h/Notifications-Alerts-2.0)
 * **Workspace Layout Persistence** — saving and restoring panel sizes, column widths, and tab selection across sessions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5132877825)
-* **User Preference Parity** — x-pro 2.0 user preference coverage: feature parity with xp1 / xp1.5 · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5152931974)
 
 ## Single Order or Bond Scoped Features
 * **Market Depth Panel** — two-sided pre-trade market data panel: axes, inventory, and CP+ for a given instrument · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
-  * **Market Depth tab** — live Bid/Offer depth grid by source with type filtering and focus-on toggle
-  * **My History tab** — user's own prior trades and inquiries for this security · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=925-70063)
+* **My History Panel** — user's own prior trades and inquiries for this security · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=925-70063)
 * **Responses Panel** — live dealer response grid with state-dependent actions and response sorting · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=111-11298)
 * **Trade Ticket Panel** — post-trade summary with collapsible detail sections · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-27675)
 * **Activity Log Panel** — chronological audit trail of all events on an inquiry · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=161-38809)
@@ -46,7 +46,7 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 
 ## List or Multi-Order Scoped Features
 * **Summary Ribbon** — persistent compact horizontal list analytics summary above the AC grid · [Figma](https://www.figma.com/design/vQYE6xznZXiYBeDQFGWLlI/List-Analytics-Ribbon?node-id=3-8) · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1283-31123)
-* **List Analytics Panel** *(out of scope for July)* — separate aggregation grid with key analytics by side, pricing modes, and distribution charts · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
+* **List Analytics Panel** aggregation grid with key analytics by side, pricing modes, and distribution charts *(WIP - Not for July)* · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=401-43176)
 * **List Panel Header** — summarizes list items, their current state, and provides list action buttons
 * **List Structure Operations** — creating, modifying, and delisting items in a list
 
@@ -62,7 +62,6 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **Countering Workflow** — optional counter-quote: trader proposes a less favorable level to a dealer · [Figma](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering)
 * **Spot Negotiation** — Amend Inquiry, Spotting (Awaiting Spot state), and FX spot rate negotiation for cross-currency trades · [Figma](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation)
 * **Process Trades** — workflow for executing a trade: selecting a response, confirming, and completing settlement · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5027496006)
-  * **Trade at Best** — one-click best-response execution: eligibility rules, behavior, and confirmation · [Confluence (wip)](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294689)
 * **Editable Inquiry Fields** — rules governing which inquiry fields are editable after submission and under what conditions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5028380695)
 * **Direct (HT)** — High Touch direct flow: client initiates from Market Depth targeting a single dealer · [Figma](https://www.figma.com/design/uLEut9g8NJEyB6tEuBB2jN/Direct-(HT)?node-id=3-8)
 * **Spreadsheet Upload** — creating unsolicited orders from a spreadsheet; once created, orders follow standard RFQ workflows
@@ -87,7 +86,6 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **ADX Panel** — Adaptive Auto-X panel with summary views and eligibility-based actions · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=19-29554)
   * **Summary view tabs** — aggregation views by list, product, side, and liquidity score
   * **Parent grid filter tabs** — filtering by eligibility status
-
 
 ## Reference
 
