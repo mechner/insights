@@ -78,8 +78,8 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
   * **Disclosed Cptys** — disclosed dealer selection; dealer groups; Targeted RFQ toggle · [Figma](https://www.figma.com/design/RYefL603oPOdeldqcAaWlv/Targeted-(HT)?node-id=3-8)
   * **Open Trading** — anonymous counterparty selection via visibility groups
   * **Disclosed Open Trading** — disclosed inquiry to dealers without a bilateral relationship, settling through MKTX · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5160665141)
-  * **Smart Select** — AI-driven dealer selection based on inquiry parameters; shown as a dealer group option
-  * **Restricted Dealer Selection** — rules and UI for excluding specific dealers · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649)
+  * **Smart Select** — rule-based dealer selection shown as a dealer group option
+  * **Restricted Dealer Selection** — displays excluded or restricted dealers · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5149294649)
 * **List Item Override** — overriding list-level parameters or dealer selection for individual item
 * **Countering Workflow** — optional counter-quote: trader proposes a level to a dealer · [Figma](https://www.figma.com/design/LgGqkaz17hRBiyCwOMLDun/Countering)
 * **Spot Negotiation** — Amend Inquiry, Spotting (Awaiting Spot state), and FX spot rate negotiation for cross-currency trades · [Figma](https://www.figma.com/design/EWt91nQV6zncWrO9PNmsQe/Spot-Negotiation)
