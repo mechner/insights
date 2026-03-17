@@ -9,7 +9,7 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 
 ## Common Components or Features
 * **Application Shell and Nav Bar** — outer application frame, navigation, and app switching
-* **Tooltips** — standard tooltip for errors and warnings · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
+* **Tooltips** — standard tooltip for errors, warnings, and info · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=1703-136075)
 * **Toast Notifications** — toast notifications with multiple severity levels and actionable variants · [Figma](https://www.figma.com/design/4MgZjcHNNywWXOtQwAoQ1h/Notifications-Alerts-2.0)
 * **Common Panel Tab Behavior** — standard behavior for dragging, arranging, and sizing tabs with the three tab levels · [Figma](https://www.figma.com/design/GRNFTbZpvkhIQdmaipUsEX/Desktop-Components)
 * **Workspace Layout Persistence** — saving and restoring panel sizes, column widths, and tab selection across sessions · [Confluence](https://marketaxess.atlassian.net/wiki/spaces/XE/pages/5132877825)
@@ -18,13 +18,14 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 * **User Preference Framework** - framework for user preferences and settings, including persistence and application across features **(WIP - Not for July)**
 
 ## Common Grid Components
-* **Filter Bar** — top-of-grid filter bar providing column filters and "global" search · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867) · [Figma: Global Search](https://www.figma.com/design/CcpJ6jo6jiq1ascqoBfn4N/Activity-Console-Functionality?node-id=23-43424)
+* **Filter Bar** — top-of-grid filter bar providing column filters and search · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867) · [Figma: Global Search](https://www.figma.com/design/CcpJ6jo6jiq1ascqoBfn4N/Activity-Console-Functionality?node-id=23-43424)
 * **Grid Column Selection Panel** — panel for configuring which columns are displayed and in what order
 * **Common Grid Behavior**
   * **Row Selection** — checkbox row selection behavior and appearance
+  * **Row Expansion** — optional row expansion chevron
   * **Sorting** — clicking column header to sort ascending/descending
-  * **Column selection panel** — to configure which columns are displayed in the grid and where
-  * **Resizing and Reordering** — allowing users to persistently resize and reorder columns by dragging
+  * **Column Selection Panel** — to configure which columns are displayed in the grid and where
+  * **Column Resizing and Reordering** — allowing users to persistently resize and reorder columns by dragging
 * **Common Renderers** — shared cell renderers used across AC and panel grids · [Figma](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
   * **Status Badge** — icon + colored label per inquiry status · [Figma](https://www.figma.com/design/HQAq0qmgWefd8b9JfgkxMk/RFQ-Statuses)
   * **Timer** — countdown timer with color-coded background and timer description text
@@ -33,14 +34,16 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
   * **Date/Time Formatter** — ((tbd))
   * **Size Formatter** — formatted quantity numbers in 000s with comma separators
   * **Auction Eligible Flag** — bell icon indicator for auction-eligible orders
+* **CP+ Expandable Column Section** — expandable column section for CP+ fields
 * **Auto-X Column** — Auto-X eligibility and enablement toggle and detail
-* **Auto-X Expandable Column Section** — expandable column section for Auto-X related columns
+* **Auto-X Expandable Column Section** — expandable column section for Auto-X related fields
 
 ## Activity Console
-* **Activity Console** — the left-hand order-list microfrontend assembly
-* **Tab Bar & Navigation** — workflow-stage tabs with live counts · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898)
-* **Order Grid — Single Bond Row** — per-row field layout, status badge, inline action buttons, and state-dependent rendering · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
-* **Order Grid — List / Basket Row** — expandable list-level row with child-bond expansion and aggregate status · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
+* **Activity Console** — the left-hand global orders-list assembly microfrontend
+  * **AC Tabstrip** — workflow-stage tabs with order counts · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30898)
+  * **AC Filter Bar** — default AC instance of filter bar component · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=985-92867)
+  * **AC Grid** — default column configuration
+* **AC Grid — List Row** — expandable list-level row with child-bond expansion and aggregate status · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=723-273460)
 * **Workflow Status Banner** — Staged / In Progress / Done summary counts above the grid · [Figma](https://www.figma.com/design/2q1qq3C53E0sqnqmgChTgw/Activity-Console-Prototype?node-id=1-91259)
 * **Summary Tiles / Metrics Bar** — per-tab aggregate metrics above the order grid · [Figma](https://www.figma.com/design/Q4keHW9QtaM3adu9y6Nsjq/Activity-Console-Microfrontend?node-id=989-30781)
 * **Bulk Action Bar** — bulk-action bar for multi-selected orders · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=2858-628994)
