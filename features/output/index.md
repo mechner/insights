@@ -55,7 +55,7 @@ Links: [Figma] refers to the primary design frame. [Confluence] means a feature 
 ## Instrument Context Features
 * **Market Depth Panel** — two-sided pre-trade market data panel: axes, inventory, and CP+ for a given instrument · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=113-12963)
 * **My History Panel** — user's own prior trades and inquiries for this security · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=925-70063)
-* **Trace/TRAX** — pre-trade last-print and recent trade data display for a bond in the global RFQ context · [Figma](https://www.figma.com/design/dpD5uLu4D22Pc1xTNjchLr/Trace-TRAX?node-id=4-21)
+* **Trace/TRAX** — last-print and recent trade data display for a bond · [Figma](https://www.figma.com/design/dpD5uLu4D22Pc1xTNjchLr/Trace-TRAX?node-id=4-21)
 
 ## Single Order Context Features
 * **Single Order Panel Header** — summarizes order terms, state, and provides action buttons · [Figma](https://www.figma.com/design/1BASLVXWRKMUzvPU23o3am/RFQ-Micro-frontends---MVP?node-id=41-14118)
