@@ -1,0 +1,10 @@
+Cluster_A,Cluster_B,SplitPenalty,Notes
+Kittle,BL-Mod,.3,Same neighborhood; BL affinity
+Alex-Data,Alex-Research,.3,Same neighborhood (Alexandre)
+Scarp-Infra,Scarp-Cloud,.3,Same neighborhood (Scarpati)
+Xpro,BL-Mod,.3,Xpro C2=BL; strong cross-team dependency
+Scarp-Infra,Scarp-Database,.3,Same neighborhood
+Scarp-Cloud,Scarp-Database,.3,Same neighborhood
+Pragma,Scarp-Infra,.8,6 Pragma-Infra people sit in Scarpati
+Pragma,BL-Mod,.3,Pragma
+Pragma,Alex-Research,.05,Quant & Reseach may want to collaborate
